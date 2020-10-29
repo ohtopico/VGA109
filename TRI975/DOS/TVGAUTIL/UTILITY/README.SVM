@@ -1,0 +1,114 @@
+-------------------------- Upgrade History ------------------------------
+Ver 7.10
+        1. Greate changes have been made in this version. It auto detect the
+supported refresh rate and mode. Then change the menu to display the supported
+one. So from now on what you see is JUST what you CAN get.
+        2. Merged 24bit and 32bit true color to one program.
+        3. Added more refresh rate and display mode.
+                53  132x25-8D    Text
+                54  132x30-8D    Text
+                55  132x43-8D    Text
+                56  132x60-8D    Text
+                5d  640X480x256i 60Hz
+                7E  320X200-32K  70Hz
+                70  512X480-32K  60Hz
+                72  640X400-32K  70Hz
+                74  640X480-32Ki 60Hz
+                76  800X600-32K  56Hz
+                76  800x600-32K  85Hz
+                78  1024x768-32K 75Hz
+                7F  320X200-64K  70Hz
+                71  512X480-64K  60Hz
+                73  640X400-64K  70Hz
+                75  640X480-64Ki 60Hz
+                77  800X600-64K  56Hz
+                77  800x600-64K  85Hz
+                79  1024x768-64K 75Hz
+                6B  320x200-T    70Hz
+                6C  640x480-Ti   60Hz
+        3. Delete mode that never supported.
+                640x350x2
+
+Ver 7.01
+========
+
+        1. When the refresh rate is not support it report a error message. The
+previous version just set the highest refresh rate it can reach.
+        2. Added more refresh rate and display mode.
+                800x600-T       85Hz
+                1024x768-T      75Hz
+
+Ver 7.00
+========
+        1. Split Hicolor into 32K color and 64K color two menu.
+        2. Added more refresh rate and display mode.
+                800x600x16      85Hz
+                1280x1024x16    75Hz
+                1600x1200x16i   96Hz
+
+                640x480x256     72Hz
+                1280x1024x256   75Hz
+                1600x1200x256i  96Hz
+
+                640x480x32K     60Hz
+                640x480x32K     72Hz
+                640x480x32K     75Hz
+                640x480x32K     85Hz
+                800x600x32K     60Hz
+                800x600x32K     75Hz
+                1024x768x32Ki   87Hz
+                1024x768x32K    60Hz
+                1280x1024x32K   87Hz
+
+                640x480x64K     60Hz
+                640x480x64K     72Hz
+                640x480x64K     75Hz
+                640x480x64K     85Hz
+                800x600x64K     60Hz
+                800x600x64K     75Hz
+                1024x768x64Ki   87Hz
+                1024x768x64K    60Hz
+                1280x1024x64K   87Hz
+
+                640x480xTrue    60Hz
+                640x480xTrue    72Hz
+                640x480xTrue    75Hz
+                640x480xTrue    85Hz
+                800x600xTrue    60Hz
+                800x600xTrue    75Hz
+                800x600xTrue    85Hz
+                1024x768xTruei  87Hz
+                1024x768xTrue   60Hz
+
+        3. Fixed batch file can't set correct refresh rate problem.
+        4. Cut 5F-HR 85Hz or 1024x768x16-NI (Not supported.)
+        5. Fixed 5F-I 1024x768-16-I mode batch mode input can't set correct refresh rate
+        6. Fixed mode 65 1600x1200-16i x-resolution data error.
+        7. Fixed mode 62 1024x768-256 mode batch mode input can't set correct refresh rate
+
+Ver 6.10
+========
+1. The new version is LCD chip capatable. When test LCD board,
+   SVM will reset Main menu frame and automaticly adjust message
+   display frame and message position.  Old the version will lost
+   all display detail messages and guid message.
+
+2. Increase 5F-I and 62-I mode. (Compare with SVM 6.0)
+
+3. Add following mode & refresh rate:
+   mode 5D-NI 75Hz
+   mode 5D-HR 85Hz
+
+4. Cut 64-NI 60Hz or 1280x1024x256-NI. (Not supported.)
+
+5. Fixed following bug:
+   The display and real mode dose not match when using
+   mode 5F-I (1024x768x16c interlaced ) or
+   mode 62-I (1024x768x256c interlaced )
+
+Ver 6.0
+=======
+The display and real mode dose not match when using
+mode 5F-I (1024x768x16c interlaced ) or
+mode 62-I (1024x768x256c interlaced )
+

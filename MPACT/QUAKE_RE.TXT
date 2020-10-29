@@ -1,0 +1,136 @@
+======================================================
+         Mpact 2 3DVD QuakeGL Readme File 
+                   January 1998
+
+======================================================
+     (c) Copyright Chromatic Research, Inc., 1998
+
+This document provides information regarding the 
+implementation of QuakeGL with Mpact 2 3DVD. 
+
+Chromatic Research does not represent that this driver 
+constitutes an OpenGL(R) implementation, nor does it 
+represent that it provides conformant OpenGL support.
+The QuakeGL reference driver is provied by Chromatic
+Research as a courtesy to its end-users and developers.  
+This driver is unsupported and may not work properly on 
+your hardware.  Use at your own risk.
+
+------------------------
+How to Use This Document
+------------------------
+In this document, the following convention is used to 
+describe selecting items from menus: 
+   'menu name> menu item'. 
+
+   The symbol (>) indicates a submenu.
+
+For example:  
+   To instruct you to choose the 'File' menu, and then 
+   select the 'Open' command, the instruction is: 
+   'Choose File menu> Open.'
+
+To view the Readme file on-screen, open it with 
+Microsoft(R) Word, WordPad, or Notepad. To print the 
+Readme file, open it in a word processor, and then 
+choose 'File menu> Print'.
+
+--------
+CONTENTS
+--------
+WHAT IS QUAKEGL?
+INSTALLING QUAKEGL
+GAMES SUPPORTED
+DISCLAIMER
+COPYRIGHT INFORMATION
+
+----------------
+WHAT IS QUAKEGL?
+----------------
+QuakeGL provides support for a specific set of 3D graphics
+API functions for games using the Quake(R) or Quake II(TM)
+rendering engine.
+
+To run games using the Quake or Quake II rendering 
+engine a specific driver must in installed correctly. For 
+instructions on installing QuakeGL on your Mpact system, 
+see "Installing QuakeGL".
+
+------------------
+INSTALLING QUAKEGL
+------------------
+To avoid problems with other applications, please follow 
+these directions carefully.  You must place this custom 
+driver into the directory of any Quake or Quake II based 
+game you wish to use.
+
+>>>To install QuakeGL on your Mpact 3DVD system:
+1  Open the directory where the game is installed. 
+   (Where the <game>.exe file resides.)
+2  Rename the file "opengl32.dll" (if one exists) to 
+   "opengl32.bak".
+3  Copy the file "Quakegl.dll" from the Mpact mediaware CD
+   into the directory where the game is installed.
+4  Rename the file "Quakegl.dll" to "opengl32.dll".
+
+     ***************************************
+     DO NOT REPLACE THE "opengl32.dll" DRIVER  
+     IN YOUR WINDOWS SYSTEM DIRECTORY!
+     ***************************************
+
+Each game has a method for selecting the graphics driver. In some 
+cases drivers are provided for specific hardware configurations. 
+Follow the instructions provided with the game for selecting the 
+correct driver settings.
+
+Mpact mediaware provides some 3D performance control.
+
+>>>To change 3D settings:
+1  Choose Start> Settings> Control Panel.
+2  Double-click the "Display" icon.
+3  Select the "Mpact 3D" tab.
+4  Disable the "Auto Select" check box.
+5  Set the Performance slider as desired.
+
+---------------
+GAMES SUPPORTED
+---------------
+This driver has been tested and is known to run with the 
+following games:
+
+     Glquake GL demo version 0.95, Quake version 1.09
+     Quake II demo (Q2test) version 3.00
+     Quake II release CD version 3.05
+     GLHexen II release CD version 1.07
+
+This driver is not known to work with any other games.
+
+
+---------
+COPYRIGHT
+---------
+Chromatic Research is a registered trademark of Chromatic
+Research, Inc. The Chromatic Research logo, Mpact, and 
+the Mpact logo are trademarks or registered tradmarks of 
+Chromatic Research, Inc.  OpenGL is a registered trademark
+of Silicon Graphics, Inc. Quake is a registered trademark of
+ID Software, Inc. Quake II is a trademark of Id Software. 
+All other brand names, product names, and trade names are 
+trademarks or registered trademarks of their respective holders.
+
+This publication is protected by copyright, and all 
+rights are reserved.  No part of it may be reproduced 
+or transmitted by any means or in any form without 
+prior consent in writing from Chromatic Research. 
+The information in this document has been carefully 
+checked and is believed to be accurate. However, 
+Chromatic Research assumes no responsibility for any 
+inaccuracies that may appear in this manual.  In no 
+event will Chromatic Research be liable for direct, 
+indirect, special, exemplary, incidental, or 
+consequential damages resulting from any defect or 
+omission in this manual, even if advised of the 
+possibility of such damages.  The material contained 
+herein is for informational purposes only.
+
+01-22-98

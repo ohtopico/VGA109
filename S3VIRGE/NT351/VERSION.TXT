@@ -1,0 +1,2 @@
+Microsoft Windows NT 3.51 driver version 1.23.03 for
+ViRGE, ViRGE/VX, and ViRGE DX/GX.

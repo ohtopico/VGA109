@@ -1,0 +1,64 @@
+========================================================
+This is a legal agreement between you, either individual or 
+entity(Licensee) and Mediamatics Inc.  having a place of business 
+at 4633 Old Ironsides Drive, Suite 328, Santa Clara CA 95054. If 
+you do not agree to the terms of this agreement, press the REJECT
+button and this setup program will exit.
+
+By pressing the I Agree button, you are bound by the terms of this 
+agreement.
+========================================================
+1. Mediamatics Inc. hereby grants to Licensee a personal,worldwide,
+non-exclusive and non-transferable restricted license to use the 
+Licensed Software on a single user computer, or on a single 
+terminal or workstation of  a  local area network.
+	
+2. Licensee is authorized to make only one copy of the Licensed 
+Software solely for backup purposes.
+
+3. In no event shall Licensee attempt to reverse engineer, 
+decompile, disassemble, or otherwise reduce the Licensed Software
+to human-readable form for which it has no legal claim of 
+ownership or contractual right to use.	
+
+4. Nothing on this agreement shall affect the exclusive ownership 
+by Mediamatics Inc. of the Licensed Software, or any patents,
+trademarks, copyrights or other property rights pertaining to the 
+Licensed Software.
+
+5. This license shall be effective until terminated. Licensee may 
+terminate this license at any time by destroying all copies of the 
+Licensed Software.
+
+6. This Agreement may terminate automatically, without notice from 
+Mediamatics Inc,if the Licensee fails to comply with this Agreement. 
+
+7. Damage Limitation
+INDEPENDENTLY OF ANY OTHER LIMITATION HEREOF AND 
+REGARDLESS OF WHETHER THE PURPOSE OF ANY REMEDY 
+SET FORTH HEREIN IS SERVED, IT IS AGREED THAT IN 
+NO EVENT SHALL EITHER  PARTY BE LIABLE FOR SPECIAL, 
+INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY KIND 
+UNDER THIS LICENSE EVEN IF MEDIAMATICS INC. HAS 
+BEEN ADVISED OF  THE POSSIBILITY OF SUCH DAMAGES.
+
+8.U.S. Government Restricted Rights
+Use, duplication or disclosure by the U.S. Government is subject to 
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights 
+in Technical Data and Computer Software clause at 
+DFARS 252.227-7013(Oct. 1988) and FAR 52.227-19 (June 1987). 
+Manufacturer is Mediamatics Inc.,4633 Old Ironsides Drive,Suite 328,
+Santa Clara, CA 95054.
+
+9. General
+This  Agreement shall be governed by the laws(excluding choice 
+of law rules) of the State of California. 
+
+Direct all questions to: 
+Mediamatics Inc.
+4633 Old Ironsides Drive, 
+Suite 328, Santa Clara CA 95054. 
+Email: support@mediamatics.com
+
+
+

@@ -1,0 +1,135 @@
+;----------------------------------------------------------------------------
+;
+; INF file for Chromatic Research Mpact DVD Drivers
+;
+; $Revision: 1.3.2.3 $
+;
+; $Date: 1998/02/01 08:30:56 $
+;
+; Copyright 1995 Chromatic Research Inc.
+; All Rights Reserved.
+;
+;----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Version]
+Signature=$Windows 95$
+Class=MEDIA
+Provider=%ProviderName%
+
+[DestinationDirs]
+DefaultDestDir=11
+
+[Manufacturer]
+%MfgName%=Chromatic
+
+[Chromatic]
+%ProductName%=MpactM1, VIRTUAL\MpactVideo_Dev3
+
+[MpactM1]
+CopyFiles=MpactM1.CopyFiles
+Updateinis=MpactM1.UpdateInis
+AddReg=MpactM1.AddReg
+DelReg=MpactM1.DelReg
+
+[MpactM1.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\mci\MpegVideo,Description,,"[MCI] Mpact MPEG Decoder"
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\mci\MpegVideo,Driver,,mcimpact.drv
+HKLM,SYSTEM\CurrentControlSet\Control\MediaResources\mci\MpegVideo,Disabled,,0
+HKCR,.mpg,,,"MPlayer"
+HKCR,.dat,,,"MPlayer"
+HKCR,.vob,,,"MPlayer"
+
+
+
+
+[MpactM1.UpdateInis]
+system.ini,mci,,"MpegVideo=mcimpact.drv"
+; entries required to support MCI DVD rom games (class C)
+win.ini,"mci extensions",,"vob=MpegVideo"
+win.ini,"mci extensions",,"ac3=MpegVideo"
+
+[MpactM1.DelReg]
+HKR,,DevLoader
+HKR,,Ver
+
+[MpactM1.CopyFiles]
+mcimpact.drv
+m2mcimpg.dll
+m2mpeg.dll
+m2mpeg16.dll
+m2dvd.dll
+m2mpegs.dll
+m2mvid.dll
+m1navmgr.dll
+m2mpegav.dll
+;direct show files
+mpaudio.ax
+mpdsdvd.ax
+mpmpgclk.dll
+m2dvdvid.dll
+
+[SourceDisksNames]
+1=%MpactDiskName%,,1
+
+[SourceDisksFiles]
+mcimpact.drv=1
+m2mcimpg.dll=1
+m2mpeg.dll=1
+m2mpeg16.dll=1
+m2dvd.dll=1
+m2mpegs.dll=1
+m2mvid.dll=1
+m1navmgr.dll=1
+m2mpegav.dll=1
+;direct show files
+mpaudio.ax=1
+mpdsdvd.ax=1
+mpmpgclk.dll=1
+m2dvdvid.dll=1
+
+[Strings]
+ProviderName= "Chromatic Research, Inc." 
+MfgName= "Chromatic Research, Inc." 
+ProductName= "Video Driver for Mpact" 
+MpactDiskName= "Mpact Win95 Driver Disk" 

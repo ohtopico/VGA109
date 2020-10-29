@@ -1,0 +1,112 @@
+; ET6W32.INF
+;
+; Installation inf for the Tseng Labs Inc. graphics adapters
+;
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%W32%
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+Class=Display
+
+[DestinationDirs]
+DefaultDestDir   = 11
+w32.Miniport  = 12  ; drivers
+w32.Display   = 11  ; system32
+
+;
+; Driver information
+;
+
+[Manufacturer]
+%W32%   = W32.Mfg
+
+[W32.Mfg]
+%W32% Compatible Graphics Adapter = w32
+
+;
+; General installation section
+;
+
+[w32]
+CopyFiles=w32.Miniport, w32.Display
+
+;
+; File sections
+;
+
+[w32.Miniport]
+et4000.sys
+
+[w32.Display]
+w32.dll
+
+
+;
+; Service Installation
+;
+
+[w32.Services]
+AddService = w32, 0x00000002, w32_Service_Inst, w32_EventLog_Inst
+
+[w32_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\et4000.sys
+
+[w32_EventLog_Inst]
+AddReg = w32_EventLog_AddReg
+
+[w32_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\et4000.sys"
+HKR,,TypesSupported,0x00010001,7
+
+
+;
+; Software Installation
+;
+
+[w32.SoftwareSettings]
+AddReg = w32_SoftwareDeviceSettings
+
+[w32_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, vga, w32, vga256, vga64k
+HKR,, VgaCompatible,               %REG_DWORD%,    1
+
+
+;
+; Source file information
+;
+
+[SourceDisksNames.x86]
+1 = %DiskId%,,,""
+
+[SourceDisksFiles]
+et4000.sys  = 1
+w32.dll = 1
+
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = System\CurrentControlSet\Services
+
+;
+; Localizable Strings
+;
+
+DiskId       = "Tseng Labs Inc. Installation DISK (VIDEO)"
+GraphAdap    = "Graphics Adapter"
+W32      = "Tseng Labs Inc."
+
+

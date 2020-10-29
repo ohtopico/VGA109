@@ -1,0 +1,22 @@
+FileSize Typ Name
+======== === =================================
+  484352 dat Dc95cpl.dll
+-------- dir Docs\
+-------- dir Docs\D3D\
+ 2136401 txt Docs\D3D\D3DRELNO.doc
+-------- dir Docs\Glide\
+ 6522368 dat Docs\Glide\GLIDEPGM.DOC
+ 1121196 dat Docs\Glide\GLIDEREF.DOC
+ 1090335 txt Docs\Glide\GLRELNO.DOC
+  126448 dat PROMTN.DRV
+    7771 dat PROMTN.vxd
+    4779 txt Promtn.inf
+    6040 dat dc95.hlp
+    7584 dat fxmemmap.vxd
+  410112 dat glide2x.dll
+  395715 dat glide2x.ovl
+    6055 txt license.txt
+       0 txt manifest.txt
+  266240 dat msvcrt.dll
+   88064 bin pmgamma.exe
+  321536 dat vg96dd32.dll

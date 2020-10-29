@@ -1,0 +1,9 @@
+FileSize Typ Name
+======== === =================================
+  183808 dat 3dfxps.dll
+   13088 dat dd3dfx.drv
+    4384 dat dd3dfx16.dll
+  299008 dat dd3dfx32.dll
+    7584 dat fxmemmap.vxd
+    6135 txt license.txt
+  266240 dat msvcrt.dll

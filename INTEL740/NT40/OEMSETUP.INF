@@ -1,0 +1,132 @@
+; oemsetup.inf
+;
+; Installation inf for the Intel Corporation gfx40 graphics adapter.
+;
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%Intel%
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+Class=Display
+
+[DestinationDirs]
+DefaultDestDir   = 11
+gfx40.Miniport  = 12  ; drivers
+gfx40.Display   = 11  ; system32
+gfx40.Config 	= 11  ; config app
+;
+; Driver information
+;
+
+[Manufacturer]
+%Intel%   = Intel.Mfg
+
+[Intel.Mfg]
+Intel740 Video Accelerator= gfx40
+
+
+;
+; General installation section
+;
+
+[gfx40]
+CopyFiles=gfx40.Miniport, gfx40.Display, gfx40.Config
+AddReg = gfx40.ConfigSettings
+
+;
+; File sections
+;
+
+[gfx40.Miniport]
+gfx40.sys
+
+[gfx40.Display]
+gfx40.dll
+dispsupt.dll
+
+[gfx40.Config]
+gfxCfg.dll
+enuConfg.lrc
+i740.ico
+Enuconfg.hlp
+
+[gfx40.ConfigSettings]
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}",,,"Control Panel Display Shell Extension"
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}\InProcServer32",,,"%11%\gfxCfg.dll"
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}\InProcServer32","ThreadingModel",,"Apartment"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\GfxCfg",,,"{990D3D00-E55B-11cf-ABAD-00AA00C0D812}"
+
+
+;
+; Service Installation
+;
+
+[gfx40.Services]
+AddService = gfx40, 0x00000002, gfx40_Service_Inst, gfx40_EventLog_Inst
+
+[gfx40_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\gfx40.sys
+
+[gfx40_EventLog_Inst]
+AddReg = gfx40_EventLog_AddReg
+
+[gfx40_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\gfx40.sys"
+HKR,,TypesSupported,0x00010001,7
+
+
+;
+; Software Installation
+;
+
+[gfx40.SoftwareSettings]
+AddReg = gfx40_SoftwareDeviceSettings
+Addreg = gfx40_ConfigSettings
+
+[gfx40_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,     %REG_MULTI_SZ%, gfx40
+HKR,, VgaCompatible,               %REG_DWORD%,    0
+
+
+[gfx40.OpenGLSoftwareSettings]
+
+
+;
+; Source file information
+;
+
+[SourceDisksNames.x86]
+1 = %DiskId%,,,""
+
+[SourceDisksFiles]
+gfx40.sys  = 1
+gfx40.dll = 1
+dispsupt.dll = 1
+gfxCfg.dll = 1
+enuConfg.lrc = 1
+i740.ico = 1
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = System\CurrentControlSet\Services
+
+;
+; Localizable Strings
+;
+
+DiskId       = "Intel Corporation Installation DISK (VIDEO)"
+GraphAdap    = "Graphics Adapter"
+Intel      = "Intel Corporation"

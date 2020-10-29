@@ -1,0 +1,28 @@
+
+Click 'Install' button will install 
+
+(I) S3 DOS Utilities
+
+  1. S3REFRSH.EXE 
+       Run this program to configure the display adapter for  
+       the highest vertical refresh rates supported by your
+       monitor. Higher refresh rate is less likely to cause
+       eye fatigue due to screen flicker. The configuration
+       settings you select can optionally be written to your
+       AUTOEXEC.BAT file so that the display adapter will be
+       set according to your selections each time you start
+       the system.
+
+  2. SMODE.EXE
+       Run this program whenever you need to configure the S3  
+       for a specific video mode.
+
+(II) Autodesk Device Interface 4.2 version 2.20-07 driver. 
+ 
+  This driver provides support for Autodesk
+  applications running in DOS protected mode which require the Autodesk
+  Device Interface version 4.2 (ADI 4.2). Supported applications include 
+  AutoCAD 12 for DOS, AutoCAD 13 for DOS, and 3D Studio 4.0 for DOS.
+
+(III) PanaStation driver version 1.01-10 for Microstation PC.
+

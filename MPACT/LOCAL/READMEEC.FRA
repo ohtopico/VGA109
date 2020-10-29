@@ -1,0 +1,208 @@
+ ==========================================
+		 Software Dynamics
+	 Entertainment Center Version 1.0 
+		 Fichier Read Me 
+		 DU-10344-001
+		 Juillet 1997
+ ==========================================
+ (c) Copyright Software Dynamics GmbH, 1997
+
+Ce fichier Read Me contient des informations de dernière heure 
+relatives au logiciel Entertainment Center Version 1.0.
+
+Nous vous conseillons d'enregistrer votre logiciel Centre multimédia. 
+Remplissez et envoyez votre formulaire d'enregistrement 
+(par courrier ou télécopie) pour nous permettre de vous connaître. 
+Avec votre aide, nous serons en mesure de vous fournir de meilleurs 
+produits, un meilleur service et les informations les plus récentes. 
+Pour prendre connaissance des nouvelles de dernière heure et obtenir
+ des informations sur le Centre multimédia et d'autres logiciels de 
+Software Dynamics, consultez notre page Web. http://www.softdyn.com
+
+----------------------------------------
+À propos de l'utilisation de ce document
+----------------------------------------
+Les conventions suivantes ont été utilisées dans ce document pour 
+décrire comment sélectionner les commandes de menus : 
+   nom de menu> commande de menu. 
+Le symbole > désigne un sous-menu. 
+Par exemple, 
+   pour vous inviter à sélectionner le menu Fichier, 
+   puis la commande Ouvrir, l'instruction utilisée est 
+   « Sélectionnez le menu Fichier> Ouvrir ».
+
+Pour afficher le fichier Read Me à l'écran, ouvrez-le dans Microsoft 
+Word, WordPad ou le Bloc-notes. Pour imprimer le fichier Read Me, 
+ouvrez-le dans un programme de traitement de texte, puis sélectionnez 
+le menu Fichier > Imprimer. 
+
+--------------------------
+Enregistrement du logiciel
+--------------------------
+Pour enregistrer votre logiciel Centre multimédia, ouvrez le fichier 
+texte intitulé « register.rtf »dans Microsoft Word, WordPad ou le 
+Bloc-notes. Pour imprimer le fichier Register, ouvrez-le dans un
+ programme de traitement de texte, puis sélectionnez le menu 
+Fichier > Imprimer. 
+
+Remplissez le formulaire d'enregistrement et envoyez-le par 
+télécopie ou courrier à l'une des adresses suivantes :
+
+International:Software 
+Dynamics 
+GmbH
+Am Fallturm 528359 
+Bremen
+Allemagne
+
+Télécopie (49) (421) 20266-99
+Courrier électronique : ecenter@softdyn.com
+
+États-Unis :
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Télécopie (630) 794-9033
+Courrier électronique : tdmaestro@aol.com
+
+
+------------------
+TABLE DES MATIERES
+------------------
+- INTRODUCTION
+- MISE EN ROUTE
+- DEPANNAGE 
+- INFORMATIONS SUPPLEMENTAIRES 
+- COPYRIGHT
+
+-------------
+INTRODUCTION
+------------- 
+Bienvenue au Centre multimédia de Software Dynamics ! Ce logiciel 
+permet de contrôler entièrement votre centre de divertissement 
+informatique. Vous pouvez maintenant utiliser votre ordinateur 
+pour visionner des vidéos, des disques compacts vidéo, des DVD et 
+écouter des disques compacts audio. 
+
+----------------
+MISE EN ROUTE
+----------------
+Conçus pour ressembler à un Centre multimédia traditionnel, les 
+commandes vous seront peut-être déjà familières. Si vous désirez 
+obtenir de l'aide sur une fonction quelconque, reportez-vous à 
+l'Aide en cliquant sur l'icône représentant un point
+d'interrogation (?) dans l'angle supérieur droit de la fenêtre 
+Centre multimédia. 
+
+>>>Pour lancer le Centre multimédia à partir de la barre des tâches 
+de Windows, sélectionnez Démarrer> Programmes> Chromatic Research 
+Mpact> Centre multimédia Software Dynamics.
+
+---------------
+DEPANNAGE 
+---------------
+Zones DVD
+
+L'industrie du DVD autorise les éditeurs de DVD à restreindre leur 
+marché à certaines parties du monde afin de protéger les droits 
+d'auteur. Un disque DVD d'une région, par exemple la Région 1 
+(États-Unis, Canada et une partie des Caraïbes) ne pourra pas 
+être lu par un lecteur DVD conçu pour la Région 2 (Japon, quelques 
+parties d'Europe, du Moyen-Orient et de l'Afrique) ou pour la 
+Région 3 (Corée, Malaysia, Birmanie, Indonésie, Philippines et 
+Asie du Sud-Est). Il existe six régions en tout.
+
+>>>Pour vérifier la région de votre lecteur DVD, cliquez deux fois 
+sur l'icône Mpact du Panneau de configuration. La boîte de dialogue 
+Propriétés de Mpact Mediaware indique votre région DVD. Vérifiez que 
+le code de région du disque DVD correspond bien à celui de votre 
+lecteur DVD.
+
+Réinstallation du Centre multimédia de Software Dynamics
+
+Le disque compact ci-joint contient la version actuelle du Centre 
+multimédia de Software Dynamics. Il est automatiquement installé 
+en même temps que le logiciel Mpact Mediaware. Toutefois, en cas 
+de remplacement du logiciel, suivez les instructions ci-dessous.
+
+>>>POUR INSTALLER LE CENTRE MULTIMÉDIA 
+
+1. Exécutez le programme d'installation Mpact qui se trouve sur le 
+   disque compact du logiciel Mpact Mediaware. 
+
+ >>>Pour exécuter le programme d'installation
+
+1. Cliquez sur Démarrer de la barre des tâches de Windows 95 et 
+   sélectionnez Exécuter. Tapez 'd:\setup', d: désignant votre lecteur 
+   de disque compact. Cliquez sur OK.
+
+2. Lorsque la boîte de dialogue Licence apparaît, cliquez sur Je 
+   suis d'accord.
+
+3. Quand la boîte de dialogue Choisir les options d'installation 
+   apparaît, cliquez sur Centre multimédia, puis sur Installer. 
+
+4. Le logiciel Centre multimédia est copié sur votre disque dur. 
+   Quand la boîte de dialogue Installation terminée apparaît, 
+   cliquez sur Terminé.
+
+5. Quand la boîte de dialogue Installer apparaît, cliquez sur OK 
+   pour redémarrer l'ordinateur. 
+
+>>>POUR DESINSTALLER LE LOGICIEL CENTRE MULTIMÉDIA
+
+1. Cliquez sur Démarrer de la barre des tâches de Windows 95.
+
+2. Sélectionnez Paramètres, puis cliquez sur Panneau de configuration.
+
+3. Dans le Panneau de configuration, cliquez deux fois sur 
+   Ajout/Suppression de programmes.
+
+4. Cliquez sur Installation/Désinstallation, puis sur Centre multimédia.
+
+5. Cliquez sur Ajouter/Supprimer, puis sur Automatique
+
+6. Quand la boîte de dialogue Propriétés pour Ajout/Suppression 
+   de programmes apparaît, cliquez sur OK.
+
+7. Cliquez sur Démarrer de la barre des tâches de Windows 95 pour 
+   redémarrer l'ordinateur. Sélectionnez Arrêter, puis Redémarrage 
+   de l'ordinateur ? et cliquez sur Oui. 
+
+-----------------
+INFORMATIONS SUPPLEMENTAIRES
+-----------------
+Pour obtenir plus d'informations sur le Centre multimédia ou les 
+logiciels multimédias de Software Dynamics, visitez notre site 
+Web au http://www.softdyn.com.
+
+----------
+COPYRIGHT
+----------
+Copyright (c) 1997 Software Dynamics GmbH. Software Dynamics, 
+Entertainment Center et le logo Entertainment Center sont des 
+marques de Software Dynamics GmbH. Tous les autres noms de marque 
+et de produits sont des marques ou des marques déposées de leurs 
+titulaires respectifs.
+
+Cette publication est protégée par des droits d'auteurs et tous 
+les droits sont réservés. Aucune partie de cette publication ne 
+peut être reproduite ou transmise sous quelque forme que ce soit 
+ou par quelque moyen que ce soit sans l'autorisation écrite préalable 
+de Software Dynamics GmbH.
+
+Ce document a été conçu et vérifié attentivement dans le souci de 
+fournir des informations les plus exactes possibles. Néanmoins, 
+Software Dynamics GmbH décline toute responsabilité quant aux 
+imprécisions éventuellement rencontrées dans ce manuel. 
+En aucun cas, la société Software Dynamics GmbH ne pourra être 
+tenue responsable de dommages directs, indirects, particuliers,
+pour préjudice moral, fortuits ou indirects résultant d'un défaut 
+ou d'une omission quelconques rencontrée dans ce manuel, même si 
+Software Dynamics GmbH a été averti de l'éventualité de tels 
+dommages. Les exemples figurant dans ce manuel ne sont donnés 
+qu'à titre d'information.
+
+7/1/97

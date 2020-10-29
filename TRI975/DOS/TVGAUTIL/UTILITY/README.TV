@@ -1,0 +1,44 @@
+                         TVDISP  Version 1.00
+                          (c) Copyright 1997
+                       Trident Microsystems Inc.
+
+Summary:
+
+    Tvdisp program is used to adjust TV screen position, width, height,
+over scan/under scan, etc. It is a TSR program designed for Trident 9685 chip.
+After you load it, you can set modes which are supported by TV (see notice 
+below). Then you can use hotkey to adjust TV screen to you need. When you
+are satisfied with the screen, use hotkey to save your settings. Now these
+settings will be kept as long as Tvdisp program is running.
+
+
+Keyboard Control Command:
+    
+    When you use keyboard, please use the Ctrl and Shift keys on the left. 
+For the other keys except function keys, please use the keys on the right 
+small keyboard.
+
+        Ctrl+Shift+F1 :  Under/Overscan
+        Ctrl+Shift+F2 :  Interlace/None
+        Ctrl+Shift+F3 :  Flicker Level
+        Ctrl+Shift+F4 :  TV / CRT
+        Ctrl+Shift+F5 :  NTSC / PAL
+        Ctrl+Shift+F6 :  Save settings
+        Ctrl+Shift+F7 :  Restore User Settings
+        Ctrl+Shift+ESC:  Switch between default and user settings
+        Tvdisp -r     :  Unload
+        Tvdisp -?     :  Show help
+
+        Ctrl+Shift+UP    :  Screen Up
+        Ctrl+Shift+DOWN  :  Screen Down
+        Ctrl+Shift+RIGHT :  Screen Right
+        Ctrl+Shift+LEFT  :  Screen Left
+        Ctrl+Shift+PgUp  :  Expand Y-Dir
+        Ctrl+Shift+PgDn  :  Contract Y-dir
+        Ctrl+Shift+Ins   :  Expand X-Dir
+        Ctrl+Shift+Del   :  Contract X-dir
+
+
+*note:(1) TV/CRT switch is not supported in Mode 5B.
+      (2) Expand/Contact screen only supported in Mode 5d, 74h, 75h
+          in NTSC.

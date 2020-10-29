@@ -1,0 +1,110 @@
+;SETUP.INF for VI_GRM Desktop Manager
+
+[Rights]
+Developed by;Trantor Tech. Co.;Copyright 1996-97;All Rights Reserved.
+
+[StartExe]
+DispCtrl.exe
+
+[Title]
+Media Pro Setup
+
+[Chipset]
+For Trio64V2/DX/GX;
+
+[Languages]
+EN,GE,CT,FR,IT,SP,CS,KO
+
+[Help languages]
+EN,CT
+
+
+[App] 
+;Application global information 
+AppName=Media Pro
+DefDir=C:\MediaPro
+SpaceNeeded=1000
+DefPMGroup=,Media Pro
+ShowSubDirCreateStats=Y
+
+ 
+[Disks] 
+;List of diskettes needed to install the product and the name 
+;of each diskette.
+1=Disk1: MediPro Desktop Manager 
+
+ 
+[SrcDirs] 
+;lists of directories from root of source drive/directory where 
+;source files can be found
+ 1=grm
+ 
+
+[DstDirs] 
+;lists of directories from root of destination drive/directory
+;where destination files will be placed
+ 1=.
+ 2=*windows
+ 3=*system
+
+[Files] 
+;Description,              Src(Dsk-Dir:Name), Dst(Dir:Name),  Shared
+;------------------------- -----------------  --------------- ------
+;
+logo.bmp,           	1-1:logo.bmp,    	1:logo.bmp,         N
+vgaoem.fon,             1-1:vgaoem.fo_,         3:vgaoem.fon,       NA
+vgasys.fon,             1-1:vgasys.fo_,         3:vgasys.fon,       NA
+vgafix.fon,             1-1:vgafix.fo_,         3:vgafix.fon,       NA
+;
+90.vdb,                 1-1:90.vd_,             1:90.vdb,                       N
+56.vdb,                 1-1:56.vd_,             1:56.vdb,                       N
+120.vdb,                1-1:120.vd_,        1:120.vdb,                      N
+DispCtrl.HLP,           1-1:Disp_?.HL_,     1:DispCtrl.HLP,                   N
+DispCtrl.EXE,           1-1:DispCtrl.EX_,     1:DispCtrl.EXE,                   N
+DCIMAN.DLL,             1-1:DCIMAN.DL_,     3:DCIMAN.DLL,                   N
+ctl3d.DLL,              1-1:ctl3d.DL_,      1:ctl3d.DLL,                    Y 
+;muscroll.DLL,          1-1:muscroll.DL_,   1:muscroll.DLL,                 N 
+VI_GRM.exe,             1-1:VI_GRM.ex_,     1:VI_GRM.exe,                   N
+UnInstll.exe,           1-1:Uninstll.ex_,   1:Uninstll.exe,                 N
+;ddc.pif,               1-1:ddc.pi_,        1:ddc.pif,                      N
+Hooksdll.dll,           1-1:Hooksdll.dl_,       1:Hooksdll.dll,                 N
+8514FIX.FON,            1-1:8514FIX.FO_,    3:8514FIX.FON,                      N
+8514OEM.FON,            1-1:8514OEM.FO_,    3:8514OEM.FON,                      N
+8514SYS.FON,            1-1:8514SYS.FO_,    3:8514SYS.FON,                      N
+S3911GRB.3GR,           1-1:S3911GRB.3G_,   3:S3911GRB.3GR,                     N
+S3asnGRB.3GR,           1-1:S3asnGRB.3G_,   3:S3asnGRB.3GR,                     N
+DPGRAB.DLL,           1-1:DPGRAB.DL_,   3:DPGRAB.DLL,                     N
+VDDD.386,           1-1:VDDD.38_,   3:VDDD.386,                     N
+S3VGA.3GR,              1-1:S3VGA.3G_,      3:S3VGA.3GR,                        N  
+SSERIFF.FON,            1-1:SSERIFF.FO_,    3:SSERIFF.FON,                      N  
+COURF.FON,              1-1:COURF.FO_,      3:COURF.FON,                        N  
+SMALLF.FON,             1-1:SMALLF.FO_,     3:SMALLF.FON,                       N  
+SYMBOLF.FON,            1-1:SYMBOLF.FO_,    3:SYMBOLF.FON,                      N   
+SERIFF.FON,             1-1:SERIFF.FO_,     3:SERIFF.FON,                       N 
+OEM_GRM.INF,           1-1:OEM_GRM.IN_,   3:OEM_GRM.INF,                     N    
+;VERSION,               1-1:VERSION,        3:VERSION,                          N
+VGACOLOR.2GR,       1-1:VGACOLOR.2G_,   3:VGACOLOR.2GR,                 N    
+S3VGA.2GR,              1-1:S3VGA.2G_,          3:S3VGA.2GR,                    N    
+S3TRIO.DRV,             1-1:S3TRIO.DR_,     3:S3TRIO.DRV,                       N 
+S3Vsnd24.DRV,           1-1:S3Vsnd24.DR_,     3:S3Vsnd24.DRV,            N 
+VDDS3764.386,           1-1:VDDS3764.38_,   3:VDDS3764.386,                     N         
+;VDDvis68.386,           1-1:VDDvis68.38_,   3:VDDvis68.386,                     N         
+VDDS3.386,              1-1:VDDS3.38_,          3:VDDS3.386,                    N 
+RFMDCI.DRV,             1-1:RFMDCI.DR_,     3:RFMDCI.DRV,                       N 
+;VGALOGO.RLE,           1-1:VGALOGO.RL_,    3:VGALOGO.RLE,                      N   
+RFMK2V.INI,             1-1:RFMK2V.IN_,     2:RFMK2V.INI,                       N 
+;K2VTBL.INI,             1-1:K2VTBL.IN_,     2:K2VTBL.INI,                       N   
+;K2V_SWC.INI,            1-1:K2V_SWC.IN_,    2:K2V_SWC.INI,                      N   
+8811_SWC.INI,            1-1:8811_SWC.IN_,    2:8811_SWC.INI,                      N   
+UDH.DLL,                1-1:UDH.DL_,        3:UDH.DLL,                          N     
+RFMK2V.DLL,             1-1:RFMK2V.DL_,     3:RFMK2V.DLL,                       N     
+VI_GRM.INI,            1-1:VI_GRM.INI,     2:VI_GRM.INI,                       N
+;S3_95.DLL,             1-1:S3_95.DL_,      1:S3_95.DLL,                        N     
+[PM Info]                               
+;DstFileName  AppDesc             (Icon #)
+;-----------  --------------      --------
+DispCtrl.exe, Display Control Panel
+vi_grm.exe, S3 Video Manager
+UnInstll.exe, Uninstaller
+
+[End]

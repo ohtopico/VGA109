@@ -1,0 +1,173 @@
+
+        Installation Guide for OS/2 Video Device Driver
+                   for the S3 ViRGE
+                 Driver Version 1.00.12
+
+1.0  Compatibility
+ 
+  This graphics-accelerator device driver is compatible with OS/2
+  2.11, and OS/2 Warp 3.0.
+
+2.0  Preliminary Steps
+ 
+  The following steps must be performed before you install the
+  S3 ViRGE graphics-accelerator device driver:
+
+  1.  You must have OS/2 DOS Support installed.
+  2.  If you previously installed SVGA support, you must reset the
+      resolution to VGA mode, using the procedures in "Setting Your
+      Display to VGA Mode".
+  3.  After driver installation, the OS/2 SYSLEVEL command may be used to
+      confirm the new driver version level.  It may also be used prior to
+      installation to verify the current driver version, however, some
+      previous device drivers did not provide this information.  Following
+      execution of the SYSLEVEL command look for the following information:
+
+      C:\OS2\INSTALLATION\SYSLEVEL.VID
+					ViRGE
+      Version 2.81     Component ID 562107701
+      Current CSD level: S328103
+      Prior   CSD level: S328018
+
+      In this case the current version level is S3 2.81.03.
+  4.  In some situations, installing this driver over 2.80.xx and 2.81.xx
+      versions of the driver can result in duplicated icons.  To prevent
+      this problem, you should delete the "S3 Windows Font Size" and
+      "DDC Display Setup" icons from the System Setup Folder prior to
+      installing this driver.
+
+
+
+3.0  Setting Your Display to VGA Mode
+
+  Use the following procedures to reset to VGA mode.
+
+  NOTE: If your display is out of sync, start OS/2 using the OS/2
+        Installation Diskette.  Insert Diskette 1 when prompted, press
+        F3 to display a command prompt, and then use the following
+        instructions to reset your display mode.
+
+  o   If you are installing this driver on OS/2 Warp, do the
+      following:
+
+      1.  Turn on your computer.  If your computer is already on,
+          press Ctrl+Alt+Del to restart it.
+      2.  When a small white box appears in the upper left-hand corner
+          of your screen, press Alt+F1.
+      3.  When the Recovery Choices screen appears, press V.
+
+      Your display adapter is restored and can work in VGA mode.  If
+      you want to install a new display adapter or video device
+      driver, refer to Chapter 16, "Video Procedures," in the User's
+      Guide to OS/2 Warp.
+
+
+4.0  Installing from CD-ROM
+
+  To install the ViRGE device driver from CD-ROM, do the following:
+
+  1.  If system is not in VGA mode, select VGA mode.
+
+  2.  Insert the CD-ROM into CD-ROM drive. 
+
+  3.  Open an OS/2 full-screen or OS/2 window session.
+
+  4.  At the OS/2 command prompt, type the following command to copy
+      all necessary files to the OS/2 drive:
+
+        D:\S3virge\OS2\SETUP
+
+      (Assume CD-ROM is on drive D, if it is not, use the correct 
+       drive letter instead)
+
+      Then press Enter.
+
+      Setup will then identify your chipset.  When prompted to do so, press
+      Enter to continue.
+
+  5.  When prompted to do so, select OK to perform a shutdown, and then
+      restart your computer.  Make sure the diskette has been removed from
+      the install drive.
+
+  6.  Open the OS/2 System folder.
+
+  7.  Open the System Setup folder.
+
+  8.  Open the Display Driver Install object or enter "dspinstl" at
+      an OS/2 command prompt.  When the Display Driver Install window
+      appears, select Primary Display Driver and then select OK.
+
+  9.  When the "Primary Display Driver List" window appears, select 
+      "S3 ViRGE [32Bit] Version 1.00.12" to install the video driver.
+
+  10. When the Monitor Configuration/Selection Utility window appears,
+      the "Install Using Defaults for Monitor Type" choice is
+      preselected.  You can accept this choice or select "Install
+      Using Display Adapter Utility Program" to choose a different
+      refresh rate.  Then select OK.
+
+      If you select the "Install Using Display Adapter Utility
+      Program" choice, you must have the DOS monitor utility program
+      that came with your display adapter.  Contact the display
+      adapter manufacturer's technical support for information on how
+      to use the monitor utility program under OS/2.
+
+      NOTE:  DSPINSTL determines the hardware configuration by
+	     creating the \OS2\SVGADATA.PMI file.  If the
+	     \OS2\SVGADATA.PMI file has not been created, the adapter
+	     will not be supported.  This process can take several
+	     seconds and will black-out the screen.
+
+  11. When the Source Directory pop-up window appears, insert the CD into
+      CD-ROM(assume the CD-ROM is at drive D:), input the source directory 
+      as
+            D:\S3virge\OS2
+      
+      Then select Install.
+
+  12. When the installation is complete, shut down your system, remove
+      the diskette, and restart your computer.
+
+  13. When the system has restarted:
+      a.  Open the OS/2 System folder.
+      b.  Open the System Setup folder.
+      c.  Open the System object.
+      d.  When the Settings notebook appears, select the Screen tab.
+	  If your monitor has been detected as Plug and-Play (DDC)
+	  compatible, go to step 15.
+
+  14. On Screen page 2, select your display from the display list. If
+      your display does not appear in the list, select Default.
+
+      It might be necessary to restart your computer to have all
+      refresh rate options available.
+
+  15. When the system has restarted:
+      a. Open the System object and select Screen page 1, as in step
+	 13.
+      b. Select a screen resolution and a screen refresh rate.
+      c. Close the Settings notebook.
+      d. Perform a shutdown and restart your computer.
+
+  NOTES:
+
+   o During the installation of this driver, DISPLAY.LOG and
+     DSPINSTL.LOG files are created in the OS/2\INSTALL directory.
+     These files identify the OS/2 system files that were updated and
+     indicate whether the installation was successful.	The contents
+     of these files might be useful if you need to report an
+     installation problem to IBM.
+
+   o If the video memory size is changed after the device driver is
+     installed, the device driver must be reinstalled in order for
+     the system to recognize the change.  Not reinstalling the driver
+     might result in serious system problems.
+
+   o When starting a WIN-OS/2 session it is recommended that the user launch
+     the session via one of the WIN-OS/2 icons located in the "Command
+     Prompts" folder within the "OS/2 System" icon.  For additional information
+     see section 10.0 Limitations.
+
+
+
+

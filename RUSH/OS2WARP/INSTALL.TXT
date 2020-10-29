@@ -1,0 +1,74 @@
+                   INSTALLATION  INSTRUCTIONS
+
+NOTE:  The Installation Diskette Volume Label must be "PROMOTION 1".  Please
+use the diskcopy utility if a backup diskette is made.
+
+NOTE: This procedure assumes you are installing from A: to C:  If this
+is not the case make appropriate adjustments.
+
+1.      Open OS/2 SYSTEM.
+
+2.      Open COMMAND PROMPTS.
+
+3.      Open an OS/2 WINDOW or OS/2 FULL SCREEN command session.
+
+4.      Insert ProMotion Installation diskette in drive A.
+
+5.      From the OS/2 session type "A: [enter]".
+        Then from the A: prompt type "SETUP C" [enter]
+
+
+6.      From the DISPLAY DRIVER INSTALL window,
+             select PRIMARY DISPLAY
+             select OK.
+
+7.      From the PRIMARY DISPLAY DRIVER LIST window,
+             select Alliance ProMotion
+             select OK.
+
+8.      From the SOURCE DIRECTORY window,
+             make sure source directory points to location of
+                  installation diskette (use Change button
+                  to select the proper drive, if necessary)
+             select INSTALL
+
+9.      After installation is complete,
+             from the DISPLAY DRIVER INSTALL pop-up window,
+             select OK
+
+10.     Remove the diskette from drive A.
+
+11.     Shut down by selecting the Shut down button on the Launch Pad,
+        and re-boot.
+
+12.     If you want to change screen resolution then proceed with
+        the appropriate Screen Resolution Modification instructions
+        below.  (defaults to 640 x 480 256-color)
+
+
+----------------------------------------------------------------------------
+Resolution Modification
+
+WARNING: Selection of a resolution or refresh rate that is not supported
+         by your monitor may result in damage to your monitor.  Be sure
+         to select your monitor from the monitor list.  If your monitor
+         does not appear in the list consult the documentation for your
+         monitor and choose a monitor with similar capabilities.
+
+To change resolutions and refresh rates within the driver AFTER INSTALLATION,
+take the following steps:
+
+1.      Click your right mouse button on the OS/2 Desktop and select the
+        entry "System Setup".  When the folder opens, double click on
+        the SYSTEM icon.
+
+3.      Go to the second page of the System notebook by clicking on the
+        right-arrow button at the lower-right corner.  Select your monitor
+        type from the list.
+
+4.      Return to the first page of the notebook and select the
+        desired resolution and refresh rate.
+
+
+NOTE: You must shutdown and reboot OS/2 before any changes take effect.
+

@@ -1,0 +1,53 @@
+
+        Installation Guide for OS/2 Video Device Driver
+
+
+Installing from CD-ROM
+======================
+
+  To install the OS2E device driver from CD-ROM, do the following:
+
+  1.  If system is not in VGA mode, select VGA mode.
+
+  2.  Insert the CD-ROM into CD-ROM drive. 
+
+  3.  Open an OS/2 full-screen or OS/2 window session.
+
+  4.  At the OS/2 command prompt, type the following command to copy
+      all necessary files to the OS/2 drive:
+
+        D:\TRI975\OS2\SETUP
+
+      (Assume CD-ROM is on drive D, if it is not, use the correct 
+       drive letter instead)
+
+      Then press Enter.
+
+      Setup will then identify your chipset.  When prompted to do so, press
+      Enter to continue.
+
+
+  5. When the Monitor Configuration/Selection Utility window appears,
+      the "Install Using Defaults for Monitor Type" choice is
+      preselected.  You can accept this choice or select "Install
+      Using Display Adapter Utility Program" to choose a different
+      refresh rate.  Then select OK.
+
+      If you select the "Install Using Display Adapter Utility
+      Program" choice, you must have the DOS monitor utility program
+      that came with your display adapter.  Contact the display
+      adapter manufacturer's technical support for information on how
+      to use the monitor utility program under OS/2.
+
+
+  6. When the installation is complete, shut down your system, and 
+      restart your computer.
+
+  7. When the system has restarted:
+      a.  Open the OS/2 System folder.
+      b.  Open the System Setup folder.
+      c.  Open the System object.
+      d.  When the Settings notebook appears, select the Screen tab.
+      e.  Select a screen resolution and a screen refresh rate.
+      f.  Close the Settings notebook.
+      g.  Perform a shutdown and restart your computer.

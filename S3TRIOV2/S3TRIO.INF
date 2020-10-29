@@ -1,0 +1,241 @@
+; INF file for S3 display driver.
+; Copyright 1996, S3 Inc.
+
+[Version]
+Class=Display
+Signature="$CHICAGO$"
+Provider=%Mfg%
+
+[DestinationDirs]
+DefaultDestDir=11
+REFini.Copy=10
+REFsys.Copy=11
+8811_ini.Copy=10
+
+[SourceDisksNames]
+51="Windows 95 S3 Driver Disk",,1
+
+[SourceDisksFiles]
+s3_2.drv=51
+s3vdd.vxd=51
+s3_32.dll=51
+
+s3_refre.dll=51
+s3refre.cfg=51
+s3info.vxd=51
+
+8811_hwc.dat=51
+8811_swc.dat=51
+8811_dig.dat=51
+
+;----------------------------------------
+; Manufacturers
+
+[Manufacturer]
+"%Mfg%"=Mfg
+
+;----------------------------------------
+; Driver sections
+
+[Mfg]
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_40
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_42
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_43
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_44
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_45
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_46
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_47
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_48
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_49
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4A
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4B
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4C
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4D
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4E
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_4F
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_52
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_53
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_54
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_55
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_56
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_57
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_58
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_59
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5A
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5B
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5C
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5D
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5E
+%S3765.DeviceDesc%= S3_3, PCI\VEN_5333&DEV_8811&REV_5F
+%S3775.DeviceDesc%= S3_6, PCI\VEN_5333&DEV_8901
+
+;----------------------------------------
+; Install sections
+;------------------------------765 Family
+[S3_3]
+CopyFiles=S3_2_CopyFiles, 8811_ini.Copy, REFini.Copy, REFsys.Copy
+AddReg=S3_3_AddReg,S3_3_Refresh_AddReg,S3_Misc
+DelReg=DEL_CURRENT_REG
+
+;-------------------------------------775
+[S3_6]
+CopyFiles=S3_2_CopyFiles, REFini.Copy, REFsys.Copy, COLORcopy.hlp, COLORcopy.sys
+AddReg=S3_6_AddReg,S3_6_Refresh_AddReg,S3COLOR.AddReg,S3_Misc
+DelReg=DEL_CURRENT_REG
+
+;----------------------------------------
+; Common AddReg sections
+
+[DEL_CURRENT_REG]
+HKR,,DevLoader,0,
+HKR,,Ver,0,
+HKR,DEFAULT,,0,
+HKR,MODES,,0,
+HKR,CURRENT,,0,
+
+[S3Ref_remove]
+DelReg = S3_3_Refresh_AddReg, S3_6_Refresh_AddReg
+DelFiles = REFsys.Copy, REFini.Copy
+
+;----------------------------------------
+; Model AddReg sections
+
+
+; This will be installed in the Registry. The default is to
+; set BusThrottle to OFF. To turn on BusThrottle, edit the Registry
+; and change OFF to ON.
+;
+
+[S3_Misc]
+HKLM,Config\0001\Display\Settings,BusThrottle,,"OFF"
+
+[S3_3_Refresh_AddReg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3_REF,DisplayName,,"%ShortDesc%"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3_REF,UninstallString,,"RunDll setupx.dll,InstallHinfSection S3Ref_remove 4 s3trio.inf"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28},"",,"S3 Property Sheet Extension for refresh rates"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28}\InProcServer32,"",,"s3_refre.dll"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\%1%\Display\shellex\PropertySheetHandlers\S3_REF,"",,"{87b9bd00-c65c-11cd-a259-00dd010e8c28}"
+HKLM,SOFTWARE\S3\Refresh,,,
+HKLM,SOFTWARE\S3\Refresh,ref_title,,"S3 Refresh"
+HKLM,SOFTWARE\S3\Refresh,ref_640x480,1,ff,0,3c,48,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_800x600,1,ff,0,38,3c,48,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_1024x768,1,ff,0,2b,3c,46,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_1152x864,1,ff,0,3c
+HKLM,SOFTWARE\S3\Refresh,ref_1280x1024,1,ff,0,2b,3c,4b
+HKLM,SOFTWARE\S3\Refresh,ref_1600x1200,1,ff,0,30
+HKLM,SOFTWARE\S3\Refresh,custom,1,ff,ff,ff,ff,ff
+HKLM,SOFTWARE\S3\Refresh,ref_dest_path,,"System\CurrentControlSet\Services\Class\Display"
+
+[S3_6_Refresh_AddReg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3_REF,DisplayName,,"%ShortDesc%"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3_REF,UninstallString,,"RunDll setupx.dll,InstallHinfSection S3Ref_remove 4 s3trio.inf"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28},"",,"S3 Property Sheet Extension for refresh rates"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28}\InProcServer32,"",,"s3_refre.dll"
+HKLM,SOFTWARE\Classes\CLSID\{87b9bd00-c65c-11cd-a259-00dd010e8c28}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\%1%\Display\shellex\PropertySheetHandlers\S3_REF,"",,"{87b9bd00-c65c-11cd-a259-00dd010e8c28}"
+HKLM,SOFTWARE\S3\Refresh,,,
+HKLM,SOFTWARE\S3\Refresh,ref_title,,"S3 Refresh"
+HKLM,SOFTWARE\S3\Refresh,ref_640x480,1,ff,0,3c,48,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_800x600,1,ff,0,38,3c,48,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_1024x768,1,ff,0,2b,3c,46,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_1152x864,1,ff,0,3c
+HKLM,SOFTWARE\S3\Refresh,ref_1280x1024,1,ff,0,2b,3c,4b,55
+HKLM,SOFTWARE\S3\Refresh,ref_1600x1200,1,ff,0,30,3c
+HKLM,SOFTWARE\S3\Refresh,custom,1,ff,ff,ff,ff,ff
+HKLM,SOFTWARE\S3\Refresh,ref_dest_path,,"System\CurrentControlSet\Services\Class\Display"
+
+[S3_3_AddReg]
+;----------------------------------------765 Family
+HKR,,Ver,,4.0
+HKR,,DevLoader,,*vdd
+HKR,DEFAULT,Mode,,"8,640,480"
+HKR,DEFAULT,drv,,s3_2.drv
+HKR,DEFAULT,drv2,,s3_2.drv
+HKR,DEFAULT,vdd,,"*vdd,*vflatd"
+HKR,DEFAULT,minivdd,,s3vdd.vxd
+HKR,DEFAULT,RefreshRate,,"-1"
+HKR,DEFAULT,DDC,,"1"
+HKR,"MODES\4\640,480",drv,,vga.drv
+HKR,"MODES\4\640,480",vdd,,*vdd
+HKR,"MODES\4\800,600",drv,,supervga.drv
+HKR,"MODES\4\800,600",vdd,,*vdd
+HKR,"MODES\8\640,480"   ,,,"60,72,75,85"
+HKR,"MODES\8\800,600"   ,,,"56,60,72,75,85"
+HKR,"MODES\8\1024,768"  ,,,"43,60,70,75,85"
+HKR,"MODES\8\1152,864"  ,,,"60"
+HKR,"MODES\8\1280,1024" ,,,"43,60,75"
+HKR,"MODES\8\1600,1200" ,,,"48"
+HKR,"MODES\16\640,480"  ,,,"60,72,75,85"
+HKR,"MODES\16\800,600"  ,,,"56,60,72,75,85"
+HKR,"MODES\16\1024,768" ,,,"43,60,70,75,85"
+HKR,"MODES\16\1280,1024",,,"43"
+HKR,"MODES\24\640,480"  ,,,"60"
+HKR,"MODES\32\640,400"  ,,,"70"
+HKR,"MODES\32\640,480"  ,,,"60,72,75,85"
+HKR,"MODES\32\800,600"  ,,,"56,60,72,75,85"
+HKR,"MODES\32\1024,768" ,,,"43"
+
+[S3_6_AddReg]
+;----------------------------------------775 Family
+HKR,,Ver,,4.0
+HKR,,DevLoader,,*vdd
+HKR,DEFAULT,Mode,,"8,640,480"
+HKR,DEFAULT,drv,,s3_2.drv
+HKR,DEFAULT,drv2,,s3_2.drv
+HKR,DEFAULT,vdd,,"*vdd,*vflatd"
+HKR,DEFAULT,minivdd,,s3vdd.vxd
+HKR,DEFAULT,RefreshRate,,"-1"
+HKR,DEFAULT,DDC,,"1"
+HKR,"MODES\4\640,480",drv,,vga.drv
+HKR,"MODES\4\640,480",vdd,,*vdd
+HKR,"MODES\4\800,600",drv,,supervga.drv
+HKR,"MODES\4\800,600",vdd,,*vdd
+HKR,"MODES\8\640,480"   ,,,"60,72,75,85"
+HKR,"MODES\8\800,600"   ,,,"56,60,72,75,85"
+HKR,"MODES\8\1024,768"  ,,,"43,60,70,75,85"
+HKR,"MODES\8\1152,864"  ,,,"60"
+HKR,"MODES\8\1280,1024" ,,,"43,60,75,85"
+HKR,"MODES\8\1600,1200" ,,,"48,60"
+HKR,"MODES\16\640,480"  ,,,"60,72,75,85"
+HKR,"MODES\16\800,600"  ,,,"56,60,72,75,85"
+HKR,"MODES\16\1024,768" ,,,"43,60,70,75,85"
+HKR,"MODES\16\1280,1024",,,"43"
+HKR,"MODES\24\640,480"  ,,,"60"
+HKR,"MODES\32\640,400"  ,,,"70"
+HKR,"MODES\32\640,480"  ,,,"60,72,75,85"
+HKR,"MODES\32\800,600"  ,,,"56,60,72,75,85"
+HKR,"MODES\32\1024,768" ,,,"43,60,70,75,85"
+
+;----------------------------------------
+; CopyFiles sections
+
+[S3_2_CopyFiles]
+s3_32.dll
+s3vdd.vxd
+s3_2.drv
+
+[8811_ini.Copy]
+8811_hwc.dat
+8811_swc.dat
+8811_dig.dat
+
+[REFini.Copy]
+s3refre.cfg
+
+[REFsys.Copy]
+s3_refre.dll
+s3info.vxd
+
+;----------------------------------------
+; User visible strings
+
+[Strings]
+ClassName="Display"
+Mfg="S3"
+1	    = "Controls Folder"
+ShortDesc   = "S3 Refresh"
+S3	    = "S3 Incorporated"
+
+S3765.DeviceDesc= "S3 Inc. Trio64V+"
+S3775.DeviceDesc= "S3 Inc. Trio64V2"

@@ -1,0 +1,32 @@
+Installations Instructions for Windows NT
+
+To install the S3 device driver from CD-ROM, do the following:
+(assume this CD-ROM is at drive D:)
+
+.   From Program Manager enter the Main program group, and 
+    select Control Panel.
+
+.   Select Display, then Change Display Type, this will call 
+    the Display Type window.
+
+.   Select Change next to the field Adapter Type.
+
+.   Select Other.  
+
+.   When install Windows NT 3,5 driver, input the driver source as
+        
+        D:\NT35\Server\Trio      for NT Server or
+        D:\NT35\Station\Trio     for NT WorkStation
+        
+    When install Windows NT 3,51 driver, input the driver source as
+        
+        D:\NT351\Trio
+    
+    then select OK.
+
+.   This will call the Driver Select screen, and S3 Video Driver 
+    will be highlighted.  Select Install.
+
+.   After the files have been copied over Windows NT will prompt you 
+    to restart your system. After system has restarted, you can change 
+    resolution by selecting the Display icon from your Control Panel.

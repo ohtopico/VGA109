@@ -1,0 +1,102 @@
+;directories defined
+;0 = windows
+;1 = windows/system
+;2 = setup disk
+
+;vars defined
+;00 = resolution string         [1280x1024 | 1024x768 | 800x600 | 640x480]
+;01 = driver bit depth desired  [8 | 15 | 16 | 24]
+;02 = DAC Type                                          [8 | 16]
+;03 = bit depth string for description  [256 Colors | 32K Colors | 64K Colors | 16 M (24bpp) | 16 M (32 bpp)]
+;04 = Font size Suffix char     [E | F]
+;05 = system font prefix        [VGA | 8514]
+;06 = font size description     [VGA res | 8514/a res]
+;07 = font size simple          [Sm | Lg]
+;08 = aspect ratio                      [100,96,96 | 100,120,120]
+
+;COPY flags: r - replace, a - abort if exists
+;PROF flags: r - replace, d - delete
+
+[WINDOWS]
+;copy driver files
+COPY_00=r,2:PROMTVDD.386,1:
+COPY_01=r,2:PROMTNGR.3GR,1:
+COPY_02=r,2:VGACOLOR.2GR,1:
+COPY_03=r,2:PROMTN.INF,1:OEMPROMT.INF
+COPY_04=r,2:PROMTN8.DRV,1:PROMTN8.DRV
+COPY_05=r,2:PROMTN15.DRV,1:PROMTN15.DRV
+COPY_06=r,2:PROMTN16.DRV,1:PROMTN16.DRV
+COPY_07=r,2:PROMTN24.DRV,1:PROMTN24.DRV
+COPY_08=r,2:PROMTN32.DRV,1:PROMTN32.DRV
+COPY_09=r,2:PROMCHAR.EXE,0:
+COPY_10=v,2:CTL3D.DLL,1:
+COPY_11=r,2:PROMTN.INI,0:
+COPY_12=r,2:PROMTOOL.EXE,0:
+COPY_13=r,2:DCIMAN.DLL,1:DCIMAN.DLL
+COPY_14=r,2:UDH.DLL,1:UDH.DLL
+
+;copy large fonts
+COPY_15=a,2:SMALLF.FO_,1:SMALLF.FON
+COPY_16=a,2:SYMBOLF.FO_,1:SYMBOLF.FON
+COPY_17=a,2:SERIFF.FO_,1:SERIFF.FON
+COPY_18=a,2:COURF.FO_,1:COURF.FON
+COPY_19=a,2:SSERIFF.FO_,1:SSERIFF.FON
+COPY_20=a,2:8514FIX.FO_,1:8514FIX.FON
+COPY_21=a,2:8514SYS.FO_,1:8514SYS.FON
+COPY_22=a,2:8514OEM.FO_,1:8514OEM.FON
+
+;profile driver files
+PROF_00=d,0:SYSTEM.INI,386enh,display,,           
+PROF_01=r,0:SYSTEM.INI,boot,386grabber,PROMTNGR.3GR
+PROF_02=r,0:SYSTEM.INI,boot,286grabber,VGACOLOR.2GR
+PROF_03=r,0:SYSTEM.INI,ProMotion,Resolution,%00
+PROF_04=r,0:SYSTEM.INI,boot,display.drv,PROMTN%01.DRV
+PROF_05=r,0:SYSTEM.INI,boot.description,aspect,%08
+PROF_06=r,0:SYSTEM.INI,boot.description,display.drv,ProMotion %00 %03 (%07 Font)
+
+;delete fonts
+PROF_07=d,0:WIN.INI,fonts,`Small Fonts`
+PROF_08=d,0:WIN.INI,fonts,`Symbol 8,10,12,14,18,24`
+PROF_09=d,0:WIN.INI,fonts,`MS Serif 8,10,12,14,18,24`
+PROF_10=d,0:WIN.INI,fonts,`Courier 10,12,15`
+PROF_11=d,0:WIN.INI,fonts,`MS Sans Serif 8,10,12,14,18,24`
+
+;add new fonts
+PROF_12=r,0:SYSTEM.INI,boot,oemfonts.fon,%05OEM.FON
+PROF_13=r,0:SYSTEM.INI,boot,fixedfon.fon,%05FIX.FON
+PROF_14=r,0:SYSTEM.INI,boot,fonts.fon,%05SYS.FON
+PROF_15=r,0:WIN.INI,fonts,`Small Fonts (%06)`,SMALL%04.FON
+PROF_16=r,0:WIN.INI,fonts,`Symbol 8,10,12,14,18,24 (%06)`,SYMBOL%04.FON
+PROF_17=r,0:WIN.INI,fonts,`MS Serif 8,10,12,14,18,24 (%06)`,SERIF%04.FON
+PROF_18=r,0:WIN.INI,fonts,`Courier 10,12,15 (%06)`,COUR%04.FON
+PROF_19=r,0:WIN.INI,fonts,`MS Sans Serif 8,10,12,14,18,24 (%06)`,SSERIF%04.FON
+PROF_20=r,0:SYSTEM.INI,drivers,DCI,DISPLAY
+PROF_21=r,0:SYSTEM.INI,ProMotion,ResOnFly,1
+
+;Add the following 5 to put Promotion icon in Program Manager
+PROF_22=p,0:A,I,,
+PROF_23=p,0:A,G,ProMotion,
+PROF_24=p,0:A,A,promchar.exe /run,ProMotion Director's Chair
+PROF_25=p,0:A,A,promtool.exe /run,ProMotion Director's Tools
+PROF_26=p,0:A,E,,
+
+;The following lines insure that display=PROMTVDD.386 is on the first line 
+PROF_27=a,0:SYSTEM.INI,386enh,display=,,
+PROF_28=r,0:SYSTEM.INI,386enh,display,PROMTVDD.386
+
+;PROF_27=r,0:SYSTEM.INI,ProMotion,BaseAddress,7C00000
+
+[UNINSTALL]
+COPY_00=d,1:PROMTVDD.386
+COPY_01=d,1:PROMTNGR.3GR
+COPY_02=d,1:OEMPROMT.INF
+COPY_03=d,1:PROMTN8.DRV
+COPY_04=d,1:PROMTN15.DRV
+COPY_05=d,1:PROMTN16.DRV
+COPY_06=d,1:PROMTN24.DRV
+COPY_07=d,1:PROMTN32.DRV
+COPY_08=d,0:PROMCHAR.EXE
+COPY_09=d,0:PROMTN.INI
+COPY_10=d,0:PROMTOOL.EXE
+PROF_00=d,0:SYSTEM.INI,ProMotion,,
+

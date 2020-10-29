@@ -1,0 +1,5 @@
+Microsoft Windows NT 4.00 driver version 2.00.18 for the
+S3 86C911, 86C924, 86C928, 86C801, 86C805, 86C805i,
+Vision864, Vision964, Vision868, Vision968, Trio32,
+Trio64, Trio64V+, Aurora64V+, Trio64V2/DX, Trio64V2/GX,
+Plato/PX, ViRGE, ViRGE/VX, ViRGE/DX, and the ViRGE/GX.

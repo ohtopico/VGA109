@@ -1,0 +1,97 @@
+;SETUP.INF for VI_GRM Desktop Manager
+
+[Rights]
+;
+
+[StartExe]
+DispCtrl.exe
+
+[Title]
+Media Pro Setup
+
+[Chipset]
+For ET 6000;
+
+[Languages]
+JA
+
+[Help languages]
+EN
+
+[App] 
+;Application global information 
+AppName=Media Pro Display Utility
+DefDir=C:\MediaPro
+SpaceNeeded=1000
+DefPMGroup=,Media Pro Display Utility
+ShowSubDirCreateStats=Y
+
+ 
+[Disks] 
+;List of diskettes needed to install the product and the name 
+;of each diskette.
+1=Disk1: Media Pro Desktop Manager 
+
+ 
+[SrcDirs] 
+;lists of directories from root of source drive/directory where 
+;source files can be found
+ 1=grm
+ 
+
+[DstDirs] 
+;lists of directories from root of destination drive/directory
+;where destination files will be placed
+ 1=.
+ 2=*windows
+ 3=*system
+
+[Files] 
+;Description,              Src(Dsk-Dir:Name), Dst(Dir:Name),  Shared
+;------------------------- -----------------  --------------- ------
+;    
+etcurclr.exe,           1-1:etcurclr.ex_,       2:etcurclr.exe,     NA
+vgaoem.fon,             1-1:vgaoem.fo_,         3:vgaoem.fon,       NA
+vgasys.fon,             1-1:vgasys.fo_,         3:vgasys.fon,       NA
+vgafix.fon,             1-1:vgafix.fo_,         3:vgafix.fon,       NA
+;          
+logo.bmp,               1-1:logo.bmp,       1:logo.bmp,           N
+dciw32.drv,             1-1:dciw32.dr_,     3:DCIw32.drv,           N
+dciman.dll,             1-1:dciman.dl_,     3:DCIman.dll,           N
+v7vga.3GR,           1-1:v7vga.3G_,   3:v7vga.3GR,                     N
+VDDtli6.386,           1-1:VDDtli6.38_,   3:VDDtli6.386,                     N
+DVA.386,           1-1:DVA.38_,   3:dva.386,                     N
+VGACOLRx.GR2,       1-1:VGACOLRx.GR_,   3:VGACOLRx.GR2,                 N    
+tliet61.DRV,             1-1:tliet6.DR_,     3:tliet61.DRV,              N 
+tliet63.DRV,             1-1:tliet6.DR_,     3:tliet63.DRV,              N 
+tliet66.DRV,             1-1:tliet6.DR_,     3:tliet66.DRV,              N 
+tliet68.DRV,             1-1:tliet6.DR_,     3:tliet68.DRV,              N 
+OEM_GRM.INF,           1-1:OEM_GRMj.IN_,   3:OEM_GRM.INF,                     N    
+DispCtrl.HLP,           1-1:Disp_?.HL_,     1:DispCtrl.HLP,                   N
+DispCtrl.EXE,           1-1:DispCtrj.EX_,     1:DispCtrl.EXE,                   N
+ctl3d.DLL,              1-1:ctl3d.DL_,      1:ctl3d.DLL,                    Y 
+;muscroll.DLL,          1-1:muscroll.DL_,   1:muscroll.DLL,                 N 
+VI_GRM.exe,             1-1:VI_GRM.ex_,     1:VI_GRM.exe,                   N
+UnInstll.exe,           1-1:Uninstll.ex_,   1:Uninstll.exe,                 N
+;ddc.pif,               1-1:ddc.pi_,        1:ddc.pif,                      N
+Hooksdll.dll,           1-1:Hooksdll.dl_,       1:Hooksdll.dll,                 N
+;
+J22FIX.FON,            1-1:J22FIX.FO_,    3:J22FIX.FON,                      N
+J22OEM.FON,            1-1:J22OEM.FO_,    3:J22OEM.FON,                      N
+J22SYS.FON,            1-1:J22SYS.FO_,    3:J22SYS.FON,                      N
+GSYS20.FOD,            1-1:GSYS20.FO_,    3:GSYS20.FOD,                      N
+;
+SSERIFF.FON,            1-1:SSERIFF.FO_,    3:SSERIFF.FON,                      N  
+COURF.FON,              1-1:COURF.FO_,      3:COURF.FON,                        N  
+SMALLF.FON,             1-1:SMALLF.FO_,     3:SMALLF.FON,                       N  
+SYMBOLF.FON,            1-1:SYMBOLF.FO_,    3:SYMBOLF.FON,                      N   
+SERIFF.FON,             1-1:SERIFF.FO_,     3:SERIFF.FON,                       N 
+VI_GRM.INI,            1-1:VI_GRM.INI,     2:VI_GRM.INI,                       N
+[PM Info]                               
+;DstFileName  AppDesc             (Icon #)
+;-----------  --------------      --------
+DispCtrl.exe, Display Control Panel
+vi_grm.exe, ET Video Manager
+UnInstll.exe, Uninstaller
+
+[End]

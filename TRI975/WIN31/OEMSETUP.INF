@@ -1,0 +1,461 @@
+;
+;       OEMSETUP.INF file for MS Windows 3.1 TRIDENT high-res display drivers
+;       TRIDENT Microsystems, Inc. Copyright (C) 1990-1996
+;
+[VPM install]
+updateinis= VPM.ini
+
+[VPM.ini]
+system,drivers,,"VPM=tguivpm.dll"
+control,driver.desc,,"tguivpm.dll=Trident VPM driver"
+
+[disks]
+T=. ,"Trident OEM Driver Setup Disk",disk0
+1=. ,"Microsoft Windows 3.1 Disk #1",disk1
+2=. ,"Microsoft Windows 3.1 Disk #2",disk2
+3=. ,"Microsoft Windows 3.1 Disk #3",disk3
+4=. ,"Microsoft Windows 3.1 Disk #4",disk4
+5=. ,"Microsoft Windows 3.1 Disk #5",disk5
+6=. ,"Microsoft Windows 3.1 Disk #6",disk6
+7=. ,"Microsoft Windows 3.1 Disk #7",disk7
+
+[display]
+;tr16l6X4=T:triwlv.drv,         "Trident 640X480-16C",              "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, triwl640
+;tr16l8X6=T:triwlv.drv,         "Trident 800X600-16C",              "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, triwl800
+;tr16l1X7=T:triwlv.drv,         "Trident 1024X768-16C",             "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, triwl1024
+;tr16l1X1=T:triwlv.drv,         "Trident 1280X1024-16C",            "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, triwl1200
+;tr16l6X2=T:triwlv.drv,         "Trident 1600X1200-16C",            "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, triwl1600
+
+zgitl6X0=T:sgiulv.drv,         "Trident 9397/975/985 640X400-256C",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl400
+zgitl6X4=T:sgiulv.drv,         "Trident 9397/975/985 640X480-256C",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl640
+zgitl7X4=T:sgiulv.drv,         "Trident 9397/975/985 720X480-256C",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl720
+zgitl8X6=T:sgiulv.drv,         "Trident 9397/975/985 800X600-256C",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl800
+zgitl1X7=T:sgiulv.drv,         "Trident 9397/975/985 1024X768-256C",        "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl1024
+zgitl1X1=T:sgiulv.drv,         "T9397/975/985 1280X1024-256C(2M,4M)",       "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl1200
+zgitl6X2=T:sgiulv.drv,         "T9397/975/985 1600X1200-256C(2M,4M)",       "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgitl1600
+
+zgihl6X0=T:sgiulv.drv,         "Trident 9397/975/985 640X400-65KC",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl400
+zgihl6X4=T:sgiulv.drv,         "Trident 9397/975/985 640X480-65KC",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl640
+zgihl7X4=T:sgiulv.drv,         "Trident 9397/975/985 720X480-65KC",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl720
+zgihl8X6=T:sgiulv.drv,         "Trident 9397/975/985 800X600-65KC",         "100,96,96",    2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl800
+zgihl1X7=T:sgiulv.drv,         "T9397/975/985 1024X768-65KC(2M,4M)",        "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl1024
+zgihl1X1=T:sgiulv.drv,         "T9397/975/985 1280X1024-65KC(4M)",          "100,120,120",  2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgihl1200
+
+zgicl6X0=T:sgiulv.drv,         "Trident 9397/975/985 640X400-16MC",     "100,96,96",   2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgicl400
+zgicl6X4=T:sgiulv.drv,         "Trident 9397/975/985 640X480-16MC",     "100,96,96",   2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgicl640
+zgicl7X4=T:sgiulv.drv,         "Trident 9397/975/985 720X480-16MC",     "100,96,96",   2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgicl720
+zgicl8X6=T:sgiulv.drv,         "Trident 9397/975/985 800X600-16MC",     "100,96,96",   2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgicl800
+zgicl1X7=T:sgiulv.drv,         "Trident 9397/975/985 1024X768-16MC(4M)",  "100,120,120", 2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, zgicl1024
+
+;;;;tricl6X4=T:xgiclv.drv,         "Trident 9397/975/985 640X480-16MC(1M)",     "100,96,96",   2:vgacolor.2gr, 2:vgalogo.lgo,  T:vddxlv31.386, T:vgadib.3gr, , 3:vgalogo.rle, tricl640
+
+[Advanced]
+Version=3
+Chip="Trident 9397/975/985"
+CBVer=F3,51                   ;;;;;;;;   D3 -> F3 for 9397/975/985 chip!!
+EnableVirDefault=0
+LessDisplayMem=12
+FrameBufFix=32
+FrameBufRange=4,62,2,32
+VirtualRange=640,480,4096,4096
+MessageLength=1
+DCIdriver=tdci
+VAFCdriver=tri_vafc.drv
+
+[Index]
+zgitl6X0=zgitlv.drv
+zgitl6X4=zgitlv.drv
+zgitl7X4=zgitlv.drv
+zgitl8X6=zgitlv.drv
+zgitl1X7=zgitlv.drv
+zgitl1X1=zgitlv.drv
+zgitl6X2=zgitlv.drv
+
+zgihl6X0=zgixlv.drv
+zgihl6X4=zgixlv.drv
+zgihl7X4=zgixlv.drv
+zgihl8X6=zgixlv.drv
+zgihl1X7=zgixlv.drv
+zgihl1X1=zgixlv.drv
+
+zgicl6X0=zgirlv.drv
+zgicl6X4=zgirlv.drv
+zgicl7X4=zgirlv.drv
+zgicl8X6=zgirlv.drv
+zgicl1X7=zgirlv.drv
+
+;[triwlv.drv]
+;Option=1,31,3,1,10,31
+;Memory=512,4096,1024
+
+[zgitlv.drv]
+Option=2,127,3,1,10,0
+ScanLines=1024, 1280, 2048, 4096
+Memory=1024,4096
+
+[zgixlv.drv]
+Option=4,111,3,1,10,0
+ScanLines=640, 832, 1024, 1280, 2048
+Memory=1024,4096
+
+[zgirlv.drv]
+Option=8,103,3,1,10,0
+ScanLines=640, 832, 1024
+Memory=1024,4096
+
+[DisplayDriverSet]
+Name=9397/975/985-US6.0
+Info=Trident 9397/975/985 Display Driver US6.0(45a)
+Date=01/24/98 21:20:00
+
+[v7vga.3gr]
+2:CGA40WOA.FON,2:CGA40850.FON
+2:CGA80WOA.FON,2:CGA80850.FON
+2:EGA40WOA.FON,2:EGA40850.FON
+2:EGA80WOA.FON,2:EGA80850.FON
+
+[sysfonts]
+2:vgasys.fon,"VGA (640x480) resolution System Font", "100,96,96"
+2:8514sys.fon,"8514/a (1024x768) resolution System Font", "100,120,120"
+
+[fixedfonts]
+2:vgafix.fon,"VGA (640x480) resolution Fixed System Font", "100,96,96"
+2:8514fix.fon,"8514/a (1024x768) resolution Fixed System Font",  "100,120,120"
+
+[oemfonts]
+2:vgaoem.fon,"VGA (640x480) resolution Terminal Font (USA/Europe)", "100,96,96",1
+2:8514oem.fon,"8514/a (1024x768) resolution Terminal Font (USA/Europe)", "100,120,120",1
+
+[fonts]
+5:SSERIFE.FON, "MS Sans Serif 8,10,12,14,18,24 (VGA res)", "100,96,96"
+5:SSERIFF.FON, "MS Sans Serif 8,10,12,14,18,24 (8514/a res)", "100,120,120"
+
+6:COURE.FON, "Courier 10,12,15 (VGA res)", "100,96,96"
+6:COURF.FON, "Courier 10,12,15 (8514/a res)", "100,120,120"
+
+6:SERIFE.FON, "MS Serif 8,10,12,14,18,24 (VGA res)", "100,96,96"
+5:SERIFF.FON, "MS Serif 8,10,12,14,18,24 (8514/a res)", "100,120,120"
+
+6:SYMBOLE.FON, "Symbol 8,10,12,14,18,24 (VGA res)", "100,96,96"
+3:SYMBOLF.FON, "Symbol 8,10,12,14,18,24 (8514/a res)", "100,120,120"
+
+6:SMALLE.FON, "Small Fonts (VGA res)", "100,96,96"
+6:SMALLF.FON, "Small Fonts (8514/a res)", "100,120,120"
+
+6:ROMAN.FON, "Roman (Plotter)",   "CONTINUOUSSCALING"
+6:SCRIPT.FON, "Script (Plotter)", "CONTINUOUSSCALING"
+6:MODERN.FON, "Modern (Plotter)", "CONTINUOUSSCALING"
+
+;[triwl640]
+;, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+;, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,480"
+;, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,480"
+;, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=4"
+;, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+;, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+;, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+;, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+;, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+;
+;[triwl800]
+;, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+;, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=800,600"
+;, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=800,600"
+;, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=4"
+;, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+;, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+;, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+;, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+;, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+;
+;[triwl1024]
+;, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+;, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1024,768"
+;, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1024,768"
+;, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=4"
+;, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+;, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+;, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+;, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+;, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+;
+;[triwl1200]
+;, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+;, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1280,1024"
+;, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1280,1024"
+;, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=4"
+;, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+;, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+;, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+;, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+;, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+;
+;[triwl1600]
+;, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+;, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1600,1200"
+;, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1600,1200"
+;, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=4"
+;, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+;, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+;, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+;, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+;, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl400]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,400"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,400"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl640]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl720]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=720,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=720,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl800]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=800,600"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=800,600"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl1024]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1024,768"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1024,768"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl1200]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1280,1024"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1280,1024"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgitl1600]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1600,1200"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1600,1200"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=8"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl400]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,400"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,400"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl640]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl720]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=720,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=720,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl800]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=800,600"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=800,600"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl1024]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1024,768"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1024,768"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgihl1200]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1280,1024"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1280,1024"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=16"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgicl400]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,400"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,400"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=24"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgicl640]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=640,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=640,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=24"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgicl720]
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=720,480"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=720,480"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=24"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgicl800]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=800,600"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=800,600"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=24"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=0"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+
+[zgicl1024]
+, 0:system, SYSTEM.INI, drivers,        "DCI=",                "DCI=tdci"
+, 0:system, SYSTEM.INI, drivers,        "VPM=",                "VPM=tguivpm.dll"
+, 0:system, SYSTEM.INI, drivers,        "vids.draw=",          "vids.draw=udh.dll"
+, 0:system, system.ini, Virtual-Screen, "Rectangle=",          "Rectangle=1"
+, 0:system, system.ini, Virtual-Screen, "Position=",           "Position=0,0"
+, 0:system, system.ini, Virtual-Screen, "Enable=", "Enable=0"
+, 0:system, system.ini, Virtual-Screen, "Virtual=", "Virtual=1024,768"
+, 0:system, system.ini, Virtual-Screen, "Screen=", "Screen=1024,768"
+, 0:system, system.ini, Virtual-Screen, "ColorDepth=", "ColorDepth=24"
+, 0:system, system.ini, Virtual-Screen, "Resource=", "Resource=1"
+, 0:system, system.ini, Virtual-Screen, "Freeze=", "Freeze=0"
+, 0:system, system.ini, Virtual-Screen, "BorderSpace=", "BorderSpace=0"
+, 0:system, system.ini, Virtual-Screen, "FrameBufferAddress=", "FrameBufferAddress=32"
+, 0:system, system.ini, Virtual-Screen, "RefreshRate=", "RefreshRate=60"
+

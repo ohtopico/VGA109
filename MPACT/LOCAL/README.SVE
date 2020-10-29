@@ -1,0 +1,414 @@
+
+======================================================
+         Mpact Mediaware för 3DVD VIKTIGT-fil 
+                    Oktober 1997
+                    DU-10479-001
+======================================================
+     (c) Copyright Chromatic Research, Inc., 1997
+
+Detta dokument innehåller senaste nytt och annan 
+information angående användningen av Chromatic Research 
+Mpact mediaware för 3DVD.
+
+Vi rekommenderar att du registrerar din Mpact mediaware-
+programvara. Använd det elektroniska 
+registreringsformuläret i Mpact Multimedia Pilot på ditt 
+skrivbord för att skicka in din registrering. Denna 
+information låter oss producera bättre produkter, samt ger 
+dig bättre service och de senaste nyheterna om vårt 
+produktsortiment. Du kan även läsa senaste nytt om 
+Mpact på vår webbsida: http://www.mpact.com.
+
+------------------------
+Hur du använder detta dokument
+------------------------
+I detta dokument beskrivs menyval på följande sätt:
+   'menynamn> menyalternativ. 
+
+   Symbolen (>) indikerar en undermeny.
+
+Exempelvis:  
+   Om du uppmanas att välja Arkivmenyn och sedan
+  kommandot Öppna, är instruktionen: 
+   'Välj Arkivmenyn> Öppna.'
+
+Om du vill läsa filen VIKTIGT på skärmen bör du öppna 
+den med Microsoft(R) Word, WordPad, eller Anteckningar. 
+Om du vill skriva ut filen VIKTIGT
+öppnar du den med ett ordbehandlingsprogram och väljer 
+‘Arkivmeny> Skriv ut’.
+
+--------
+INNEHÅLL
+--------
+SYSTEMKRAV
+PROGRAMVARUKRAV
+INSTALLATIONSPROGRAMVARA
+  - För att installera Mpact Mediaware för 3DVD
+TILLÄMPNINGAR FRÅN TREDJE PART
+  - Software Dynamics Entertainment Center
+BÖRJA
+SENASTE NYTT
+  - DVD-regioner
+FELSÖKNING
+  - Ställa in bildskärmen för VGA
+  - Avinstallera Mpact Mediaware
+  - Använda Mpact-kortet i en annan dator
+  - Kontakta teknisk support
+COPYRIGHT
+
+--------------------
+SYSTEMKRAV
+--------------------
+- Mpact 2 3DVD-P-kort
+- 166 Mhz persondator av Pentium-klass
+- Microsoft Windows 95(TM)  OEM serviceutgåva 2 
+   (Se till att du har tillgång till en Windows CD om du 
+   måste
+   installera Windows-komponenter som saknas.)
+- Bildskärm med logotypen "Designed for Microsoft 
+  Windows 95" 
+- 16 MB RAM
+- 67 MB-hårddiskutrymme, plus 7 MB extra 
+   tillfälligt utrymme tillgängligt vid installationen
+- DVD-ROM-enhet med DMA aktiverad
+
+---------------------
+PROGRAMVARUKRAV
+---------------------
+Den nödvändiga programvaran levereras på Mpact 
+Mediawares CD och installeras enligt nedanstående 
+beskrivning.
+- Mpact Mediaware för 3DVD
+- Microsoft DirectX(TM) 5.0  Detta Windows-program
+   påverkar multimediaprestandan och behövs för
+   Mpact mediaware för 3DVD.
+
+---------------
+INSTALLATIONSPROGRAMVARA
+---------------
+Innan du installerar denna version av mediaware bör du 
+avinstallera
+den äldre versionen och ställa in bildskärmen för standard 
+VGA. Se
+FELSÖKNING nedan för anvisningar om hur du
+avinstallerar mediaware.
+
+>>>FÖR ATT INSTALLERA MPACT MEDIAWARE FÖR 
+3DVD:
+
+1  Kör Mpacts installationsprogram som finns på Mpact 
+mediawares 
+   CD-ROM.  
+   >>>För att köra installationsprogrammet
+   1 Klicka på knappen ’Start’ i Windows 95:s verktygsfält, 
+     och välj ’Kör ’.
+   2 Skriv 'd:\installera', där d: är din CDROM-enhet. 
+     Klicka på OK.
+2  När dialogrutan 'Välkommen' visas, klicka på 'Nästa' 
+   för att fortsätta. Om du vill avsluta utan att installera 
+programmet,
+   bör du klicka på 'Avbryt'.
+3  När dialogrutan 'Programvarulicensavtal' visas 
+   bör du läsa Licensavtalet och sedan klicka på
+   'Ja'. (Om du inte godkänner villkoren skall du klicka på 
+'Nej'. Mediaware 
+   kan inte installeras i detta fall.)
+4  Följ anvisningarna på skärmen för att fullfölja 
+installationen.
+   Under installationen visas dialogrutan 'Välj 
+   komponenter'. Detta låter dig installera alla 
+   eller en del av programvarukomponenterna i denna
+   utgåva. Normalt har alla rutor kryssats för. 
+   Numret till höger om varje komponent
+   visar hur mycket hårddiskutrymme som behövs. 
+   Om du inte vill installera en viss komponent
+   klickar du bara i motsvarande ruta för att  avlägsna 
+   krysset. 
+
+     Följande komponenter ingår i denna utgåva: 
+'Mpact Mediaware för 3DVD': Detta är en programvara 
+   som implementerar olika multimediafunktioner
+   på Mpact-mediaprocessorn och på
+   värdsystemet.
+'Software Dynamics' Entertainment Center': Denna
+   tillämpning förvandlar din dator till en central
+   underhållningsenhet som låter dig lyssna på CD:n
+   och titta på video-CD- och DVD-skivor. 
+'Microsoft DirectX 5.0': Denna programvara produceras 
+   av Microsoft för förbättrad multimediaåtergivning. 
+   I många fall är en äldre version av detta program
+   redan installerad. Du måste ha version 5.0, så 
+   kom ihåg att installera programmet om du 
+   kör en äldre version. 
+'Mpact Multimedia Pilot': Detta är ett kort 
+självstudieprogram
+   som introducerar och demonstrerar
+   Mpacts multimediafunktioner.
+
+   OBS! Mpact Mediaware för 3DVD måste installeras 
+   innan du kan använda Mpact 3DVD. Om detta är den
+   första mediaware-installationen bör du komma ihåg att 
+   kontrollera lådan 'Mpact Mediaware'.
+
+5  Klicka på 'Nästa' när du är redo att börja
+   installationen. Installationprogrammet kopierar
+   alla tillämpliga programvarukomponenter till
+   systemet såsom indikeras av flera dialogrutor med texten 
+'Kopierar filer'.
+
+6  När installationen är fullgjord visas dialogrutan
+  'Installationen avslutad'. Klicka på 'Slutför' för att starta 
+   om datorn. Efter det att datorn har startats om, visas ett 
+antal
+   nya dialogrutor med texten 'Ny maskinvara påträffades'.
+   Klicka på 'Ja' för att låta datorn startas om en gång till.
+   Du är kanske tvungen att starta om datorn två eller flera 
+gånger
+   medan Windows 95 identifierar den nya maskinvaran. 
+Mpact 
+   3DVD är nu installerad.
+
+------------------------
+TILLÄMPNINGAR FRÅN TREDJE PART
+------------------------
+Software Dynamics Entertainment Center
+Entertainment Center förvandlar din dator till en central
+underhållningsenhet som låter dig lyssna på CD:n
+och titta på video, video-CD- och DVD-skivor.
+
+För hjälp när du använder Entertainment Center 
+bör du klicka på ikonen '?' längst upp till höger i fönstret 
+Entertainment Center för att öppna Entertainment 
+Centers Hjälpfil. Om Entertainment Center inte är öppet 
+bör du välja 'Starta> Program> Chromatic Research 
+Mpact> 
+Software Dynamics Entertainment Center> Entertainment 
+Center Hjälp'.
+
+----------------------------------------
+BÖRJA
+-------------------------------------------
+Om du behöver information om Mpacts mediaprocessor, 
+eller vill ställa in vissa alternativ, kan du öppna dialogrutan
+ 'Egenskaper för Mpact Mediaware'  genom att klicka på
+ 'Starta> Kontrollpanel'. Dubbelklicka på 'Mpact-ikon'. 
+För ytterligare information om dialogrutan  
+'Egenskaper för Mpact Mediaware' bör du antingen klicka 
+på
+'Hjälp' eller på '?' (frågetecken) längst upp i fönstrets högra 
+hörn, 
+varefter du klickar på objektet för att få mer information om 
+det.
+
+------------------------------------------
+SENASTE NYTT
+------------------------------------------
+Inom DVD-branschen är det möjligt att utge DVD-skivor
+endast inom vissa delar av världen för att skydda
+gällande copyrights. En DVD-skiva utgiven i en region, 
+såsom  
+exempelvis region 1 (USA, Kanada och delar av Karibien) 
+kan inte spelas på en DVD-enhet som tillverkats för
+region 2 (Japan,delar av Europa och Mellanöstern, 
+samt vissa delar av Afrika) eller region 3 (Korea, Malaysia, 
+Burma, 
+Indonesien, Filippinerna, och Sydostasien). Världen är 
+indelad i 
+sex regioner.
+
+>>>Du kan verifiera för vilken region din DVD-enhet har 
+tillverkats
+genom att utföra följande steg:
+1  Inom Windows 95:s verktygsfält skall du klicka på 
+   'Start> Inställning> Kontrollpanel'. Windows 
+   kontrollpanelfönster öppnas.
+2  Dubbelklicka på 'Mpact-kontrollpanel', och välj 
+   fliken 'Allmänt'. 
+
+Om du försöker spela en DVD från en annan region
+kommer ett felmeddelande som påminner om det som 
+visas nedan.
+
+   >>>Fel:  Den DVD-videoskiva som du försöker använda 
+   har kodats för användning med endast sådana DVD-
+spelare
+   som har köpts i vissa delar av världen och
+   kan inte användas med denna DVD-spelare. Se till att 
+regionkoden på
+   din DVD-spelare motsvarar koden på DVD-skivan.<<<
+
+-------------------------------
+FELSÖKNING
+-------------------------------
+
+Chromatic Research har testat Mpact 2 3DVD-P-kortet 
+grundligt för att kontrollera att det fungerar på rätt sätt. 
+Om 
+du har problem med ett Mpact 2 3DVD-P-kort, bör du  
+gå igenom installationsprocessen på nytt och kontrollera 
+följande:
+
+  - Se till att kortet sitter ordentligt i
+    PCI-kortplatsen.
+  - Se till att mediaware har installerats på rätt sätt. 
+    Om du tror att problemet beror på hur mediaware 
+installerades:
+    1  Ställ in bildskärmen för VGA. Se 'Ställa in bildskärmen 
+för
+       standard VGA'.
+    2  Avinstallera mediaware. Se 'Avinstallera Mpact 
+       mediaware. Följ anvisningarna noggrant i avsnittet 
+       'Installera Mpact mediaware'.
+
+>>>Ställa in bildskärmen för standard VGA. 
+1  Inom Windows verktygsfält bör du välja 'Start> 
+Inställningar> 
+  Kontrollpanel'.
+2  Dubbelklicka på ikonen 'Visa' inom Kontrollpanelen.
+3  Klicka på fliken 'Inställningar'.
+4  Klicka på knappen 'Avancerade egenskaper'.
+5  Klicka på knappen 'Ändra'. 
+6  Välj knappen 'Visa alla modeller'.
+7  Rulla upp i listan av tillverkare för att välja
+   'Standardbildskärmstyper (VGA)'.
+8  Klicka på 'OK'.
+Windows 95 kanske uppmanar dig att starta om datorn för
+att aktivera dessa ändringar. Om det är fallet, starta om 
+datorn..
+
+Din Mpact DVD-lösning inkluderar Mpact mediaware, som 
+styr Mpact 3DVD-kortet. Den medföljande CD-skivan 
+innehåller 
+den aktuella mediaware-versionen. Mediaware är 
+antagligen redan installerad
+men installationsanvisningarna inkluderas ifall du måste 
+installera programvaran på nytt 
+
+>>>AVINSTALLERA MPACT MEDIAWARE
+
+1  Inom Windows 95:s verktygsfält bör du välja 'Start> 
+Inställningar> 
+  Kontrollpanel'
+2  Dubbelklicka på knappen 'Lägg till/ta bort program',
+   i 'Kontrollpanelen'.
+3  Klicka på 'Installera/avinstallera' och välj 'Chromatic 
+   Research Mpact'  
+4  Klicka på 'Lägg till/ta bort', och klicka sedan på 
+'Automatisk'.
+5  Klicka på 'OK' när dialogrutan
+   'Lägg till/ta bort program egenskaper' visas.
+6  Klicka på 'Start' inom Windows 95:s verktygsfält
+   för att starta om datorn.  
+7  Välj 'Avsluta. Välj sedan alternativet 'Starta om
+   datorn?' och klicka på 'Ja'.  
+
+>>> Använda Mpact-kortet i en annan dator:
+Om du vid något skede måste flytta ditt Mpact- 
+multimediakort till en annan dator, behöver du bara ta ut 
+det
+och installera det i den nya datorn. Du behöver inte skriva 
+in PCN på nytt. 
+Installera mediaware-programvaran frå n den ursprungliga 
+Mpact Mediaware CD-skivan. Alla funktioner som kunde 
+utföras
+på den gamla datorn kan även utföras på den nya.
+
+>>>Kontakta teknisk support
+Om du inte kan avhjälpa problemet själv bör du kontakta 
+återförsäljaren.
+
+Nedanstående  information gör det lättare för 
+supportteknikern  
+att hjälpa dig att åtgärda problemet. 
+Inkludera denna information när du beskriver problemet.
+
+  - Uppge ditt namn och hur du kan kontaktas per
+    telefon, fax och e-post.
+  - Identifiera den Mpact-produkt som du har köpt (Mpact 
+2
+    3DVD-P).
+  - Beskriv ditt system inklusive moderkort, internminne, 
+    hastighet, och typ av bildskärm.
+  - Om ditt system är ovanligt på något sätt, 
+    bör du nämna det så att teknikern har  tillgång till 
+    all information när han/hon hjälper dig att åtgärda 
+problemet.
+  - Beskriv problemet och när det uppstår.
+  - Nämn även upplösning och färgdjup när problemet 
+uppträder
+  - Inkludera alla felmeddelanden som visas på skärmen.
+  - Nämn alla steg som krävs för att problemet skall uppstå.
+Supportteknikern kommer att försöka finna en lösning på 
+ditt problem
+så snabbt som möjligt.
+
+-------------------
+COPYRIGHT
+-------------------
+Chromatic Research, Chromatic Researchs logotyp, 
+Mpact, och Mpacts logotyp är varumärken som tillhör 
+Chromatic Research, Inc.  Dolby, Pro Logic och 
+dubbel-D-symbolen är varumärken som tillhör Dolby 
+Laboratories.  SRS, SOUND RETRIEVAL SYSTEM, och 
+SRS-symbolen är varumärken som tillhör SRS Labs.  Macrovision 
+är ett registrerat varumärke som tillhör Macrovision 
+Corporation.  Alla andra märken och produktnamn är varumärken 
+eller registrerade varumärken som tillhör sina respektive ägare.
+
+Detta dokument åtnjuter upphovsrättsligt skydd 
+och alla rättigheter förbehålles. Ingen del av detta får 
+mångfaldigas
+eller sändas på något sätt eller i någon form utan 
+föregående
+skrifligt tillstånd från Chromatic Research. 
+Informationen i detta dokument har kontrollerats noggrant
+och anses vara riktig. Chromatic Research åtager sig, 
+inget ansvar för eventuella fel i denna handledning. 
+Chromatic 
+Research  skall under inga som helst omständigheter 
+hållas
+ansvarig för direkta, indirekta, specialla eller tillfälliga 
+skador, 
+samt ej heller för följdskador eller för förhöjda 
+straffskadestånd,
+som uppstår eller utmäts på grund av fel eller förbiseenden 
+i 
+denna handledning, även om möjligheten för sådana 
+skador nämns. 
+Materialet i detta dokument är endast avsett för 
+infomationsändamål. 
+
+Denna produkt innehåller upphovsrättsligt skyddad 
+teknologi 
+som skyddas av patentanspråk i vissa USA-patent och 
+andra immateriella rättigheter som tillhör Macrovision 
+Corporation och andra innehavare av rättigheter.  
+Användning av denna upphovsrättsligt skyddade
+teknologi måste godkännas av Macrovision 
+Corporation och den är endast avsedd för privat eller 
+annat
+begränsat bruk, utom i fall när tillåtelse erhållits från
+Macrovision Corporation.  Demontering och s.k. omvänd 
+konstruktion är förbjuden.
+
+Tillverkad under licens från Dolby Laboratories, Inc.  
+"Dolby", "Pro Logic" och dubbel-D-symbolen är varumärken 
+som tillhör Dolby Laboratories.   (c) 1992-1997 Dolby 
+Laboratories, Inc.  Alla rättigheter förbehålles.
+
+Denna produkt innehåller teknologi som används under 
+licens från
+SRS Labs. SRS 3D Sound skyddas av flera USA-patent 
+och utländska patent .inklusive patentnummer. 4,748,669, 
+4,841,572, och 4,866,774. Märkena "SRS", "SOUND 
+RETRIEVAL SYSTEM", och deras symboler är 
+registrerade
+varumärken som tillhör SRS Labs. SRS-teknologin som 
+används
+i denna produkt är tillverkad och distribuerad under
+licens från SRS Labs. SRS Labs har reserverat sig rätten 
+att sälja inspelningar som gjorts med hjälp SRS- 
+teknologi och ingen sådan licens utfärdas i detta 
+dokument.
+

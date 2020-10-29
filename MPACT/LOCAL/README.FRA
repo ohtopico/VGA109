@@ -1,0 +1,340 @@
+
+===========================================================
+  Fichier LisezMoi du logiciel de support Mpact pour 3DVD
+                    Octobre 1997
+                    DU-10479-001
+===========================================================
+     (c) Copyright Chromatic Research, Inc., 1997
+
+Ce document contient des informations (généralement 
+très récentes) qui clarifient l'utilisation du logiciel 
+de support Mpact pour 3DVD de Chromatic Research.
+
+Nous vous conseillons d'enregistrer votre logiciel de support 
+Mpact. Utilisez pour ce faire le formulaire électronique 
+disponible dans le pilote multimédia Mpact affiché 
+sur votre Bureau, ou le coupon-réponse joint à la documentation.
+Grâce à votre aide, nous pourrons vous fournir de meilleurs produits et 
+services, ainsi que des informations à jour. 
+Pour obtenir les toutes dernières informations sur Mpact, 
+visitez notre site Web :  http://www.mpact.com
+
+--------------------------------
+Utilisation de ce document
+--------------------------------
+Dans ce document, nous avons utilisé les conventions suivantes 
+pour décrire la sélection des options de menu : 
+   nom de menu > option de menu. 
+
+   Le symbole (>) signale un sous-menu.
+
+Par exemple :  
+   Pour vous demander de choisir la commande 'Ouvrir'
+   du menu 'Fichier' : 
+   'Choisissez Fichier > Ouvrir.'
+
+Pour afficher le fichier LisezMoi à l'écran, ouvrez-le dans 
+Word, WordPad, ou Notepad de Microsoft(R). Pour l'imprimer, 
+ouvrez-le dans un traitement de texte, et 
+choisissez Fichier > Imprimer.
+
+-------------------------------
+TABLE DES MATIERES
+-------------------------------
+SYSTEME REQUIS
+LOGICIEL REQUIS
+CONFIGURATION DU LOGICIEL
+  - Pour installer le logiciel de support Mpact pour 3DVD
+APPLICATIONS FOURNIES PAR D'AUTRES EDITEURS
+  - Software Dynamics Entertainment Center
+DEMARRAGE
+NOUVELLES DE DERNIERE MINUTE
+  - Régions DVD 
+RESOLUTION DES INCIDENTS
+  - Régler l'affichage sur VGA standard
+  - Désinstaller le logiciel de support Mpact
+  - Utiliser la carte Mpact sur un autre ordinateur
+  - Contacter l'assistance technique
+COPYRIGHT
+
+-------------------------
+SYSTEME REQUIS
+-------------------------
+- Carte 3DVD-P Mpact 2 
+- PC doté d'une UC de type Pentium 166 MHz 
+- Microsoft Windows 95(TM)  OEM version 2 
+   (Ayez le CD-ROM de Windows sous la main pour pouvoir 
+  installer des éléments manquants en cas de besoin)
+- Moniteur avec logo "Microsoft Windows 95" 
+- 16 Mo de RAM
+- 67 Mo d'espace libre sur le disque dur, plus 7 Mo supplémentaires 
+   d'espace disque temporaire pendant l'installation 
+- Lecteur de DVD-ROM avec DMA activé
+
+-------------------------
+LOGICIEL REQUIS
+-------------------------
+Le logiciel requis est inclus sur le CD-ROM de support 
+MPact et peut être installé selon la procédure décrite ci-dessous.
+- Logiciel de support Mpact pour 3DVD
+- Microsoft DirectX(TM) 5.0  Ce logiciel Windows 
+   augmente les performances multimédia ; il est requis pour 
+   le logiciel de support Mpact pour 3DVD.
+
+-------------------------------------------
+CONFIGURATION DU LOGICIEL
+-------------------------------------------
+Avant de remplacer le logiciel de support, désinstallez toute version 
+précédente et réglez l'affichage sur VGA standard. Pour plus de détails 
+sur la procédure de désinstallation, reportez-vous ci-dessous à la section 
+'RESOLUTION DES INCIDENTS'.
+
+>>>POUR INSTALLER LE LOGICIEL DE SUPPORT MPACT POUR 3DVD :
+
+1  Exécutez le programme d'installation Mpact sur le CD-ROM du logiciel 
+   de support Mpact.  
+   >>>Pour exécuter le programme d'installation 
+   1 Cliquez sur le bouton 'Démarrer' de la barre des tâches de Windows 95, 
+     puis sélectionnez 'Exécuter'. 
+   2 Entrez 'd:\setup', où d: représente le lecteur de CD-ROM. 
+     Cliquez sur OK.
+2  Une fois la boîte de dialogue 'Bienvenue' affichée, cliquez sur 'Suivant' 
+   pour continuer ou sur 'Annuler' pour abandonner l'installation.
+  .
+3  Une fois la boîte de dialogue 'Accord de licence de logiciel' 
+   affichée, lisez son contenu puis cliquez sur 'Oui' ou 'Non' selon que 
+   vous approuvez ses termes ou pas. Notez que le logiciel de support ne 
+   peut pas être installé si vous n'approuvez pas les termes et conditions de la licence.
+4  Suivez les instructions affichées à l'écran pour terminer 
+   l'installation. Pendant l'installation, la boîte de 
+   dialogue 'Sélection des composants' s'affiche. Elle vous permet 
+   d'installer la totalité ou une partie seulement des composants logiciels 
+   de cette version. Toutes les cases sont cochées par défaut. 
+   Le nombre sur la droite des composants représente l'espace disque requis. 
+   Si vous ne voulez pas installer un composant particulier, 
+   cliquez sur la case correspondante de manière à faire disparaître la 
+   coche. 
+
+     Les composants proposés dans cette version sont les suivants : 
+'Logiciel de support Mpact pour 3DVD' : logiciel de support spécial 
+   qui implémente les différentes fonctions multimédia 
+  du processeur de support Mpact et du système hôte.
+'Software Dynamics Entertainment Center' : application qui transforme 
+  votre ordinateur en un centre de loisirs pour écouter des CD audio
+   et visionner des vidéos, des CD Vidéo et des DVD. 
+'Microsoft DirectX 5.0' : logiciel fourni par Microsoft pour améliorer 
+   les performances multimédia de votre ordinateur. 
+   Dans la plupart des cas, une version plus ancienne de ce logiciel 
+   est déjà installée. Elle devra donc être remplacée par la 5.0. 
+'Pilote multimédia Mpact ' : petit programme 
+   didacticiel qui présente les fonctions multimédia
+   de Mpact et en fait une démonstration.
+
+   REMARQUE : Le logiciel de support Mpact pour 3DVD doit être installé 
+   pour pouvoir utiliser 3DVD de Mpact. S'il s'agit de la première 
+   installation du logiciel de support, vérifiez que la case 
+   'Logiciel de support Mpact' est cochée.
+
+5  Lorsque vous êtes prêt(e) à lancer l'installation,
+   cliquez sur 'Suivant'. Le programme d'installation copie les
+   composants logiciels appropriés sur votre système et affiche des
+   messages vous permettant de suivre le déroulement des opérations.
+
+6  Une fois l'installation terminée, la boîte de dialogue 
+   'Installation terminée' s'affiche. Cliquez sur 'Terminer' pour redémarrer 
+   l'ordinateur. Après le redémarrage, une série de boîtes de dialogue 
+   'Nouveau périphérique détecté' s'affichent. Cliquez sur 'Oui' pour permettre 
+   à votre ordinateur de redémarrer encore une fois. Vous devrez peut-être 
+   redémarrer l'ordinateur deux autres fois après que 
+   Windows 95 ait identifié les nouveaux périphériques détectés. 
+   Le programme 3DVD de Mpact est maintenant installé.
+
+-------------------------------------------------------------------------
+APPLICATIONS FOURNIES PAR D'AUTRES EDITEURS
+-------------------------------------------------------------------------
+Software Dynamics Entertainment Center
+transforme votre ordinateur en un centre de 
+loisirs où vous pourrez écouter des CD audio et 
+visionner des vidéos, des CD vidéo et des DVD.
+
+Pour obtenir de l'aide sur l'utilisation du centre de loisirs 
+cliquez sur l'icône '?' dans le coin supérieur droit de sa 
+fenêtre. Si le Centre de loisirs n'est pas ouvert 
+sélectionnez Démarrer > Programmes > Mpact de Chromatic Research > 
+Software Dynamics Entertainment Center > Aide.
+
+-------------------
+DEMARRAGE
+-------------------
+Pour trouver les informations sur le processeur de supports Mpact 
+et pour paramétrer certaines options, ouvrez la boîte de dialogue 
+'Propriétés du logiciel de support Mpact' en cliquant sur Démarrer > Panneau de 
+configuration. Cliquez deux fois sur l'icône 'Mpact'. Pour plus d'informations sur 
+les pages de la boîte de dialogue 'Propriété du logiciel de support Mpact', 
+cliquez sur 'Aide' ou sur l'icône '?' (dans le coin supérieur droit de la fenêtre) 
+puis sur l'élément approprié.
+
+--------------------------------------------------
+NOUVELLES DE DERNIERE MINUTE
+--------------------------------------------------
+L'industrie du DVD permet aux éditeurs de DVD de limiter 
+les supports à certaines régions du globe afin 
+de protéger les droits d'auteur. Un disque DVD fabriqué
+dans la Région 1 (Etats-Unis, Canada, et une partie des 
+Caraïbes) risque par conséquent de ne pas fonctionner sur un
+lecteur de DVD conçu pour la Région 2 (Japon, certains pays d'Europe, 
+Moyen-Orient et certains pays d'Afrique) ou de la Région 3 (Corée, 
+Malaisie, Birmanie, Indonésie, Philippines, et Asie du Sud-Est). Le monde 
+est divisé en six régions.
+
+>>>Pour vérifier quelle est la région pour laquelle votre DVD a été conçu :
+1  Dans la barre des tâches de Windows 95, cliquez sur 
+   Démarrer > Paramètres > Panneau de configuration : le Panneau 
+   de configuration de Windows apparaît.
+2  Cliquez deux fois sur 'Panneau de configuration Mpact' et sélectionnez 
+   l'onglet 'Général'. 
+
+Si vous essayez de lancer un DVD d'une autre région, un 
+message d'erreur semblable à celui reproduit ci-dessous s'affichera.
+
+   >>>Erreur :  le disque vidéo DVD que vous essayez 
+   d'utiliser a été codé pour des lecteurs 
+   de DVD achetés dans certaines régions du globe et 
+   ne peut pas être lu sur ce lecteur. Veuillez vous 
+   assurer que les codes de région sont les mêmes sur votre lecteur 
+   et sur le disque DVD.<<<
+
+-----------------------------------------
+RESOLUTION DES INCIDENTS
+------------------------------------------
+
+Chromatic Research a fait subir des tests poussés à la carte 
+3DVD-P Mpact 2 afin d'assurer un fonctionnement correct. Si 
+vous avez un problème avec la carte 3DVD-P Mpact 2, revoyez 
+le processus d'installation et procédez aux vérifications suivantes :
+
+  - Assurez-vous que la carte est correctement insérée dans 
+    le slot PCI.
+  - Assurez-vous que le logiciel de support est correctement installé. 
+    Si vous pensez que le problème se situe au niveau de l'installation 
+    du logiciel de support :
+    1  Réglez l'affichage sur VGA (voir la section correspondante).
+    2  Désinstallez le logiciel de support puis réinstallez-le en suivant 
+       scrupuleusement les instructions des sections correspondantes.
+
+>>>Pour régler l'affichage sur VGA standard. 
+1  Dans la barre des tâches de Windows, sélectionnez Démarrer > Paramètres > 
+  Panneau de configuration.
+2  Dans le Panneau de configuration, cliquez deux fois sur l'icône 
+   'Affichage'.
+3  Cliquez sur l'onglet 'Configuration'.
+4  Cliquez sur le bouton 'Modifier le format d'affichage'.
+5  Cliquez sur le bouton 'Changer'. 
+6  Sélectionnez le bouton de radio 'Afficher tous les périphériques'.
+7  Faites défiler la liste des constructeurs pour sélectionner 
+   'Types de moniteur standard (VGA)'.
+8  Cliquez sur 'OK'.
+Windows 95 vous proposera peut-être de redémarrer l'ordinateur 
+pour que ces modifications prennent effet. Dans ce cas, acceptez.
+
+La solution DVD Mpact inclut le logiciel de support Mpact qui 
+contrôle la carte 3DVD Mpact. Le CD-ROM inclut 
+la version actuelle du logiciel de support. Celui-ci doit 
+déjà être installé, mais les instructions sont incluses 
+au cas où vous devriez le remplacer.
+
+>>>POUR DESINSTALLER LE LOGICIEL DE SUPPORT MPACT 
+
+1  Dans la barre des tâches de Windows 95, cliquez sur Démarrer > 
+   Paramètres > Panneau de configuration. 
+2  Dans le Panneau de configuration, double-cliquez sur 
+   l'icône 'Ajout/Suppression de programmes'.
+3  Cliquez sur 'Installation/Désinstallation', puis sélectionnez 'MPact 
+   de Chromatic Research'.
+4  Cliquez sur 'Ajouter/Supprimer', puis sur 'Automatique'.
+5  Lorsque la boîte de dialogue 'Propriétés de Ajout/Suppression de programmes' 
+   s'affiche, cliquez sur 'OK'.
+6  Dans la barre des tâches de Windows 95, cliquez sur 'Démarrer' pour 
+   redémarrer l'ordinateur.  
+7  Sélectionnez 'Arrêter', puis 'Arrêter 
+  l'ordinateur ?' et cliquez sur 'Oui'.  
+
+>>> Pour utiliser la carte Mpact sur un autre ordinateur :
+Pour transférer la carte multimédia Mpact, il suffit de la retirer 
+et de l'installer sur un autre ordinateur. Vous n'avez pas besoin
+d'entrer de nouveau le numéro de code produit. Installez le logiciel de support depuis le 
+CD-ROM d'origine du logiciel de support Mpact. Tous les progiciels 
+disponibles sur l'ordinateur d'origine sont également disponibles 
+sur le nouvel ordinateur.
+
+>>>Pour contacter l'assistance technique :
+Si un problème persiste, veuillez contacter votre revendeur 
+Mpact.
+
+Les informations ci-dessous permettront aux techniciens 
+clientèle de vous aider à résoudre le problème. 
+Veuillez les inclure dans votre description 
+du problème.
+
+  - Nom, adresse, numéro de téléphone, fax et E-mail.
+  - Identification du produit Mpact que vous avez acheté (3DVD-P 
+   Mpact 2).
+  - Description de votre système, y compris la carte mère, la mémoire RAM, 
+    la vitesse et le type de moniteur.
+  - Description de toute anomalie ou comportement étrange de votre système.
+  - Description du problème et du contexte dans lequel il apparaît.
+  - Résolution et profondeur de couleur utilisées au moment du problème.
+  - Messages d'erreur reçus.
+  - Etapes requises pour recréer le problème.
+Les techniciens évalueront le problème et vous 
+répondront le plus rapidement possible.
+
+-------------------
+COPYRIGHT
+-------------------
+Chromatic Research, le logo de Chromatic Research, 
+Mpact, et le logo Mpact sont des marques commerciales de Chromatic 
+Research, Inc.  Dolby, Pro Logic et le symbole double-D sont des marques 
+commerciales de Dolby Laboratories.  SRS, SOUND RETRIEVAL SYSTEM et le 
+symbole SRS sont des marques commerciales de SRS Labs. Macrovision est 
+une marque commerciale déposée de Macrovision Corporation.  Tous les 
+autres noms de marque, de produit et de service sont des marques 
+commerciales (déposées ou pas) appartenant à leur détenteur respectif.
+
+Cette publication est protégée par les lois sur le copyright. 
+Tous droits réservés. Toute reproduction 
+ou transmission (quel que soit le moyen employé) est strictement 
+interdite sans l'autorisation écrite préalable de Chromatic Research. 
+Les informations contenues dans ce document ont été soigneusement vérifiées. 
+Cependant, Chromatic Research ne saurait garantir l'exactitude du manuel. 
+Chromatic Research ne pourra en aucun cas être tenu responsable des 
+dommages directs, spéciaux, de préjudice moral, accessoires, 
+ou indirects pouvant résulter de tout défaut ou omission 
+du présent manuel, même si la possibilité de tels dommages 
+a été préalablement mentionnée. Les renseignements ci-joints 
+le sont uniquement à titre informatif.
+
+Ce produit comprend des techniques de protection 
+des droits d'auteur reconnus par certains brevets américains et autres 
+droits de propriété intellectuelle détenus par Macrovision Corporation 
+et ses ayants droit. L'utilisation de ces technologies 
+de protection des droits d'auteur est autorisée par Macrovision 
+Corporation uniquement dans le cadre d'un usage domestique et limité, 
+à moins d'obtenir une dispense spéciale. Le désossage et le désassemblage 
+des codes sont interdits.
+
+Fabriqué sous licence Dolby Laboratories, Inc. "Dolby", "Pro Logic" et 
+le symbole double-D sont des marques commerciales de Dolby Laboratories. 
+(c) 1992-1997 Dolby Laboratories, Inc. Tous droits réservés.
+
+Ce produit comprend des technologies dont la licence 
+a été acquise auprès de SRS Labs. SRS 3D Sound est protégé par 
+plusieurs brevets américain et étrangers, y compris les brevets Nº 4.748.669, 
+4.841.572 et 4.866.774. Les marques "SRS", "SOUND 
+RETRIEVAL SYSTEM", ainsi que leur symbole, sont des marques 
+commerciales déposées de SRS Labs. La technologie SRS contenue 
+dans ce produit est fabriquée et distribuée 
+sous licence de SRS Labs. SRS Labs se réserve 
+le droit de vendre les enregistrements obtenus avec la technologie 
+SRS et ce type de licence n'est pas accordé par la présente.
+

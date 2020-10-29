@@ -1,0 +1,215 @@
+;
+;Copyright (c) Intel Corporation (1997).
+;
+; INTEL MAKES NO WARRANTY OF ANY KIND REGARDING THE CODE.  THIS CODE IS LICENSED
+; ON AN "AS IS" BASIS AND INTEL WILL NOT PROVIDE ANY SUPPORT, ASSISTANCE,
+; INSTALLATION, TRAINING OR OTHER SERVICES.  INTEL DOES NOT PROVIDE ANY UPDATES,
+; ENHANCEMENTS OR EXTENSIONS.  INTEL SPECIFICALLY DISCLAIMS ANY WARRANTY OF
+; MERCHANTABILITY, NONINFRINGEMENT, FITNESS FOR ANY PARTICULAR PURPOSE, OR ANY
+; OTHER WARRANTY.  Intel disclaims all liability, including liability for
+; infringement of any proprietary rights, relating to use of the code. No license,
+; express or implied, by estoppel or otherwise, to any intellectual property rights
+; is granted herein.
+;--------------------------------------------------------------------
+;/*
+; * **************************  INTEL PROPRIETARY  ****************************
+; *
+; *       --------------------  DO NOT REPRODUCE  ----------------------
+; *
+; *   Copyright (C) 1996, 1997 by Intel Corporation.
+; *   All rights reserved. No part of this program or publication may be
+; *   reproduced, transmitted, transcribed, stored in a retrieval system, or
+; *   translated into any language or computer language, in any form or by any
+; *   means, electronic, mechanical, magnetic, optical,  chemical,  manual, or
+; *   otherwise,  without the prior written permission of  Intel Corporation,
+; *   2200 Mission College Boulevard,  Santa Clara,  California 95051.
+; *
+; * ***************************************************************************
+;*/
+;
+[version]
+Class=DISPLAY
+signature="$CHICAGO$"
+Provider=%Mfg%
+
+[DestinationDirs]
+DefaultDestDir  = 11    ; LDID_SYS
+Driver.Copy = 11
+VGARTD.Copy = 11
+VFW.Copy = 11
+Config.Copy = 11
+Help.Copy = 18		; Windows Help directory.
+
+[SourceDisksNames]
+1="Intel740-854 Win9x PC1.0a 3.1.1526-980326 Driver Disk",,0
+
+[SourceDisksFiles]
+vgartd.vxd=1
+gfxdrv.drv=1
+gfx.vxd=1
+gfxdd16.dll=1
+gfxdd32.dll=1
+gfxnull.drv=1
+gfxvfw16.dll=1
+gfxvfw32.dll=1
+gfxvfw.vxd=1
+vfwRes.lrc=1
+i740i2c.vxd=1
+gfxi2c.vxd=1
+gfxCfg.dll=1
+enuConfg.hlp=1
+enuConfg.lrc=1
+i740.ico=1
+gfxVVMid.vxd=1
+gfxVmi.dll=1
+
+[Manufacturer]
+%Mfg%=Mfg
+
+[Mfg]
+%PCI\VEN_8086&DEV_7800.DeviceDesc%=IntelAcc, PCI\VEN_8086&DEV_7800  
+%PCI\VEN_8086&DEV_7800.DeviceDesc%=IntelAcc, PCI\VEN_8086&DEV_7800&SUBSYS_01008086  
+
+
+[IntelAcc]
+CopyFiles=Driver.Copy,VGARTD.Copy,I2C.Copy,Dvd.Copy,Config.Copy,VFW.Copy,Help.Copy
+DelReg=Prev.DelReg
+AddReg=Driver.AddReg,VGARTD.AddReg,Config.AddReg,VFW.AddReg
+UpdateIniFields=INTEL.UpdateIniFields
+
+
+[INTEL.UpdateIniFields]
+system.ini,drivers,msvideo,,gfxnull.drv
+win.ini,avicap.32,ClipboardLogging,,1
+
+[Driver.Copy]
+gfxdrv.drv
+gfx.vxd
+gfxdd16.dll
+gfxdd32.dll
+
+[VGARTD.Copy]
+vgartd.vxd
+
+[VFW.Copy]
+gfxnull.drv
+gfxvfw16.dll
+gfxvfw32.dll
+gfxvfw.vxd
+vfwRes.lrc
+
+[I2C.Copy]
+gfxi2c.vxd
+
+[Dvd.Copy]
+gfxVVMid.vxd
+gfxVmi.dll
+
+[Config.Copy]
+gfxCfg.dll
+enuConfg.lrc
+i740.ico
+
+[Help.Copy]
+enuConfg.hlp
+
+[Prev.DelReg]
+HKR,,Ver
+HKR,,DevLoader
+HKR,DEFAULT
+HKR,MODES
+HKR,CURRENT
+HKCR,TVOut.TVOut.1
+HKCR,TVOut.TVOut
+HKCR,CLSID\{34E9A7B2-6D59-11D1-938D-00A0C95FE004}
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\GFXDSP"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\GFXCFG"
+HKLM,"Software\INTEL\Intel740\CfgApplet"
+
+[Driver.AddReg]
+HKR,,Ver,,4.0
+HKR,,DevLoader,,*vdd
+HKR,DEFAULT,Mode,,"8,640,480"
+HKR,DEFAULT,drv,,gfxdrv.drv
+HKR,DEFAULT,drv2,,gfxdrv.drv
+HKR,DEFAULT,vdd,,"*vdd,*vflatd"
+HKR,DEFAULT,minivdd,,gfx.vxd
+HKR,DEFAULT,minivdd2,,gfx.vxd
+HKR,DEFAULT,RefreshRate,,-1
+HKR,DEFAULT,DDC,,1
+HKR,DEFAULT,ExtModeSwitch,,0
+HKR,"MODES\4\640,480",drv,,vga.drv
+HKR,"MODES\4\640,480",vxd,,*vdd
+HKR,"MODES\8\640,480",,,"60,75,85"
+HKR,"MODES\8\720,480",,,"75,85"
+HKR,"MODES\8\720,576",,,"75,85"
+HKR,"MODES\8\800,600",,,"56,60,75,85"
+HKR,"MODES\8\1024,768",,,"60,75,85"
+HKR,"MODES\8\1280,1024",,,"60,75"
+HKR,"MODES\8\1600,1200",,,"60,75"
+HKR,"MODES\16\640,480"
+HKR,"MODES\16\720,480"
+HKR,"MODES\16\720,576"
+HKR,"MODES\16\800,600"
+HKR,"MODES\16\1024,768"
+HKR,"MODES\16\1280,1024"
+HKR,"MODES\24\640,480"
+HKR,"MODES\24\720,480"
+HKR,"MODES\24\720,576"
+HKR,"MODES\24\800,600"
+HKR,"MODES\24\1024,768"
+HKLM,"Software\Intel\Intel740",GammaEnabled,0x1,1
+HKLM,"Software\Intel\Intel740",DisplayFps,0x10001,1,0,0,0
+HKLM,"Software\Intel\Intel740",PeakFrameRate,0x10001,0
+HKLM,"Software\Intel\Intel740",Avg.FrameRate,0x10001,0
+HKLM,"Software\Intel\Intel740","Language DLL Thunk",,""
+HKLM,"Software\Intel\Intel740","VDisplaySetting",,"-1"
+HKLM,"Software\Intel\Intel740","HDisplaySetting",,"-1"
+
+[VGARTD.AddReg]
+HKLM,"System\CurrentControlSet\Services\VXD\VGARTD","StaticVxD",,"VgartD.VxD"
+
+[Config.AddReg]
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}",,,"Control Panel Display Shell Extension"
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}\InProcServer32",,,"%11%\gfxCfg.dll"
+HKCR,"CLSID\{990D3D00-E55B-11cf-ABAD-00AA00C0D812}\InProcServer32","ThreadingModel",,"Apartment"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\GfxCfg",,,"{990D3D00-E55B-11cf-ABAD-00AA00C0D812}"
+
+[VFW.AddReg]
+HKR,Drivers\msvideo\gfxnull.drv,Driver,,gfxnull.drv
+HKLM,"System\CurrentControlSet\Services\VXD\GFXVFW","StaticVxD",,"GFXVFW.VxD"
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,28MhzXtal,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,35MhzXtal,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,In0Connected,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,In1Connected,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,In2Connected,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,In3Connected,0,Yes
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,InputSelected,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,NumberOfInputs,1,04
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,NumOfXTals,1,02
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder,Scaling,0,FULL
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN0,Brightness,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN0,Contrast,1,d8
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN0,Hue,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN0,Saturation,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN0,TVStd,0,NTSC
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN1,Brightness,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN1,Contrast,1,d8
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN1,Hue,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN1,Saturation,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN1,TVStd,0,NTSC
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN2,Brightness,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN2,Contrast,1,d8
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN2,Hue,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN2,Saturation,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN2,TVStd,0,NTSC
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN3,Brightness,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN3,Contrast,1,d8
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN3,Hue,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN3,Saturation,1,00
+HKLM,SOFTWARE\Intel\Intel740\BoardDesc\VideoDecoder\IN3,TVStd,0,NTSC
+
+[Strings]
+Mfg="Intel Corporation"
+PCI\VEN_8086&DEV_7800.DeviceDesc = "Intel740-854 Win9x PC1.0a 3.1.1526-980326"
+CURRENT="SOFTWARE\Microsoft\Windows\CurrentVersion"

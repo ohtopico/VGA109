@@ -1,0 +1,7 @@
+                     INSTALLING PROMOTION VIDEO DRIVERS
+                     ==================================
+
+To install the ProMotion Windows drivers:
+        1) Run Windows and choose "Run..." from the program manager.
+        2) Enter "A:SETUP.EXE" for the command line.
+        3) Choose the OK button.

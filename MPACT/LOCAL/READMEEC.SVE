@@ -1,0 +1,221 @@
+            ==========================================
+                        Software Dynamics
+                 Underhållningscentralen version 1.0 
+                           Viktigt-fil 
+                           DU-10344-001
+                            juli 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+Denna Viktigt-fil innehåller den senaste produkt-
+informationen som rör Underhållningscentralen 
+version 1.0.
+
+Vi vill uppmuntra dig att registrera programvaran 
+Underhållningscentralen. Fyll i och posta/faxa ditt 
+registreringsformulär för att låta oss veta vem du är. 
+Med ditt stöd kan vi tillhandahålla dig bättre 
+produkter, bättre service och den allra senaste 
+informationen. För de senaste nyheterna och information 
+om Underhållningscentralen och andra programvaru-
+produkter från Software Dynamics kan du titta på vår 
+websida:  http://www.softdyn.com
+
+--------------------------
+Att använda detta dokument
+--------------------------
+I detta dokument används följande skrivsätt för att 
+beskriva val av poster i menyer: 
+   menynamn> menypost. 
+Tecknet > indikerar en undermeny.
+Till exempel:  
+   För att instruera dig att välja Arkiv-menyn 
+och sedan välja posten Öppna så är instruktionen 
+"Arkiv-menyn> Öppna".
+
+För att granska Viktigt-filen på skärmen öppnar du 
+den med Microsoft Word, WordPad eller Anteckningar. 
+För att skriva ut Viktigt-filen öppnar du den i en 
+ordbehandlare och väljer sedan Arkiv-menyn> Skriv ut.
+
+
+-----------------------
+Hur du registrerar dig 
+-----------------------
+För registrering av ditt exemplar av Underhållnings- 
+centralen öppnar du textfilen som heter "register.rtf" 
+med Microsoft Word, WordPad eller Notepad. För utskrift 
+av registreringsfilen öppnar du den i en ordbehandlare 
+och väljer sedan Arkiv-menyn> Skriv ut. 
+
+Fyll i registreringsformuläret och faxa eller posta det 
+till oss på någon av följande adresser:
+
+Internationellt:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Germany
+
+Fax: (49) (421) 20266-99
+E-mail: ecenter@softdyn.com
+
+USA:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+USA
+
+Fax: (630) 794-9033
+E-mail: tdmaestro@aol.com
+
+
+---------
+INNNEHÅLL
+---------
+- INLEDNING
+- ATT KOMMA IGÅNG 
+- FELSÖKNING
+- YTTERLIGARE INFORMATION
+- UPPHOVSRÄTT
+
+----------
+INLEDNING 
+--------- 
+Välkommen till Underhållningscentralen från Software 
+Dynamics! Underhållningscentralen är en programvara 
+som hanterar alla kontroller för din datoriserade 
+underhållningscentral. Nu kan du använda din dator 
+för att titta på video, video-CD och DVD och lyssna 
+på ljud-CD. 
+
+----------------
+ATT KOMMA IGÅNG 
+----------------
+Eftersom den är utformad att se ut ungefär som en 
+vanlig underhållningscentral kanske kontrollerna i 
+Underhållningscentralen redan ser bekanta ut. Om du 
+behöver assistans med någon funktion så vänder du dig 
+till Hjälp genom att klicka på ?-ikonen (frågetecken) 
+uppe till höger i Underhållningscentralens fönster. 
+
+>>>För att starta Underhållningscentralen väljer du 
+följande i aktivitetsfältet i Windows:
+Start> Program> Chromatic Research Mpact> Software 
+Dynamics Underhållningscentralen.
+
+-----------
+FELSÖKNING 
+-----------
+DVD-regioner
+
+DVD-branschen låter utgivare begränsa media till vissa 
+delar av världen för att skydda upphovsrättigheter. En 
+DVD-disk från en region, t.ex. region 1 (USA, Kanada, 
+och delar av Karibiska havet) kan inte spelas på en 
+DVD-enhet utformad för region 2 (Japan, delar av Europa 
+och Mellanöstern samt en del av Afrika) eller region 3 
+(Korea, Malaysia, Burma, Indonesien, Filippinerna och 
+Sydostasien). Det finns sex regioner.
+
+>>>För att undersöka region för din DVD-spelare, 
+dubbelklicka på Mpact-ikonen i Kontrollpanelen. Fliken 
+Allmänt i dialogen för Mpact Mediaware Egenskaper 
+identifierar din DVD-region. Kontrollera DVD-disken för 
+att fastställa att den har en regionskod som 
+överensstämmer med din DVD-spelare.
+
+Ominstallation av Underhållningscentralen från Software 
+Dynamics 
+
+Den bifogade CDn innehåller den aktuella versionen av 
+Underhållningscentralen från Software Dynamics. 
+Underhållningscentralen installeras automatiskt när 
+mediaware installeras. Instruktionerna nedan har dock 
+inkluderats i det fall du behöver ersätta programvaran.
+
+>>>FÖR ATT INSTALLERA UNDERHÅLLNINGSCENTRALEN:
+
+1. Kör installationsprogrammet för Mpact som finns på 
+Mpact mediaware CD-ROM
+.  
+
+   >>>För att köra installationsprogrammet 
+   1. Klicka på Start i aktivitetsfältet i Windows 95 
+      och välj sedan Kör. 
+   2. Skriv "d:\setup", där d: är din CDROM-enhet. 
+      Klicka på OK.
+
+2.  När dialogrutan om licens visas, klicka på Jag 
+    instämmer.
+
+3.  När dialogrutan Val av installationsalternativ visas, 
+    välj Underhållningscentralen och klicka på Installera. 
+
+4.  Underhållningscentralens programvara kommer att 
+    kopieras till din hårddisk. När dialogrutan 
+    Installationen färdig visas, klicka på Färdig.
+
+5.  När dialogrutan Installera visas, klicka på OK för 
+    att starta om datorn. 
+
+
+>>>FÖR ATT AVINSTALLERA UNDERHÅLLNINGSCENTRALEN 
+
+1. Klicka på Start i aktivitetsfältet i Windows.
+
+2.  Välj Inställningar och klicka sedan på Kontrollpanelen.
+
+3.  I Kontrollpanelen, dubbelklicka på ikonen Lägg till/
+    Ta bort program.
+
+4.  Klicka på Installera/Avinstallera och välj sedan 
+    Underhållningscentralen.
+
+5.  Klicka på Lägg till/Ta bort och klicka sedan på Automatisk.
+
+6.  När dialogrutan Egenskaper för Lägg till/Ta bort program 
+    visas, klicka på OK.
+
+7.  Klicka på Start i aktivitetsfältet i Windows för att 
+    starta om datorn. Välj Avsluta och välj sedan Starta om 
+    datorn? och klicka Ja.  
+
+------------------------
+YTTERLIGARE INFORMATION 
+------------------------
+För ytterligare information om Underhållningscentralen eller 
+andra multimediaprogramprodukter från Software Dynamics 
+kan du besöka vår websida på http://www.softdyn.com.
+
+------------
+UPPHOVSRÄTT 
+------------
+Copyright (c) 1997 Software Dynamics GmbH.  Software 
+Dynamics, Underhållningscentralen och Underhållnings-
+centralens logotyp är varumärken tillhörande Software 
+Dynamics GmbH. Alla andra varumärken, produktnamn och 
+varunamn är varumärken eller registrerade varumärken 
+tillhörande deras respektive innehavare.
+
+Denna publikation är skyddad av upphovsrätt och alla 
+rättigheter är förbehållna. Ingen del av den får 
+återges eller vidarebefordras på något sätt eller i 
+någon form utan föregående skriftligt medgivande 
+från Software Dynamics GmbH.
+
+Informationen i detta dokument har noggrant 
+kontrollerats och bedömts vara korrekt. Software 
+Dynamics GmbH påtar sig dock ej något ansvar för några 
+felaktigheter som kan förekomma i denna handbok. 
+Inte i något fall kommer Software Dynamics GmbH vara 
+ansvarigt för skadestånd för direkt-, indirekt-, 
+särskild-, avskräckande-, oförutsedd- eller följd- 
+skada som förorsakas av någon defekt eller något 
+utelämnande i denna handbok, även vid underrättelse 
+av möjligheten till sådana skadestånd. Det material 
+som finns här är enbart för informationssyften.
+
+1/7 1997

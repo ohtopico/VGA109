@@ -1,0 +1,374 @@
+
+================================================
+======
+         Archivo Léame de Mpact Mediaware para 3DVD 
+                    Octubre de 1997
+                    DU-10479-001
+================================================
+======
+     (c) Copyright de Chromatic Research, Inc., 1997
+
+Este documento proporciona información de último momento o 
+de otro tipo referida al uso del software Mpact Mediaware para 
+3DVD de Chromatic Research.
+
+Le sugerimos que registre el producto Mpact Mediaware. 
+Utilice el formulario de registro electrónico disponible en la 
+demostración de Mpact Multimedia ubicada en el escritorio; o 
+complete y envíenos por correo la tarjeta de registro con su 
+información. Con su ayuda, podremos brindarle mejores 
+productos y servicios e información más actualizada. Para 
+obtener las novedades e información más recientes sobre 
+Mpact, consulte nuestra página Web:  http://www.mpact.com
+
+------------------------
+Cómo utilizar este documento
+------------------------
+En este documento se utiliza la siguiente convención para 
+describir la selección de elementos en un menú:
+   'nombre del menú> elemento del menú'. 
+
+   El carácter (>) indica un submenú.
+
+Por ejemplo:
+   La instrucción para indicarle que seleccione primero el menú 
+'Archivo' y luego el comando 'Abrir' es:
+   'Seleccione el menú Archivo > Abrir'.
+
+Para ver el archivo Léame en la pantalla, ábralo utilizando 
+Notepad, WordPad o Word de
+Microsoft(R). Para imprimirlo, ábralo con un procesador de 
+texto y luego seleccione 'menú Archivo> Imprimir'.
+
+--------
+ÍNDICE
+--------
+REQUISITOS DEL SISTEMA
+REQUISITOS DE SOFTWARE
+INSTALACIÓN DEL SOFTWARE
+  - Cómo instalar Mpact Mediaware para 3DVD
+APLICACIONES DE OTROS FABRICANTES
+  - Centro de entretenimiento Software Dynamics
+PRIMEROS PASOS
+NOVEDADES RECIENTES
+  - Regiones DVD
+DETERMINACIÓN DE PROBLEMAS
+  - Configuración de la pantalla como VGA
+  - Desinstalación de Mpact Mediaware
+  - Uso de la tarjeta Mpact en otra computadora
+  - Servicio de asistencia técnica
+COPYRIGHT
+
+--------------------
+REQUISITOS DEL SISTEMA
+--------------------
+- Tarjeta Mpact 2 3DVD-P
+- Computadora personal tipo Pentium de 166 MHz 
+- Microsoft Windows 95(TM).  Nivel de servicio 2 del OEM 
+(Tenga el CD de Windows a mano por si es necesario 
+instalar algún componente de Windows no presente)
+- Monitor con el logotipo "Diseñado para Microsoft 
+Windows 95"
+- 16 MB de RAM
+- 67 MB de espacio en disco duro y, durante la instalación, 
+7 MB adicionales de espacio temporal en disco
+- Unidad DVD-ROM con DMA habilitado
+ 
+ ---------------------
+ REQUISITOS DE SOFTWARE
+ ---------------------
+ El software necesario está incluido en el CD de Mpact 
+Mediaware y su instalación se describe más adelante.
+- Mpact Mediaware para 3DVD
+- DirectX(TM) 5.0 de Microsoft. Este software para 
+Windows mejora el rendimiento de programas multimedia 
+y se necesita para utilizar Mpact Mediaware para 3DVD.
+
+---------------
+INSTALACIÓN DEL SOFTWARE
+---------------
+Antes de reemplazar el Mediaware, desinstale todas las 
+versiones anteriores y configure la pantalla como VGA 
+estándar. Consulte “DETERMINACIÓN DE PROBLEMAS’ 
+más adelante para obtener instrucciones acerca de cómo 
+desinstalar el software Mediaware.
+
+>>>PARA INSTALAR MPACT MEDIAWARE PARA 3DVD:
+
+1  Ejecute el programa de instalación de Mpact que se 
+encuentra en el CD-ROM de Mpact Mediaware.
+>>>Para ejecutar el programa de instalación
+1 En la barra de herramientas de Windows 95, haga clic en el 
+botón 'Inicio' y seleccione ‘Ejecutar’.
+2 Introduzca 'd:\setup', donde d: representa la unidad de 
+CDROM.
+Haga clic en Aceptar.
+2  Cuando aparezca el cuadro de diálogo 'Bienvenido', haga clic 
+en 'Siguiente' para continuar. Para salir del cuadro de diálogo 
+sin instalar el producto, haga clic en 'Cancelar'.
+3  Cuando aparezca el cuadro de diálogo 'Contrato de Licencia 
+del Software', léalo y a continuación haga clic en 'Sí'. (Si no lo 
+acepta, haga clic en 'No'. Sólo podrá instalar Mediaware si 
+acepta este contrato).
+4  Siga las instrucciones que aparecen en la pantalla para 
+completar la instalación. Durante la instalación aparecerá el 
+cuadro de diálogo 'Seleccionar componentes'. Éste le 
+permitirá instalar todos o algunos de los componentes de 
+software incluidos en esta versión. Normalmente, todas las 
+casillas están seleccionadas. El número a la derecha de cada 
+componente indica la cantidad de espacio en el disco duro 
+requerida por dicho componente. Si no desea instalar un 
+componente en particular, haga clic en la casilla 
+correspondiente para eliminar la marca de verificación.
+
+     Los componentes incluidos en esta versión son: 
+'Mpact Mediaware para 3DVD': un software especial 
+Mediaware que ejecuta varias funciones de multimedia en el 
+procesador Mpact Media y en el sistema principal.
+'Centro de entretenimiento Software Dynamics': una aplicación 
+que convierte la computadora en una estación central de 
+entretenimiento para escuchar discos CD de audio y ver 
+videos, videos en CD y DVD. 
+'DirectX 5.0 de Microsoft ': el software suministrado por 
+Microsoft para mejorar el rendimiento de multimedia. En la 
+mayoría de los casos la versión anterior ya estará instalada. Se 
+requiere la versión 5.0; cerciórese de instalarla si está utilizando 
+una versión anterior. 
+'Demostración de Mpact Multimedia': un breve programa de 
+aprendizaje interactivo que presenta y demuestra las funciones 
+de Mpact multimedia.
+
+   NOTA: Para poder utilizar Mpact 3DVD, el sistema debe tener 
+Mpact Mediaware para 3DVD instalado. Si ésta es la primera 
+instalación del software Mediaware, asegúrese de seleccionar 
+la casilla 'Mpact Mediaware'.
+
+5  Cuando esté listo para continuar con la instalación, haga clic 
+en 'Siguiente'. El programa de instalación copiará los 
+componentes de software apropiados al sistema, tal como lo 
+indican los distintos cuadros 'Copiando archivos'.
+
+6  Cuando termine la instalación, aparecerá el cuadro de 
+diálogo 'Instalación completa'. Haga clic en 'Terminar' para 
+reiniciar el sistema. Una vez reiniciado, aparecerá una serie 
+de cuadros de diálogo 'Se ha encontrado nuevo hardware'. 
+Haga clic en 'Sí' para permitir que el sistema vuelva a 
+reiniciarse. Puede que necesite reiniciar el sistema dos veces 
+más a medida que Windows 95 identifica el nuevo hardware. 
+La solución Mpact 3DVD está ahora instalada.
+
+------------------------
+APLICACIONES DE OTROS FABRICANTES
+------------------------
+Centro de entretenimiento Software Dynamics
+El centro de entretenimiento convierte la computadora en un 
+centro de entretenimiento para escuchar discos CD de audio y 
+para ver videos, videos en CD y DVD.
+
+Para obtener ayuda sobre el uso del centro de entretenimiento, 
+haga clic en el icono '?' en la esquina superior derecha de la 
+ventana Centro de entretenimiento. El archivo de ayuda se 
+abrirá. Si el centro de entretenimiento no está abierto, 
+seleccione 'Inicio> Programas> Chromatic Research Mpact> 
+Centro de entretenimiento Software Dynamics> Ayuda del 
+centro de entretenimiento'.
+
+----------------------------------------
+PRIMEROS PASOS
+-------------------------------------------
+Para obtener información acerca del procesador Mpact Media 
+y establecer algunas opciones, abra el cuadro de diálogo 
+'Propiedades de Mpact Mediaware' haciendo clic en 'Inicio> 
+Panel de control'. Haga doble clic en el 'icono Mpact'. Para 
+obtener más información acerca de cada página del cuadro de 
+diálogo 'Propiedades de Mpact Mediaware', haga clic en 
+'Ayuda' o en el icono '?' (signo de pregunta) en la esquina 
+superior derecha de la pantalla y, a continuación, haga clic en 
+el elemento sobre el que desea obtener más información.
+
+------------------------------------------
+ÚLTIMAS NOTICIAS
+------------------------------------------
+La industria de DVD permite a los editores de DVD restringir el 
+medio en ciertas regiones a fin de proteger los derechos de 
+autor. Un disco DVD para una región, tal como la Región 1 
+(Estados Unidos, Canadá y parte del Caribe) puede no 
+funcionar en una unidad DVD diseñada para la Región 2 
+(Japón, parte de Europa y el Próximo Oriente y parte de África) 
+o para la Región 3 (Corea, Malasia, Burma, Indonesia, Filipinas 
+y el Sudeste de Asia). Existen seis regiones en todo el mundo.
+
+>>>Para determinar la región para la que está diseñado su 
+DVD:
+1 En la barra de tareas de Windows 95, haga clic en 'Inicio> 
+Configuración> Panel de control'. Se abrirá la ventana 
+'Panel de control de Windows'.
+2 Haga doble clic en 'Panel de control de Mpact' y 
+seleccione la ficha 'General'. 
+
+Si intenta reproducir un DVD diseñado para una región 
+diferente, aparecerá un mensaje de error similar al que se 
+muestra a continuación.
+
+   >>>Error:  El disco de vídeo DVD que está tratando de utilizar 
+ha sido codificado para ser reproducido solamente en 
+reproductores DVD adquiridos en ciertas regiones del mundo y 
+no puede reproducirse en este reproductor DVD. Asegúrese de 
+que los códigos de región del reproductor DVD y del disco 
+DVD coincidan.<<<
+
+-------------------------------
+DETERMINACIÓN DE PROBLEMAS
+-------------------------------
+
+Chromatic Research ha probado exhaustivamente la tarjeta 
+Mpact 2 3DVD-P para asegurarse de que funcione de la manera 
+esperada. Si tiene un problema con la tarjeta Mpact 2 3DVD-P, 
+revise el proceso de instalación y verifique los detalles 
+siguientes:
+
+- Asegúrese de que la tarjeta esté correctamente instalada 
+en la ranura PCI.
+- Asegúrese de que el software Mediaware esté 
+correctamente instalado. Si piensa que el problema puede 
+deberse a la instalación del mismo:
+1 Configure la pantalla como VGA. Consulte 'Configurar la 
+pantalla como VGA estándar'.
+2 Desinstale el software Mediaware. Consulte 'Para 
+desinstalar Mpact Mediaware'. Siga cuidadosamente las 
+instrucciones incluidas en 'Para instalar Mpact 
+Mediaware'.
+
+>>>Para configurar la pantalla como VGA estándar.
+1 En la barra de tareas de Windows, seleccione 'Inicio> 
+Configuración> Panel de control'.
+2 En el Panel de control, haga doble clic en el icono 
+'Pantalla'.
+3 Haga clic en la ficha 'Configuración'.
+4 Haga clic en el botón 'Propiedades avanzadas'.
+5 Haga clic en el botón 'Cambiar'.
+6 Seleccione el botón circular 'Mostrar todos los 
+dispositivos'.
+7 Desplácese en la lista de fabricantes para seleccionar 
+'Tipos de monitor estándar (VGA)'.
+8 Haga clic en 'Aceptar'.
+
+Windows 95 puede solicitar que reinicie el sistema para que 
+estos cambios tengan efecto. Si es así, reinicie el sistema.
+
+La solución Mpact DVD incluye Mpact Mediaware, que 
+controla la tarjeta Mpact 3DVD. El CD adjunto incluye la 
+versión actual del software Mediaware. Aunque el software 
+Mediaware debe estar ya instalado, las instrucciones se 
+incluyen en caso de que alguna vez necesite reemplazarlo.
+
+>>>PARA DESINSTALAR MPACT MEDIAWARE
+
+1 En la barra de tareas de Windows 95, haga clic en 
+'Inicio> Configuración> Panel de control'.
+2 En el 'Panel de control', haga doble clic en el botón 
+'Agregar o quitar programas'.
+3 Haga clic en 'Instalar o desinstalar' y seleccione 'Búsqueda 
+cromática Mpact'.
+4 Haga clic en 'Agregar o quitar' y luego haga clic en 
+'Automático'.
+5 Cuando aparezca el cuadro de diálogo 'Agregar/Eliminar 
+propiedades de programas', haga clic en 'Aceptar'.
+6 En la barra de tareas de Windows 95, haga clic en 'Inicio' 
+para reiniciar el sistema. 
+7 Seleccione 'Apagar el sistema'. Luego seleccione 'Reiniciar 
+PC' y haga clic en 'Sí'.
+
+>>> Para utilizar la tarjeta Mpact en otra computadora:
+Si decide transferir la tarjeta Mpact Multimedia a otra 
+computadora, sencillamente retírela e instálela en la 
+computadora nueva. No necesita reintroducir el PCN. Instale el 
+software Mediaware desde el CD original Mpact Mediaware. 
+Todos los paquetes disponibles para ser utilizados en la 
+computadora original lo estarán también en la computadora 
+nueva.
+
+>>>Para ponerse en contacto con el Servicio de asistencia 
+técnica 
+Si el problema persiste, póngase en contacto con el vendedor 
+de la solución Mpact.
+
+La información siguiente servirá de ayuda al representante de 
+asistencia técnica para resolver el problema. Sírvase incluirla en 
+la descripción del problema.
+
+- Indique su nombre y cómo se le puede localizar 
+incluyendo el número de teléfono y fax, y la dirección de 
+correo electrónico.
+- Indique el producto Mpact adquirido (Mpact 2 3DVD-P).
+- Describa el sistema incluyendo la placa madre, la memoria 
+RAM, la velocidad y el tipo de monitor.
+- Si su sistema tiene alguna característica especial, indíquelo 
+para que el técnico disponga de la información necesaria 
+para resolver el problema.
+- Describa el problema y los pasos que usted siguió para 
+generar el problema.
+- Incluya la resolución y la profundidad de color utilizada en 
+el momento del problema.
+- Incluya todos los mensajes de error que aparecieron.
+- Indique los pasos necesarios para reproducir el problema.
+
+El representante de asistencia técnica evaluará el problema y le 
+responderá tan rápido como sea posible.
+
+-------------------
+COPYRIGHT
+-------------------
+Chromatic Research, el logotipo Chromatic Research, Mpact y 
+el logotipo de Mpact son marcas comerciales de Chromatic 
+Research, Inc.  Dolby, Pro Logic y el símbolo de la doble D 
+son marcas comerciales de Dolby Laboratories. SRS, SOUND RETRIEVAL 
+SYSTEM y el símbolo SRS son marcas comerciales de SRS Labs. 
+Macrovision es una marca registrada de Macrovision Corporation.
+Todas las otras marcas, nombres de productos 
+y nombres comerciales son marcas comerciales o marcas 
+registradas de sus respectivos dueños.
+
+Esta publicación está protegida por derechos de autor y todos 
+los derechos están reservados. No puede reproducirse ni 
+transmitirse por ningún medio ni en ninguna forma, ya sea total 
+o parcialmente, sin el consentimiento previo de Chromatic 
+Research. La información incluida en este documento ha sido 
+verificada cuidadosamente y se considera que es precisa. No 
+obstante, Chromatic Research no asume ninguna 
+responsabilidad por las inexactitudes que puedan aparecer en 
+este manual. Chromatic Research no será responsable bajo 
+ninguna circunstancia de daños directos, indirectos, 
+especiales, punitivos, incidentales o consecuentes que se 
+produzcan como resultado de cualquier defecto u omisión en 
+este manual, aún cuando exista notificación de la posibilidad 
+de tales daños.  El material contenido en este documento tiene 
+únicamente fines informativos.
+
+Este producto incorpora tecnología para protección de los 
+derechos de autor amparada por reclamaciones  metodológicas 
+bajo ciertas patentes de los EE.UU., así como por otros 
+derechos de propiedad intelectual de Macrovision Corporation 
+y otros propietarios de patentes. El uso de esta tecnología para 
+protección de los derechos de autor debe ser autorizado por 
+Macrovision Corporation, siendo su único objetivo la 
+utilización en el hogar y otros usos limitados, a menos que 
+Macrovision Corporation autorice lo contrario. Se prohiben los 
+procesos de ingeniería inversa y desarmado.
+
+Fabricado bajo licencia de Dolby Laboratories, Inc. "Dolby", 
+"Pro Logic" y el símbolo de la doble D son marcas comerciales 
+de Dolby Laboratories.(c) 1992-1997 Dolby Laboratories, Inc. 
+Todos los derechos reservados.
+
+Este producto incorpora tecnología bajo licencia de SRS Labs. 
+SRS 3D Sound está protegido por varias patentes de los 
+EE.UU. y extranjeras incluyendo las patentes Nos. 4,748,669; 
+4,841,572 y 4,866,774. Las marcas "SRS", "SOUND RETRIEVAL 
+SYSTEM" y el símbolo correspondiente son marcas 
+comerciales registradas de SRS Labs. La tecnología SRS 
+incluida en este producto se fabrica y distribuye bajo licencia 
+de SRS Labs. SRS Labs se reserva el derecho de vender las 
+grabaciones efectuadas con la tecnología de SRS, licencia que 
+no se otorga por el presente documento.
+

@@ -1,0 +1,430 @@
+Chromatic Research är ett registrerat varumärke som tillhör 
+Chromatic Research, Inc. Chromatic Researchs logotyp, Mpact, 
+och Mpacts logotyp är varumärken eller registrerade varumärken 
+som tillhör Chromatic Research, Inc. Alla andra märken, 
+produktnamn och handelsnamn är varumärken eller registrerade 
+varumärken som tillhör respektive innehavare.
+
+Copyright 1997-1998, Chromatic Research, Inc.
+Alla rättigheter förbehålles.
+
+Copyright 1993, SystemSoft Corporation, modifierat av 
+Chromatic Research, Inc.
+
+Licens utfärdad under ett eller flera USA-patent nr 5,048,056; 
+5,265,151; 5,291,520; och 5,465,273 som tilldelats 
+General DataComm, Inc.
+
+Licens utfärdad under USA-patent nr 4,558,302 och motsvariga 
+patent i andra länder.
+
+Denna produkt inkorporerar teknologi under licens från 
+Dolby Laboratories, Inc.  Copyright 1992-1997, Dolby 
+Laboratories, Inc. Alla rättigheter förbehålles.
+Tillverkas under licens från Dolby Laboratories. "Dolby", 
+"AC-3" och dubbel-D-symbolen är varumärken som tillhör 
+Dolby Laboratories.
+
+Denna produkt inkorporerar copyright-skyddsteknologi som är 
+skyddad av krav avseende metoder i vissa  USA-patent och andra 
+immateriella rättigheter som ägs av Macrovision Corporation 
+och andra innehavare av sådana rättigheter. Användning av denna 
+copyright-skyddsteknologi måste godkännas av Macrovision 
+Corporation och den är endast avsedd för hemmabruk och annan 
+begränsad användning, utom i fall där Macrovision Corporation 
+uttryckligen godkänner annat bruk. Omvänd konstruktion och 
+demontering tillåts inte.
+
+Denna produkt inkorporerar teknologi som licensierats från 
+SRS Labs. SRS 3D Sound skyddas av ett flertal USA-patent och 
+patent i andra ländxer, inklusive patentnummer.
+4,748,669, 4,841,572, och 4,866,774. Märkena "SRS", 
+"SOUND RETRIEVAL SYSTEM", och symbolen är registrerade varumärken 
+som tillhör SRS Labs. SRS-teknologin i denna produkt är tillverkad 
+och distribuerad under licens från SRS Labs. SRS Labs har 
+reserverat sig rätten att sälja inspelningar som gjorts med hjälp 
+av SRS-teknologin och ingen sådan licens utfärdas i detta dokument.
+____________________________________________________________________
+
+Licensavtal för slutanvändare av Chromatic Research Mpact(TM) 
+programvara
+	
+VIKTIGT - LÄS NOGGRANT: PROGRAMVARAN, DOKUMENTATIONEN OCH ANNAT 
+MATERIAL I DENNA FÖRPACKNING OCH Mpact-PROGRAMVARAN SOM INSTALLERATS 
+PÅ DIN DATOR SKYDDAS AV UPPHOVSRÄTTSLAGARNA. DU HAR ENDAST RÄTT ATT 
+ANVÄNDA DEM I ENLIGHET MED EN LICENS FRÅN CHROMATIC RESEARCH, INC. 
+VILLKOREN I LICENSAVTALET FRAMLÄGGS I DET LICENSAVTAL SOM FINNS 
+INKLUDERAT I DENNA FÖRPACKNING. OM DU, EFTER ATT HA LÄST 
+LICENSAVTALET, INTE VILL HÅLLA DIG TILL DESS VILLKOR MÅSTE DU LÄMNA 
+TILLBAKA PROGRAMVARAN, DOKUMENTATIONEN OCH MATERIALET, SAMT RADERA 
+PROGRAMVARAN FRÅN DIN HÅRDDISK. I SÅDANT FALL SKA DU KONTAKTA 
+TILLVERKAREN AV MASKINVARAN FÖR ATT FÅ ANVISNINGAR OM HUR DU KAN FÅ 
+ÅTERBETALNING FÖR PROGRAMVARAN. 
+	
+
+Detta licensavtal för slutanvändare ("Avtal") är ett juridiskt avtal 
+mellan dig (antingen en individ eller en enstaka enhet) och 
+tillverkaren ("Tillverkaren") av ett datorsystem eller tilläggskort 
+för en dator 
+("Maskinvara") med vilket du förvärvade den Chromatic Mpact 
+programvara som innefattas häri ("Programvara"). Detta är ett 
+licensavtal och inte ett försäljningsavtal. Under 
+upphovsrättslagarna har du inte rätt att installera eller köra 
+Programmet utan tillstånd från Chromatic. Sådant tillstånd 
+underkastas följande villkor:
+
+LICENS
+
+1.  Beviljande av licens. Chromatic Research, Inc. ("Chromatic") 
+beviljar dig en ej överlåtbar, icke exklusive licens, utan rätt att 
+underlicensiera, att installera och använda ett exemplar av 
+Programvaran, endast i objektkodformat, på en Maskinvaruenhet. Du 
+har rätt att göra en arkivkopia av Programvaran i 
+säkerhetskopieringssyfte, och har rätt att använda sådan arkivkopia 
+endast om ett installerat exemplar har förlorats eller blivit 
+förstörd eller om Maskinvaran på vilken Programvaran är installerad 
+har blivit obrukbar. 
+
+2.  Licensvillkor. Du samtycker till att inte omvänt konstruera, 
+dekompilera eller bryta ned Programvaran, utom och endast i den 
+utsträckning som sådan aktivitet är uttryckligen tillåten i 
+tillämplig lagstiftning oaktat denna begränsning. Du samtycker till 
+att behålla på originalen, och på eventuell arkivkopia som gjorts av 
+Programvaran, copyrightmeddelandena, varumärkena, 
+konfidentialitetstexten och texten beträffande inskränkta 
+rättigheter som är tryckta därpå. Alla sådana meddelanden och 
+varumärken samt sådan text som reproduceras av dig skall tryckas i 
+samma format och position som på originalen. Programmet är 
+licensierat som en enstaka produkt. Dess delkomponenter får inte 
+delas på för användning på mer än en dator. Du har inte rätt att 
+hyra ut eller leasa Programvaran. Om Programvaran är en uppgradering 
+har du endast rätt att installera den på en Maskinvaruenhet på 
+vilken en tidigare licensierad version av Programvaran är 
+installerad. Utan inverkan på andra rättigheter, har Chromatic rätt 
+att säga upp denna Licens om du underlåter att iaktta villkoren i 
+denna Licens. I sådant fall måste du förstöra alla kopior av 
+Programvaran och tillhörande dokumentation. Programvaran är endast 
+licensierad för användning tillsammans med Maskinvaran och om 
+Programvaran ej är förbunden med Maskinvaran har du ej rätt att 
+använda eller kopiera Programvaran. 
+
+3.  Överlåtelse av programvara. Du har rätt att för all framtid 
+överlåta alla rättigheter under detta Avtal endast som en del av 
+försäljning eller överlåtelse av Maskinvaran, under förutsättning 
+att du inte behåller några kopior, att du överlåter all Programvara 
+(inklusive tidigare versioner, alla media och allt skriftligt 
+material, och detta avtal) och att mottagaren samtycker till 
+villkoren i detta Avtal.
+
+4.  Ägandeskap. Alla rättigheter och äganderätt till, samt ägande av 
+Programvaran och tillhörande dokumentation, samt alla kopior av 
+denna, tillhör och skall fortsätta att tillhöra Chromatic. Du har ej 
+rätt att, utom på så sätt som uttryckligen medgivs häri, förvärva 
+rättighet eller äganderätt till, ej heller ägande av Programvaran 
+eller dokumentationen (inklusive utan begränsning patent, 
+varumärken, copyright och rättigheter till affärshemligheter). 
+
+5.  Produktstöd. Produktstöd för Programvaran tillhandahålls EJ av 
+Chromatic. Kontakta tillverkaren av Maskinvaran för information om 
+produktstöd.
+
+6.  Begränsade rättigheter för myndigheter. Programvaran och 
+tillhörande dokumentation anses vara "kommersiell datorprogramvara" 
+respektive "dokumentation till kommersiell datorprogramvara", i 
+enlighet med DFAR avsnitt 227.7202 och FAR avsnitt 12.212, om 
+tillämpligt. All användning, ändring, reproducering, utgivning, 
+utförande, visning eller avslöjande av programvaran och tillhörande 
+dokumentation av USA:s myndigheter får ske enbart i enlighet med 
+villkoren i detta Avtal och skall vara förbjudet utom i den 
+utsträckning som uttryckligen tillåts i villkoren i detta Avtal. 
+Tillverkare är Chromatic Research, Inc., 615 Tasman Drive, 
+Sunnyvale, CA 94089, USA.
+
+7.  Denna produkt innehåller teknologi för skydd av upphovsrätt som 
+skyddas av metodanspråk till vissa USA-patent och andra rättigheter 
+till immateriell egendom som tillhör Macrovision Corporation och 
+andra ägare av rättigheter. Användning av denna teknologi för skydd 
+av upphovsrätt måste godkännas av Macrovision Corporation och är 
+avsedd för användning i hemmet och annan begränsad användning, om ej 
+annat godkänts av Macrovision Corporation. Dekonstruering och 
+disassemblering är förbjudet. 
+
+VILLKOR SOM GÄLLER INDIVIDUELLA LÄNDER ÄR BILAGDA. SE TILLÄMPLIGT 
+LAND FÖR INFORMATION OM VILLKOREN SOM GÄLLER DIN LICENS. 
+
+Mpact är ett varumärke som tillhör Chromatic Research, Inc.
+
+
+Garanti och speciella villkor för uttrycklig begränsad garanti för 
+Australien, Nya Zeeland eller Papua Nya Guinea 
+
+LAGSTADGADE RÄTTIGHETER. I enlighet med lagen gällande handel och 
+liknande statliga lagar och territorielagar i Australien eller lagen 
+gällande konsumentgarantier i Nya Zeeland, har du eventuellt 
+fördelen av vissa rättigheter och gottgörelser över vilka visst 
+ansvar ej kan uteslutas. 
+
+BEGRÄNSAD UTTRYCKLIG GARANTI. Chromatic garanterar att Programvaran 
+kommer att fungera huvudsakligen på så sätt som beskrivs i 
+dokumentationen under en period av 90 dagar från mottagningsdatum. I 
+den utsträckning som tillåts under tillämplig lagstiftning, är 
+Chromatics och Tillverkarens fullständiga ansvar och din exklusiva 
+rättsföljd under denna uttryckliga garanti, efter deras godtycke, 
+antingen (a) återbetalning av inköpspriset; eller (b) reparation 
+eller utbyte av Programvaran, om Programvaran inte motsvarar 
+garantin och den returneras till Tillverkaren med en kopia av ditt 
+kvitto. 
+
+ANSVARSBEGRÄNSNING. I DEN UTSTRÄCKNING SOM TILLÅTS UNDER TILLÄMPLIG 
+LAGSTIFTNING, ÄR ALLA VILLKOR ELLER GARANTIER SOM ÅLÄGGS ELLER ÄR 
+ANTYDDA I LAG HÄRMED UTESLUTNA. Du kan dock ha fördelen av vissa 
+rättigheter och gottgörelser under lagen gällande handel och 
+liknande statliga lagar och territorielagar i Australien eller lagen 
+gällande konsumentgarantier i Nya Zeeland, vilka eventuellt inte 
+tillåter uteslutning av sådant ansvar. I DEN UTSTRÄCKNING SOM SÅDANT 
+ANSVAR EJ FÅR UTESLUTAS, SÅ ÄR SÅDANT ANSVAR BEGRÄNSAT, I DEN 
+UTSTRÄCKNING SOM TILLÅTS I LAG, ENLIGT TILLVERKARENS ELLER 
+CHROMATICS EXKLUSIVA GODTYCKE, TILL ANTINGEN (A) ERSÄTTNING AV 
+PROGRAMVARAN ELLER (B) KORRIGERING AV DEFEKTER ELLER FEL I 
+PROGRAMVARAN.
+
+UTESLUTANDE AV ANSVAR/SKADESTÅND. Nedanstående inverkar inte på 
+andra rättigheter som du eventuellt har enligt lag som ej kan 
+lagligen uteslutas eller begränsas. Du bekräftar att inget löfte, 
+intygande, garanti eller förpliktelse har givits till dig av 
+Tillverkaren och/eller Chromatic (eller av till endera anknutet 
+företag) beträffande lönsamheten eller fördelarna av användningen av 
+Programvaran och dokumentationen. Du förlitade dig på din egen 
+skicklighet och ditt eget omdöme när du bestämde dig för att 
+införskaffa Programvaran och dokumentationen. FÖRUTOM I ENLIGHET MED 
+DETTA AVTAL OCH I DEN UTSTRÄCKNING SOM AVTALET MEDGER, SKALL VARKEN 
+TILLVERKAREN ELLER CHROMATIC (ELLER TILL ENDERA ANKNUTET FÖRETAG) 
+UNDER NÅGRA OMSTÄNDIGHETER HÅLLAS ANSVARIGT FÖR NÅGOT SKADESTÅND 
+(INKLUSIVE, UTAN BEGRÄNSNING, SKADESTÅND FÖR AFFÄRSFÖRLUST, AVBROTT 
+I VERKSAMHETEN, FÖRLUST AV AFFÄRSINFORMATION ELLER ANDRA INDIREKTA 
+FÖRLUSTER ELLER FÖLJDFÖRLUSTER) SOM UPPKOMMER GENOM ANVÄNDNING AV 
+ELLER OFÖRMÅGA ATT ANVÄNDA PROGRAMVARAN OCH DOKUMENTATIONEN. 
+TILLVERKARENS OCH/ELLER CHROMATICS TOTALA ANSVAR UNDER ALLA VILLKOR 
+I DETTA AVTAL ÄR UNDER ALLA FÖRHÅLLANDEN BEGRÄNSAT TILL DET BELOPP 
+SOM DU VERKLIGEN BETALADE FÖR PROGRAMVARAN. 
+
+Detta avtal är reglerat av lagstiftning i Nya Sydwales, Australien 
+eller, i de fall då varor tillverkas i Nya Zeeland, av lagstiftning 
+i Nya Zeeland. 
+
+
+Garanti och speciella villkor för begränsad garanti för Canada
+
+BEGRÄNSAD GARANTI.  Tillverkaren garanterar att Programvaran kommer 
+att fungera huvudsakligen på så sätt som beskrivs i dokumentationen 
+under en period av nittio (90) dagar från inköpsdatum. Denna 
+begränsning på nittio (90) dagar skall gälla alla underförstådda 
+garantier eller villkor för Programvaran. Visa stater/jurisdiktioner 
+tillåter inte begränsning i varaktigheten av en underförstådd 
+garanti, så ovanstående begränsning gäller eventuellt inte dig. 
+TILLVERKARENS OCH CHROMATICS TOTALA ANSVAR OCH DIN ENDA GOTTGÖRELSE 
+UNDER SÅDAN GARANTI SKALL VARA, EFTER TILLVERKARENS GODTYCKE, 
+ANTINGEN (A) ÅTERBETALNING AV BETALD KÖPESUMMA, ELLER (B) REPARATION 
+ELLER ERSÄTTNING AV PROGRAMVARAN OM DENNA RETURNERAS TILL 
+TILLVERKAREN TILLSAMMANS MED EN KOPIA AV DITT KVITTO. I DEN 
+UTSTRÄCKNING DETTA ÄR TILLÅTET AV TILLÄMPLIG LAGSTIFTNING, FRÅNSÄGER 
+SIG TILLVERKAREN OCH CHROMATIC ALLA ANDRA UTTRYCKLIGA ELLER 
+UNDERFÖRSTÅDDA GARANTIER, INKLUSIVE, MEN INTE BEGRÄNSADE TILL 
+UNDERFÖRSTÅDDA GARANTIER BETRÄFFANDE ICKE-ÖVERTRÄDELSE, SÄLJBARHET 
+ELLER LÄMPLIGHET FÖR ETT VISST SYFTE, BETRÄFFANDE PROGRAMVARAN OCH 
+DOKUMENTATIONEN. 
+Denna begränsade garanti ger dig vissa juridiska rättigheter. Du har 
+eventuella andra rättigheter som varierar från stat/jurisdiktion 
+till stat/jurisdiktion. 
+
+BEGRÄNSNING AV ANSVAR FÖR FÖLJDSKADOR. I DEN UTSTRÄCKNING DETTA ÄR 
+TILLÅTET I TILLÄMPLIG LAGSTIFTNING, SKALL TILLVERKAREN ELLER 
+CHROMATIC UNDER INGA OMSTÄNDIGHETER VARA ANSVARIGA FÖR NÅGRA 
+SKADESTÅND ÖVERHUVUDTAGET (INKLUSIVE UTAN BEGRÄNSNING, DIREKTA ELLER 
+INDIREKTA SKADESTÅND FÖR PERSONSKADA, FÖRLUST AV AFFÄRSVINST, 
+AVBROTT I VERKSAMHETEN, FÖRLUST AV AFFÄRSINFORMATION ELLER ANNAN 
+PENNINGFÖRLUST) SOM UPPKOMMIT FRÅN ANVÄNDNING AV ELLER OFÖRMÅGA ATT 
+ANVÄNDA PROGRAMVARAN, ÄVEN OM TILLVERKAREN OCH CHROMATIC HAR BLIVIT 
+INFORMERADE OM MÖJLIGHETEN AV SÅDANT SKADESTÅND. TILLVERKARENS OCH 
+CHROMATICS ENDA ANSVAR UNDER NÅGOT AV VILLKOREN I DETTA AVTAL SKALL 
+VARA BEGRÄNSAT TILL DET BELOPP SOM VERKLIGEN BETALATS AV DIG FÖR 
+PROGRAMVARAN. Eftersom vissa stater/jurisdiktioner inte tillåter 
+uteslutning eller begränsning av ansvar för följdskador eller 
+tillfälliga skador, gäller ovanstående begränsning eventuellt inte 
+dig. 
+
+Detta programvarulicensavtal är reglerat av lagstiftning i provinsen 
+Ontario, Canada. 
+
+Garanti och speciella villkor för England samt Wales och Irland
+
+Begränsad garanti
+
+BEGRÄNSAD GARANTI. Tillverkaren och Chromatic garanterar att (a) 
+Programvaran kommer att fungera huvudsakligen så som beskrivs i 
+dokumentationen under en period av nittio (90) dagar från 
+inköpsdatum. Denna begränsning på nittio (90) dagar skall gälla alla 
+underförstådda garantier för Programvaran utom där lokala 
+förordningar inte tillåter begränsning av varaktigheten av en 
+underförstådd garanti. TILLVERKARENS OCH CHROMATICS TOTALA ANSVAR 
+OCH DIN ENDA GOTTGÖRELSE SKALL VARA, EFTER TILLVERKARENS ELLER 
+CHROMATICS GODTYCKE, ANTINGEN (A) ÅTERBETALNING AV BETALD KÖPESUMMA, 
+ELLER (B) ERSÄTTNING AV PROGRAMVARAN OM PROGRAMVARAN RETURNERAS TILL 
+TILLVERKAREN TILLSAMMANS MED EN KOPIA AV DITT KVITTO. I DEN 
+UTSTRÄCKNING DETTA ÄR TILLÅTET I TILLÄMPLIG LAGSTIFTNING, FRÅNSÄGER 
+SIG TILLVERKAREN OCH CHROMATIC ALLA ANDRA INTYGANDEN, GARANTIER, 
+ELLER VILLKOR, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, 
+MEN INTE BEGRÄNSADE TILL UNDERFÖRSTÅDDA GARANTIER OCH/ELLER VILLKOR 
+BETRÄFFANDE ICKE-ÖVERTRÄDELSE, LÄMPLIGHET, SÄLJBARHET OCH LÄMPLIGHET 
+FÖR ETT VISST SYFTE. 
+Denna garanti ger dig vissa juridiska rättigheter. Du har eventuella 
+andra rättigheter som varierar från jurisdiktion till 
+stat/jurisdiktion. 
+
+FÖR FÖLJDSKADOR. I DEN UTSTRÄCKNING DETTA ÄR TILLÅTET I TILLÄMPLIG 
+LAGSTIFTNING, SKALL TILLVERKAREN ELLER CHROMATIC UNDER INGA 
+OMSTÄNDIGHETER VARA ANSVARIGA FÖR NÅGRA SKADESTÅND ÖVERHUVUDTAGET 
+(INKLUSIVE UTAN BEGRÄNSNING, DIREKTA ELLER INDIREKTA SKADESTÅND FÖR 
+PERSONSKADA, FÖRLUST AV AFFÄRSVINST, AVBROTT I VERKSAMHETEN ELLER 
+FÖRLUST AV AFFÄRSINFORMATION) SOM UPPKOMMIT FRÅN ANVÄNDNING AV, 
+ELLER OFÖRMÅGA ATT ANVÄNDA, PROGRAMVARAN, ÄVEN OM TILLVERKAREN ELLER 
+CHROMATIC HAR BLIVIT INFORMERADE OM MÖJLIGHETEN AV SÅDANT 
+SKADESTÅND. OM NÅGON UTESLUTNING ELLER ANNAT VILLKOR I DETTA 
+LICENSAVTAL BLIR FÖRKLARAT UTAN JURIDISK GILTIGHET, OCH CHROMATIC 
+BLIR ANSVARIGT FÖR FÖRLUST ELLER SKADESTÅND SOM ANNARS KUNDE HA 
+VARIT BEGRÄNSAT, SKALL CHROMATICS TOTALA ANSVAR (VARE SIG I 
+KONTRAKT, FÖRSUMMELSE ELLER PÅ ANNAT SÄTT) UNDER DETTA LICENSAVTAL 
+OCH FRÅN DIN ANVÄNDNING AV PROGRAMVARAN OCH DOKUMENTATIONEN SOM 
+FÖLJD AV DENNA LICENS, VARA BEGRÄNSAT TILL DET BELOPP SOM DU 
+BETALADE FÖR PROGRAMVARAN. Eftersom vissa stater/jurisdiktioner inte 
+tillåter uteslutning eller begränsning av följdskador eller 
+tillfälliga skador, gäller ovanstående begränsning eventuellt inte 
+dig. 
+
+
+	SPECIELLA VILLKOR
+
+Härledning av källkod: Du äger inte rätt att desassemblera, 
+dekompilera eller dekonstruera Programvaran; förutom att du äger 
+rätt att dekompilera Programvaran i syfte av samdrift, endast i 
+tillåten utsträckning och underkastat lokala förordningar, där 
+dekompilering är nödvändig för att få den information som krävs för 
+att uppnå samdrift av ett oberoende skapat program med Programmet 
+eller med ett annat program och sådan information inte lätt kan fås 
+från Chromatic.
+
+Kopior. Du äger rätt att göra en kopia av Programvarudisketten i 
+säkerhetskopieringssyfte. Alla andra kopior av hela eller någon del 
+av Programvaran är olagliga. Detta Avtal skall vara reglerat av 
+lagstiftning i England och vara underkastat den icke-exklusiva 
+jurisdiktionen hos Engelska domstolar. 
+
+
+Garanti och speciella villkor för Amerikas Förenta Stater och Alla 
+Andra Länder
+
+Begränsad garanti
+
+BEGRÄNSAD GARANTI. Chromatic garanterar att Programvaran 
+huvudsakligen kommer att fungera så som beskrivs i dokumentationen 
+under en period av nittio (90) dagar från inköpsdatum. Denna 
+begränsning av nittio (90) dagar skall gälla alla underförstådda 
+garantier beträffande Programvaran såvida inte sådan begränsning av 
+varaktighet av underförstådd garanti är förbjuden i lokala 
+förordningar, i vilket fall ovanstående begränsning inte gäller dig. 
+Tillverkarens och Chromatics hela ansvar och din enda gottgörelse 
+skall vara, efter Tillverkarens godtycke, antingen (a) återbetalning 
+av betald köpesumma eller (b) reparation eller ersättning av 
+Programvaran om Programvaran returneras till Tillverkaren 
+tillsammans med en kopia av ditt kvitto. I DEN UTSTRÄCKNING DET ÄR 
+TILLÅTET I TILLÄMPLIG LAGSTIFTNING, AVSÄGER SIG TILLVERKAREN OCH 
+CHROMATIC ALLA ANDRA GARANTIER, VARE SIG UTTRYCKLIGA ELLER 
+UNDERFÖRSTÅDDA, INKLUSIVE MEN INTE BEGRÄNSADE TILL UNDERFÖRSTÅDDA 
+GARANTIER BETRÄFFANDE ICKE-ÖVERTRÄDELSE, LÄMPLIGHET, SÄLJBARHET OCH 
+LÄMPLIGHET FÖR ETT VISS ÄNDAMÅL BETRÄFFANDE PROGRAMVARAN OCH 
+MEDFÖLJANDE DOKUMENTATION. Denna begränsade garanti ger dig vissa 
+juridiska rättigheter. Du har eventuellt andra rättigheter som 
+varierar från stat/jurisdiktion till stat/jurisdiktion. 
+
+INGET ANSVAR FÖR FÖLJDSKADOR. I DEN UTSTRÄCKNING DETTA ÄR TILLÅTET I 
+TILLÄMPLIG LAGSTIFTNING, SKALL TILLVERKAREN ELLER CHROMATIC UNDER 
+INGA OMSTÄNDIGHETER VARA ANSVARIGA FÖR NÅGRA SKADESTÅND 
+ÖVERHUVUDTAGET (INKLUSIVE UTAN BEGRÄNSNING, ERSÄTTNING FÖR 
+SPECIELLA, TILLFÄLLIGA ELLER INDIREKTA PERSONSKADOR ELLER 
+FÖLJDSKADOR, FÖRLUST AV AFFÄRSVINST, AVBROTT I VERKSAMHETEN, FÖRLUST 
+AV AFFÄRSINFORMATION ELLER ANNAN PENNINGFÖRLUST) SOM UPPKOMMIT FRÅN 
+ANVÄNDNING AV, ELLER OFÖRMÅGA ATT ANVÄNDA, DENNA PRODUKT, ÄVEN OM 
+TILLVERKAREN ELLER CHROMATIC HAR BLIVIT INFORMERADE OM MÖJLIGHETEN 
+AV SÅDANT SKADESTÅND. UNDER ALLA OMSTÄNDIGHETER SKALL TILLVERKARENS 
+OCH CHROMATICS TOTALA ANSVAR UNDER NÅGOT VILLKOR I DETTA AVTAL VARA 
+BEGRÄNSAT TILL DET BELOPP SOM DU VERKLIGEN BETALADE FÖR 
+PROGRAMVARAN. Eftersom vissa stater/jurisdiktioner inte tillåter 
+uteslutning eller begränsning av ansvar för följdskador eller 
+tillfälliga skador, gäller ovanstående begränsning eventuellt inte 
+dig.
+
+Detta Avtal regleras av lagstiftning i staten Kalifornien, USA Om du 
+har införskaffat Programvaran utanför Amerikas Förenta Stater, 
+gäller eventuellt lokala förordningar. 
+
+
+TYSKLAND
+
+Begränsad garanti
+
+I den utsträckning detta krävs i lokala förordningar, skall följande 
+villkor gälla dig. Om så inte krävs skall ovanstående villkor som 
+angivits för Alla Andra Länder gälla:
+
+Begränsad garanti. Chromatic och Tillverkaren garantera att i sex 
+(6) månader från leveransdatum till dig, bifogade diskettmedium som 
+Programvaran är inspelad på skall vara fri från fel i material och 
+utförande under normal användning och normala förutsättningar, och 
+att Programvaran skall fungera huvudsakligen så som beskrivs i 
+dokumentationen. Om det skulle visa sig att Programvaran är defekt, 
+samtycker du till att meddela Chromatic eller Tillverkaren inom två 
+veckor och under inga omständigheter senare än slutet av 
+sexmånadersperioden. När Tillverkaren eller Chromatic får 
+meddelandet kommer de att förse dig med en ersättningskopia av 
+Programvaran. Om detta inte åtgärdar defekten kan du använda dig av 
+dina lagstadgade rättigheter och antingen begära återbetalning av 
+licensavgiften mot retur av Programvaran, eller begära ett skäligt 
+avdrag i licensavgiften. 
+
+Ansvarsbegränsning. Chromatic, Tillverkaren, deras anställda och 
+underleverantörer skall vara ansvariga för ersättning av skada, vare 
+sig baserat på detta eller något annat avtal, åtalbar handling, 
+eller annan juridisk teori, endast om sådan skada har förorsakats av 
+(i) antingen grov oaktsamhet eller avsikt, eller brist på viss 
+egenskap i Programvaran vilken hade uttryckligen garanterats av 
+Tillverkaren eller Chromatic; eller (ii) Chromatics eller 
+Tillverkarens underlåtenhet att uppfylla en nödvändig förpliktelse 
+under detta Avtal med åtminstone ett visst mått av försumlighet, 
+eller (iii) av en överträdelse av tredje parts i lag skyddade 
+stadgade rättigheter eller tillämpliga produktansvarsförordningar. 
+Sådant ansvar skall inte täcka några skadestånd som Chromatic eller 
+Tillverkaren inte kunde förutse när detta Avtal slöts, utom om 
+ansvaret är baserat på åtminstone grov oaktsamhet hos en tjänsteman 
+hos Chromatic eller Tillverkaren eller på avsikt. Chromatics eller 
+Tillverkarens ansvar skall under inga omständigheter täcka skador 
+som förorsakats av förlust av data, speciellt om sådan förlust 
+skulle ha kunnat undvikas genom regelbunden säkerhetskopiering, 
+eller några skador som förorsakats genom att använda Programvaran 
+som skulle ha kunnat förhindras om Produktens arbetsprodukter hade 
+undersökts med jämna mellanrum.
+
+I den utsträckning att den gällande lagstadgade begränsningsperioden 
+inte utgår tidigare och utom för skadeståndsanspråk baserade på 
+åtalbar handling, skall alla skadeståndsanspråk förbjudas efter två 
+år från leveransen av Programvaran. Chromatics och Tillverkarens 
+ansvar under eller i samband med detta Avtal, inklusive speciellt 
+dess ansvar för felaktigheter i Programvaran, skall vara strikt 
+begränsade till ovanstående villkor. 
+
+Tillämplighet. Villkoren i detta Avtal skall gälla vare sig 
+Programmet är skyddat under tysk upphovsrättslag eller inte. 
+
+Detta Avtal skall regleras av lagstiftning i Tyskland. 
+
+**** SLUT PÅ CHROMATIC RESEARCHS LICENSAVTAL FÖR MPACT MEDIAWARE-PROGRAMVARA ****
+

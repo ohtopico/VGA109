@@ -1,0 +1,4 @@
+S3 Virge/DX/GX Windows 95 Driver
+Version * 4.10.01.2110-3.30.13 *
+S3D Tool Kit version (s3dtkw.dll) * 5.00.01 *
+                                             - 02/18/98 -

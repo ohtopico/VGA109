@@ -1,0 +1,10 @@
+:TITLE
+Pre-req files
+
+:KEY
+S3MISC1
+
+:FILES :MODE=PRIMARY
+OS2MISC1.PK2         %BOOTDRIVE%:
+
+

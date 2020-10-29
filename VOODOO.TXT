@@ -1,0 +1,32 @@
+Software Installation
+
+1) Install the HELIOS 3D-Voodoo or HELIOS 3D-Voodoo Rush card into 
+   your PC properly.
+
+2) Power on your PC
+
+3) Launch the Micorsoft Windows.
+
+4) Insert CD into CD-ROM drive.
+
+5) On Windows 95 or Windows NT 4.0, the Setup program will be auto 
+   launched after a few seconds when CD is inserted into CD-ROM 
+   drive, if it is not or you are running on other operating system,
+   you can run D:\MSSETUP.EXE manually. (Assume your CD-ROM drive 
+   is on drive D:, if it is not, change D: to the correct drive letter.)
+
+6) Follow the on-screen instructions to complete the installation.
+
+Special notes for Windows 95 users
+=================================
+Due to the plug & play feature of Windows 95, if it is the first time 
+you install a new hareware card and then launch Windows 95, Windows 
+will find a new device is installed and ask you to insert the driver diskette. 
+In this case, please insert the Setup CD into CD-ROM. 
+(Assume your CD-ROM drive is on drive D:,if it is not, change D: to other 
+drive letter.) Then input the driver source as 
+
+    D:\Voodoo    (if you install a HELIOS 3D-Voodoo card) 	  or
+    D:\Voodoo2   (if you install a HELIOS 3D-Voodoo2 card) 	  or
+    D:\Rush      (if you install a HELIOS 3D-Voodoo Rush card)	
+

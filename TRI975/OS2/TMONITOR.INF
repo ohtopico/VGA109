@@ -1,0 +1,166 @@
+"Default", 60, 56, 60, 60, 60, 100, 100, 100, 100, 100
+"FlexView 3X NI, ALR Advanced Logic Research Inc.", 60, 56, 60, 0, 0, 100, 100, 100, 0, 0
+"Altima Graphics V-Scan 80, Altima Graphics Inc.", 60, 72, 70, 72, 0, 100, 100, 100, 100, 0
+"Altima Graphics V-Scan 70, Altime Graphics Inc.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"ASTVision 7L, AST Computer", 75, 75, 75, 60, 0, 100, 100, 100, 100, 0
+"ASTVision 4L, AST Computer", 75, 75, 75, 60, 0, 100, 100, 100, 100, 0
+"ASTVision 5L, AST Computer", 72, 72, 75, 60, 0, 100, 100, 100, 100, 0
+"CM1726X, Amazing Technologies", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"MICROSCAN 5A, ADI Systems, Inc.", 72, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"MICROSCAN 4A, ADI Systems, Inc.", 72, 72, 72, 87, 100, 100, 100, 87, 0
+"MICROSCAN 3E, ADI Systems, Inc.", 72, 72, 60, 44, 0, 100, 100, 100, 87, 0
+"MICROSCAN 2E, ADI Systems, Inc.", 60, 59, 44, 0, 0, 100, 100, 100, 0, 0
+"AM/817E, AMDEK", 72, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"AM/815E, AMDEK", 72, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"AM/732NI, AMDEK", 72, 70, 70, 0, 0, 100, 100, 100, 0, 0
+"AM/732E, AMDEK", 60, 56, 44, 0, 0, 100, 100, 100, 0, 0
+"Ambra 17 Inch MPR-II, AMBRA Computer Corporation", 60, 72, 44, 0, 0, 100, 100, 100, 0, 0
+"Ambra 15 Inch MPR-II, AMBRA Computer Corporation", 60, 72, 44, 0, 0, 100, 100, 100, 0, 0
+"Ambra 14 Inch MPR-II, AMBRA Computer Corporation", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"AcerView 34T/33TL, Acer America", 60, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"AcerView 33D/33DL, Acer America", 60, 72, 86, 0, 0, 100, 100, 100, 0, 0
+"AcerView 11D, Acer America", 60, 56, 86, 0, 0, 100, 100, 100, 0, 0
+"AcerView 56L, Acer America", 72, 72, 72, 0, 0, 100, 100, 100, 0, 0
+"AcerView 78i, Acer America", 72, 72, 70, 76, 0, 100, 100, 100, 100, 0
+"AcerView 76i, Acer America", 72, 60, 73, 60, 0, 100, 100, 100, 100, 0
+"COMPAQ 171FS, Compaq Computer Corporation", 60, 75, 72, 0, 0, 100, 100, 100, 0, 0
+"COMPAQ 151FS, Compaq Computer Corporation", 60, 75, 72, 0, 0, 100, 100, 100, 0, 0
+"1765GM, CTX International,INC.", 72, 72, 87, 60, 0, 100, 100, 100, 100, 0
+"1565GM, CTX International,INC.", 72, 72, 87, 60, 0, 100, 100, 100, 100, 0
+"1562 ES/ 1562GM, CTX International,INC.", 60, 72, 87, 87, 0, 100, 100, 100, 100, 0
+"1451 /1451ES/ 1451GM, CTX International,INC.", 72, 72, 87, 0, 0, 100, 100, 100, 0, 0
+"6468/ 6468ES/ 6468GM, CTX International,INC.", 72, 60, 87, 0, 0, 100, 100, 100, 0, 0
+"6439/ 6439ES, CTX International,INC.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"CMS - 1561/LR, CTX International,INC.", 60, 60, 70, 0, 0, 100, 100, 100, 0, 0
+"CVP -5468NI, CTX International,INC.", 60, 60, 72, 0, 0, 100, 100, 100, 0, 0
+"CS1572 FS, Crystal Scan corporation", 72, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"CS1024ni/ni2, Crystal Scan corporation", 60, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"Addonics 141,142,143,144LR, DYNA Micro Inc.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"Addonics 152 LR, DYNA Micro Inc.", 73, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"Addonics 202 LR, DYNA Micro Inc.", 73, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"Dell Ultra Scan 17ES, Dell Corporation", 60, 72, 70, 74, 0, 100, 100, 100, 100, 0
+"Dell Ultra Scan 15ES, Dell Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"Dell Ultra Scan 14C, Dell Corporation", 60, 60, 70, 0, 0, 100, 100, 100, 0, 0
+"Dell VS14, Dell Corporation", 60, 60, 72, 0, 0, 100, 100, 100, 0, 0
+"Dell VS15, Dell Corporation", 60, 60, 72, 0, 0, 100, 100, 100, 0, 0
+"GoldStar 1725, GoldStar Technology, Inc.", 73, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"GoldStar 1520, GoldStar Technology, Inc.", 60, 56, 72, 60, 0, 100, 100, 100, 100, 0
+"GoldStar 1465DL, GoldStar Technology, Inc.", 60, 56, 72, 0, 0, 100, 100, 100, 0, 0
+"GoldStar 1460DL/1455DL, GoldStar Technology, Inc.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"CRYSTALSCAN 1572 FS, Gateway 2000 Computer Systems.", 60, 72, 60, 60, 0, 100, 100, 100, 100, 0
+"IBM 10021, IBM Corporation", 75, 72, 61, 77, 0, 100, 100, 100, 100, 0
+"IBM 10027, IBM Corporation", 75, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"IBM 6327, IBM Corporation", 73, 72, 70, 63, 0, 100, 100, 100, 100, 0
+"IBM 10025/6325, IBM Corporation", 75, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"IBM 10024, IBM Corporation", 75, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"IBM 6322, IBM Corporation", 75, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"IBM 6324, IBM Corporation", 75, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"IBM 6321, IBM Corporation", 73, 60, 70, 0, 0, 100, 100, 100, 0, 0
+"IBM 8514, IBM Corporation", 60, 56, 44, 0, 0, 100, 100, 100, 0, 0
+"CA1507/CA1508/CA1511, KFC USA, Inc.", 60, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"CA1718/CA1717/CA1728, KFC USA, Inc.", 60, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"CM1428DM2, KFC USA, Inc.", 60, 56, 72, 60, 0, 100, 100, 100, 100, 0
+"CT1428, KFC USA, Inc.", 60, 56, 72, 0, 0, 100, 100, 100, 0, 0
+"CK1428A/CK1439A/AT0928, KFC USA, Inc.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"CMON .39ADV/CMON .28ADV, Leading Edge Products,Inc.", 60, 56, 87,0, 0, 100, 100, 100, 0, 0
+"CMON 2128V/1726V, Leading Edge Products,Inc.", 60, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"CMON 1528V, Leading Edge Products,Inc.", 60, 72, 72, 0, 0, 100, 100, 100, 0, 0
+"CMON .28NI, Leading Edge Products,Inc.", 60, 60, 72, 0, 0, 100, 100, 100, 0, 0
+"CMON .28N, Leading Edge Products,Inc.", 60, 60, 60, 0, 0, 100, 100, 100, 0, 0
+"Diamond Scan Pro 26M/20M/20LP, Mitsubishi Electronics", 75, 60, 44, 0, 0, 100, 100, 100, 0, 0
+"Diamond Scan Pro 21T/21FS/20Plus, Mitsubishi Electronics", 75, 76, 76, 74, 0, 100, 100, 100, 100, 0
+"Diamond Scan Pro 20, Mitsubishi Electronics", 75, 76, 76, 60, 66, 100, 100, 100, 100, 100
+"Diamond Scan 17/15FS, Mitsubishi Electronics", 75, 52, 61, 0, 0, 100, 100, 100, 0, 0
+"Diamond Scan 17FS, Mitsubishi Electronics", 75, 52, 74, 0, 0, 100, 100, 100, 0, 0
+"Diamond Scan 16, Mitsubishi Electronics", 75, 76, 61, 0, 0, 100, 100, 100, 0, 0
+"Diamond Scan SVGA, Mitsubishi Electronics", 75, 60, 44, 0, 0, 100, 100, 100, 0, 0
+"LX1564/LX1564L, MAG Technology CO.,LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"MX17F, MAG Technology CO.,LTD.", 60, 85, 70, 60, 0, 100, 100, 100, 100, 0
+"MX14S, MAG Technology CO.,LTD.", 60, 72, 60, 60, 0, 100, 100, 100, 100, 0
+"21-Inch, Model-445M, Nokia Consumer Electronics/ITA", 60, 72, 72, 72, 62, 100, 100, 100, 100, 100
+"17-Inch, Model-447X, Nokia Consumer Electronics/ITA", 60, 72, 72, 75, 62, 100, 100, 100, 100, 100
+"17-Inch, Model-447B, Nokia Consumer Electronics/ITA", 60, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"15-Inch, Model-449E, Nokia Consumer Electronics/ITA", 60, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"14-Inch, Model-44BS, Nokia Consumer Electronics/ITA", 60, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"SuperScan Elite 21 Model-CM2 1987MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 85, 0, 100, 100, 100, 100, 0
+"SuperScan Pro 21 Model-CM2 1987MU-514/515,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"SuperScan 20s Model-CM20100MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"SuperScan Pro20 Model-CM2087MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"SuperScan Elite 17s Model-NS1764MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"SuperScan Elite 17 Model-CM1797MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"SuperScan 15s Model-CM1586MU,NISSEI SANGYO AMERICA LTD.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"Nanao T560i, Nanao Corporation", 72, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"Nanao F550i, Nanao Corporation", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"Nanao 9080i/10000, Nanao Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"Nanao 9070u, Nanao Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"NCR 3298-0240/1, NCR Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"NCR 3298-0261, NCR Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"NCR 3298-0271/2, NCR Corporation", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"15-Inch High Ergonomic Color Display, NCR Corporation", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"14-Inch Analog Color Display Enchanced SVGA, NCR Corporation", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"NEC 3V, NEC Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"NEC 6FG, NEC Corporation", 72, 72, 80, 74, 0, 100, 100, 100, 100, 0
+"NEC 5FG, NEC Corporation", 72, 72, 72, 60, 0, 100, 100, 100, 100, 0
+"NEC 5FGe/4FGe, NEC Corporation", 72, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"NEC 4FG, NEC Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"NEC 3FGx/3FGe/3FG, NEC Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"DSM 25-314/P-Y, Olivetti", 60, 0, 0, 0, 0, 60, 0, 0, 0, 0
+"DSM 26-314/LE, Olivetti", 60, 0, 0, 0, 0, 60, 0, 0, 0, 0
+"DSM 27-039, Olivetti", 60, 56, -87, 0, 0, 60, 56, -87, 0, 0
+"DSM 28-039 PS, Olivetti", 75, 60, -87, 0, 0, 75, 60, -87, 0, 0
+"DSM 27-140 LE, Olivetti", 60, 56, -87, 0, 0, 60, 56, -87, 0, 0
+"DSM 28-142 PS, Olivetti", 75, 60, -87, 0, 0, 75, 60, -87, 0, 0
+"DSM 27-141 PS, Olivetti", 72, 60, -87, 0, 0, 72, 60, -87, 0, 0
+"DSM 28-143 PS, Olivetti", 75, 72, 60, 0, 0, 75, 72, 60, 0, 0
+"DSM 28-143 PS-2, Olivetti", 75, 72, 60, 0, 0, 75, 72, 60, 0, 0
+"DSM 27-514/MS, Olivetti", 75, 75, 72, 0, 0, 75, 75, 72, 0, 0
+"DSM 28-144 MS, Olivetti", 75, 75, 75, -87, 0, 75, 75, 75, -87, 0
+"DSM 27-615, Olivetti", 75, 75, 75, -87, 0, 75, 75, 75, -87, 0
+"DSM 40-151, Olivetti", 75, 75, 75, -87, 0, 75, 75, 75, -87, 0
+"DSM 27-117, Olivetti", 75, 75, 75, 60, 0, 75, 75, 75, 60, 0
+"DSM 28-172 EY, Olivetti", 75, 75, 75, 60, 0, 75, 75, 75, 60, 0
+"DSM 28-171 HR, Olivetti", 75, 75, 75, 75, 0, 75, 75, 75, 75, 0
+"DSM 27-120, Olivetti", 75, 75, 75, 75, 66, 75, 75, 75, 75, 66
+"DSM 28-201 HR, Olivetti", 75, 75, 75, 75, 66, 75, 75, 75, 75, 66
+"TROMBONE, Orchestra MultiSystems, Inc.", 60, 60, 70, 60, 0, 100, 100, 100, 100, 0
+"CORNET/BUGLE, Orchestra MultiSystems, Inc.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"TRUMPET, Orchestra MultiSystems, Inc.", 60, 60, 72, 0, 0, 100, 100, 100, 0, 0
+"TUBA, Orchestra MultiSystems, Inc.", 73, 60, 60, 0, 0, 100, 100, 100, 0, 0
+"C2089 SVGA Color Display, Philips Consumer Electronics Company", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"C2099 SVGA Color Display, Philips Consumer Electronics Company", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"C4015 MagnaScan/15 Color Display, Philips Consumer Electronics Company", 75, 72, 75, 60, 0, 100, 100, 100, 100, 0
+"C4017 MagnaScan/17 EVGA Color Display, Philips Consumer Electronics Company", 72, 72, 72, 0, 0, 100, 100, 100, 0, 0
+"C13100, Panasonic Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"C1381i, Panasonic Corporation", 60, 60, 44, 0, 0, 100, 100, 100, 0, 0
+"C17100E/C1991 17/20-Inch, Panasonic Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"RE2058, Relisys", 60, 56, 70, 0, 0, 100, 100, 100, 0, 0
+"RE1764, Relisys", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"RE1558/1458, Relisys", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"RE1564/1464M, Relisys", 73, 72, 73, 60, 0, 100, 100, 100, 100, 0
+"RE1438, Relisys", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"SONY 1604S/1304S, SONY Corporation", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"SONY 1304, SONY Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 17GL,Model-CST7687L,Samsung Electronics America Inc.", 73, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"Samsung SyncMaster 17GLs,Model-CFA7689L,Samsung Electronics America Inc.", 60, 56, 60, 60, 0, 100, 100, 100, 100, 0
+"Samsung SyncMaster 5c,Model-CFS7487,Samsung Electronics America Inc.", 60, 56, 60, 60, 0, 100, 100, 100, 100, 0
+"Samsung SyncMaster 4,Model-CSA7571,Samsung Electronics America Inc.", 60, 70, 87, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 15GL,Model-CSR5987L,Samsung Electronics America Inc.", 73, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 15C,Model-CSK5577,Samsung Electronics America Inc.", 60, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 15,Model-CSD5577,Samsung Electronics America Inc.", 60, 60, 70, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 14GL,Model-CSQ87L,Samsung Electronics America Inc.", 73, 72, 76, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 3n,Model-CSJ4927A,Samsung Electronics America Inc.", 60, 60, 70, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 2&3,Model-CVM4963/7T,Samsung Electronics America Inc.", 73, 60, 87, 0, 0, 100, 100, 100, 0, 0
+"Samsung SyncMaster 3Ne,Model-CVP4237,Samsung Electronics America Inc.", 73, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"TTX-3428/3429, TTX Computer Products,Inc.", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+"TTX-3460, TTX Computer Products,Inc.", 60, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"TTX-3500, TTX Computer Products,Inc.", 73, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"VESA standard SVGA", 72, 72, 70, 0, 0, 100, 100, 100, 0, 0
+"2082 ViewSonic 20, View Corporation", 73, 72, 70, 76, 60, 100, 100, 100, 100, 100
+"1782 ViewSonic 17, View Corporation", 73, 72, 70, 76, 60, 100, 100, 100, 100, 100
+"ViewSonic 7, View Corporation", 72, 72, 70, 60, 0, 100, 100, 100, 100, 0
+"ViewSonic 6, View Corporation", 72, 72, 60, 0, 0, 100, 100, 100, 0, 0
+"ZCM-1790-DT, Zenith Data Systems", 60, 56, 70, 0, 0, 100, 100, 100, 0, 0
+"ZCM-1740-UT, Zenith Data Systems", 60, 56, 70, 60, 0, 100, 100, 100, 100, 0
+"ZCM-1540/1450-UT, Zenith Data Systems", 60, 56, 70, 0, 0, 100, 100, 100, 0, 0
+"ZCM-1426-UT, Zenith Data Systems", 60, 56, 87, 0, 0, 100, 100, 100, 0, 0
+

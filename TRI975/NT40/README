@@ -1,0 +1,86 @@
+***********************************************************************
+
+                WINDOWS NT DRIVER SETUP INFORMATION
+                               for
+                       Trident Cyber9397
+                       Trident 3D Image975/985
+
+
+***********************************************************************
+Windows NT Device Drivers ver 1.00.xx                      May 15, 1997
+***********************************************************************
+
+Contents
+
+1.0     Introduction
+2.0     Supported Resolutions
+3.0     Installation Notes for Windows NT Version 4.0
+
+*****************************
+
+1.0     Introduction
+
+This Accelerate Driver runs on the following products:
+
+     Trident 9397/975 PCI local bus adapter
+
+The Graphics Device Drivers supplied here are for the Microsoft
+Windows NT operating system version 4.0.
+
+*****************************
+
+2.0     Supported Resolutions.
+
+                    256 colors    65000 colors    16.7 million
+     Resolutions    8 bpp         16 bpp          32 bpp
+
+     640 x  480     2/4MB         2/4MB           2/4MB
+     800 x  600     2/4MB         2/4MB           2/4MB
+    1024 x  768     2/4MB         2/4MB             4MB
+    1280 x 1024     2/4MB           4MB              NA
+    1600 x 1200     2/4MB           4MB              NA
+
+2/4MB -  Supported on 2 or 4 Megabyte Trident  products
+NA      -  Not Supported
+
+
+****************************
+
+3.0     Installation Notes for Windows NT
+
+This driver package containing:
+
+  - SGIUL40.SYS         (Trident linear addressing video miniport driver)
+  - SGIUL40.DLL         (Trident 256/64K/16M colors accelerated video display  driver)
+  - TRIDENT.INF         (setup files used by Windows NT Setup program)
+  - README              (This README file for Windows NT Version 4.0)
+  - TDISPLUS.DLL        (Trident Utility program, for TV output)
+  - NTIME.EXE           (Trident Utility, It is used for 9397)
+
+
+Procedure:
+
+1. Run the Windows NT display Setup program located in the Control Panel,
+   Select Display Icon.  Double click it to bring up Display Property page.
+   Select "Settings" Tab on the Display Property page.
+
+2. Click "Display Type..." button from the Display Settings options.
+
+3. Select "Change..." button from the Display Type options.
+
+4. Select "Have Disk..." button from the Select Device options.
+
+5. Windows NT will prompt you for the correct path where the driver is loaded.
+
+6. Choose "Trident Video Accelerator 3D Image975/985/Cyber 9397" from the
+   list of drivers.
+
+7. Then follow the procedures provide by Windows NT to complete installation.
+
+8. Restart Windows NT.  Windows NT will start up with default mode 
+   using the Trident drivers.
+
+9. Choose desired resulotion, color depth and refresh rate from the
+   Display Setting applet, and restart Windows NT.
+
+

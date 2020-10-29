@@ -1,0 +1,236 @@
+
+; dispoem.inf
+;
+; Installation inf for third party (OEM) graphics drivers
+;
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%MS%
+ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
+Class=Display
+
+[DestinationDirs]
+DefaultDestDir   = 11
+glint.Miniport  = 12  ; drivers
+glint.Display   = 11  ; system32
+glint.Applet    = 11  ; system32
+glint.OGLICD    = 11  ; system32
+glint.Maze3D    = 11  ; system32
+
+;
+; Driver information
+;
+
+[Manufacturer]
+3Dlabs GLINT Accelerators = glint.Mfg
+3Dlabs PERMEDIA Accelerators = permedia.Mfg
+
+[glint.Mfg]
+Glint Generic Video Accelerator  = glint
+Glint Racer Video Accelerator  = racer
+
+[permedia.Mfg]
+Permedia Video Accelerator  = permedia
+
+;
+; General installation section
+;
+
+[glint]
+CopyFiles=glint.Miniport, glint.Display, glint.Applet, glint.OGLICD, glint.Maze3D
+
+[racer]
+CopyFiles=glint.Miniport, glint.Display, glint.Applet, glint.OGLICD, glint.Maze3D
+
+[permedia]
+CopyFiles=glint.Miniport, glint.Display, glint.Applet, glint.OGLICD, glint.Maze3D
+
+;
+; File sections
+;
+
+[glint.Miniport]
+glint.sys
+
+[glint.Display]
+glint.dll
+
+[glint.Applet]
+glint.cpl
+
+[glint.OGLICD]
+3dogldrv.dll
+
+[glint.Maze3D]
+3dlabsmz.scr
+
+
+;
+; Service Installation
+;
+
+[glint.Services]
+AddService = glint, 0x00000002, glint_Service_Inst, glint_EventLog_Inst
+
+[racer.Services]
+AddService = glint, 0x00000002, glint_Service_Inst, glint_EventLog_Inst
+
+[permedia.Services]
+AddService = glint, 0x00000002, glint_Service_Inst, glint_EventLog_Inst
+
+[glint_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 1                  ; SERVICE_SYSTEM_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Video
+ServiceBinary  = %12%\glint.sys
+
+[glint_EventLog_Inst]
+AddReg = glint_EventLog_AddReg
+
+[glint_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\glint.sys"
+HKR,,TypesSupported,0x00010001,7
+
+
+;
+; Software Installation
+;
+
+[glint.SoftwareSettings]
+AddReg = glint_SoftwareDeviceSettings
+
+[racer.SoftwareSettings]
+AddReg = glint_SoftwareDeviceSettings
+
+[permedia.SoftwareSettings]
+AddReg = glint_SoftwareDeviceSettings
+
+[glint_SoftwareDeviceSettings]
+HKR,, InstalledDisplayDrivers,        %REG_MULTI_SZ%, glint
+HKR,, VgaCompatible,                  %REG_DWORD%,    0
+HKR,, DoubleBuffer.NumberOfBuffers,   %REG_DWORD%,    2
+HKR,, ExportSingleBufferedModes,      %REG_DWORD%,    0
+HKR,, GlintClockSpeed,                %REG_DWORD%,    0
+HKR,, PermediaClockSpeed,             %REG_DWORD%,    0
+HKR,, GlintDMA.SizeOfBuffer,          %REG_DWORD%,    65536
+HKR,, GlintDMA.NumberOfBuffers,       %REG_DWORD%,    8
+HKR,, GlintDMA.NumberOfSubBuffers,    %REG_DWORD%,    2
+HKR,, GlintDMA.LatencyTimer,          %REG_DWORD%,    255
+HKR,, GlintTiming.Use2ClockMemoryCtl, %REG_DWORD%,    1
+HKR,, GlintTiming.LBMemoryCtl,        %REG_DWORD%,    0
+HKR,, GlintTiming.LBMemoryCtlMask,    %REG_DWORD%,    0
+HKR,, GlintTiming.FBMemoryCtl,        %REG_DWORD%,    0
+HKR,, GlintTiming.FBMemoryCtlMask,    %REG_DWORD%,    0
+HKR,, GlintTiming.FBModeSel,          %REG_DWORD%,    0
+HKR,, GlintTiming.FBModeSelMask,      %REG_DWORD%,    0
+HKR,, LocalBuffer.NoDynamicSizing,    %REG_DWORD%,    1
+HKR,, 3DInterfaceBuffer.SizeLongs,    %REG_DWORD%,    8192
+HKR,, 3DExtensions.SupportGDIsingle,  %REG_DWORD%,    1
+HKR,, 3DExtensions.SupportGDIdouble,  %REG_DWORD%,    1
+HKR,, OpenGL.DisableMipMaps,          %REG_DWORD%,    1
+HKR,, OpenGL.PerspectiveCorrection,   %REG_DWORD%,    1
+HKR,, DoubleBuffer.MultiColorSpace,   %REG_DWORD%,    0
+HKR,, UseBiosAddresses,               %REG_DWORD%,    0
+HKR,, OpenGL.DisableDelta,            %REG_DWORD%,    0
+HKR,, OpenGL.DisableMipMaps,          %REG_DWORD%,    1
+HKR,, OpenGL.DrawLineEndPoints,       %REG_DWORD%,    0
+HKR,, OpenGL.EnableDirectAccess,      %REG_DWORD%,    0
+HKR,, OpenGL.ForceNNTexFilter,        %REG_DWORD%,    0
+HKR,, OpenGL.PerspectiveCorrection,   %REG_DWORD%,    1
+HKR,, OpenGL.SupportSoftimage,        %REG_DWORD%,    0
+HKR,, OpenGL.SupportSoftimage351,     %REG_DWORD%,    0
+HKR,, OpenGL.TextureCompression,      %REG_DWORD%,    0
+HKR,, OpenGL.UseExtentsTesting,       %REG_DWORD%,    0
+HKR,, OpenGL.UseFastClear,            %REG_DWORD%,    0
+HKR,, OpenGL.UseHiQualityTexture,     %REG_DWORD%,    0
+
+HKLM,"SOFTWARE\Microsoft\Windows NT\CurrentVersion\OpenGLDrivers","3DLabs GLINT driver",%REG_SZ%,3DOGLDRV
+
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "640,480,60",     %REG_BINARY%,64,00,02,0c,06,00,0d,02,0c,01,20,00
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "640,480,72",     %REG_BINARY%,68,00,03,05,10,00,08,02,0a,03,1b,00
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "640,480,75",     %REG_BINARY%,68,00,03,05,10,00,08,02,0a,03,1b,00
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "640,480,85",     %REG_BINARY%,68,00,07,07,0a,00,fd,01,01,03,19,00
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "800,600,60",     %REG_BINARY%,84,00,05,10,0b,01,74,02,01,04,17,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "800,600,75",     %REG_BINARY%,84,00,02,0a,14,01,71,02,01,03,15,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "800,600,85",     %REG_BINARY%,83,00,04,08,13,01,77,02,01,03,1b,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1024,768,60",    %REG_BINARY%,a8,00,03,11,14,01,26,03,04,06,1c,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1024,768,75",    %REG_BINARY%,a4,00,02,0c,16,01,20,03,01,03,1c,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1024,768,85",    %REG_BINARY%,ac,00,06,0c,1a,01,28,03,01,03,24,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1152,870,60",    %REG_BINARY%,c8,00,08,10,20,01,8a,03,01,03,20,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1152,870,75",    %REG_BINARY%,c8,00,08,10,20,01,8a,03,01,03,20,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1152,870,85",    %REG_BINARY%,c5,00,08,10,1d,01,91,03,01,03,27,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1280,1024,60",   %REG_BINARY%,d3,00,06,0e,1f,01,2a,04,01,03,26,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1280,1024,75",   %REG_BINARY%,d3,00,02,12,1f,01,2a,04,01,03,26,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1280,1024,85",   %REG_BINARY%,d8,00,06,14,1e,01,30,04,01,03,2c,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1280,1024,PM",   %REG_BINARY%,c6,00,04,0b,17,01,1e,04,01,03,1a,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1600,1200,60",   %REG_BINARY%,0e,01,08,18,26,01,e2,04,01,03,2e,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1600,1200,75",   %REG_BINARY%,0e,01,08,18,26,01,e2,04,01,03,2e,01
+HKLM,"SYSTEM\CurrentControlSet\Services\glint\TIMINGS", "1600,1200,85",   %REG_BINARY%,0e,01,08,18,26,01,e2,04,01,03,2e,01
+
+;
+; Source file information
+;
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+2 = %DiskId2%,,,""
+
+[SourceDisksFiles.x86]
+glint.dll    = 1, \x86
+glint.sys    = 1, \x86
+glint.cpl    = 1, \x86
+3dogldrv.dll = 2, \x86
+3dlabsmz.scr = 1, \x86
+
+[SourceDisksFiles.alpha]
+glint.dll    = 1, \alpha
+glint.sys    = 1, \alpha
+glint.cpl    = 1, \alpha
+3dogldrv.dll = 2, \alpha
+3dlabsmz.scr = 1, \alpha
+
+[SourceDisksFiles.mips]
+glint.dll    = 1, \mips
+glint.sys    = 1, \mips
+glint.cpl    = 1, \mips
+3dogldrv.dll = 2, \mips
+3dlabsmz.scr = 1, \mips
+
+[SourceDisksFiles.ppc]
+glint.dll    = 1, \ppc
+glint.sys    = 1, \ppc
+glint.cpl    = 1, \ppc
+3dogldrv.dll = 2, \ppc
+3dlabsmz.scr = 1, \ppc
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+serviceroot    = System\CurrentControlSet\Services
+
+;
+; Localizable Strings
+;
+
+MS="Microsoft"
+autodetect="Autodetect driver"
+vgacompat="VGA compatible display adapter"
+
+Mfg          = "3Dlabs"
+
+GraphAdap    = "Graphics Adapter"
+CompatAdap   = "Compatible Graphics Adapter"
+
+DiskId1="Windows NT Driver Library installation disk 1"
+DiskId2="Windows NT Driver Library installation disk 2"
+drvlib="Windows NT Driver Library"

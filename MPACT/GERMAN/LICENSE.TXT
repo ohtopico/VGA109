@@ -1,0 +1,508 @@
+Chromatic Research ist ein eingetragenes Warenzeichen von Chromatic Research, Inc. Das Chromatic Research-Logo, Mpact sowie das Mpact-Logo sind Warenzeichen oder eingetragene Warenzeichen von Chromatic Research, Inc. Alle anderen Markennamen, Produktnamen und Handelsnamen sind Warenzeichen oder eingetragene Warenzeichen ihrer jeweiligen Inhaber.
+
+Copyright 1997-1998, Chromatic Research, Inc. Alle Rechte vorbehalten.
+
+Copyright 1993, SystemSoft Corporation, modifiziert von Chromatic Research, Inc.
+
+Lizensiert unter einem oder mehreren US-Patenten: 5.048.056; 5.265.151;
+5.291.520 und 5.465.273 für General DataComm, Inc.
+
+Lizensiert unter US-Patent 4.558.302 und ausländischen Entsprechungen.
+
+Dieses Produkt enthält von Dolby Laboratories, Inc. lizensierte Technologien. Copyright 1992-1997 by Dolby Laboratories, Inc. Alle Rechte vorbehalten.
+Hergestellt in Lizenz von Dolby Laboratories. "Dolby", "AC-3" und das doppel-D Symbol sind Warenzeichen von Dolby Laboratories.
+
+Dieses Produkt enthält urheberrechtlich geschützte Technologien, die auch durch US-Patente geschützt sind und geistigen Eigentumsrechten von Macrovision Corporation und anderen Inhabern unterliegen. Die Verwendung der urheberrechtlich geschützten Technologien unterliegt der Genehmigung seitens Macrovision und ist für die Anwendung im Heimbereich und andere beschränkte Anwendungen bestimmt, falls keine anderweitige Autorisierung durch Macrovision Corporation vorliegt. Rückentwicklungen (Reverse Engineering) und Disassemblierungen sind verboten. 
+
+Dieses Produkt enthält Technologien, die von SRS Labs lizensiert sind. SRS 3D Sound unterliegt dem Schutz von verschiedenen Patenten in den USA und anderen Ländern, inkl. Patent 4.748.669, 4.841.572 und 4.866.774. Die Marken "SRS", "SOUND RETRIEVAL SYSTEM" und das Symbol sind eingetragene Warenzeichen 
+von SRS Labs. Die bei diesem Produkt eingesetzte SRS-Technologie wird unter Lizenz von SRS Labs hergestellt und vertrieben. SRS Labs behält sich alle Rechte in bezug auf den Verkauf von Aufnahmen vor, die mit der SRS-Technologie erstellt wurden. Eine diesbezügliche Lizenz wird hiermit nicht gegeben. 
+______________________________________________________
+
+Endbenutzer-Lizenzabkommen für Mpact(tm)-Software von 
+Chromatic Research 
+Wichtig, aufmerksam lesen! Die Software, die 
+Dokumentation und andere Materialien in dieser 
+Verpackung und die Mpact-Software, die auf Ihrem 
+Computer installiert sind, sind urheberrechtlich 
+geschützt. Sie dürfen sie nur aufgrund einer Lizenz 
+von Chromatic Research, Inc. nutzen. Die 
+Lizenzbestimmungen sind auf der Lizenzvereinbarung 
+aufgeführt, die sich in dieser Verpackung befindet. 
+Wenn Sie nach dem Lesen der Lizenzvereinbarung nicht 
+mit deren Bestimmungen einverstanden sind, müssen Sie 
+die Software, die Dokumentation und die sonstigen 
+Materialien zurückgeben und die Software von Ihrer 
+Festplatte löschen. Wenden Sie sich in diesem Fall 
+wegen einer Erstattung des Kaufpreises für die 
+Software an den Hersteller der Hardware.
+Diese Endbenutzer-Lizenzvereinbarung 
+("Lizenzvereinbarung") stellt einen Vertrag zwischen 
+Ihnen (einzelne natürliche oder juristische Person und 
+dem Hersteller ("Hersteller") eines Computersystems 
+oder einer Computer-Erweiterungsplatine ("Hardware") 
+dar, mit dem bzw. der zusammen Sie die hierin 
+enthaltene Mpact-Software von Chromatic ("Software") 
+erworben haben. Dies ist eine Lizenzvereinbarung, kein 
+Kaufvertrag. Nach den geltenden 
+Urheberrechtsbestimmungen dürfen Sie die Software ohne 
+Genehmigung durch Chromatic nicht installieren oder 
+ausführen. Diese Genehmigung unterliegt den folgenden 
+Bestimmungen:
+
+Lizenz
+1. Gewährung einer Lizenz. Chromatic Research, Inc. 
+   ("Chromatic") gewährt Ihnen eine nicht übertragbare 
+   und nicht ausschließliche Lizenz ohne das Recht zur 
+   Vergabe von Unterlizenzen zur Installation und          Nutzung eines Exemplars der Software ausschließlich     in Form von Objektcode auf einem Hardware-Gerät. Sie    dürfen zu Sicherungszwecken eine Archivkopie des       Programms anfertigen. Diese Kopie dürfen Sie nur dann    verwenden, wenn eine installierte Kopie       verlorengegangen ist oder beschädigt wurde oder wenn    die Hardware, auf der die Software installiert ist,     nicht mehr betriebsfähig ist. 
+
+2. Lizenzbedingungen. Sie dürfen die Software nicht 
+   zurückentwickeln, dekompilieren oder disassemblieren, 
+   außer und insoweit dies gesetzlich entgegen dieser 
+   Klausel ausdrücklich gesetzlich gestattet ist. Sie 
+   müssen auf den Originalen sowie auf sämtlichen von der 
+   Software angefertigten Kopien die 
+   Urheberrechtshinweise, Warenzeichen, 
+   Vertraulichkeitshinweise und  die Hinweise auf die 
+   eingeschränkten Rechte, die darauf angebracht sind, 
+   belassen bzw. ebenfalls anbringen. Die Hinweise, 
+   Warenzeichen und Beschriftungen sind in der gleichen 
+   Form und in der gleichen Position wie auf den 
+   Originalen anzubringen. Die Softwarelizenz umfaßt das 
+   Produkt als Ganzes. Seine Bestandteile dürfen nicht 
+   zum Zweck des Ausführens auf mehr als einem Computer 
+   getrennt werden. Sie dürfen die Software weder 
+   vermieten noch verleasen. Wenn es sich bei der 
+   Software um eine aktualisierte Version handelt, dürfen 
+   Sie sie nur auf einer Hardwareeinheit installieren, 
+   auf der sich eine lizensierte Vorversion der Software 
+   befindet. Unbeschadet anderer Ansprüche kann Chromatic 
+   diese Lizenzvereinbarung kündigen, wenn Sie deren 
+   Bedingungen nicht einhalten. In diesem Fall sind Sie 
+   verpflichtet, alle Kopien der Software und der 
+   Begleitdokumentation zu zerstören. Die Softwarelizenz 
+   gilt nur für die Nutzung gemeinsam mit der Hardware, 
+   und wenn die Software nicht mit der Hardware zusammen 
+   installiert ist, dürfen Sie die Software weder nutzen 
+   noch kopieren. 
+
+3. Übertragung der Software. Sie dürfen Ihre 
+   sämtlichen Rechte nach Maßgabe dieser 
+   Lizenzvereinbarung nur im Rahmen eines Verkaufs oder 
+   einer Eigentumsübertragung der Hartware einem Dritten 
+   überlassen und nur unter der Bedingung, daß Sie keine 
+   Kopien zurückbehalten, die gesamte Software 
+   (einschließlich eventueller Vorversionen, sämtlicher 
+   Datenträger und gedruckter Materialien sowie dieser 
+   Lizenzvereinbarung) übertragen wird und der Empfänger 
+   den Bedingungen dieser Lizenzvereinbarung zustimmt. 
+
+4. Eigentumsrechte. Alle Rechte an der Software und 
+   der Begleitdokumentation sowie an sämtlichen Kopien 
+   davon sind und bleiben Eigentum von Chromatic. Sie 
+   erlangen keinerlei Rechte an der Software oder 
+   Dokumentation, die über die in den Bestimmungen dieser 
+   Lizenzvereinbarung aufgeführten Rechte hinausgehen 
+   (insbesondere keine Patent-, Warnzeichen- oder 
+   Urheberrechte oder Rechte an Geschäftsgeheimnissen).
+
+5. Produktunterstützung. Produktunterstützung für die 
+   Software wird nicht von Chromatic geleistet. Wenden 
+   Sie sich wegen Produktunterstützung an den Hardware-
+   Hersteller.
+
+6. Einschränkung der Rechte der US-Regierung. Die 
+   Software und die dazugehörige Dokumentation sind 
+   "Commercial Computer Software" bzw. "Commercial 
+   Computer Software Documentation" im Sinne von 
+   Abschnitt 227.7202 DFAR und Abschnitt 12.212 FAR wie 
+   anwendbar. Jegliche Nutzung, Veränderung, 
+   Vervielfältigung, Veröffentlichung, Vorführung, 
+   Ausstellung oder Zugänglichmachen der Software und der 
+   dazugehörigen Dokumentation durch die US-Regierung 
+   unterliegt ausschließlich den Bedingungen dieser 
+   Vertrages und ist grundsätzlich untersagt, soweit 
+   dieser Vertrag nicht etwas anderes bestimmt. Der 
+   Hersteller ist Chromatic Research, Inc., 615 Tasman 
+   Drive, Sunnyvale, CA 94089, USA.
+
+7. Dieses Produkt enthält technische 
+   Urheberrechtsschutz-Einrichtungen, die durch 
+   Verfahrensansprüche bestimmter US-Patente und andere 
+   Rechte an geistigem Eigentum geschützt sind, die 
+   Eigentum von Macrovision Corporation und anderer 
+   Rechteinhaber sind. Die Nutzung dieser technischen 
+   Urheberrechtsschutz-Einrichtungen ist nur mit 
+   Einwilligung von Macrovision Corporation statthaft und 
+   ist nur für den Privatgebrauch und ähnliche 
+   beschränkte Zwecke zulässig, soweit dies nicht von 
+   Macrovision Corporation gesondert genehmigt wurde. 
+   Rückentwicklung und Disassemblierung ist nicht 
+   gestattet.
+
+Nachstehend finden Sie landesspezifische Bestimmungen. 
+Bitte lesen Sie die unter dem Namen des betreffenden 
+Landes stehenden besonderen Bestimmungen, die für Ihre 
+Lizenz gelten.
+
+Mpact ist ein Warenzeichen der Chromatic Research, 
+Inc.
+
+Gewährleistungszusage und Sonderbestimmungen für 
+Australien, Neuseeland und Papua-Neuguinea 
+
+Explizite beschränkte Gewährleistungszusage 
+Gesetzliche Rechte. Nach dem Trade Practices Act und 
+ähnlichen Gesetzen von Bundesstaaten oder Territorien 
+von Australien oder nach dem Consumer Guarantees Act 
+von Neuseeland können Ihnen bestimmte Rechte oder 
+Ansprüche zustehen, hinsichtlich derer bestimmte Arten 
+des Haftungsausschlusses nicht zulässig sind.
+
+Explizite beschränkte Gewährleistungszusage. Chromatic 
+übernimmt für einen Zeitraum von neunzig Tagen ab 
+Kaufdatum die Gewährleistung dafür, daß die Software 
+im wesentlichen entsprechend der Beschreibung in der 
+Dokumentation funktioniert. 
+
+Soweit es die gesetzlichen Bestimmungen zulassen, ist 
+die Verpflichtung für den Hersteller und Chromatic 
+sowie Ihr einziges Recht nach Wahl des Herstellers 
+entweder (a) auf die Erstattung des Kaufpreises oder 
+(b) die Reparatur oder den Ersatz der Software 
+beschränkt, sofern die Software einen unter die 
+Gewährleistung fallenden Mangel aufweist und zusammen 
+mit einer Kopie des Kaufbelegs an den Hersteller 
+zurückgesandt wird.
+
+Haftungsbeschränkung. Soweit es die gesetzlichen 
+Bestimmungen zulassen, werden hiermit sämtliche 
+gesetzlich festgelegten Auflagen oder Bestimmungen 
+ausgeschlossen. Nichtsdestoweniger können Ihnen 
+bestimmte Rechte oder Ansprüche nach dem Trade 
+Practices Act und ähnlichen Gesetzen von Bundesstaaten 
+oder Territorien von Australien oder nach dem Consumer 
+Guarantees Act von Neuseeland zustehen, wo diese einen 
+derartigen Haftungsausschluß nicht zugestehen. Soweit 
+hiernach eine Haftung nicht ausgeschlossen werden 
+kann, ist diese Haftung, soweit es die gesetzlichen 
+Bestimmungen zulassen, nach Wahl des Herstellers oder 
+von Chromatic beschränkt auf entweder (a) den Ersatz 
+der Software oder (b) die Behebung von Mängeln oder 
+Fehlern in der Software.
+
+Die einzige Verpflichtung für den Herstellers und 
+Chromatic sowie Ihr einziges Recht besteht, nach Wahl 
+des Herstellers, entweder (a) in einer Erstattung des 
+Kaufpreises oder (b) in der Reparatur oder im Ersatz 
+der Software, sofern die Software zusammen mit einer 
+Kopie des Kaufbelegs an den Hersteller zurückgesandt 
+wird. 
+
+Ausschluß von Haftungs- und Schadensersatzanschlüssen. 
+Die folgenden Bestimmungen gelten unbeschadet etwaiger 
+gesetzlicher Rechte, die nicht wirksam ausgeschlossen 
+oder beschränkt werden können. Sie erkennen an, daß 
+Ihnen gegenüber keine Versprechen, Zusagen, 
+Haftungserklärungen oder Verpflichtungen seitens des 
+Herstellers oder von Chromatic (oder mit ihnen in 
+Zusammenhang stehender Firmen) bezüglich des Gewinn 
+oder Nutzens der Software und der Begleitdokumentation 
+gemacht bzw. eingegangen wurden. Sie haben die 
+Entscheidung zum Erwerb dieser Software und der 
+Begleitdokumentation aufgrund Ihrer eigenen Kenntnisse 
+und Ihres eigenen Urteils getroffen. Außer nach 
+Maßgabe der in dieser Lizenzvereinbarung 
+niedergelegten Bestimmungen ist jegliche Haftung des 
+Herstellers oder von Chromatic (oder mit ihnen in 
+Zusammenhang stehender Firmen) für Schäden aller Art 
+(einschließlich der Haftung entgangene Geschäfte, 
+Verluste aus Geschäftsunterbrechung, Verlust von 
+Geschäftsinformationen sowie andere indirekte oder 
+Folgeschäden), die sich aus der Nutzung oder der 
+Unmöglichkeit der Nutzung der Software und der 
+Begleitdokumentation ergeben, ausgeschlossen. In jedem 
+Fall beschränkt sich die Gesamthaftung des Herstellers 
+und/oder von Chromatic nach Maßgabe der Bestimmungen 
+dieser Lizenzvereinbarung auf den tatsächlich für die 
+Software entrichteten Kaufpreis.
+
+Dieses Lizenzabkommen unterliegt dem Recht von New 
+South Wales, Australien, oder, falls  die Lieferung in 
+Neuseeland erfolgte, neuseeländischem Recht.
+
+Gewährleistungszusage und Sonderbestimmungen für 
+Kanada Beschränkte Gewährleistungszusage
+
+Beschränkte Gewährleistungszusage. Der Hersteller 
+übernimmt für einen Zeitraum von neunzig Tagen ab 
+Kaufdatum die Gewährleistung dafür, daß die Software 
+im wesentlichen entsprechend der Beschreibung in der 
+Dokumentation funktioniert. Diese Neunzig-Tage-Frist 
+gilt auch für jegliche stillschweigende Gewährleistung 
+der  Mängelfreiheit oder von Eigenschaften der 
+Software. In einigen Staaten/Jurisdiktionen sind 
+zeitliche Beschränkungen für stillschweigende 
+Zusicherungen der Mängelfreiheit nicht zulässig, so 
+daß die vorgenannte Beschränkung unter Umständen für 
+Sie nicht gilt. Die einzige Verpflichtung für den 
+Herstellers und Chromatic sowie Ihr einziges Recht 
+besteht, nach Wahl des Herstellers, entweder (a) in 
+einer Erstattung des Kaufpreises oder (b) in der 
+Reparatur oder im Ersatz der Software, sofern die 
+Software zusammen mit einer Kopie des Kaufbelegs an 
+den Hersteller zurückgesandt wird. Soweit es die 
+gesetzlichen Bestimmungen zulassen, ist jegliche 
+darüber hinausgehende ausdrückliche oder 
+stillschweigende Gewährleistung des Herstellers oder 
+von Chromatic, einschließlich der stillschweigenden 
+Gewährleistung der Nichtverletzung von Patenten und 
+Rechten Dritter, der Nutzbarkeit, der Marktgängigkeit 
+und der Eignung für einen bestimmten Zweck, für die 
+Software und die Begleitdokumentation ausgeschlossen. 
+Durch diese beschränkte Gewährleistungszusage erhalten 
+Sie spezifische Rechte. Sie können je nach 
+Staat/Jurisdiktion unterschiedliche weitere Rechte 
+haben.
+
+Haftungsbeschränkung für Folgeschäden. Soweit es die 
+gesetzlichen Bestimmungen zulassen, ist jegliche 
+Haftung des Herstellers oder von Chromatic 
+(einschließlich der direkten oder indirekten Haftung 
+für Personenschäden, entgangene Gewinne, Verluste aus 
+Geschäftsunterbrechung, Verlust von 
+Geschäftsinformationen), die sich aus der Nutzung oder 
+der Unmöglichkeit der Nutzung dieses Produkts ergeben, 
+selbst wenn der Hersteller oder Chromatic über die 
+Möglichkeit derartiger Schäden unterrichtet wurden. 
+Die Gesamthaftung des Herstellers und/oder von 
+Chromatic nach Maßgabe der Bestimmungen dieser 
+Lizenzvereinbarung beschränkt sich auf den tatsächlich 
+für die Software entrichteten Kaufpreis. In einigen 
+Staaten/Jurisdiktionen ist der Ausschluß der Haftung 
+für indirekte oder Folgeschäden nicht zulässig, so daß 
+die vorgenannte Beschränkung unter Umständen für Sie 
+nicht gilt. 
+Dieses Software-Lizenzabkommen unterliegt dem Recht 
+der Provinz Ontario, Kanada. 
+
+Gewährleistungszusage und Sonderbestimmungen für 
+England, Wales und Irland
+Beschränkte Gewährleistungszusage
+
+Beschränkte Gewährleistungszusage. Der Hersteller und 
+Chromatic übernehmen für einen Zeitraum von neunzig 
+Tagen ab Kaufdatum die Gewährleistung dafür, daß die 
+Software im wesentlichen entsprechend der Beschreibung 
+in der Dokumentation funktioniert. Diese Neunzig-Tage-
+Frist gilt auch für jegliche stillschweigende 
+Gewährleistung für die Software, außer wo geltende 
+gesetzliche Vorschriften die Beschränkung der Dauer 
+einer stillschweigenden Gewährleistung nicht zulassen. 
+Die einzige Verpflichtung für den Herstellers und 
+Chromatic sowie Ihr einziges Recht besteht, nach Wahl 
+des Herstellers oder von Chromatic, entweder (a) in 
+einer Erstattung des Kaufpreises oder (b) im Ersatz 
+der Software, sofern die Software zusammen mit einer 
+Kopie des Kaufbelegs an den Hersteller zurückgesandt 
+wird. Soweit es die gesetzlichen Bestimmungen 
+zulassen, ist jegliche darüber hinausgehende 
+ausdrückliche oder stillschweigende Zusicherung oder 
+Gewährleistung des Herstellers oder von Chromatic, 
+einschließlich der stillschweigenden Gewährleistung 
+der Nichtverletzung von Patenten und Rechten Dritter, 
+der Nutzbarkeit, der Marktgängigkeit und der Eignung 
+für einen bestimmten Zweck, für die Software und die 
+Begleitdokumentation ausgeschlossen. Durch diese 
+beschränkte Gewährleistungszusage erhalten Sie 
+spezifische Rechte. Sie können je nach 
+Staat/Jurisdiktion unterschiedliche weitere Rechte 
+haben.
+
+Haftung für Folgeschäden. Soweit es die gesetzlichen 
+Bestimmungen zulassen, ist jegliche Haftung des 
+Herstellers oder von Chromatic (einschließlich der 
+direkten oder indirekten Haftung für Personenschäden, 
+entgangene Gewinne, Verluste aus 
+Geschäftsunterbrechung, Verlust von 
+Geschäftsinformationen), die sich aus der Nutzung oder 
+der Unmöglichkeit der Nutzung dieses Produkts ergeben, 
+selbst wenn der Hersteller oder Chromatic über die 
+Möglichkeit derartiger Schäden unterrichtet wurden. 
+Sollte eine der Haftungsausschlüsse oder eine andere 
+Bestimmung dieser Lizenzvereinbarung rechtlich nicht 
+zulässig sein und Chromatic hierdurch für Verluste 
+oder Schäden haftbar sein, wobei die Haftung 
+anderenfalls hätte eingeschränkt werden können, ist 
+die Gesamthaftung von Chromatic (aus Vertrags- oder 
+aus Haftpflichtrecht (Fahrlässigkeit) nach Maßgabe der 
+Bestimmungen dieser Lizenzvereinbarung bzw. aus der 
+Nutzung der Software und der Begleitdokumentation 
+entsprechend dieser Lizenzvereinbarung ist auf den 
+tatsächlich für die Software entrichteten Kaufpreis 
+beschränkt. In einigen Staaten/Jurisdiktionen ist der 
+Ausschluß der Haftung für indirekte oder Folgeschäden 
+nicht zulässig, so daß die vorgenannte Beschränkung 
+unter Umständen für Sie nicht gilt. 
+
+Sonderbestimmungen
+
+Aufdeckung des Quellcodes: Sie dürfen die Software 
+nicht disassemblieren, dekompilieren oder 
+zurückentwickeln, mit der Maßgabe, daß Sie die 
+Software ausschließlich im gesetzlich gestatteten 
+Rahmen und nach Maßgabe örtlich geltenden Rechts zum 
+Zweck der Herstellung der Interoperabilität 
+dekompilieren dürfen und nur in dem Umfang, wie die 
+Dekompilierung erforderlich ist, um die für die 
+Herstellung der Interoperabilität eines unabhängig 
+erstellten Programms mit der Software oder mit einem 
+anderen Programm erforderlichen Informationen zu 
+gewinnen, und nur insofern, als diese Informationen 
+nicht ohne unzumutbare Umstände von Chromatic selbst 
+erhältlich gewesen wären.
+
+Kopien. Sie können zu Sicherungszwecken eine Kopie der 
+Software-Diskette herstellen. Jegliche andere 
+vollständige oder teilweise Kopie der Software ist 
+ungesetzlich. 
+
+Dieses Lizenzabkommen unterliegt englischem Recht und 
+der nicht-ausschließlichen Rechtsprechung englischer 
+Gerichte.
+
+Gewährleistungszusage und Sonderbestimmungen für die 
+Vereinigten Staaten von Amerika und alle anderen 
+Länder Beschränkte Gewährleistungszusage
+
+Beschränkte Gewährleistungszusage. Chromatic übernimmt 
+für einen Zeitraum von neunzig Tagen ab Kaufdatum die 
+Gewährleistung dafür, daß die Software im wesentlichen 
+entsprechend der Beschreibung in der Dokumentation 
+funktioniert. Diese Neunzig-Tage-Frist gilt auch für 
+jegliche stillschweigende Gewährleistung für die 
+Software, außer wo geltende gesetzliche Vorschriften 
+die Beschränkung der Dauer einer stillschweigenden 
+Gewährleistung nicht zulassen, in welchem Fall die 
+genannte Beschränkung für Sie nicht gilt. Die einzige 
+Verpflichtung für den Herstellers und Chromatic sowie 
+Ihr einziges Recht besteht, nach Wahl des Herstellers, 
+entweder (a) in einer Erstattung des Kaufpreises oder 
+(b) in der Reparatur oder im Ersatz der Software, 
+sofern die Software zusammen mit einer Kopie des 
+Kaufbelegs an den Hersteller zurückgesandt wird. 
+
+Soweit es die gesetzlichen Bestimmungen zulassen, ist 
+jegliche darüber hinausgehende ausdrückliche oder 
+stillschweigende Gewährleistung des Herstellers oder 
+von Chromatic, einschließlich der stillschweigenden 
+Gewährleistung der Nichtverletzung von Patenten und 
+Rechten Dritter, der Nutzbarkeit, der Marktgängigkeit 
+und der Eignung für einen bestimmten Zweck, für die 
+Software und die Begleitdokumentation ausgeschlossen. 
+Durch diese beschränkte Gewährleistungszusage erhalten 
+Sie spezifische Rechte. Sie können je nach 
+Staat/Jurisdiktion unterschiedliche weitere Rechte 
+haben.
+Keine Haftung für Folgeschäden. Soweit es die 
+gesetzlichen Bestimmungen zulassen, ist jegliche 
+Haftung des Herstellers oder von Chromatic 
+(einschließlich der Haftung für konkrete, zufällige, 
+indirekte oder Folge-Personenschäden, entgangene 
+Gewinne, Verluste aus Geschäftsunterbrechung, Verlust 
+von Geschäftsinformationen oder andere materielle 
+Schäden), die sich aus der Nutzung oder der 
+Unmöglichkeit der Nutzung dieses Produkts ergeben, 
+selbst wenn der Hersteller oder Chromatic über die 
+Möglichkeit derartiger Schäden unterrichtet werden. In 
+jedem Fall beschränkt sich die Gesamthaftung des 
+Herstellers und/oder von Chromatic nach Maßgabe der 
+Bestimmungen dieser Lizenzvereinbarung auf den 
+tatsächlich für die Software entrichteten Kaufpreis. 
+In einigen Staaten/Jurisdiktionen ist der Ausschluß 
+der Haftung für indirekte oder Folgeschäden nicht 
+zulässig, so daß die vorgenannte Beschränkung unter 
+Umständen für Sie nicht gilt. 
+
+Dieses Software-Lizenzabkommen unterliegt dem Recht 
+des US-Bundesstaats Kalifornien. Wenn Sie die Software 
+außerhalb der Vereinigten Staaten von Amerika erworben 
+haben, können die dort geltenden gesetzlichen 
+Bestimmungen anwendbar sein.
+
+Deutschland
+Beschränkte Gewährleistungszusage
+Die folgenden Bestimmungen gelten für Sie, insofern 
+und insoweit dies die geltenden gesetzlichen 
+Bestimmungen fordern. Ist dies nicht der Fall, so 
+gelten die oben aufgeführten Bestimmungen für "alle 
+anderen Länder":
+
+Gewährleistung. Fujitsu gewährleistet für einen 
+Zeitraum von sechs Monaten ab der Auslieferung an Sie,  
+daß der beiliegende Datenträger, auf dem das Programm 
+gespeichert ist, unter normalen Gebrauchsbedingungen 
+frei von Material- und Herstellungsfehlern bleiben und 
+daß die Software im wesentlichen entsprechend der 
+Beschreibung in der Dokumentation funktioniert. Sollte 
+sich herausstellen, daß die Software fehlerhaft ist, 
+sind Sie verpflichtet, Chromatic oder den Hersteller 
+innerhalb von zwei Wochen, jedoch nicht später als zum 
+Ende der sechsmonatigen Gewährleistungszeit, davon in 
+Kenntnis zu setzen. Sobald Chromatic oder der 
+Hersteller von Ihnen davon in Kenntnis gesetzt wurde, 
+erhalten Sie ein Ersatzexemplar der Software. Sollte 
+sich der Fehler hierdurch nicht beheben lassen, können 
+Sie von Ihren gesetzlichen Rechten Gebrauch machen und 
+entweder das Lizenzentgelt gegen Rückgabe der Software 
+zurückfordern (Wandlung) oder eine angemessene 
+Verringerung des Lizenzentgelts verlangen (Minderung).
+
+Haftungsbeschränkung. Chromatic, der Hersteller, deren 
+Angestellten und Lieferanten haften, ob aufgrund 
+dieser oder irgend einer anderen Vereinbarung, des 
+Deliktrechts oder anderer Rechtstheorien, nur für 
+Schäden, die verursacht wurden (a) durch grobe 
+Fahrlässigkeit oder Vorsatz oder das 
+Nichtvorhandensein einer durch den Hersteller oder 
+Chromatic ausdrücklich zugesicherten Eigenschaft der 
+Software oder (b) durch die Verletzung einer 
+wesentlichen Vertragspflicht aus dieser 
+Lizenzvereinbarung durch mindestens einen gewissen 
+Grad von Fahrlässigkeit oder (c) in Verletzung der 
+Rechte Dritter, aufgrund geschützter 
+Rechtsbestimmungen oder aufgrund der geltenden 
+Produkthaftungsbestimmungen. Diese Haftung gilt nicht 
+für Umstände, die Chromatic oder der Hersteller bei 
+Vertragsabschluß nicht  vorhersehen konnten, außer wo 
+diese Haftung mindestens auf grober Fahrlässigkeit 
+eines Angestellten von Chromatic oder des Herstellers 
+oder auf Vorsatz beruht. Auf keinen Fall haftet 
+Chromatic oder der Hersteller für Schäden, die auf 
+Datenverlust zurückzuführen sind, insbesondere nicht 
+dann, wenn derartige Schäden durch das regelmäßige 
+Anfertigungen von Sicherungskopien hätte vermieden 
+werden können, und auch nicht für Schäden, die durch 
+die Nutzung der Software auftreten und die durch 
+regelmäßige Überwachung der Arbeitsprodukte der 
+Software hätten vermieden werden können.
+
+Soweit keine kürzere gesetzliche Verjährungsfrist 
+vorgesehen ist und mit Ausnahme von 
+Schadenersatzvorderungen aus unerlaubter Handlung 
+verjähren nach Ablauf von zwei Jahren nach der 
+Auslieferung dieser Software sämtliche Ansprüche auf 
+Schadenersatz. Die Haftung von Chromatic und des 
+Herstellers unter oder in Verbindung mit dieser 
+Lizenzvereinbarung, insbesondere die Haftung für 
+etwaige Mängel der Software, sind streng auf das in 
+den vorstehenden Bestimmungen Dargelegte beschränkt.
+
+Anwendbarkeit. Die Bestimmungen dieses Lizenzabkommens 
+gelten unabhängig davon, ob die Software nach dem 
+deutschen Urheberrecht geschützt ist oder nicht.
+
+Dieses Software-Lizenzabkommen unterliegt deutschem 
+Recht.
+
+**** ENDE DES SOFTWARE-LIZENZVERTRAGS VON CHROMATIC RESEARCH MPACT MEDIAWARE ****
+

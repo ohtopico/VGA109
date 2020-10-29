@@ -1,0 +1,6 @@
+S3 Virge family Windows 95 Driver
+Version 4.03.00.2104-3.11.03 *
+S3 Refresh Rate utility version * 2.01.03 *
+S3 Color utility version * 1.00.07 * 
+S3D Tool Kit version (s3dtkw.dll) * 4.07.01 *
+                                             - 04/23/97 -

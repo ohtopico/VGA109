@@ -1,0 +1,206 @@
+            ==========================================
+                        Software Dynamics
+                 Entertainment Center versión 1.0 
+                           Archivo Read Me (léame)
+                           DU-10344-001
+                            Julio 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+Este archivo contiene información de última hora sobre Entertainment 
+Center versión 1.0. 
+
+Le recomendamos que registre su copia del Centro de entretenimiento 
+(Entertainment Center) Rellene y envíe por correo/fax la tarjeta de 
+registro para que conozcamos sus datos de usuario. Con su colaboración, 
+podremos ofrecerle mejores productos, mejor servicio y la información 
+más reciente. Encontrará información y noticias de última hora sobre 
+Centro de entretenimiento y otros productos de Software Dynamics 
+en nuestra página web:  
+http://www.softdyn.com
+
+--------------------------------
+Utilización de este documento
+--------------------------------
+En este documento se utiliza el siguiente convenio para describir la 
+selección de opciones de los menús:  
+   nombre de menú > opción de menú. 
+El símbolo > indica un submenú.
+Por ejemplo:  
+Para indicarle que elija el menú Archivo y, a continuación, la opción 
+Abrir, la instrucción será:
+   'Elija el menú Archivo > Abrir.'
+
+Para examinar en pantalla el archivo Léame, ábralo con Microsoft Word, 
+WordPad o el Bloc de notas.  Para imprimirlo, ábralo con un procesador 
+de texto y elija Archivo > Imprimir.
+
+--------------------------
+Cómo registrar el software
+--------------------------
+Para registrar su copia del Centro de entretenimiento, abra el archivo 
+'register.rtf' con Microsoft Word, WordPad o el Bloc de notas. Para 
+imprimir el archivo Register (Registro), ábralo con una procesador de 
+textos, y a continuación elija el menú Archivo > Imprimir. 
+
+Rellene la tarjeta de registro y envíenosla por correo o fax a las 
+siguientes direcciones:
+
+International:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Alemania
+
+Fax: (49) (421) 20266-99
+Correo electrónico: ecenter@softdyn.com
+
+US:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Fax: (630) 794-9033
+Correo electrónico: tdmaestro@aol.com
+
+
+---------
+CONTENIDO
+---------
+- INTRODUCCIÓN
+- OPERACIONES BÁSICAS
+- SOLUCIÓN DE PROBLEMAS 
+- MÁS INFORMACIÓN
+- COPYRIGHT
+
+-------------
+INTRODUCCIÓN
+------------- 
+Bienvenido al Centro de entretenimiento de Software Dynamics. 
+El Centro de entretenimiento es una aplicación que gestiona y 
+controla todos los controles de este programa. Ahora puede 
+observar vídeos, CD de vídeo y DVD, y escuchar CD de audio con 
+su computadora. 
+
+--------------------
+OPERACIONES BÁSICAS
+--------------------
+El centro de entretenimiento se ha diseñado de forma que presente un 
+aspecto muy similar al de los centros de entretenimiento covencionales, 
+por lo que puede que sus controles le resulten familiares. Si precisa 
+información sobre alguna de las funciones, consulte la Ayuda haciendo 
+clic en el icono ? (signo de interrogación) situado en la parte 
+superior dererecha de la ventana del Centro de entretenimiento.
+
+>>>Para iniciar el Centro de entretenimiento, sitúese en la barra de
+tareas de Windows y elija Inicio> Programas> Chromatic Research Mpact> 
+Centro de entretenimiento de Software Dynamics.
+
+---------------------
+SOLUCIÓN DE PROBLEMAS
+---------------------
+Regiones DVD
+
+La industria del DVD autoriza a los editores de DVD a restringir la 
+difusión de sus productos a determinadas zonas del mundo con objeto de 
+proteger sus derechos de autor. Un DVD de una zona, como la Región 1 
+(Estados Unidos, Canadá y parte del Caribe) puede no ser reproducible 
+en en una unidad de DVD diseñada para la Región 2 (Japón, partes de 
+Europa y Oriente Medio, y una zona de África) o la Región 3 (Corea, 
+Malasia, Birmania, Indonesia, Filipinas y el sudeste asiático). 
+Existen seis regiones.
+
+>>>Para saber cuál es la región de su reproductor de DVD, haga doble
+clic en el icono de Mpact, en el Panel de control. La ficha General 
+del cuadro de diálogo Propiedades de Mediaware indica la región DVD del 
+reproductor. Examine el disco DVD para comprobar si el código de región 
+coincide con el del reproductor.
+
+Reinstalación del Centro de entretenimiento de Software Dynamics
+
+El CD adjunto contiene la versión actual del Centro de entretenimiento 
+de Software Dynamics. 
+El Centro de entretenimiento se instala automáticamente junto con 
+Mediaware. No obstante, se incluyen las siguientes instrucciones por 
+si necesita reemplazar el software.
+
+>>>PARA INSTALAR CENTRO DE ENTRETENIMIENTO:
+
+1. Ejecute el programa de instalación contenido en el CD-ROM de Mpact 
+   mediaware.  
+
+   >>>Para ejecutar el programa de instalación:
+   1. En la barra de tareas de Windows 95, haga clic en Inicio y, a 
+      continuación, seleccione Ejecutar. 
+   2. Escriba 'd:\setup'. d: representa su unidad de CDROM. 
+      Haga clic en Aceptar.
+
+2.  Cuando aparezca el cuadro de diálogo de licencia, haga clic en 
+    Aceptar.
+
+3.  Cuando aparezca el cuadro de diálogo Select Installation Options, 
+    seleccione Centro de entretenimiento y haga clic en Instalar. 
+
+4.  Centro de entretenimiento se copiará al disco duro. Cuando aparezca 
+    el cuadro de diálogo Instación completa, haga clic en Fin.
+    
+
+5. Cuando aparezca el cuadro de diálogo Instalar, haga clic en Aceptar 
+   para reniciar la computadora. 
+
+
+>>>PARA DESINSTALAR CENTRO DE ENTRETENIMIENTO:
+
+1.  En la barra de tareas de Windows, haga clic en Inicio.
+
+2.  Seleccione Configuración y haga clic en Panel de control.
+
+3.  En el Panel de control, haga doble clic en el botón Agregar/Quitar 
+    programas.
+
+4.  Haga clic en Instalar/Desinstalar y seleccione Centro de 
+    entretenimiento.
+
+5.  Haga clic en Agregar/Quitar y en Automático.
+
+6.  Cuando aparezca el cuadro de diálgo Propiedades de Agregar/Quitar
+    programas, haga clic en Aceptar.
+
+7. En la barra de tareas de Windows, haga clic en Inicio para reiniciar 
+   la computadora. Seleccione Apagar el sistema y elija Reiniciar el 
+   equipo y finalmente haga clic en Sí.  
+
+-----------------
+MÁS INFORMACIÓN
+-----------------
+Para obtener más información sobre el Centro de entretenimiento u otros 
+productos de software multimedia de Software Dynamics, visite nuestra 
+página web: http://www.softdyn.com.
+
+----------
+COPYRIGHT
+----------
+Copyright (c) 1997 Software Dynamics GmbH.  Software 
+Dynamics, Entertainment Center y el logotipo de Entertainment 
+Center son marcas comerciales de Software Dynamics GmbH. 
+Los restantes nombres de marcas y productos son marcas comerciales o
+registradas de sus propietarios respectivos.
+
+Esta publicación está protegida por copyright y todos sus derechos 
+están reservados. Ninguna de sus partes puede reproducirse ni 
+transmitirse por ningún medio ni en ningún formato sin previo 
+consentimiento por escrito de Software Dynamics Gmb.
+
+La información del presente documento se ha revisado cuidadosamente y 
+se considera exacta. Sin embargo, Software Dynamics GmbH no asume 
+ninguna responsabilidad por las inexactitudes que puedan aparecer en 
+este archivo.  Chromatic Research no será responsable en ningún caso de 
+los daños directos, indirectos, especiales, ejemplares, accesorios o 
+punitivos derivados de los posibles errores u omisiones de este archivo, 
+aunque se le haya informado de la posibilidad de tales daños. El 
+contenido de este documento se proporciona únicamente como documento
+informativo.
+
+7/1/97

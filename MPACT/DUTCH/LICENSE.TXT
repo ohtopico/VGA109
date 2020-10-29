@@ -1,0 +1,136 @@
+Chromatic Research is een gedeponeerd handelsmerk van 
+Chromatic Research, Inc. Het logo van Chromatic Research, 
+Mpact en het logo van Mpact zijn handelsmerken of gedeponeerde 
+handelsmerken van Chromatic Research, Inc. Alle andere merknamen, 
+productnamen en handelsnamen zijn handelsmerken of gedeponeerde 
+handelsmerken van hun respectieve eigenaars.
+
+Copyright 1997-1998, Chromatic Research, Inc. Alle rechten voorbehouden.
+
+Copyright 1993, SystemSoft Corporation, gewijzigd door Chromatic Research, Inc.
+
+Licenties onder een of meerdere VS-patentnummers: 5,048,056; 5,265,151;
+5,291,520; en 5,465,273 toegewezen aan General DataComm, Inc.
+
+Licentie onder VS-patentnr. 4,558,302 en buitenlandse equivalenten.
+
+
+Dit product bevat technologie onder licentie van Dolby Laboratories, Inc.
+Copyright 1992-1997 door Dolby Laboratories, Inc. Alle rechten voorbehouden.
+Geproduceerd onder licentie van Dolby Laboratories. 'Dolby', 'AC-3' en het 
+dubbele D-symbool zijn handelsmerken van Dolby Laboratories.
+
+Dit product bevat technologie voor copyrightbescherming, die wordt 
+beschermd door methodeclaims van bepaalde VS-patenten en andere 
+intellectuele eigendomsrechten van Macrovision Corporation en andere 
+bezitters van rechten. Het gebruik van deze technologie voor 
+copyrightbescherming moet worden geauthoriseerd door Macrovision
+Corporation en is uitsluitend bedoeld voor beperkt gebruik, bv. thuis, 
+tenzij anders toegestaan door Macrovision Corporation. Decompileren en 
+reverse engineering van deze programmatuur zijn verboden.
+
+Dit product bevat technologie onder licentie van SRS Labs. SRS 3D Sound 
+wordt beschermd door meerdere VS- en buitenlandse patenten, incl. de 
+patentnummers 4,748,669, 4,841,572 en 4,866,774. De merken 'SRS', 
+'SOUND RETRIEVAL SYSTEM' en het symbool zijn gedeponeerde 
+handelsmerken van SRS Labs. De SRS-technologie in dit product wordt 
+geproduceerd en verdeeld onder licentie van SRS Labs. SRS Labs behoudt 
+zich het recht voor om opnames te verkopen, gemaakt met de 
+SRS-technologie, en hiervoor wordt geen enkele licentie toegekend.
+______________________________________________________________________
+
+Gebruiksrechtovereenkomst voor eindgebruiker voor Mpact(TM) software van Chromatic Research 
+	
+BELANGRIJK-ZORGVULDIG DOORLEZEN: DE SOFTWARE, DOCUMENTATIE EN ANDER MATERIAAL IN DIT PAKKET EN DE Mpact SOFTWARE GEÏNSTALLEERD OP UW COMPUTER ZIJN AUTEURSRECHTELIJK BESCHERMD. U MAG ZE SLECHTS GEBRUIKEN IN OVEREENKOMST MET EEN LICENTIE VAN CHROMATIC RESEARCH, INC. DE VOORZIENINGEN VAN DE GEBRUIKSRECHTOVEREENKOMST STAAN BESCHREVEN IN DE GEBRUIKSRECHTOVEREENKOMST IN DIT PAKKET. INDIEN U, NADAT U DE GEBRUIKSRECHTOVEREENKOMST DOORGELEZEN HEEFT, DE VOORWAARDEN EN CONDITIES IN DE OVEREENKOMST NIET WENST TE ACCEPTEREN, DAN DIENT U DE SOFTWARE, DOCUMENTATIE EN HET MATERIAAL TERUG TE BRENGEN EN DE SOFTWARE VAN UW VASTE SCHIJF TE VERWIJDEREN. NEEM IN DIT GEVAL CONTACT OP MET DE HARDWAREFABRIKANT VOOR INSTRUCTIES VOOR TERUGBETALING VAN DE SOFTWARE.
+
+
+Deze gebruiksrechtovereenkomst ("Overeenkomst") is een wettelijke overeenkomst tussen u (als individu of enkele entiteit) en de fabrikant ("Fabrikant") van een computersysteem of computer-uitbreidingsplaat ("Hardware") waarbij u de Mpact-software van Chromatic dat hierbij ingesloten is ("Software"), heeft ontvangen. Dit is een gebruiksrechtovereenkomst en geen verkoopovereenkomst. Auteursrechtelijk is het niet toegestaan om de Software te installeren of uit te voeren zonder toestemming van Chromatic. Een zodanige toestemming is onderhevig aan de volgende voorwaarden en condities:
+
+LICENTIE
+
+1.  Licentie verlenen. Chromatic Research, Inc. ("Chromatic") verleent u een niet-overdraagbare, niet-exclusieve licentie, zonder het recht om sublicenties te verlenen, en verleent u het recht om een exemplaar van de software, alleen maar in objectcodevorm, op een hardware-apparaat te installeren en te gebruiken. U kunt een reservekopie van de software maken voor opslagdoeleinden en u kunt deze kopie alleen maar gebruiken als de geïnstalleerde kopie van de software verloren of vernietigd is of als de hardware, waarop de software geïnstalleerd is, niet meer werkt.  
+
+2.  Condities van de licentie. U stemt overeen, om de Software niet te ontsleutelen, te decompileren of uit elkaar te nemen, met uitzondering van en in de mate waarin een zodanige activiteit uitdrukkelijk is toegestaan door de plaatselijke wetten die van toepassing zijn ongeacht deze beperking. U stemt toe om op de oorspronkelijke kopie en op de reservekopie die van de Software werd gemaakt  de copyright-waarschuwingen, handelsmerken, de legenda m.b.t. vertrouwelijkheid en beperkte rechten die hierop zijn afgedrukt te onderhouden. Zulke waarschuwingen, handelsmerken en legenda die door u worden gereproduceerd zullen in dezelfde vorm en positie worden afgedrukt als op de oorspronkelijke kopie. De software is als enkel product gelicenceerd. De componenten mogen niet gescheiden worden om op meer dan een computer te worden gebruikt. U mag de software niet lenen of leasen. Als de Software een upgrade is, mag u deze slechts op een hardware-eenheid installeren waarop een eerdere versie van de Software is geïnstalleerd. Zonder afbreuk aan andere rechten, kan Chromatic deze Licentie opzeggen als u niet voldoet aan de voorwaarden en condities van deze gebruiksrechtovereenkomst. In een dergelijk geval dient u alle kopieën van de Software en de aanverwante documentatie te vernietigen. De licentie voor de Software is alleen te gebruiken bij de Hardware en als de Software niet vergezeld is door Hardware, dan mag u de Software niet gebruiken of kopiëren.
+
+3.  Overdracht van de Software. U kunt alle rechten onder deze overeenkomst slechts permanent overdragen als onderdeel van een verkoop of overdracht van de Hardware, onder de volgende voorwaarden: U mag geen kopieën bewaren, u dient alle Software over te dragen (inclusief vroegere versies, alle media en gedrukt materiaal en deze Overeenkomst) en de ontvanger dient alle voorwaarden van deze Overeenkomst te accepteren.
+
+4.  Eigendom. Alle rechten, titel en interesse in de Software en de bijbehorende documentatie en alle kopieën daarvan zijn en zullen eigendom van Chromatic blijven. U mag, tenzij dit uitdrukkelijk hierin vermeld staat, geen enkel recht, titel of interesse in de Software of documentatie verwerven (inclusief zonder limitatiepatenten(XXX), handelsmerken, copyrights en de rechten tot handelsgeheimen).
+
+5.  Productondersteuning. Productondersteuning voor de Software wordt NIET verschaft door Chromatic. Voor productondersteuning dient u contact op te nemen met de hardwarefabrikant.
+
+6.  Beperkte regeringsrechten. De Software en de bijbehorende documentatie worden respectievelijk beschouwd als "commerciële computersoftware" en commerciële computersoftware-documentatie," in overeenkomst met DFAR sectie 227.7202 en FAR sectie 12.212, zoals dit van toepassing moge zijn. Elk gebruik, modificatie, reproductie, uitgifte, uitvoeren, vertonen of openbaring van de Software en de bijbehorende documentatie door de regering van de V.S. wordt alleen door de voorwaarden van deze Overeenkomst bepaald en zal verboden worden tenzij dit uitdrukkelijk wordt toegestaan in de voorwaarden van deze Overeenkomst. De fabrikant is Chromatic Research, Inc., 615 Tasman Drive, Sunnyvale, CA 94089.
+
+7.  Dit product bevat copyrightbeschermingstechnologie die beschermd is door methodeclaims van bepaalde patenten in de V.S. en andere intellectuele eigendomsrechten die het eigendom zijn van Macrovision Corporation en andere eigenaars van rechten. Het gebruik van deze copyrightbeschermingstechnologie moet door Macrovision worden geautoriseerd en is bestemd voor gebruik thuis en voor andere beperkte gebruiksdoeleinden tenzij Macrovision Corporation andere rechten autoriseert. Ontsleutelen en demonteren is verboden.
+
+LANDSPECIFIEKE VOORZIENINGEN ZIJN BIJGEVOEGD. ZIE HET TOEPASSELIJKE LAND VOOR VOORZIENINGEN DIE VAN TOEPASSING ZIJN OP UW LICENTIE.
+
+Mpact is een handelsmerk van Chromatic Research, Inc.
+
+
+Garantie en speciale voorzieningen voor Australië, Nieuw-Zeeland en garantie en speciale voorzieningen voor Australië, Nieuw-Zeeland of Papoea Nieuw-Guinea. Uitdrukkelijke beperkte garantie.
+
+STATUTAIRE RECHTEN. Overeenkomstig de Trade Practices Act en gelijksoortige staatsrechten en territoriale rechten in Australië of de Consumer Guarantees Act in Nieuw-Zeeland, kunt u bepaalde rechten of rechtsmiddelen hebben met betrekking tot welke bepaalde wettelijke aansprakelijkheid mogelijk niet uitgesloten is.
+
+BEPERKTE UITDRUKKELIJKE GARANTIE  Chromatic garandeert dat de Software in hoofdzaak zal functioneren zoals beschreven in de documentatie voor een periode van 90 dagen vanaf de ontvangstdatum. Tot de mate toegestaan onder de van toepassing zijnde wet, bestaat de gehele aansprakelijkheid van Chromatic en de fabrikant en uw enige rechtsmiddel onder de uitdrukkelijke garantie in hun optie om ofwel (a) de aankoopprijs terug te betalen; of (b) de Software te repareren of te vervangen als de Software niet aan de garantie voldoet en aan de fabrikant wordt geretourneerd met een kopie van uw bon.
+
+BEPERKTE AANSPRAKELIJKHEID. TOT DE MATE TOEGESTAAN ONDER DE VAN TOEPASSING ZIJNDE WET, WORDEN ALLE CONDITIES OF GARANTIES DIE DOOR DE WET WORDEN OPGELEGD OF DIE IMPLICIET ZIJN HIERBIJ UITGESLOTEN. U kunt desalniettemin bepaalde rechten of rechtsmiddelen hebben onder de Trade Practices Act en gelijksoortige staatsrechten en territoriale rechten in Australië of onder de Consumer Guarantees Act in Nieuw-Zeeland, die een dergelijke uitsluiting van aansprakelijkheid niet toestaan. TOT DE MATE WAARIN EEN ZODANIGE AANSPRAKELIJKHEID NIET MAG WORDEN UITGESLOTEN, VERVOLGENS TOT DE WETTELIJK TOEGESTANE MATE IS EEN ZODANIGE AANSPRAKELIJKHEID BEPERKT, NAAR DE EXCLUSIEVE OPTIE VAN DE FABRIKANT OF CHROMATIC TOT OFWEL (A) VERVANGING VAN DE SOFTWARE; OF (B) CORRECTIE VAN DE DEFECTEN OF FOUTEN IN DE SOFTWARE.
+
+UITSLUITING VAN AANSPRAKELIJKHEID/SCHADE. Het volgende is ongeacht rechten die u wettelijk heeft en die niet wettelijk kunnen worden uitgesloten of beperkt. U erkent dat geen belofte, representatie of garantie is gemaakt of gegeven werd door de Fabrikant en/of Chromatic (of een verwant bedrijf van een van beiden) met betrekking tot de winstgevendheid van of voordelen van het gebruik van de Software en documentatie. U heeft op uw eigen vaardigheid en oordeel vertrouwd bij het aanschaffen van de Software en documentatie. MET UITZONDERING VAN EN IN DE MATE DIE IN DEZE OVEREENKOMST WORDT BEPAALD, ZAL NOCH DE FABRIKANT NOCH CHROMATIC (OF EEN VERWANT BEDRIJF VAN EEN VAN BEIDE) AANSPRAKELIJK ZIJN VOOR SCHADE (INCLUSIEF, ZONDER BEPERKING, SCHADE VOOR VERLIES AAN ZAKEN, ONDERBREKING IN ZAKEN, VERLIES VAN ZAKELIJKE INFORMATIE OF ANDER INDIRECT OF RESULTEREND VERLIES) DIE VOORTVLOEIT UIT HET GEBRUIK OF DE ONMOGELIJKHEID OM DE SOFTWARE EN DOCUMENTATIE TE GEBRUIKEN. DE GEHELE AANSPRAKELIJKHEID VAN DE FABRIKANT EN/OF CHROMATIC IS ONDER DE VOORZIENINGEN VAN DEZE OVEREENKOMST IN ALLE GEVALLEN BEPERKT TOT HET BEDRAG DAT DOOR U WERD BETAALD VOOR DE SOFTWARE.
+
+Deze Overeenkomst valt onder de rechten van New South Wales, Australië of, waar voorraad wordt gemaakt in Nieuw-Zeeland, onder de wetten van Nieuw-Zeeland.
+
+
+Garantie en speciale voorzieningen voor Canada. Beperkte garantie
+
+BEPERKTE GARANTIE. De Fabrikant garandeert dat de Software in hoofdzaak zal functioneren zoals beschreven in de documentatie voor een periode van negentig (90) dagen vanaf de datum van aankoop. Deze beperking van negentig (90) dagen is van toepassing op alle impliciete garanties of condities van de Software. Sommige staten/rechtsgebieden staan geen beperkingen op de duur van een impliciete garantie toe, zodat de bovenstaande beperking wellicht niet op u van toepassing is.
+DE GEHELE AANSPRAKELIJKHEID VAN DE FABRIKANT EN VAN CHROMATIC EN UW ENIG RECHTSMIDDEL ONDER ZO'N GARANTIE ZAL, NAAR KEUZE VAN DE FABRIKANT ZIJN DAT (A) DE BETAALDE PRIJS WORDT TERUGBETAALD OF (B) DAT DE SOFTWARE WORDT GEREPAREERD OF VERVANGEN ALS DE SOFTWARE AAN DE FABRIKANT WERD GERETOURNEERD MET EEN KOPIE VAN UW BON. TOT DE MATE TOEGESTAAN DOOR DE VAN TOEPASSING ZIJNDE WET, WIJZEN DE FABRIKANT EN CHROMATIC ALLE ANDERE UITDRUKKELIJKE OF IMPLICIETE GARANTIES AF, INCLUSIEF MAAR NIET BEPERKT TOT IMPLICIETE GARANTIES VAN NIET-SCHENDING, VERKOOPBAARHEID EN GESCHIKTHEID VOOR EEN BEPAALD DOEL MET BETREKKING TOT DE SOFTWARE EN DOCUMENTATIE.
+Deze beperkte garantie geeft u specifieke wettelijke rechten. U kunt tevens nog andere rechten hebben die variëren van staat/rechtsgebied tot staat/rechtsgebied
+
+BEPERKING OP AANSPRAKELIJKHEID VOOR RESULTERENDE SCHADE. TOT DE MATE TOEGESTAAN ONDER DE VAN TOEPASSING ZIJNDE WET, ZAL DE FABRIKANT OF CHROMATIC IN GEEN GEVAL AANSPRAKELIJK ZIJN VOOR WELKE SCHADE DAN OOK (INCLUSIEF ZONDER BEPERKING, DIRECTE OF INDIRECTE SCHADE VOOR PERSOONLIJK LETSEL, VERLIES VAN ZAKELIJKE WINSTEN, ONDERBREKING VAN ZAKEN, VERLIES VAN ZAKELIJKE INFORMATIE OF ELK ANDER FINANCIEEL VERLIES) DIE VOORTVLOEIT UIT HET GEBRUIK OF DE ONMOGELIJKHEID OM DE SOFTWARE TE GEBRUIKEN, ZELFS ALS DE FABRIKANT OF CHROMATIC OP DE HOOGTE WERDEN GESTELD VAN DE MOGELIJKHEID VAN EEN ZODANIGE SCHADE. DE GEHELE AANSPRAKELIJKHEID VAN DE FABRIKANT OF CHROMATIC ONDER WELKE VOORZIENING DAN OOK VAN DEZE OVEREENKOMST ZAL BEPERKT ZIJN TOT HET BEDRAG DAT IN WERKELIJKHEID DOOR U WERD BETAALD VOOR DE SOFTWARE. Aangezien sommige staten/rechtsgebieden de uitsluiting of beperking van aansprakelijkheid voor resulterende of incidentele schade niet toestaan, is de bovenstaande beperking wellicht niet van toepassing op u.
+
+Deze software-gebruiksrechtovereenkomst  valt onder de wetten van de provincie Ontario, Canada.
+
+
+Garantie en speciale voorzieningen voor Engeland en Wales en Ierland
+
+Beperkte garantie
+
+BEPERKTE GARANTIE.  De Fabrikant en Chromatic garanderen dat (a) de Software in hoofdzaak zal functioneren zoals beschreven in de documentatie voor een periode van negentig (90) dagen vanaf de datum van aankoop. Deze beperking van negentig (90) dagen zal van toepassing zijn op welke impliciete garanties van de Software dan ook, met uitzondering van gebieden waar de plaatselijke wet geen beperking of de duur van een impliciete garantie toestaat. DE GEHELE AANSPRAKELIJKHEID VAN DE FABRIKANT EN VAN CHROMATIC EN UW ENIG RECHTSMIDDEL ZAL, NAAR KEUZE VAN DE FABRIKANT OF CHROMATIC ZIJN DAT (A) DE BETAALDE PRIJS WORDT TERUGBETAALD OF (B) DAT DE SOFTWARE WORDT VERVANGEN ALS DE SOFTWARE AAN DE FABRIKANT WERD GERETOURNEERD MET EEN KOPIE VAN UW BON. TOT DE MATE TOEGESTAAN DOOR DE VAN TOEPASSING ZIJNDE WET, WIJZEN DE FABRIKANT EN CHROMATIC ALLE ANDERE REPRESENTATIES, GARANTIES OF CONDITIES AF, OF DEZE NU UITDRUKKELIJK OF IMPLICIET ZIJN, INCLUSIEF MAAR NIET BEPERKT TOT IMPLICIETE GARANTIES EN/OF CONDITIES VAN NIET-SCHENDING, GEPASTHEID, VERKOOPBAARHEID EN GESCHIKTHEID VOOR EEN BEPAALD DOELEINDE. Deze garantie verschaft u specifieke wettelijke rechten. U kunt tevens andere rechten hebben die verschillen van rechtsgebied (XXX) tot staat/rechtsgebied.
+
+VOOR RESULTERENDE SCHADE. TOT DE MATE TOEGESTAAN ONDER DE VAN TOEPASSING ZIJNDE WET, ZAL DE FABRIKANT OF CHROMATIC IN GEEN GEVAL AANSPRAKELIJK ZIJN VOOR WELKE SCHADE DAN OOK (INCLUSIEF ZONDER BEPERKING, DIRECTE OF INDIRECTE SCHADE VOOR PERSOONLIJK LETSEL, VERLIES VAN ZAKELIJKE WINSTEN, ONDERBREKING VAN ZAKEN OF VERLIES VAN ZAKELIJKE INFORMATIE) DIE VOORTVLOEIT UIT HET GEBRUIK OF DE ONMOGELIJKHEID OM DE SOFTWARE TE GEBRUIKEN, ZELFS ALS DE FABRIKANT OF CHROMATIC OP DE HOOGTE GESTELD WERDEN VAN DE MOGELIJKHEID VAN EEN ZODANIGE SCHADE. ALS WELKE UITSLUITING OF ANDERE BEPERKING VAN DEZE GEBRUIKSRECHTOVEREENKOMST ALS NIET-UITVOERBAAR GELDT EN CHROMATIC AANSPRAKELIJK WORDT VOOR VERLIES OF SCHADE DIE ANDERS BEPERKT ZOU ZIJN, DAN ZAL DE GEHELE AANSPRAKELIJKHEID VAN CHROMATIC (IN CONTRACT, NALATIGHEID OF ANDERE) DIE VOORKOMT UIT DEZE GEBRUIKSRECHTOVEREENKOMST EN UW GEBRUIK VAN DE SOFTWARE EN DOCUMENTATIE CONFORM DEZE OVEREENKOMST BEPERKT ZIJN TOT HET BEDRAG DAT U VOOR DE SOFTWARE HEEFT BETAALD. Aangezien sommige staten/rechtsgebieden de uitsluiting of beperking van aansprakelijkheid voor resulterende of incidentele schade niet toestaan, is de bovenstaande beperking wellicht niet van toepassing op u.
+
+SPECIALE VOORZIENINGEN
+
+Broncode afleiden. U mag de software niet demonteren, decompileren of ontsleutelen; u mag de Software alleen in de mate decompileren voor interoperability doeleinden die toegestaan is en onderhevig aan plaatselijke wetten waar decompilatie nodig is om de nodige informatie te verkrijgen om interoperability te verkrijgen van een onafhankelijk gecreëerd programma met de Software of met een andere programma en zodanige informatie voorhanden is bij Chromatic.
+
+Kopieën.  U mag alleen een kopie van de Software-diskette maken voor reserve-doeleinden. Alle andere kopieën van de gehele software of delen ervan zijn illegaal. Deze overeenkomst valt onder de wetten van Engeland en is onderhevig aan de niet-uitsluitende rechtspraak van de Engelse rechtbanken.
+
+
+Garantie en speciale voorzieningen voor de Verenigde Staten van Amerika en welk ander land dan ook
+
+Beperkte garantie
+
+BEPERKTE GARANTIE. Chromatic garandeert dat de Software in hoofdzaak zal functioneren zoals beschreven in de documentatie voor een periode van negentig (90) dagen vanaf de datum van aankoop. Een zodanige beperking van negentig (90) dagen zal van toepassing zijn op alle impliciete garanties op de Software tenzij een zodanige beperking op de duur van een impliciete garantie niet is toegestaan door de plaatselijke wet. In dat geval is de bovenstaande beperking niet op u van toepassing. De gehele aansprakelijkheid van de Fabrikant en Chromatic en uw enige rechtsmiddel zal bestaan uit, naar keuze van de Fabrikant, (a) terugbetaling van de betaalde prijs of (b) reparatie of vervanging van de Software indien geretourneerd aan de Fabrikant met een kopie van uw bon. TOT DE MATE TOEGESTAAN DOOR DE VAN TOEPASSING ZIJNDE WET, WIJZEN DE FABRIKANT EN CHROMATIC ALLE ANDERE GARANTIES AF, UITDRUKKELIJK OF IMPLICIET, INCLUSIEF MAAR NIET BEPERKT TOT IMPLICIETE GARANTIES VAN NIET-SCHENDING, GEPASTHEID, VERKOOPBAARHEID EN GESCHIKTHEID VOOR EEN BEPAALD DOEL MET BETREKKING TOT DE SOFTWARE EN DE BIJBEHORENDE DOCUMENTATIE. Deze beperkte garantie geeft u specifieke wettelijke rechten. U kunt nog andere hebben die variëren van staat/rechtsgebied tot staat/rechtsgebied.
+
+GEEN AANSPRAKELIJKHEID VOOR RESULTERENDE SCHADE. TOT DE MATE DIE TOEGESTAAN WORDT DOOR DE VAN TOEPASSING ZIJNDE WET, ZAL DE FABRIKANT OF CHROMATIC IN GEEN GEVAL AANSPRAKELIJK ZIJN VOOR WELKE SCHADE DAN OOK (INCLUSIEF ZONDER BEPERKING, SPECIALE, INCIDENTELE, RESULTERENDE OF INDIRECTE SCHADE VOOR PERSOONLIJK LETSEL, VERLIES VAN ZAKELIJKE WINSTEN, ONDERBREKING VAN ZAKEN, VERLIES VAN ZAKELIJKE INFORMATIE OF WELK ANDER FINANCIEEL VERLIES DAN OOK) DIE VOORTVLOEIT UIT HET GEBRUIK OF DE ONMOGELIJKHEID OM DIT PRODUCT TE GEBRUIKEN ZELFS ALS DE FABRIKANT OF CHROMATIC VAN DE MOGELIJKHEID VAN ZULKE SCHADE OP DE HOOGTE WERDEN GESTELD. IN GEEN GEVAL ZAL DE GEHELE AANSPRAKELIJKHEID VAN DE FABRIKANT EN CHROMATIC ONDER WELKE VOORZIENING DAN OOK VAN DEZE OVEREENKOMST HET BEDRAG OVERSCHRIJDEN DAT DOOR U VOOR DE SOFTWARE BETAALD WERD. Aangezien sommige staten/rechtsgebieden de uitsluiting of beperking van aansprakelijkheid voor resulterende of incidentele schade niet toestaan, is de bovenstaande beperking wellicht niet op u van toepassing.
+
+Deze Overeenkomst valt onder de wetten van de staat Californië, V.S. Als u de Software buiten de V.S. heeft verworven, kan de plaatselijke wet van toepassing zijn.
+
+
+DUITSLAND
+
+Beperkte garantie
+
+Tot de mate vereist door de plaatselijke wet, zijn de volgende voorzieningen op u van toepassing. Indien dit niet vereist is, zijn de voorzieningen onder Welk land dan ook van toepassing:
+
+Beperkte garantie. Chromatic en de Fabrikant garanderen u voor zes (6) maanden vanaf de leveringsdatum dat het bijgesloten diskette-medium waarop de Software is opgeslagen vrij van defecten in het materiaal en in de afwerking is onder normaal gebruik en conditie, en dat de Software in hoofdzaak zal functioneren zoals beschreven in de documentatie. Als blijkt dat de Software niet juist werkt, dan stemt u toe om Chromatic of de Fabrikant binnen twee weken en in geen geval later dan aan het einde van de periode van zes maanden hiervan op de hoogte te stellen. Bij ontvangst van deze notificatie, zal de Fabrikant of Chromatic u van een vervangingsexemplaar van de Software voorzien. Als dit het defect niet opheft, dient u toevlucht te zoeken in uw statutaire rechten en ofwel terugbetaling van de licentiekosten tegen teruggave van de Software te eisen of een redelijke reductie van de licentiekosten.
+
+Beperking op aansprakelijkheid. Chromatic, de Fabrikant, hun werknemers en onderaannemers zullen alleen aansprakelijk zijn voor schade, of dit nu wel of niet op deze Overeenkomst is gebaseerd, benadeling of welke andere wettelijke theorie dan ook, als deze schade veroorzaakt is door (i) ofwel grove nalatigheid of opzet of het gebrek van een bepaalde eigenschap van de Software die uitdrukkelijk door de Fabrikant of Chromatic werd gegarandeerd of (ii) door het falen van Chromatic of de Fabrikant om te voldoen aan een essentiële verplichting onder deze Overeenkomst met ten minste een bepaalde graad van nalatigheid of (iii) door schending van een statuut dat door de rechten van een derde partij wordt beschermd of de van toepassing zijnde wetten m.b.t. productaansprakelijkheid. Een zodanige aansprakelijkheid dekt geen schade die Chromatic of de Fabrikant niet konden voorzien bij het opmaken van deze Overeenkomst, tenzij de aansprakelijkheid gebaseerd is op ten minste grove nalatigheid van een functionaris van Chromatic of de Fabrikant of op opzet. De aansprakelijkheid van Chromatic of de Fabrikant zal in geen geval schade dekken veroorzaakt door verlies aan gegevens, vooral als een zodanig verlies vermeden had kunnen worden door het regelmatig maken van reservekopieën of schade veroorzaakt door gebruik van de Software die voorkomen had kunnen worden door de werkproducten van de Software regelmatig te controleren.
+
+In de mate dat de respectievelijke statutaire beperkingsperiode niet eerder verloopt en behalve voor claims die gebaseerd zijn op benadeling, zullen alle schadeclaims verboden worden na twee jaar vanaf de leveringsdatum van de Software. De aansprakelijkheid van Chromatic en de Fabrikant onder of in connectie met deze Overeenkomst, inclusief vooral zijn aansprakelijkheid voor defecten in de Software, zullen streng beperkt zijn tot de voorafgaande voorzieningen.
+
+Toepasselijkheid. De voorzieningen van deze Overeenkomst zullen van toepassing zijn of de Software nu wel of niet beschermd is onder het Duitse auteursrecht.
+
+Deze overeenkomst valt onder de wetten van Duitsland.
+
+**** EINDE VAN DE GEBRUIKSRECHTOVEREENKOMST VAN CHROMATIC RESEARCH MPACT MEDIAWARE ****

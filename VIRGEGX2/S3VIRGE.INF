@@ -1,0 +1,194 @@
+; INF file for S3 display driver.
+; Copyright 1997, S3 Inc.
+
+[Version]
+Class=Display
+Signature="$CHICAGO$"
+Provider=%Mfg%
+
+[DestinationDirs]
+DefaultDestDir=11
+S3-Sync.Copy=11
+S3_INF.copy=17
+S3SWITCHcopy.sys=11
+S3SWITCHcopy.hlp=18
+S3SWITCHcopy.prog=24
+S3SWITCHcopy.win=25
+S3SWITCHcopy.inf=17
+
+
+[SourceDisksNames]
+51="Windows 95 S3 Driver Disk",,1
+
+[SourceDisksFiles]
+s3_3.drv=51
+s3vdd2.vxd=51
+s3_32v.dll=51
+s3dtkw.dll=51
+s3hal95.dll=51
+s3kernel.vxd=51
+version.txt=51
+S3VIRGE.INF=51
+S3SWITCH.dll=1
+S3SWITCH.vxd=1
+S3SWITCH.inf=1
+blocking.cfg=1
+S3uninst.exe=1
+;S3SWITCH.cfg=1
+;S3SWITCH.hlp=1
+
+;----------------------------------------
+; Manufacturers
+
+[Manufacturer]
+"%Mfg%"=Mfg
+
+;----------------------------------------
+; Driver sections
+
+[Mfg]
+%S3VirgeGX2.DeviceDesc%=    S3_10, PCI\VEN_5333&DEV_8A10
+;----------------------------------------
+
+[S3SWITCHRemove]
+DelReg = S3SWITCH.AddReg
+DelFiles = S3SWITCHcopy.prog, S3SWITCHcopy.hlp, S3SWITCHcopy.win, S3SWITCHcopy.sys, S3SWITCHcopy.inf
+
+; Install sections
+
+[S3_10]
+DelReg = S3SWITCH.AddReg,DEL_CURRENT_REG
+CopyFiles=S3_4_CopyFiles, S3-Sync.Copy, S3_INF.copy,S3SWITCHcopy.prog, S3SWITCHcopy.hlp, S3SWITCHcopy.win, S3SWITCHcopy.sys,S3SWITCHcopy.inf
+AddReg=S3_10_AddReg, S3_GX2_AddReg,S3SWITCH.AddReg
+
+;----------------------------------------
+; Common AddReg sections
+
+[DEL_CURRENT_REG]
+HKR,,DevLoader,0,
+HKR,,Ver,0,
+HKR,DEFAULT,,0,
+HKR,MODES,,0,
+HKR,CURRENT,,0,
+HKLM,Config\0001\Display\Settings,DuoView_In_8Bpp,,"ON"
+HKLM,SOFTWARE\S3\SWITCH,M3_M5,,"0"
+HKLM,Config\0001\Display\Settings,CommandDMA,,
+
+
+;----------------------------------------
+; Model AddReg sections
+
+;----------------------------------------
+[S3_GX2_AddReg]
+HKLM,Config\0001\Display\Settings,CommandDMA,,"ON"
+HKLM,Config\0001\Display\Settings,Mode720Flg,,"ON"
+HKLM,Config\0001\Display\Settings,CheckUV,,"OFF"
+;
+[S3SWITCH.AddReg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH,DisplayName,,"%ShortDesc%"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH,UninstallString,,"S3uninst.exe S3SWITCHRemove 5 S3SWITCH.inf"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH
+;----------move 4 lines below to HKCR to add support on windows98-----------
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085},"",,"Property Sheet Extension for S3 Display Configuration Utility"
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,"",,"S3SWITCH.dll"
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,ThreadingModel,,"Apartment"
+;---------- 4 lines below have been moved to add support on windows98-----------
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085},"",,"Property Sheet Extension for S3 Display Configuration Utility"
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,"",,"S3SWITCH.dll"
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,ThreadingModel,,"Apartment"
+;----------------old line below is for win95--------------------
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\%1%\Display\shellex\PropertySheetHandlers\S3SWITCH,"",,"{d5ddefa2-d866-11d0-9a83-00aa00bbc085}"
+;-----------------------------------------------
+HKLM,SOFTWARE\S3\SWITCH,,,
+HKLM,SOFTWARE\S3\SWITCH,M3_M5,,"0"
+HKLM,SOFTWARE\S3\SWITCH,TimingOptionSupport,,"ON"
+HKLM,SOFTWARE\S3\SWITCH,MultiImageSupport,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,UnderscanSupport,,"ON"
+HKLM,SOFTWARE\S3\SWITCH,Evaluation,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,DuoViewIn8Bpp,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,AlwaysEnableTVDevice,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,FileName,,"s3switch.dll"
+HKLM,SOFTWARE\S3\SWITCH,UtilityName,,"S3 Switch"
+;----------------add new line below for win98--------------------
+HKCR,shellex\PropertySheetHandlers\S3SWITCH,"",,"{d5ddefa2-d866-11d0-9a83-00aa00bbc085}"
+[S3SWITCHcopy.prog]
+
+[S3SWITCHcopy.win]
+blocking.cfg
+
+[S3SWITCHcopy.sys]
+S3SWITCH.dll
+S3SWITCH.vxd
+;S3SWITCH.cfg
+S3uninst.exe
+
+[S3SWITCHcopy.hlp]
+;S3SWITCH.hlp
+
+[S3SWITCHcopy.inf]
+S3SWITCH.inf
+
+
+;
+[S3_10_AddReg]
+;----------------------------------------ViRGE GX2
+HKR,,Ver,,4.0
+HKR,,DevLoader,,*vdd
+HKR,DEFAULT,Mode,,"8,640,480"
+HKR,DEFAULT,drv,,s3_3.drv
+HKR,DEFAULT,vdd,,"*vdd,*vflatd"
+HKR,DEFAULT,minivdd,,s3vdd2.vxd
+HKR,DEFAULT,RefreshRate,,"-1"
+HKR,DEFAULT,DDC,,"1"
+HKR,"MODES\4\640,480",drv,,vga.drv
+HKR,"MODES\4\640,480",vdd,,*vdd
+HKR,"MODES\4\800,600",drv,,supervga.drv
+HKR,"MODES\4\800,600",vdd,,*vdd
+HKR,"MODES\8\640,480"   ,,,"60,72,75,85"
+HKR,"MODES\8\720,480"   ,,,"60"
+HKR,"MODES\8\720,576"   ,,,"60"
+HKR,"MODES\8\800,600"   ,,,"56,60,72,75,85"
+HKR,"MODES\8\1024,768"  ,,,"43,60,70,75,85"
+;HKR,"MODES\8\1152,864"  ,,,"60,70,75,85"
+HKR,"MODES\8\1280,1024" ,,,"43,60,75,85"
+HKR,"MODES\8\1600,1200" ,,,"48,60,75,85"
+HKR,"MODES\16\640,480"  ,,,"60,72,75,85"
+HKR,"MODES\16\720,480"   ,,,"60"
+HKR,"MODES\16\720,576"   ,,,"60"
+HKR,"MODES\16\800,600"  ,,,"56,60,72,75,85"
+HKR,"MODES\16\1024,768" ,,,"43,60,70,75,85"
+HKR,"MODES\16\1280,1024",,,"43,60,75,85"
+HKR,"MODES\16\1600,1200",,,"48,60,75"
+HKR,"MODES\24\640,480",,,"60,72,75,85"
+HKR,"MODES\24\800,600",,,"56,60,72,75,85"
+HKR,"MODES\24\1024,768",,,"43,60,70,75"
+HKR,"MODES\24\1280,1024",,,"43,60,70,75"
+
+
+[S3_4_CopyFiles]
+s3_32v.dll
+s3vdd2.vxd
+s3_3.drv
+
+[S3-Sync.Copy]
+s3dtkw.dll
+s3kernel.vxd
+s3hal95.dll
+
+[S3_INF.copy]
+S3VIRGE.INF
+
+
+;----------------------------------------
+; User visible strings
+
+[Strings]
+ClassName="Display"
+Mfg="S3"
+1               = "Controls Folder"
+ShortDesc   = "S3 Display Configuration Utility"
+ShortDesc1   = "S3 Display Configuration Utility"
+S3          = "S3 Incorporated"
+
+S3VirgeGX2.DeviceDesc=  "S3 Inc. ViRGE GX2"
+;----------------------------------------------

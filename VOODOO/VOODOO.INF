@@ -1,0 +1,118 @@
+; INF file for Voodoo based 3D Accelerators running under Windows 95
+; (c) 1997 - 3Dfx Interactive, Inc.
+; v 2.14 Drivers with Property Sheet and Glide
+
+[version]
+Class=MEDIA
+signature="$CHICAGO$"
+Provider=%Mfg%
+
+; Disk & Directory sections
+;----------------------------------------
+[DestinationDirs]
+DefaultDestDir  = 11    ; LDID_SYS
+Voodoo.Copy = 11
+GlideSys.Copy = 11
+GlideWin.Copy = 10
+Voodoo.DelFiles = 11
+
+[SourceDisksNames]
+1="DirectX Drivers For Voodoo Based 3D Accelerator",,0
+
+[SourceDisksFiles]
+FXMEMMAP.VXD=1
+DD3DFX.DRV=1
+DD3DFX16.DLL=1
+DD3DFX32.DLL=1
+MSVCRT.DLL=1
+3DFXPS.DLL=1
+GLIDE2X.DLL=1
+GLIDE2X.OVL=1
+GLIDE.DLL=1
+SST1INIT.DLL
+
+; Manufacturers
+;----------------------------------------
+[Manufacturer]
+%Mfg%=Mfg
+
+; Driver sections
+;----------------------------------------
+[Mfg]
+%PCI\VEN_121A&DEV_0001.DeviceDesc%=Voodoo, PCI\VEN_121A&DEV_0001
+
+[ControlFlags]
+
+; Install sections
+;----------------------------------------
+[Voodoo]
+CopyFiles=Voodoo.Copy,GlideSys.Copy,GlideWin.Copy
+DelFiles=Voodoo.DelFiles,GlideSys.Copy,GlideWin.Copy
+DelReg=Prev.DelReg
+AddReg=Voodoo.AddReg
+UpdateCfgSys=Voodoo.UpdateCfgSys
+UpdateInis=Voodoo.Ini
+UpdateAutoBat=Voodoo.UpdateAutoBat
+Reboot
+
+[Voodoo.Ini]
+
+[Voodoo.Copy]
+FXMEMMAP.VXD,,,2
+DD3DFX.DRV,,,2
+DD3DFX16.DLL,,,2
+DD3DFX32.DLL,,,2
+MSVCRT.DLL,,,2
+3DFXPS.DLL,,,2
+
+[GlideWin.Copy]
+GLIDE2X.OVL,,,2
+
+[GlideSys.Copy]
+GLIDE2X.DLL,,,2
+GLIDE.DLL,,,2
+SST1INIT.DLL,,,2
+
+[Voodoo.DelFiles]
+FXMEMMAP.VXD,,,1
+DD3DFX.DRV,,,1
+DD3DFX16.DLL,,,1
+DD3DFX32.DLL,,,1
+MSVCRT.DLL,,,1
+3DFXPS.DLL,,,1
+
+[Prev.DelReg]
+HKLM,hardware\DirectDrawDrivers\3A0CFD01-9320-11cf-AC-A1-00-A0-24-13-C2-E2
+HKLM,hardware\DirectDrawDrivers\ABA52F41-F744-11cf-B4-52-00-00-1D-1B-41-26
+HKLM,SOFTWARE\Classes\CLSID\{C3A545C1-1162-11d0-AAB8-00A024151DDC}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{C3A545C1-1162-11d0-AAB8-00A024151DDC}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\"Monster 3D Properties Sheet"
+HKLM,SOFTWARE\Classes\CLSID\{CDB5B301-2103-11d0-AAB8-00A024151DDC}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{CDB5B301-2103-11d0-AAB8-00A024151DDC}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\"Monster 3D Settings Properties Sheet"
+HKLM,SOFTWARE\Classes\CLSID\{640E3A20-C07E-11cf-8E8B-000079830F05}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{640E3A20-C07E-11cf-8E8B-000079830F05}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\Righteous3D
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322},"",,"3Dfx Display Property Sheet"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,"",,"3dfxps.dll"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"\SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\3Dfx","",,"{DAA36500-E65E-11D0-98F5-0020AFD51322}"
+
+
+[Voodoo.AddReg]
+HKLM,hardware\DirectDrawDrivers\3A0CFD01-9320-11cf-AC-A1-00-A0-24-13-C2-E2,"Description",,"3Dfx DirectX 5 Driver"
+HKLM,hardware\DirectDrawDrivers\3A0CFD01-9320-11cf-AC-A1-00-A0-24-13-C2-E2,"DriverName",,"dd3dfx"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322},"",,"3Dfx Display Property Sheet"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,"",,"3dfxps.dll"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"\SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\3Dfx","",,"{DAA36500-E65E-11D0-98F5-0020AFD51322}"
+
+[Voodoo.UpdateCfgSys]
+
+[Voodoo.UpdateAutoBat]
+
+; User visible strings
+;----------------------------------------
+[Strings]
+Mfg="3Dfx Interactive, Inc."
+PCI\VEN_121A&DEV_0001.DeviceDesc="Voodoo Graphics 3D Accelerator"

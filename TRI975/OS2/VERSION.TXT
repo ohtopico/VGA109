@@ -1,0 +1,4 @@
+TRIDENT XGI SERIES OS/2 SBCS DISPLAY DRIVERS
+                                   
+VERSION  TR1.1 (01)            06/30/97
+

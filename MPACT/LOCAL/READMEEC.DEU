@@ -1,0 +1,206 @@
+            ==========================================
+                        Software Dynamics
+                 Entertainment Center, Version 1.0 
+                           ReadMe-Datei 
+                           DU-10344-001
+                            Juli 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+Diese ReadMe-Datei enthält letzte Produktmitteilungen zur 
+Version 1.0 von Entertainment Center.
+
+Sie sollten Ihre Entertainment Center-Software anmelden. 
+Füllen Sie Ihr Anmeldeformular aus, und schicken/faxen Sie 
+es uns zu, damit wir wissen, wer Sie sind. Mit Ihrer Hilfe 
+können wir Ihnen bessere Produkte, besseren Service und die
+aktuellsten Informationen liefern. Bezüglich letzter Neuigkeiten 
+und aktueller Informationen zu Entertainment Center und anderen 
+Softwareprodukten von Software Dynamics, besuchen Sie unsere 
+Web-Seite:  
+
+http://www.softdyn.com.
+
+------------------------
+Erläuterungen zu diesem Dokument
+------------------------
+Zu wählende Menüobjekte werden in diesem Dokument folgendermaßen 
+angegeben: 
+   Menüname> Menüobjekt. 
+Das Symbol > weist auf ein Untermenü hin.
+Beispiel:  
+   Soll zunächst das Menü Datei und anschließend das Objekt 
+   Öffnen gewählt werden, lautet die Anweisung 
+   'Wählen Sie das Menü Datei> Öffnen.'
+
+Wenn Sie die Readme-Datei auf dem Bildschirm einsehen möchten, 
+können Sie die Datei in Microsoft Word, WordPad oder Notepad öffnen. 
+Wenn Sie die ReadMe-Datei ausdrucken möchten, öffnen Sie sie in einem 
+Textverarbeitungsprogramm, und wählen Sie anschließend im Menü 
+Datei > Druck. 
+
+---------------
+Anmelden
+---------------
+Öffnen Sie zum Anmelden Ihrer Entertainment Center-Software die Textdatei
+'register.rtf' in Microsoft Word, 
+WordPad oder Notepad. Um die Anmeldungsdatei auszudrucken, öffnen Sie diese
+in einem Textverarbeitungsprogramm, und wählen Sie anschließend im Menü 
+Datei > Druck. 
+
+Füllen Sie das Anmeldeformular aus, und faxen oder senden Sie es unter einer
+der folgenden Adressen an uns ein:
+
+International:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Deutschland
+
+Telefax: (49) (421) 20266-99
+E-Mail: ecenter@softdyn.com
+
+USA:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Telefax: (001) (630) 794-9033
+E-Mail: tdmaestro@aol.com
+
+
+---------
+INHALT
+---------
+- EINFÜHRUNG
+- STARTEN
+- FEHLERSUCHE UND -BEHEBUNG
+- WEITERE INFORMATIONEN
+- URHEBERRECHT
+
+-------------
+EINFÜHRUNG
+------------- 
+Willkommen beim Entertainment Center von Software Dynamics! Die 
+Entertainment Center-Anwendung übenimmt die Steuerung Ihres 
+Computer-Unterhaltungscenters. Jetzt können Sie mit Ihrem Computer 
+Videokassetten, Video-CDs und DVDs abspielen sowie Audio-CDs abhören.
+
+----------------
+STARTEN
+----------------
+Aufgrund des Designs im Unterhaltungscenter-Look sind Ihnen die 
+Bedienungselemente des Entertainment Center evtl. bereits vertraut. 
+Sollten Sie bei einer Option Unterstützung benötigen, klicken Sie auf 
+das Symbol ? (Fragezeichensymbol)
+in der oberen rechten Ecke des Entertainment 
+Center-Fensters. 
+
+>>>Zum Starten von Entertainment Center wählen Sie in der 
+Windows-Taskleiste Start> Programme> Chromatic Research Mpact> Software 
+Dynamics Entertainment Center.
+
+---------------
+FEHLERSUCHE UND -BEHEBUNG 
+---------------
+DVD-Regionen
+
+Die DVD-Industrie räumt DVD-Herausgebern das Recht ein, die Medien auf 
+bestimmte Regionen der Erde zu beschränken, um die Urheberrechte zu schützen. 
+Eine DVD-Disk aus einer Region, wie beispielsweise Region 1 (USA, Kanada 
+und Teile der Karibik) kann evtl. nicht mit einem DVD-Laufwerk für Region 2 
+(Japan, Teile Europas und des Mittleren Ostens sowie Teile Afrikas) oder 
+Region 3 (Korea, Malaysien, Burma, Indonesien, Philippinen und Südostasien) 
+abgespielt werden. Es gibt sechs Regionen.
+
+>>>Um herauszufinden, welche Region Ihr DVD-Laufwerk unterstützt, 
+führen Sie in der Systemsteuerung einen Doppelklick auf das Mpact-Symbol aus.
+Ihre DVD-Region ist auf der Seite Allgemein des Dialogfelds 
+Mpact-Mediaware-Eigenschaften angegeben. Überprüfen Sie, daß die DVD-Disk 
+einen Regionalcode aufweist, der Ihrem DVD-Laufwerk entspricht.
+
+Neuinstallieren des Entertainment Center von Software Dynamics
+
+Die beigelegte CD enthält die aktuelle Version des
+Entertainment Center von Software Dynamics. Bei der Mediaware-Installation 
+wird Entertainment Center automatisch installiert. Für den Fall, daß Sie 
+die Software neu installieren müssen, stellen wir dennoch die folgenden 
+Anweisungen bereit.
+
+>>> INSTALLIEREN VON ENTERTAINMENT CENTER:
+
+1. Rufen Sie das Mpact-Installationsprogramm der Mpact-Mediaware-CD-ROM auf.  
+
+   >>>Aufrufen des Installationsprogramms
+   1. Klicken Sie in der Windows 95-Symbolleiste auf Start, und wählen Sie 
+      anschließend Ausführen. 
+   2. Geben Sie 'd:\setup' ein, wobei d: Ihr CD-ROM-Laufwerk sein sollte. 
+      Klicken Sie auf OK.
+
+2.  Klicken Sie bei Erscheinen des Dialogfeldes Lizenz auf Ich stimme zu.
+
+3.  Wählen Sie im Dialogfeld Installationsoptionen die Option Entertainment 
+    Center, und klicken Sie auf Installieren. 
+
+4.  Die Entertainment Center-Software wird auf Ihrer Festplatte installiert. 
+    Klicken Sie auf Fertig, wenn das Dialogfeld Installation beendet erscheint.
+
+5.  Klicken Sie bei Erscheinen des Dialogfeldes Installieren auf OK, um den 
+    Computer neu zu starten.
+
+
+>>>DEINSTALLIEREN VON ENTERTAINMENT CENTER
+
+1.  Klicken Sie in der Windows-Taskleiste auf Start.
+
+2.  Wählen Sie Einstellungen, und klicken Sie anschließend auf Systemsteuerung.
+
+3.  Führen Sie in der Systemsteuerung einen Doppelklick auf der Schaltfläche 
+    Software aus.
+
+4.  Klicken Sie auf Installieren/Deinstallieren, und wählen Sie anschließend 
+    Entertainment Center.
+
+5.  Klicken Sie auf Hinzufügen/Entfernen und anschließend auf Automatisch.
+
+6.  Klicken Sie beim Erscheinen des Dialogfeldes Softwareeigenschaften auf OK.
+
+7.  Klicken Sie in der Windows-Taskleiste auf Start, um den Computer neuzustarten. 
+    Wählen Sie Herunterfahren, wählen Sie anschließend Computer neu starten?, 
+    und klicken Sie auf Ja.  
+
+-----------------
+WEITERE INFORMATIONEN 
+-----------------
+Bezüglich weiterer Informationen zu Entertainment 
+Center und anderen Softwareprodukten von Software Dynamics, besuchen Sie 
+unsere Web-Seite:  http://www.softdyn.com.
+
+----------
+URHEBERRECHT
+----------
+
+Copyright (c) 1997 Software Dynamics GmbH. Software 
+Dynamics, Entertainment Center und das Entertainment 
+Center-Logo sind Warenzeichen der Software Dynamics GmbH. Alle anderen 
+Markenzeichen, Produktnamen und Warenzeichen sind Eigentum ihrer jeweiligen
+Inhaber. 
+
+Diese Veröffentlichung ist urheberrechtlich geschützt, und alle Rechte sind
+vorbehalten. Ohne vorherige schriftliche Genehmigung von Software Dynamics 
+GmbH darf sie weder ganz noch auszugsweise auf irgendeinem Wege oder in 
+irgendeiner Form vervielfältigt oder übertragen werden.
+
+Die in diesem Dokument enthaltenen Informationen wurden sorgfältig überprüft
+und als korrekt erachtet. Software Dynamics GmbH übernimmt jedoch keine 
+Verantwortung für etwa in dieser Anleitung enthaltene Fehler. Software 
+Dynamics GmbH haftet unter keinen Umständen für direkte, indirekte, 
+spezielle, exemplarische, zufällige oder Folgeschäden, die sich aus Defekten
+oder Auslassungen dieser Anleitung ergeben, selbst wenn auf das mögliche 
+Vorliegen solcher Schäden hingewiesen wurde. Die hierin enthaltenen Angaben 
+dienen lediglich zu Informationszwecken.
+
+
+1. Juli 1997

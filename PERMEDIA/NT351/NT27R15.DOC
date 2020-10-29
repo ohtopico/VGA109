@@ -1,0 +1,635 @@
+{\rtf1\ansi \deff20\deflang1033{\fonttbl{\f1\froman\fcharset2\fprq2 Symbol;}{\f3\fmodern\fcharset0\fprq1 Courier;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}
+{\f8\froman\fcharset0\fprq2 Times;}{\f9\fswiss\fcharset0\fprq2 Helvetica;}{\f19\froman\fcharset0\fprq2 AGaramond Bold;}{\f20\froman\fcharset0\fprq2 AGaramond;}{\f22\fswiss\fcharset0\fprq2 Olympia H;}{\f30\froman\fcharset0\fprq2 Garamond;}
+{\f52\fnil\fcharset77\fprq0 I Garamond 3 Italic{\*\falt Garamond 3};}{\f53\fswiss\fcharset0\fprq2 Tahoma;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 \snext0 Normal;}{\s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \sbasedon0\snext0 heading 1;}{\s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 \sbasedon0\snext0 heading 2;}{
+\s3\qj\sb240\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 \sbasedon0\snext0 heading 3;}{\s4\sa60\keepn\widctlpar \b\f4\fs20 \sbasedon0\snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qj\li1418\ri850\sb120\sl240\slmult0
+\keep\widctlpar\tldot\tx8646\tqr\tx9072 \f20\lang2057 \sbasedon0\snext0 toc 3;}{\s16\qj\li2000\ri720\keep\widctlpar\tx2600\tldot\tx8280\tqr\tx8640 \f20\fs20\lang2057 \sbasedon0\snext0 toc 2;}{\s17\qj\ri720\sb120\sl240\slmult0
+\keep\widctlpar\tx1440\tldot\tx8280\tqr\tx8640 \f19\lang2057 \sbasedon0\snext0 toc 1;}{\s18\qj\sb120\sl240\slmult0\keep\widctlpar\tqc\tx4819\tqr\tx9071 \f20\lang2057 \sbasedon0\snext18 footer;}{\s19\qj\sb120\sl240\slmult0
+\keep\widctlpar\tqc\tx4819\tqr\tx9071 \f20\lang2057 \sbasedon0\snext19 header;}{\s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \sbasedon0\snext20 Bullet;}{\s21\qj\keep\widctlpar\tx1120\tqr\tx8500 \f3\fs20\lang2057 
+\sbasedon0\snext21 Code;}{\s22\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 \sbasedon0\snext22 Copyright Notices;}{\s23\qc\ri9\sb240\sa120\sl240\slmult0\keep\keepn\widctlpar \f8\lang2057 \sbasedon0\snext24 Centred Header;}{
+\s24\qj\fi180\sb80\sa40\sl240\slmult0\widctlpar \f8\fs20\lang2057 \sbasedon0\snext24 para;}{\s25\sa120\widctlpar \f4\fs20 \sbasedon0\snext25 Body Text;}{\s26\fi-360\li360\widctlpar \f4\fs20 \sbasedon0\snext26 List;}{\s27\li360\widctlpar \f4\fs20 
+\sbasedon0\snext27 List 2;}{\s28\li360\sa120\widctlpar \f4\fs20 \sbasedon0\snext28 Body Text 2;}{\s29\sa240\keepn\widctlpar \b\f5 \sbasedon30\snext29 Title page--document name;}{\s30\sa240\keepn\widctlpar \b\f5 \sbasedon3\snext30 Title page--space;}{
+\s31\sa240\keepn\widctlpar \b\f5 \sbasedon29\snext31 Title page--author name;}{\s32\sa240\keepn\widctlpar \i\f5 \sbasedon31\snext32 Title page--revision number;}{\s33\sb60\sa60\widctlpar \f5\fs20 \sbasedon0\snext33 Body;}{\s34\qj\sb120\sl240\slmult0
+\keep\widctlpar \cbpat9 \f53\lang2057 \sbasedon0\snext34 Document Map;}}{\info{\title OpenGL Installable Driver}{\subject Release Note}{\author Chris Starkey}{\keywords OpenGL Driver Release}{\operator Chris Starkey}{\creatim\yr1996\mo12\dy10\hr15\min26}
+{\revtim\yr1996\mo12\dy11\hr14\min12}{\printim\yr1996\mo12\dy11\hr14\min12}{\version3}{\edmins4}{\nofpages29}{\nofwords8983}{\nofchars51204}{\*\company 3Dlabs}{\vern57431}}\margl1134\margr830\margt1559\margb1134 
+\facingp\widowctrl\ftnbj\aenddoc\hyphhotz0\margmirror\sprstsp\otblrul\brkfrm\hyphcaps0 \fet0\sectd \psz1\linex0\headery709\footery709\colsx567\endnhere {\headerl \pard\plain \s19\qj\li20\ri36\keep\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 
+\tqc\tx4819\tqr\tx10260 \f20\lang2057 {\f22\fs28 Software}{\f52\fs28  Release Note\tab \tab }{\f22\fs28 3D}{\f52\fs28 labs}{\f22\fs28  }
+\par }{\headerr \pard\plain \s19\qj\li20\ri36\keep\nowidctlpar\brdrb\brdrs\brdrw15\brsp20 \tqc\tx4819\tqr\tx10260 \f20\lang2057 {\f22\fs28 3D}{\f52\fs28 labs\tab \tab }{\f22\fs28 Software}{\f52\fs28  Release Note
+\par }}{\footerl \pard\plain \s18\qc\sb120\sl240\slmult0\keep\nowidctlpar\brdrt\brdrs\brdrw15 \tqc\tx4819\tqr\tx9071\tqr\tx9260 \f20\lang2057 {\f52\cchs256 Page \chpgn 
+\par }}{\footerr \pard\plain \s18\qc\sb120\sl240\slmult0\keep\nowidctlpar\brdrt\brdrs\brdrw15 \tqc\tx4819\tqr\tx9071\tqr\tx9260 \f20\lang2057 {\f52\cchs256 Page \chpgn 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qr\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\f22\fs120 3D}{\f52\fs120\expnd-6\expndtw-30 labs}{
+\f30\fs48\up40\super \'ae}{\b\fs120 
+\par }\pard \qj\li1720\sb120\sl240\slmult0\keep\widctlpar {\b\fs96 
+\par }{\f22\fs72 Software}{\f9\fs36\up34 \line }{\f22\fs72 Release Note}{\b\fs72 
+\par }
+\par \pard \li1720\sb120\sl240\slmult0\keep\widctlpar\brdrt\brdrs\brdrw15 \brdrb\brdrs\brdrw15 {\f52\fs72 Windows NT 3.51 &  4.0 
+\par Display & OpenGL Drivers for GLINT & P}{\f52\fs60 ERMEDIA}{\fs72 
+\par }\pard \qj\li1720\keep\widctlpar {\fs28 
+\par 
+\par }\pard \qj\li1720\sb120\sl240\slmult0\keep\widctlpar {\f19\fs36 Introduction
+\par }\trowd \trgaph80\trleft1621\trkeep \cellx9321 \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 
+This note describes the Windows NT 3.51 & Windows NT 4.0 Display Driver and OpenGL Installable Client Driver for the GLINT 300SX/500TX reference board (Montserrat),  the 300SX/500TX + DELTA board (Racer) and the {\scaps Permedia }
+reference boards with and without Delta.  It also explains how to install these drivers.\cell \pard \widctlpar\intbl {\fs36 \row }\pard\plain \s22\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+\par 
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\pagebb\widctlpar \f20\lang2057 {\f22\fs36 Change History
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \trowd \trgaph80\trleft-60\trkeep \clbrdrb\brdrs\brdrw15 \cellx740\clbrdrb\brdrs\brdrw15 \cellx2200\clbrdrb\brdrs\brdrw15 \cellx9280 \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl {\f19 Issue\cell Date\cell Change\cell }\pard \widctlpar\intbl \row 
+\trowd \trgaph80\trleft-60\trkeep \clbrdrt\brdrs\brdrw15 \cellx740\clbrdrt\brdrs\brdrw15 \cellx2200\clbrdrt\brdrs\brdrw15 \cellx9280 \pard \qj\keep\widctlpar\intbl 9\cell 10-Dec-96\cell New Release\cell \pard \widctlpar\intbl \row \pard\plain 
+\s22\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 Document {\field\fldedit{\*\fldinst  FILENAME  \\* MERGEFORMAT }{\fldrslt {\lang1024 Nt27r15.doc}}}
+\par 
+\par \'a9 Copyright 3Dlabs{\f30 \'ae} Inc Ltd.  1995-1996.  All rights reserved worldwide.
+\par 
+\par The material in this document is the intellectual property of 3Dlabs.  It is provided solely for information.  You may not reproduce this document in who
+le or in part by any means.  While every care has been taken in the preparation of this document, 3Dlabs accepts no liability for any consequences of its use.  Our products are under continual improvement and we reserve the right to change their specifica
+tion without notice.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 3Dlabs is the worldwide trading name of 3Dlabs Inc. Ltd.
+\par \pard\plain \s22\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 3Dlabs is a registered trademark of 3Dlabs Inc. Ltd
+\par GLINT is a trademark of 3Dlabs. PERMEDIA is a trademark of 3Dlabs.
+\par OpenGL is a trademark of  Silicon Graphics, Inc.  UNIX is a 
+registered trademark of UNIX System Laboratories.  Windows, Win32 and Windows NT are trademarks of Microsoft Corp.  AutoCAD is a trademark of AutoDesk Inc.  MicroStation is a trademark of Intergraph Corp.
+\par 
+\par All other trademarks are acknowledged.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+\par 
+\par 
+\par \trowd \trgaph80\trleft-80\trkeep \cellx4622\cellx9324 \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl {\f22 3D}{\f52 labs Inc.}\line 181, Metro Drive Suite 520\line San Jose, CA 95110\line United States
+\par Tel: (408) 436 3455\line Fax: (408) 436 3458\cell {\f22 3D}{\f52 labs Ltd.}\line Meadlake Place\line Thorpe Lea Road.  Egham\line Surrey, TW20 8HE\line United Kingdom
+\par Tel: +44 (0) 1784 470555\line Fax: +44 (0) 1784 470699\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page Introduction
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 Thi
+s document describes the Windows NT Display Driver and OpenGL Installable Client Driver for the GLINT 300SX/500TX reference board, Montserrat and the 300SX/500TX + DELTA reference board, Racer and the {\scaps Permedia }reference boards.
+\par {\f19 This document should be read in conjunction with the README.TXT file on the installation floppy, which contains details of any enhancements and/or bug fixes that have been made subsequent to these release notes being written.
+\par }\pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Release Identity
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 Once the driver has been installed and the machine rebooted, the display driver release number can be determined by starting the Display Applet Control Panel in the Main Window Group.
+\par For NT 3.51, press the \ldblquote Change Display Type ...\rdblquote  button. In the Driver Information section of the \ldblquote Display Type\rdblquote 
+ window the version string 3.5.n will be seen. For GLINT display drivers n is a 2 digit field giving the version number. For example 3.5.27 would mean version 2.7 of the display driver.
+\par For NT 4, press the \ldblquote Display Type ...\rdblquote  button. In the \ldblquote Display Type\rdblquote  window the Version Numbers \ldblquote 4.00, 4.0.n\rdblquote  will be seen, where n is a 2 digit field giving the display driver version.
+\par The OpenGL release number can be determined by running the X29 (tumbling plane) demonstration program, and selecting \ldblquote Who\rquote s Rendering ?\rdblquote  from the \ldblquote Help\rdblquote  pull down menu.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Prerequisites
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab Windows NT 3.5 (Build 807 or later) or Windows NT 3.51 (Build 1057). Or Windows NT 4.0 (Build No 1381)
+\par \bullet \tab Intel 486 processor or later, MIPS or DEC Alpha.
+\par \bullet \tab 3Dlabs Montserrat or Racer board or {\scaps Permedia }reference board.
+\par 
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 Installation
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 Before installing the software, power down the machine and install the Montserrat, Racer or {\scaps Permedia }
+board as per the hardware installation instructions. Boot the machine using the non-VGA boot option (new display drivers cannot be installed when the machine has been booted with the VGA boot option). Once booted and you have logged in as an Administrator
+, perform the following steps:
+\par For NT 3.51:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab Open the Control Panel in the Main Program Group and start the Display Applet.
+\par \bullet \tab Press the \ldblquote Change Display Type...\rdblquote  button. A new window titled \ldblquote Display Type\rdblquote  will appear.
+\par \bullet \tab Press the \ldblquote Change...\rdblquote  button in this window. A window titled \ldblquote Select Drive\rdblquote  will appear.
+\par \bullet \tab Press the \ldblquote Other...\rdblquote  button in this window. A window titled \ldblquote Install from Disk\rdblquote  will appear.
+\par \bullet \tab Specify the path A:\\\rdblquote arch\rdblquote  where \ldblquote arch\rdblquote  is one of i386, ppc, mips or alpha depending on the machine\rquote 
+s CPU. Insert the release floppy for your machine architecture into the drive and press OK. The \ldblquote Select Device\rdblquote  window will reappear with various options for the GLINT 300SX.
+\par \bullet \tab 
+A number of different options for different resolutions, depths and monitor frequencies are supplied. If you know the option you want and you are sure that the monitor supports this option then choose it. If not or you are unsure about the capability of
+ your monitor choose a 640x480 option at 60Hz with a pixel depth of 15. When the machine has rebooted you will be able to select a new option and test the monitor capabilities at this resolution and frequency.
+\par \bullet \tab Part of the description of each option indicates the 3D double buffering capabilities of the GLINT card at that depth and resolution. \ldblquote Double Buffered\rdblquote 
+ means that multiple double buffered 3D applications can be supported.  \ldblquote 1 Double Buffered Window\rdblquote  means th
+at only one window can be double buffered at a given time. Attempting to run a second double buffered application will fail until the first one has exited.
+\par \bullet \tab A window may appear asking you to confirm that you are changing your system configuration. Press \ldblquote Yes\rdblquote .
+\par \bullet \tab Press \ldblquote Continue\rdblquote  in the \ldblquote Windows NT Setup\rdblquote  window.
+\par \bullet \tab Two more information windows will appear. Press OK in both.
+\par \bullet \tab If you are upgrading your GLINT drivers you may be asked whether you want to use the \ldblquote Current\rdblquote  or \ldblquote New\rdblquote  drivers. Select the \ldblquote New\rdblquote  option.
+\par \bullet \tab A window titled \ldblquote Display Settings Change\rdblquote  will appear. Remove the release floppy from the drive and press the \ldblquote Restart Now\rdblquote  option.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 For NT 4:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab Open the Control Panel in the Main Program Group and start the Display Applet. 
+\par \bullet \tab Press the \ldblquote Change Display ...\rdblquote  button. A new window titled \ldblquote Display Type\rdblquote  will appear.
+\par \bullet \tab Press the \ldblquote Change...\rdblquote  button in this window. A window titled \ldblquote Change Display\rdblquote  will appear.
+\par \bullet \tab Press the \ldblquote Have Disk ...\rdblquote  button in this window. A window titled \ldblquote Install from Disk\rdblquote  will appear.
+\par \bullet \tab Specify the path A:\\. Insert the release floppy for your machine architecture into the drive and press OK. The \ldblquote Change Display\rdblquote 
+ window will appear with two sub-windows. The left hand sub-window contains a list specifying chip types (e.g. {\scaps Permedia }or GLIN
+T); the left hand sub-window will contain a selection within that group. Select the chip type in the left hand sub-window and the nearest board type in the right hand sub-window and press \ldblquote OK\rdblquote .
+\par \bullet \tab The follow the instructions and quit the control panel applet. When asked if you want to restart the machine press \ldblquote Yes\rdblquote .
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+Note that for NT 4 there are no options to select a given resolution at install time. When the machine reboots NT 4 allows the video mode to be dynamically changed without the need for a reboot.
+\par The machine will now shutdown. On restart again choose the non-VGA boot option. It will restart using the GLINT board as the display device. This can be checked by opening the \ldblquote Display\rdblquote  applet again and pressing the \ldblquote 
+Change Display Type...\rdblquote  button. The \ldblquote Display Type\rdblquote  window should report that it is running on a GLINT or {\scaps Permedia }
+display board. If the standard Windows NT screen does not appear and the display remains at the blue boot screen, ensure that the VGA pass-through cable has been correctly connected.
+\par If the desired resolution, depth and frequency have not been chosen at install time then open the Display Applet to define the required resolution, color depth and monitor frequency. This selected mode can be tested to ensure that it can be handled by the
+ monitor. For running the default 3D demos a resolution of 1024x768 with 15bpp is recommended. Selecting 75Hz is desirable if the monitor can support this frequency. On some double buffered applications the higher refresh rate allows higher frame rates t
+o be achieved. For NT 4 the display will change dynamically; for NT 3.51 a reboot is necessary.
+\par The above procedure installs the NT display driver, GLINT control panel applet and the OpenGL installable client driver. Once the display resolution and pixel depth have been appropriately re-configured the machine is ready to run both Windows NT and Open
+GL applications and demos.
+\par \pard \qj\ri160\sb120\sl240\slmult0\keep\widctlpar {\f22 
+\par }\pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page Resolutions and Color Depths
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 On a board with a 4MB framebuffer, the following modes are supported by this release.
+\par 
+\par \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx2080\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4240 \pard 
+\qj\sb120\sl240\slmult0\keep\widctlpar\intbl Resolution\cell Colors\cell \pard \widctlpar\intbl \row \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx2080\clbrdrt
+\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4240 \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 640x480\cell 256\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 640x480
+\cell 4096\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 640x480\cell 32768\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 640x480\cell True Color\cell \pard \widctlpar\intbl \row 
+\pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 800x600\cell 256\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 800x600\cell 4096\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 
+800x600\cell 32768\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 800x600\cell True Color\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1024x768\cell 256\cell \pard 
+\widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1024x768\cell 4096\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1024x768\cell 32768\cell \pard \widctlpar\intbl \row \pard 
+\qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1024x768{{\field{\*\fldinst SYMBOL 42 \\f "Symbol" \\s 12}{\fldrslt\f1\fs24}}}\cell True Color\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1152x870\cell 256\cell \pard 
+\widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1152x870\cell 4096\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1152x870\cell 32768\cell \pard \widctlpar\intbl \row \pard 
+\qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1152x870{{\field{\*\fldinst SYMBOL 42 \\f "Symbol" \\s 12}{\fldrslt\f1\fs24}}}\cell True Color\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1280x1024\'86\cell 256\cell 
+\pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1280x1024\'86\cell 32768\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1600x1200\'86\cell 256\cell \pard \widctlpar\intbl \row \trowd 
+\trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx2080\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4240 \pard 
+\qj\sb120\sl240\slmult0\keep\widctlpar\intbl 1600x1200\'86\cell 32768\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par 1600x1200 resolutions are available at 60Hz. The rest of the above modes are available at both 60Hz and 75Hz monitor refresh rates. In addition, the 640x480 resolution is available at 72Hz. A full list of all modes is available via the display applet once
+ the GLINT driver has been installed and the system rebooted. Choose the \ldblquote List all Modes\rdblquote  option to get this list.
+\par From release 1.8 onwards only double buffered resolutions are selectable using the Display Applet, unless a registry variable is set to overri
+de this (see below). This is to avoid confusion where double buffered applications run through software rendering only because of insufficient VRAM available to support accelerated double buffering.
+\par {{\field{\*\fldinst SYMBOL 42 \\f "Symbol" \\s 12}{\fldrslt\f1\fs24}}}
+ At resolutions greater than 1024x768 True Color, double buffered 3D pixel formats are only available if there is 8MB of framebuffer (VRAM) configured. The Montserrat board only supports a 4MB framebuffer whilst the Racer supports 8MB.
+\par \'86 At resolution 1280x1024 and higher, 3D pixel formats are only available if there is 8MB of localbuffer configured on the GLINT board. On the Montserrat double buffering at this resolution is only possible at 8 bits per pixel.
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 3D Graphics & Double Buffering
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+The display driver contains an extension to allow 3D applications, and the OpenGL installable client driver, to drive the GLINT hardware. To provide a double buffering capability for these 3D applications the display driver provides the following features
+.
+\par A screen-sized off-screen buffer is configured if the \ldblquote DoubleBuffer.NumberOfBuffers\rdblquote  registry variable is {{\field{\*\fldinst SYMBOL 179 \\f "Symbol" \\s 12}{\fldrslt\f1\fs24}}}
+ 2 (see below). This buffer is used in 256, 4096, 32768 and True Color modes to provide BitBlt double buffering. The off-screen buffer is also used to provide full screen hardware double buffering if an application window covers the whole screen. The Mont
+serrat board features 4MB of VRAM and the Racer 8MB. For double buffering to be available, the chosen resolution and pixel depth must fit into 2MB. This restrictio
+n applies to both Montserrat and Racer boards.  The resolution tables below define which pixel depth and resolution combinations provide a double buffering capability.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Full Screen Double Buffering
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+If an application window covers the whole screen, the display driver will automatically switch to use of a hardware double buffer mechanism, which can have a significant performance benefit. This mechanism will not be available to an application that has 
+more than a small window border at the top of the screen. It
+ will also be unavailable if, for example, a floating task bar (common on NT 4.0) is at any edge other than the top of the screen, since the display driver will check and find that the application window does not cover the whole screen.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Color Space Double Buffering
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+If 4096 colors mode is chosen then hardware double buffering is implemented using interleaved nibbles. Each pixel is 32 bits deep with the front buffer occupying bits 0x0F0F0F0F and the back buffer occupying bits 0xF0F0F0F0. Switching between the
+se two buffers is done using the Palette DAC readmask. This is known as Color Space Double Buffering.
+\par In this mode, standard Windows applications see the display as providing 12 bits per pixel true color mode with 4 bits per color component. GDI rendering operations are replicated into both the high and low nibbles. To select this mode choose one of the 4
+096 color modes from the \ldblquote List Of Modes\rdblquote  menu in the Display Applet.
+\par Not all 3D Graphics drivers for GLINT take advantage of this mode, though the OpenGL Installable Client Driver does.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Color Space Double Buffering and OpenGL
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+The OpenGL Installable Client Driver differentiates between the two buffers by setting the writemask appropriately. Swapping the buffers over in this instance does not incur the cost of a blitting operation - the OpenGL buffer swaps over and all the GDI r
+endering remains intact. This mode therefore provides the optimal double buffering performance since hardware double buffering is available for all window sizes.
+\par Because the swap operate
+s on the whole screen, there can only be one double buffered OpenGL window that uses this technique. Thus the first 3D window created can be color space double buffered, while all subsequent 3D windows must use BitBlt double buffering (assuming there is s
+ufficient VRAM to support another complete screen sized buffer). If the first window closes, the next 3D window created will use color space double buffering.
+\par \page The table below shows the trade off between resolution, color depth and capabilities for a Montserrat board which has 4MB of VRAM:
+\par 
+\par \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl
+\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10102 \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl Number of Colors\cell Screen Resolution\cell Number of Buffers\cell Color Space Double Buffering
+\cell Blitted Double Buffering\cell Number of h/w Double Buffered Windows\cell \pard \widctlpar\intbl \row \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl
+\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10102 \pard \qc\sb120\sl240\slmult0
+\keep\widctlpar\intbl 4096\cell 800x600\cell 2\cell Yes\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 4096\cell 1024x768\cell 1\cell Yes\cell No\cell 1\cell \pard \widctlpar\intbl \row \pard 
+\qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32768\cell 1024x768\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32769\cell 1152X870\cell 2\cell No\cell Yes\cell Many\cell \pard 
+\widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl True\cell 800x600\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb
+\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 
+\clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 
+\cellx10102 \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl True\cell 1024x768\cell 1\cell No\cell Software\cell None\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par For the Racer board which has 8MB of VRAM:
+\par 
+\par \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl
+\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10102 \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl Number of Colors\cell Screen Resolution\cell Number of Buffers\cell Color Space Double Buffering
+\cell Blitted Double Buffering\cell Number of h/w Double Buffered Windows\cell \pard \widctlpar\intbl \row \trowd \trgaph80\trleft-80\trkeep \clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl
+\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10102 \pard \qc\sb120\sl240\slmult0
+\keep\widctlpar\intbl 4096\cell 800x600\cell 2\cell Yes\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 4096\cell 1024x768\cell 2\cell Yes\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard 
+\qc\sb120\sl240\slmult0\keep\widctlpar\intbl 4096\cell 1152x870\cell 2\cell Yes\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32768\cell 1024x768\cell 2\cell No\cell Yes\cell Many\cell \pard 
+\widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32768\cell 1152X870\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32768\cell 1280x1024\cell 2\cell No\cell Yes
+\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl 32768\cell 1600x1200\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl True\cell 800x600
+\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl True\cell 1024x768\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \trowd \trgaph80\trleft-80\trkeep \clbrdrt
+\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \cellx1582\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx3244\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr
+\brdrs\brdrw15 \cellx4906\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx6568\clbrdrt\brdrs\brdrw15 \clbrdrl\brdrs\brdrw15 \clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx8230\clbrdrt\brdrs\brdrw15 
+\clbrdrb\brdrs\brdrw15 \clbrdrr\brdrs\brdrw15 \cellx10102 \pard \qc\sb120\sl240\slmult0\keep\widctlpar\intbl True\cell 1152X870\cell 2\cell No\cell Yes\cell Many\cell \pard \widctlpar\intbl \row \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f19 
+Note that when running at a resolution greater than 800 by 600 in True Color Mode (16 Million Colors) on a board with 4Mbyte of VRAM, double buffered OpenGL applications will revert to using the generic software OpenGL implementation with consequent loss 
+of performance.}
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\keepn\widctlpar \f20\lang2057 {\b\f22\fs36 Dual-headed displays
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+This Release supports dual-headed displays using two Montserrat or two Racer boards under Windows NT3.51. The configurations for each board must be identical. In particular they must have the same amount of VRAM. To run
+ dual-headed simply plug in a second board. The driver will automatically detect the presence of the second board and run dual-headed. To switch back to single headed operation, remove the second board.
+\par The ordering of the boards depends on the PCI slots they occupy. On startup the Windows logo will be displayed halfway between both boards. If the left and right displays are swapped, simply swap the monitor cables connected to both boards.
+\par Note: in this release dual-headed support on Windows NT 4 is not included. Support for texture caching is disabled when running dual-headed.
+\par 
+\par {\b\f22\fs36 Control Panel Applet
+\par }
+Some of the registry variables, detailed in the next section can be directly changed by the GLINT control panel applet, accessible through the control panel.  This applet allows both boot-time and run-time control over the configuration of  OpenGL and oth
+er applications using the  GLINT display driver. Options that are not applicable to the currently installed graphics board will be disabled (greyed out).  The control panel is split into a number of groups as listed below.
+\par Note, currently it is necessary to have administrator privileges to change any settings in the control panel applet. If you do not have administrator privileges, a message box will inform you of the fact and display the control panel with the Apply and OK
+ buttons disabled.
+\par {\b\f22 Enable Multiple 4096 Double-Buffered Windows
+\par }When in 4096 colour mode, there can only be one double buffered OpenGL window.  This check-box allows multiple double buffered windo
+ws to coexist in this mode simultaneously, which can be useful for particular applications.  Note though that any buffer swap operation will cause a buffer swap to happen for all other double buffered windows.  This option is not relevant to {\scaps 
+Permedia}. See also  information on the {\f3 DoubleBuffer.MultiColorSpace }registry variable in the next section.{\f3 
+\par }{\b\f22 Export PFD_SUPPORT_GDI modes
+\par }These two check-boxes control whether the  PFD_SUPPORT_GDI flags are exported for single buffered and double buffered pixel formats. The check boxes alter the registry variables:
+\par  \tab \tab 3DExtensions.SupportSingle
+\par \tab \tab 3DExtensions.SupportDouble
+\par (note that this will take effect with release 1.8 of the GLINT display driver).
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 Export High Resolution, Single Buffered Formats
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+When this box is checked, it will enable the driver to boot at resolutions where only single buffered pixel formats are supported by GLINT acceleration (because at higher resolutions, there is not enough VRAM to support double buffered formats).  By defau
+lt, this is not enabled a
+nd it prevents users from booting into a mode that will result in unaccelerated OpenGL applications that use double buffered modes. This option should be selected by users wishing to run 2D applications at the highest available resolutions.
+\par (note that this takes effect with release 1.8 and later of the GLINT display driver).
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 SoftImage Version 3.01 Application support
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar Version 3.01 of SoftImage requires this to be set to ensure the correct operation of SoftImage  on the Racer SX and TX boards.  Changing this option requires a re-boot of the system.
+\par {\f22 SoftImage Version 3.51 Application support
+\par }This box must to checked to correctly run Softimage version 3.51. The option is mutually exclusive with support for version 3.01 which will be disabled when this is selected. This option requires a reboot to take effect.
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 Use BIOS PCI base addresses
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar Normally, the NT HAL allocated PCI base addresses for the GLINT card. These override those whi
+ch are normally supplied by the PCI BIOS. On some machine configurations these addresses are not valid for the given hardware. In these instances, the base addresses originally configured by the BIOS are often valid and allow the machine to boot. Setting 
+this variable to 1 causes the BIOS base addresses to be used rather than those configured by NT.
+\par In particular, on machines which use the Intel Multi Processor Specification 1.4 (MPS 1.4), there is a bug in the NT HAL for many machines which causes invalid base addresses to be configured. Setting this variable may fix this problem.
+\par {\f22 Boot-Time Buffer size Options
+\par }
+These boxes can be used to specify the size (in Kb) of a DMA buffer along with the number of DMA buffers allocated at boot time.  Ideally, you would like enough DMA buffers to cater for all of the OpenGL contexts, however each of these buffers will use up
+ system memory.  For more information, see the notes on the {\f3 GlintDMA.NumberOfBuffers and GlintDMA.SizeOfBuffer }registry variables.
+\par {\f22 Dynamic Buffer Option - Number of Sub-Buffers
+\par }
+Each DMA buffer is sub-divided into sub-buffers which are used in conjunction with an Interrupt DMA mechanism to reduce latency in the system.  The number of sub-buffers can be set here, setting it to 2 will disable the interrupt mechanism.  For more info
+rmation, see the notes on the {\f3 GlintDMA.NumberOfSubBuffers} registry variable.
+\par {\f22 Disable Fast Clear Planes
+\par }Checking this box will disable the use of the fast Depth Clear planes and is equivalent to setting the environment variable GLI
+NT_DONT_USE_FCP to TRUE.  This option should be used in cases where the Depth buffer needs to be read back into the application. This option is not relevant to {\scaps Permedia}.
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 Disable Delta
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar Checking this tick box will prevent OpenGL using the GLINT DELTA triangle setup chip on Racer based boards.  This is useful for performance comparisons.
+\par {\f22 Draw Line Endpoints
+\par }This option when set can improve the legibility of text rendered by some applications using stroke fonts, such as ProEngineer. 
+\par {\f22 Force Nearest Neighbour Texturing
+\par }
+Setting this registry value will ensure that OpenGL only performs nearest neighbour texturing operations.  In some applications this can give a performance, though in some cases using a lower quality texture filter.  Note that textures will still be rende
+red with perspective correction. Tick this box if you are happy with the performance/texturing quality that is achieved with your application.
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 Enable Texture Compression
+\par }Setting this registry value will force OpenGL to shrink 2D texture maps as they 
+are loaded to reduce the memory needed to store them. Texture maps are halved in both x and y dimensions so that they require a quarter of the original memory. The setting has no effect on 1D or paletted texture maps. This setting applies to all hardware 
+configurations. {\f22 
+\par Use High Quality Texture
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+This variable is only relevant to the GLINT 300SX . If this box  is checked, the texturing code in OpenGL will use a floating point mechanism as opposed to an integer pipe.  The floating point mechanism is slower (b
+y 2.5-3 times on an Intel), but has a far greater dynamic range.  The integer pipe uses a fixed point format which adjusts dynamically but has a limited range.  Once this limit is reached, artefacts can appear.   Often the range is more than sufficient to
+ satisfy application needs, however, in cases where the integer pipe cannot cope, this box should be checked.
+\par {\f22 Disable MipMapping
+\par }This variable is only relevant to the GLINT 500TX . Checking this tick box will prevent OpenGL from allowing mip-map texture fil
+tering to be enabled. This option will override mip-map filtering settings of an OpenGL application, forcing the allowed filtering to be either GL_LINEAR or GL_NEAREST. These two filtering options are rendered much faster than the mip-map filtering option
+ on the GLINT 500TX.
+\par {\f22 Perspective Correction
+\par }This variable is only relevant to {\scaps Permedia}. The accuracy of the perspective-correction divide performed during textured rendering can be varied on {\scaps Permedia}. The default option, Force Nicest, enforces that the most
+ accurate divide always operates, resulting in the best image quality. The Force Fastest option switches to a reduced accuracy divide when Delta hardware is present and no perspective-correction at all if Delta is not present. This results in best perform
+ance at the cost of lower image quality. The third option gives control of the divide accuracy to OpenGL applications through the API function glHint. A smart application can vary the divide accuracy used on a per primitive basis, since primitives that ar
+e heavily perspected require higher accuracy for good image quality than those that are not. 
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f22 Gamma Correction Adjustment
+\par }\pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+The gamma correction adjustment affects the entire screen display. The default gamma value is 1.0 and the allowable range of floating point values is 0.3 to 4.0. Any new user-defined value will take effect when the Apply or OK button are selected.
+\par {\f22 Chip Clock Speed
+\par }For information only. This reports the frequency to the nearest MHz of the Glint graphics chip (not to be confused with the RAMDAC frequency etc).{\f22 
+\par }
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 Registry Variables
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 In addition to the standard registry variables set up by the driver and the display applet, the following configuration variables are used. They are located in:
+\par {\f3 HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\glint\\Device}
+\par {\b\f22 
+\par }\pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Timing Register Configuration
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057  See the GLINT Hardware Reference Manual for details of the registers described in this section. The timing related variables are not applicable to {\scaps Permedia }based boards.
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.VTGSerialClk}:\line If defined this register is used to program the GLINT VTGSerialClk register. If not defined then a suitable default value will be used.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar This register controls some fundamental VRAM size values. It should be modified in the oemsetup.inf file supplied with the driver for a given board.
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 GlintTiming.LBMemoryCtl:
+\par }\pard \qj\fi-720\li720\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.LBMemoryCtlMask:}\line 
+These two variables are used as a pair. The Ctl variable specifies a value to be loaded into the GLINT LBMemoryCtl register. The CtlMask variable specifies which bits of that register are t
+o be modified. If ulValue is the value read from the LBMemoryCtl register then the new value loaded is:
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 (ulValue & ~CtlMask) | (Ctl & CtlMask)}. 
+\par If the Ctl variable is not defined or is zero then the value defined by resistors on the board is used. If the CtlMask variable does not exist then a value of -1 is used. 
+\par A reboot is necessary for changes in these variables to take effect. 
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.FBMemoryCtl:
+\par }\pard \qj\fi-720\li720\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.FBMemoryCtlMask:}\line These variables are used in the same way as the LBMemoryCtl variables but they control the value to be loaded into the GLINT FBMemoryCtl register.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar If the Ctl variable is not defined or is zero then the value defined by resistors on the board is used. If the CtlMask variable does not exist then a value of -1 is used. 
+\par A reboot is necessary for changes in these variables to take effect. 
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.FBModeSel:
+\par }\pard \qj\fi-720\li720\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.FBModeSelMask:}\line These variables are used in the same way as the FBMemoryCtl variables but they control the value to be loaded into the GLINT FBModeSel register.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar If the Ctl variable is not defined or is zero then the value defined by resistors on the board is used. If the CtlMask variable does not exist then a value of -1 is used. 
+\par A reboot is necessary for changes in these variables to take effect. 
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 GlintTiming.Use2ClockMemoryCtl:}\line 
+If defined and non-zero this variable causes default 2 clock memory cycle timing values to be loaded into the LBMemoryCtl and FBMemoryCtl registers. In this case th
+e registry variables GlintTiming.LBMemoryCtl and GlintTiming.FBMemoryCtl are ignored. By default this variable is defined and non-zero. This provides backward compatibility with driver releases before version 1.6 where the clock timing was forced to 2 clo
+cks for a page access and 5 clocks for a non-page access. 
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A reboot is necessary for a change in this variable to take effect. 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 GlintClockSpeed:}\line This variable is used to indicate the oscillator frequency of the reference board (this value cannot be read fr
+om the board). By default this value is zero indicating that the clock frequency used should be the default for the chip revision. This variable should only be changed if the clock speed of the board is not the default for the chip type. 
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar 
+This variable is read every time the Test button is used in the Display Applet (and also at boot time). Thus to change the clock speed, start the Display Applet and press the Test button. On return from the test screen the new clock speed will have been l
+oaded into GLINT. When asked if the test screen could be seen answer No and press Cancel in the Applet. This will leave all system settings unmodified except the GLINT clock speed will have been updated.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 DMA Control Variables
+\par \pard\plain \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\f3 GlintDMA.NumberOfBuffers:}\line 
+This defines the number of DMA buffers configured for use by the 3D extension. As each 3D context is created a DMA buffer will be allocated to it. Typically, each 3D application (whether OpenGL or another accelerated 3D API) will use a single context. If
+ all DMA buffers have been allocated then shared memory buffers are used instead.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar 
+If this variable does not exist or its value is set to zero then use of DMA is disabled. DMA will not be available if the installed GLINT board does not support DMA transfers. In this case an event is logged in the system log file. This can be viewed usin
+g the Event Viewer. The installation default is 4.
+\par The machine must be rebooted for a change in this variable to take effect.
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 GlintDMA.SizeOfBuffer:}\line This variable defines the size in bytes of each D
+MA buffer. Its value will be rounded up to the next system page boundary. The size will be limited to 256KB since this is the maximum size that can be specified to GLINT for a DMA transfer. The installation default is 0x10000 (64KB).
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar The machine must be rebooted for a change in this variable to take effect.
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 GlintDMA.NumberOfSubBuffers:}\line This variable describes the number of sections into which a single DMA buffer is divided for use by a 3D application. This is used by interrupt driven DMA to construct a que
+ue of buffers which are to be loaded into GLINT by the DMA interrupt handler. The maximum size of the queue is always 2 less than the number of sub-buffers specified. This is to allow the 3D application to fill one buffer and GLINT to be performing DMA on
+ another buffer. The remainder can be queued.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar 
+Setting this variable to 2 disables interrupt driven DMA since not enough buffers are available to create a DMA queue. DMA still works but the DMA buffer is split into two parts so that GLINT can load one while 
+the 3D application prepares the other. Setting this variable to zero disables DMA and forces FIFOs to be used. This latter feature is generally used only for comparing performance of DMA and non-DMA operation (without needing a reboot).
+\par 
+\par This variable is read every time a 3D context is created. Thus it is not necessary to reboot the machine for a change to take effect. Changing this variable has no effect on any already running 3D applications. The installation default is 5.
+\par This variable can have considerable 3D performance implications. 2 is usually ideal for single-buffered applications and 5 seems well suited to double-buffered applications. 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 GlintDMA.AllocateCached:}\line 
+The release 1.4 driver automatically determines whether the DMA buffers can be allocated as cached or uncached. Setting this variable to zero forces buffers to be uncached; setting it to 1 forces buffers to be cached. It is not recommended that this vari
+able be created or modified. The default installation does not create this variable.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar It is necessary to reboot the machine in order for a change in this variable to take effect.
+\par {\b This variable should not be defined on Alpha platforms as using uncached DMA buffers has undefined results on these machines.
+\par }
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 GlintDMA.LatencyTimer:}\line 
+This variable sets the PCI latency timer for the GLINT chip. This determines the maximum number of PCI cycles that GLINT can hold onto the PCI bus while performing DMA once the bus grant has been removed. It is not recommended that this variable be modif
+ied. 
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A system reboot is necessary for changes in this variable to take effect. 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 3DInterfaceBuffer.SizeLongs:}\line This defines the length of the shared memory buffer used by the OpenGL DLL to communicate with the driver. The length is specified in DWORDS. The installation default is 0x2000 (32KB).
+\par 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 3D Double Buffering Control
+\par \pard\plain \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\f3 DoubleBuffer.NumberOfBuffers:}\line 
+This specifies the total number of screen-sized buffers to be allocated from VRAM by the driver. One buffer is always allocated for the main, displayed screen. If this variable exists and is {{\field{\*\fldinst SYMBOL 179 \\f "Symbol" \\s 12}{\fldrslt
+\f1\fs24}}}
+ 2 then a second off-screen buffer is allocated for use by the 3D extension (values > 2 are reserved for future use). Any VRAM remaining after allocation of the screen-sized buffers is available for use by the display driver for pattern cache and off-scre
+en bitmaps. The installation default is 2.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A system reboot is necessary for changes in this variable to take effect. 
+\par 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 DoubleBuffer.MultiColorSpace:}\line 
+Setting this variable to 1, specifies that the system lock on the double buffering token should be ignored. This will allow applications such as the ProEngineer CAD package which create multiple double buffered rendering contexts, but only ever display o
+ne double buffered window to use color space double buffering. The caveat is that if a second double buffered application is started then it wil
+l ignore the system lock resulting in flickering or incorrect pictures being displayed, as there will be no arbitration between the applications, of when the swapbuffers command (which affects the whole screen) is executed. The not created at installation
+ by default which is same as setting it to 0, meaning that the lock is in force.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A system reboot is necessary for changes in this variable to take effect. 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 {\b OpenGL Registry Variables
+\par }\pard\plain \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\f3 OpenGL.SupportSoftimage:\line }This variable is used to optimise the OpenGL drive
+rs for use with version 3.01 of the SoftImage rendering package. We do not recommend use of this variable unless you will be using the SoftImage application. If this variable is defined and set to 1 then the optimisations will be enabled. 
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar \tab A system reboot is necessary for changes in this variable to take effect.
+\par 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 OpenGL.SupportSoftimage351:\line }
+This variable will optimise the drivers for version 3.51 of the SoftImage rendering package. Once again we recommend that you only use this variable when using Softimage. If this variable is defined and set to 1 then the optimisations will be enabled. 
+
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar \tab A system reboot is necessary for changes in this variable to take effect.
+\par \pard \qj\sb120\sl240\slmult0\keep\keepn\widctlpar {\f3 OpenGL.MaxTextureSize:
+\par }\pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 \tab }
+This variable specifies the maximum width or height (minus any border) of a texture as a power of 2 (a restriction of the OpenGL API) for use by the texture memory manager. Applicable to the TX and Permedia only, this variable requests a portion of local 
+buffer memory be set aside for use as a texture cache for swapping textures in/out of host memory as needed. This is only a {\i request}
+, which the driver will attempt to satisfy in the available memory left over (after allocation of any stencil/z buffers etc) down to a minimum size of 64 which all OpenGL  implementations are required to guarantee.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar 
+Setting this variable to any value less than 6 (i.e. 2^6 or 64) will clamp to 6. The only exception is a setting of zero which disables the texture memory manager, does not set aside any texture cache so that texture downloads will return 
+the GL_OUT_OF_MEMORY error when texture memory becomes exhausted. (See below under OpenGL Texturing Issues for more information on the texture memory manager). 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar \tab 
+A system reboot is only necessary under NT v3.51 for changes in this variable to take effect. A display resolution change made on the fly under NT v4 will reinitialise the size of the texture memory cache.
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 {\b Miscellaneous Registry Variables
+\par }\pard\plain \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\f3 UseSoftwareCursor:}\line If defined and set to 1 a software cursor is used instead of the normal hardware cursor. This variable is not created by default.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A system reboot is necessary for changes in this variable to take effect. 
+\par 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar {\f3 ExportSingleBufferedModes:}\line 
+If this variable is defined and set to 1 then single buffered modes are made available via the Display Applet. Note, choosing too high a resolution may result in insufficient VRAM being availabel to support accelerated double buffered rendering. In this 
+case software only rendering will be used instead.
+\par \pard \qj\li720\sb120\sl240\slmult0\keep\widctlpar A system reboot is necessary for changes in this variable to take effect. 
+\par 
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar The following variables may not be supported in future releases, and are not created by the default installation. Some PCI BIOS\rquote 
+s allocate invalid physical addresses for the GLINT memory regions. Setting the following variables override the BIOS specifica
+tion and force the physical addresses of the different GLINT PCI address regions. If these variables are used care must be taken to ensure that they are on the correct boundary for the given region and that different regions do not overlap. Typic
+al addresses to try are high memory addresses such as 0xA0000000. See the section on PCI BIOS under \ldblquote Known Anomalies and Restrictions\rdblquote  below, for a description of how to override the physical address for the framebuffer. 
+\par \pard \qj\fi-720\li720\sb120\sl240\slmult0\keep\widctlpar 
+\par {\f3 PhysicalAddress.Region0:}\line Specifies the physical address for GLINT control registers. This value should be on a 128K boundary.
+\par 
+\par {\f3 PhysicalAddress.Region1:}\line Specifies the physical address for the localbuffer bypass. Currently, this is not mapped in by the driver but it must have a valid physic
+al address (not zero) which does not conflict with other addresses in the system since GLINT will respond to accesses in this range. This region should be on an 8MB boundary and is 8MB in length.
+\par 
+\par {\f3 PhysicalAddress.Region2:}\line Specifies the physical address for the framebuffer bypass. This address must be on a 32MB boundary and is 4MB in length.
+\par 
+\par {\f3 PhysicalAddress.ROMBase:}\line Specifies the physical address for the on-board ROM. Currently, this is not mapped in by the driver but it must have a valid physical address (
+not zero) which does not conflict with other addresses in the system since GLINT will respond to accesses in this range. This address must be on a 64KB boundary and is 64KB in length.
+\par 
+\par {\f3 UseBiosAddresses:\line }
+Normally, the base addresses for PCI devices are allocated by the NT operating system. Some older X86 machines do not operate correctly if these addresses are used. In particular, this may apply to older 486 machines. If this variable is defined and set t
+o 1 then the base addresses assigned by the PCI BIOS to the GLINT chips are used instead of those assigned by the operating system.
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 
+\par OpenGL Environment Variables
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+The control panel applet is the preferred method for controlling OpenGL  behaviour. However, two environmental variables are described below which provide an alternative means of changing two of the options.
+\par \pard \qj\ri160\sb120\sl240\slmult0\keep\widctlpar The environment variable {\f3 GLINT_DONT_USE_FCP} can be used to disable the use of the Fast Clear Planes by the OpenGL Installable Client Driver. This is done by setting the variable to {\f3 TRUE}
+ within the system applet of the control panels. This variable is not relevant to {\scaps Permedia}.
+\par \pard \qj\sb120\sl240\slmult0\keep\widctlpar The environment variable {\f3 GLINT_HI_QUALITY_TEXTURE} can be set to {\f3 TRUE}
+ to enable greater resolution and higher accuracy for texture mapping by the OpenGL Installable Client Driver. This variable is only relevant to the GLINT 300SX
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page OpenGL Texturing & Extensions
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Efficient use of multiple textures
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+OpenGL applications that wish to render primitives with multiple texture maps will achieve much higher performance by avoiding the invoking of the different textures in immediate mode. There are two alternative options for efficient switching between mult
+iple textures.
+\par The first and much preferred option is to use the OpenGL texture object functionality. This is available with 3Dlabs Installable Client Driver as an extension to OpenGL version 1.0 under Windows NT 3.51 and also as part of the standard API fo
+r OpenGL version 1.1 on Windows NT 4.0. Texture objects are fully editable and may have their images and parameters altered at any time (unlike the use of  textures in display lists). Details on texture object functionlaity is available in the OpenGL 1.1 
+specification and also in Appendix E in the 3Dlabs OpenGL Extensions document for further details. The performance gain using this approach will benefit performance for both the GLINT 300SX ,GLINT 500TX and PERMEDIA.
+\par The second option is to define each text
+ure (or array of mip map resolutions) within a display list. Switching between different textures is then achieved by referencing the appropriate display list. Since display lists are not editable in OpenGL, the OpenGL implementation is able to cache text
+ure data defined within a display list. This caching cannot be performed when a texture is invoked in immediate mode since the application in this case is at liberty to have changed the texture data since any previous reference.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Considerations specific to GLINT 500TX and {\scaps Permedia}
+\par \pard\plain \s3\qj\sb240\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Texture Memory Cache Management
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 For the GLINT 500TX and {\scaps Permedia}
+, texture data is stored in the local buffer memory on the graphics card. The memory available for textures is therefore constrained by the local buffer memory available. It is also constrained by the amount of local buffer memory already consumed for the
+ depth buffer, stencil buffer, etc., which varies according to the current display resolution in use. I.e. there is more memory available for textures when the display resolution (and therefore the size of the depth buffer, stencil buffer) is lowered. 
+
+\par On 3Dlabs OpenGL releases prior to version 1.0.14 (or 1.1.14 under NT4), if the condition is reached where there is insufficient local buffer memory to load a new texture then the OpenGL texture download will not succeed and will set the error code GL_OUT
+_OF_MEMORY. Textured primitives that expected to use this texture will not be rendered correctly. To improve on this behaviour a scheme for swapping textures to/from system 
+host memory is required. By setting aside a portion of texture memory on the graphics card for use as a texture cache and tracking when a texture switch takes place,  textures can be reloaded to the cache as needed from a copy kept in host memory when the
+ texture was first downloaded. If the requested texture is already present in the cache, then no reload is performed.
+\par Ideally for the greatest flexibility and most efficient use of available texture memory, all textures should be cacheable. However for a so
+ftware texture cache manager there is a small performance overhead to be paid for this tracking plus any delay in reloading a swapped out texture (as a texture could be swapped out at any time by another OpenGL process). By allowing the user to specify th
+e size of the texture cache through the use of the registry variable OpenGL.MaxTextureSize (as described above), an approximate balance between non-swappable and swappable textures can be made (and hence performance). Thus an application should load any r
+eal-time critical textures first as the texture manager will only place textures in cache and/or host memory if a space of sufficient size is not available in the non-swappable area of texture memory.
+\par In order to guarantee all texture requests no matter how large, any texture whose width or height is greater than MaxTextureSize (as power of 2) will be silently filtered down to fit in the cache (preserving aspect ratio).
+\par As noted under the description for MaxTextureSize, the texture cache manager can be disabled by setting this registry variable to zero so that all textures are non-swappable as in previous releases.
+\par \pard\plain \s3\qj\sb240\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Texture Filter Modes
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+The default texture minification filtering for OpenGL involves mip-map filtering. This gives good textured rendering quality but at the cost of low performance. Much higher performance can be obtained by changing the default texture filtering such that th
+e minification and magnification filtering modes are the SAME. Setting them to GL_LINEAR gives good quality bilinear filtering 
+and improved performance. Setting both modes to GL_NEAREST will give nearest neighbour filtering and the fastest possible performance.
+\par Only linear and nearest neighbour texture filtering modes are supported on {\scaps Permedia }(mip-map filtering is not supported).
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 BGRA  Extension
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 This extension provides an additional pixel color format for compatibility with the blue, green, red component ordering of Microsoft Windows DIB\rquote 
+s (device independent bitmaps). Refer to Appendix D in the 3Dlabs OpenGL Extensions document for further details. 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Palette Texture Extension
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 The GLINT 500TX and {\scaps Permedia}
+both provide direct support for palette textures, where each texel represents an index into an on-chip 16 entry RGBA (8-bits per component) lookup-table. An OpenGL palette texture extension has been defined by Microsoft which is supported by 3Dlabs OpenGL
+ ICD from release 1.0.11. The GLINT 500TX supports 1, 2 & 4bit texel depths. The {\scaps Permedia }supports 4bit texel depths. Besides improving texture performance and reducing the memory re
+quirements for storing textures in the local buffer, by repeatedly updating the texture LUT, animation effects such as real-time colour cycling are also possible. Refer to Appendices B and C for further details. 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 3Dlabs Driver extension
+\par \pard\plain \s1\qj\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 {\f20\fs24 
+In addition to the extensions mentioned above, the 3Dlabs_DriverState extension has been added and is detailed at Appendix G in the OpenGL Extensions document.  This extension is simply a mechanism for adding extra state to the Client Driver and add extra
+ control to the currently selected context. 
+\par }\pard \s1\keep\keepn\widctlpar\tx840 \page Performance Monitoring
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+For Pentium and DEC/Alpha platforms, this release of the NT 3.51 display driver provides performance counters which allow the standard NT Perfmon utility to be used to measure performance characteristics for 3D, DMA driven applications. This feature is no
+t currently supported under NT 4.0.
+\par {\f19 The performance monitoring is only available when using interrupt driven DMA. Other configurations will allow graphs to be generated but they may not be meaningful. In addi
+tion the BitBlt for swapbuffers is not presently taken into account in the GLINT busy time, so the results are only strictly accurate for single buffered or color space double buffered applications.
+\par }Currently, the performance  counters that can be examined are:
+\par 
+\par \pard \fi-720\li720\sb120\sl240\slmult0\keep\widctlpar % GLINT busy:\line This variable indicates the percentage of time that the GLINT chip spends rendering.
+\par % Host busy:\line This variable indicates the percentage of time that the host CPU spends in the application and in the driver but not waiting for GLINT DMA to complete.
+\par % Wait DMA:\line 
+This variable indicates the percentage of time that the host is waiting for space in the DMA buffer queue. When this value becomes non-zero it indicates that the queue of DMA buffers is full and that the driver must wait for GLINT to complete 
+the existing DMA buffer and start the next one to free a space in the queue.
+\par DMA Buffer loads/sec:\line This is the number of DMA buffers that are being started every second by the DMA interrupt handler.
+\par DMA dwords/sec:\line This is the number of dwords of information that are being DMA\rquote ed to GLINT every second. This number divided by the number of buffer loads per second gives the average size used in each DMA buffer.
+\par % Wait VBlank:\line This variable can be used in non-interrupt driven DMA mode to see the percentage of time that the host spends waiting for the VBLANK interrupt. In interrupt driven DMA mode this value will always be zero.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Configuring GLINT Performance Monitoring
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 On a Pentium machine the performance monitoring is installed as follows:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab Open a Command Prompt DOS window
+\par \bullet \tab Insert the release floppy into the drive.
+\par \bullet \tab Change to the directory A:\\i386
+\par \bullet \tab Run the command \ldblquote lodctr glntctrs.ini\rdblquote 
+\par \bullet \tab The performance monitoring is now set for use.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 If at any time it is necessary to rerun the lodctr utility then the following command should be run first to uninstall GLINT\rquote s performance monitoring capability:
+\par \tab unlodctr glint
+\par 
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Using Perfmon for Performance Monitoring
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 The Perfmon utility is found in the \ldblquote Administrative Tools\rdblquote  program group. It can be run either lo
+cally or across the network. The best option is to run the utility on a remote machine across a network. This allows the full screen of the local machine to be used to display the 3D application. Also, since displaying the graphs for the perfmon output is
+ done by the display driver, running perfmon locally will impact the performance of the 3D application being measured. When running remotely, the only overhead is some network traffic every probe interval (by default once a second).
+\par {\ul To run perfmon locally:
+\par }\pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab Start the Perfmon utility from the Administrative Tools program group.
+\par \bullet \tab From the Edit menu choose \ldblquote Add to Chart ...\rdblquote 
+\par \bullet \tab The Object field provides a sorted scrollable list. Choose the GLINT object.
+\par \bullet \tab In the Counter field the GLINT counters described above will be listed.
+\par \bullet \tab Choose \ldblquote % GLINT busy\rdblquote  and press the Add button. Then press the Done button (when Add has been pressed the Cancel button turns into the Done button).
+\par \bullet \tab A graph will be added which indicates how busy the GLINT chip is. Initially, this will be zero since there are no 3D interrupt driven DMA applications running.
+\par \bullet \tab Start a 3D OpenGL application such as one of the standard demos provided with the release. The GLINT busy graph will start to register. Sampling is once every second by default.
+\par \bullet \tab To add new counters repeat the steps by choosing \ldblquote Add to Chart ...\rdblquote  from the Edit menu.
+\par 
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 {\ul To run perfmon remotely:
+\par }Perfmon can be run on a remote machine connected to a machine with a GLINT card over a network. The remote machine does not need a GLINT card 
+but must be running Windows NT. The remote machine is used solely for displaying the graphical output of the Perfmon utility. Permon takes care of sampling the GLINT counters via a network connection.
+\par To run Perfmon remotely:{\ul 
+\par }\pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab On the remote machine, start the Perfmon utility from the Administrative Tools program group.
+\par \bullet \tab In the Computer field, press the button labelled \ldblquote ...\rdblquote  or if you know the name of the machine on which the GLINT installed type \ldblquote \\\\HOSTNAME\rdblquote  where the hostname is the network name of the G
+LINT machine. After typing the name press Return.
+\par \bullet \tab If the \ldblquote ...\rdblquote  button is used then a standard network dialog will be displayed. Choose the remote machine in the usual way.
+\par \bullet \tab You are now connected to the GLINT machine. Continue in the same way as for the local procedure described above.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 GLINT Performance Monitoring
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+The current release supports simple performance monitoring. This will be extended in future releases. Currently, the main use is to allow a user to determine how much time is being spent by the 
+GLINT chip and how much time is being spent in the 3D application (including time spent in OpenGL for instance). The performance monitoring is not specific to OpenGL and can be used by any application or DLL which uses the 3Dlabs 3D extension.
+\par 
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page GLINT Event Logging
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 This release has been extended to register a number of event log errors and warnings when problems are encountered. The events that can be logged include:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab no DMA support has been configured
+\par \bullet \tab no interrupt driven DMA has been configured
+\par \bullet \tab a non-cache coherent PCI bus has been detected which results in uncached DMA buffers.
+\par \bullet \tab fewer than the required number of DMA buffers have been allocated.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+After booting the driver it is advisable to check the system event log to determine the characteristics of your machine. For example, if an event log indicates that interrupt driven DMA has not been configured, this may be because the BIOS has not been co
+nfigured for PCI interrupts. This would also be an indication that performance monitoring will not provide meaningful results since the % GLINT busy counter depends on DMA interrupts working.
+\par To view the system event log, run the Event Viewer from the Administrative Tools program group. From the Log menu ensure that the System Log has been selected. Look for events with the Source type glint. Double click on these events to read the event mess
+age.
+\par If no glint events are logged then everything is working perfectly. In this case interrupts are working, all DMA buffers have been allocated and the PCI bus is cache coherent.
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page OpenGL Overlay Planes Support
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Introduction
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+Overlay planes provide a method by which OpenGL applications can render over screen areas in a non-destructive way.  A typical use of such functionality would be to draw dialog boxes above a rendered 3d scene. There would be no need to save and restore fr
+om a bitmap or re-render the scene when the dialog is cleared as the standard, main-plane, rendering remains intact.  Overlay planes are used by many high end OpenGL applications as they are a common feature on Silicon Graphics hardware.
+\par Overlay planes are not provided as a standard part of OpenGL in the way that stencil or depth buffers are.  On Windows NT Microsoft define a standard overlay plane specification as part of the WGL interface. This interface is used by Windows NT OpenGL app
+lications which require overlay functionality, notably Softimage.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Implementation
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 The Microsoft overlays standard provides for up to 15 levels of underlay and 15 levels of overlay in addition to the main rendering plane. Each
+ level of underlay or overlay, referred to as a layer plane, has it\rquote s own layer plane descriptor structure.  This structure is similar to the standard pixel format descriptor and allows each layer to define it\rquote 
+s own device capabilities independent of the 
+main plane or other layer planes.  This allows a double buffered, rgb main plane to coexist with single buffered, color index overlay plane etc. Each layer defines a color which is defined to be transparent and allows rendering in lower planes to show thr
+ough.  Functions are provided for creating rendering contexts in layer planes, manipulating the palettes of color index layers and swapping layer planes independently of the main plane if the graphics device supports this capability.
+\par 3Dlabs drivers support OpenGL overlays on Racer based boards only.  On such boards overlays are provided in 32bpp truecolor display modes.  In standard truecolor modes each 32bit pixel is split into 8 bits of red, green, blue and alpha.  Overlays are prov
+ided by replacing the alpha component with 8 bits of overlay.  Thus a single 8 bit color index overlay is provided in addition to a 24 bit rgb main plane. 
+\par The overlay plane is single buffered if the main plane is single buffered and double buffered if the main plane is double buffered. Independent swaps of the main and overlay planes are supported when blit double buffered. When full-screen double buffered,
+ such as when an OpenGL application takes up the entire display, independent swaps are not supported.
+\par To provide access to Ope
+nGL overlays in 32bpp modes extra pixel formats are exported, in addition to the standard pixel formats. These extra pixel formats are defined to have an 8 bit overlay plane but no alpha.  As soon as any OpenGL application chooses a pixel format of one ty
+pe or the other all the pixel formats that are exported are changed to only support that mode.  For instance, if the first pixel format chosen includes overlays all the remaining pixel formats exported will be changed to export overlays but not alpha and 
+vice versa.  When all OpenGL windows are closed the system reverts to exporting a choice of pixel formats.  The driver must work in this way as setting overlay mode is a global change and alpha and overlay planes cannot be supported simultaneously.
+\par When overlay planes are used an additional registry variable must be set, otherwise icon corruption may be seen,
+\par {\f3 DisableOffScreenBitmaps
+\par }This variable should be created as a DWORD value in the same place as the other GLINT variables (described in the section, Registry Variables) and set to a value of one. A reboot is necessary for this change to take affect
+\par If the Softimage rendering package (which requires overlay plane functionality) is used we recommend that one of the SupportSoftimage registry variables are set. Full details on these variables are given earlier in the section describing all of the regist
+ry variables.  This will optimise the OpenGL drivers for use with the package.
+\par Readers are referred to Appendix A in the 3Dlabs OpenGL Extensions document for further information about the use of OpenGL overlay planes.
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057 \page Known Anomalies and Restrictions
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 PCI BIOS
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 Some PCI BIOS\rquote 
+s may not assign correct physical addresses to  PCI regions. Experience shows that this sometimes happens with the PCI region for the GLINT framebuffer. If this problem does arise, the NT driver will boot but black areas will be seen on the 
+screen. If this happens then a new physical address can be configured for the framebuffer by setting a registry variable. If this variable exists its value will override any address set up by the PCI BIOS.
+\par If having booted the NT driver, black areas are seen on the screen, try setting this override variable as follows:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab run regedt32
+\par \bullet \tab open the key
+\par  \tab {\f3 HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\glint\\Device0
+\par }\bullet \tab From the Edit menu choose the \ldblquote Add New Value\rdblquote  option.
+\par \bullet \tab Set the Value Name to be \ldblquote {\f3 PhysicalAddress.Region2}\rdblquote . Be careful to spell the name exactly as specified \endash  it is case sensitive.
+\par \bullet \tab Set the data type to be \ldblquote REG_DWORD\rdblquote  and press OK.
+\par \bullet \tab In the DWORD editor window set the physical address value (see below for suggestions) and press OK.
+\par \bullet \tab Check that the entry has been created correctly and reboot the machine.
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 
+Selecting physical addresses in this way is an empirical task. An address must be chosen which does not conflict with any other in the system (the PCI address space is 4 GigaBytes in size so t
+here is plenty to choose from). This task should be performed by the PCI BIOS but if it fails to do this the user must choose instead. A useful address to start with for the framebuffer is 0xA0000000. If this fails increment the address in units of 32MB. 
+Another good starting address is 0x40000000. The final address chosen {\b must} be on a 32MB boundary.
+\par On MIPS machines physical addresses should have the top 4 bits set to zero. To ensure this for the whole region the address chosen should be less than or equal to 0x08000000.
+\par Having created the Region2 registry variable and assigned it a value the machine should be rebooted. Continue modifying the address until the black areas of the screen do not appear. Normally, this will work after the first one or two addresses.
+\par Note, this procedure is required very rarely. Generally, the user will never be required to perform these steps.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 Display Driver
+\par \pard\plain \qj\sb120\sl240\slmult0\keep\widctlpar \f20\lang2057 The following errors have been noted during testing of this software release:
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet \tab In 4096 color mode, the standard Paintbrus
+h application from the Accessories Program Group does not work correctly. This application does work correctly at all other pixel depths.
+\par \bullet \tab In 4096 color mode, software cursors do not work correctly when an accelerated 3D double buffered application is running.
+\par \bullet \tab The HCT GDI and GDI w/clip fail at 4096 color mode. This is believed to be due to a limitation in the conformance tests.
+\par \pard\plain \s2\qj\li20\sb300\sl240\slmult0\keep\keepn\widctlpar\tx840 \f22\lang2057 OpenGL
+\par \pard\plain \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \f20\lang2057 \bullet {\f1 \tab }The depth clear conformance test will fail unless the environment variable {\f3 GLINT_DONT_USE_FCP} is set to TRUE, or the c
+orresponding box in the GLINT control panel applet is checked. The problem is with the readback of the Depth Buffer, not its clearing. If this variable is set then this disables the use of 3Dlabs proprietary fast clear mechanism that allows the depth(Z) b
+uffer to be cleared up to 16 times more quickly than normal. Typically this becomes significant for animation rates of 10Hz or higher in large windows.
+\par \bullet {\f1 \tab }The conformance tests that involve mip-map texture filtering (miplin.c, mipsel.c and texbc.c) will fail
+ on GLINT 500 TX if the DisableMipMap check box in the GLINT control panel applet is set. The default state is to have this set because this provides the best trade-off between image quality and performance for the majority of applications.
+\par \bullet {\f1 \tab }
+When using the glaux  library supplied by Microsoft, specifying that you require alpha planes in the visual is not satisfied by requesting a visual type of AUX_RGBA as opposed to AUX_RGB when calling auxInitDisplayMode(type).  In these instances the hardw
+are accelerate
+d visual that will be returned in some modes may not have alpha planes. This is because the display driver exports visuals without alpha planes before those that do.  This problem can be resolved in two ways: Firstly, if you have the source code, then whe
+n specifying the visual type you can OR in AUX_ALPHA, along with AUX_RGB (for Example auxInitDisplayMode(AUX_RGB | AUX_ALPHA)). Secondly, if source is not available, the following registry variable can be set to 1, which enables the visuals with alpha pla
+nes to be selected first.
+\par \pard \s20\qj\fi4\li280\sb60\sl240\slmult0\keep\widctlpar\tx284 \tab {\f3 3DExtensions.ExportAlpha}
+\par \pard \s20\qj\fi-280\li280\sb60\sl240\slmult0\keep\widctlpar\tx280 \tab in:
+\par {\f3\fs22 \tab \tab HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\glint\\Device0
+\par }\tab Setting this variable will result in a decrease in the performance of some applications as the driver must perform additional setup calculations for GLINT to cater for the Alpha value as well as R, G, and B.
+\par \bullet {\f1 \tab }In some cases, there is confusion over the meaning of the PFD_SUPPORT_GDI bit in the dwFlags field of the PIXELFORMAT descriptor. 3Dlabs have seen applications (for instance Ope
+n Inventor) which incorrectly assume that if this flag is set, rendering to bitmaps is supported by the visual. The Installable Client Driver does not support bitmap rendering so these applications fail. To enable these applications to work the exporting 
+of PFD_SUPPORT_GDI can be disabled by setting the following registry variables FALSE. The applications will then choose a Generic pixel format so using unaccelerated software rendering to draw to bitmaps.
+\par \tab \tab {\f3 3DExtensions.SupportSingle
+\par \tab \tab 3DExtensions.SupportDouble
+\par }\tab By default PFD_SUPPORT_GDI is set to TRUE for single buffer formats and FALSE for double buffered formats.
+\par \tab 
+Note under WindowsNT, Generic pixel formats that support double buffering and rendering via GDI are mutually exclusive. This is because GDI does not have the ability to render to the backbuffer. 3Dlabs have therefore chosen to set the default for double 
+buffering, so as to be in line with the Microsoft implementation. However with care GDI rendering and double buffering may be mixed, so the lat
+ter registry variable will cause PFD_SUPPORT_GDI to be exported by double buffer formats, should an application benefit from this added functionality.
+\par \bullet \tab 
+When running multi-threaded applications it may be necessary to disable the use of the fast clear planes by setting the environment variable GLINT_DONT_USE_FCP to TRUE, or by checking the corresponding box in the GLINT control panel applet. This issue a
+rises when more than one context is being used to render to the same window (e.g. Windows NT 4.0 OpenGL pi
+pes screen-saver with multiple option selected). If this variable is set then this disables the use of 3Dlabs proprietary fast clear mechanism that allows the depth(Z) buffer to be cleared up to 16 times more quickly than normal. Typically this becomes si
+gnificant for animation rates of 10Hz or higher in large windows.
+\par \bullet \tab On Windows NT 4.0, the standard maze screen saver does not get hardware accelerated. This is due to a bug in the Microsoft screen saver library. A customised accelerated 3Dlabs version that
+ also supports linear filtering in the settings option has been provided with this release.
+\par \bullet \tab The following OpenGL version 1.1 API calls are not currently implemented for this release:
+\par \tab glIndexub
+\par      glIndexubv
+\par \tab glPolygonOffset
+\par \tab glCopyTexImage1D
+\par      glCopyTexImage2D
+\par      glCopyTexSubImage1D
+\par      glCopyTexSubImage2D
+\par \tab glTexSubImage1D
+\par      glTexSubImage2D
+\par \bullet \tab Support for texture memory caching is automatically disabled for a dual-head TX or Permedia setup.
+\par \pard\plain \s1\keep\keepn\widctlpar\tx840 \f22\fs36\lang2057  
+\par }

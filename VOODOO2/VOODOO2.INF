@@ -1,0 +1,166 @@
+;----------------------------------------------------------------------
+; INF file for Voodoo2 based 3D Accelerators running under Windows 95
+; (c) 1997 - 3Dfx Interactive, Inc.
+; 
+; Installs Control Panel, Direct3D and Glide drivers
+; 
+; Voodoo2 DirectX Driver Version: 2.16
+; Voodoo2 D3D Driver Build Number: 4.10.01.0094-2.16
+; Glide Driver Version: 2.51
+; Voodoo2 Control Panel Applet: 4.10.01.0061
+;
+;----------------------------------------------------------------------
+
+[version]
+Class=MEDIA
+signature="$CHICAGO$"
+Provider=%Mfg%
+
+; Disk & Directory sections
+;----------------------------------------
+[DestinationDirs]
+DefaultDestDir        = 11    ; LDID_SYS
+Voodoo2.Copy          = 11
+Voodoo2.CopyWin       = 10
+Voodoo2.DelFiles      = 11
+Voodoo2.DelWinFiles   = 10
+Voodoo2.CopyRedist    = 11
+Voodoo2Ini.DelFiles   = 10
+WinHelp.Copy          = 18
+WinHelp.DelFiles      = 18
+
+[SourceDisksNames]
+1="Voodoo2 Drivers for Windows 9X",,0
+
+[SourceDisksFiles]
+FXMEMMAP.VXD=1
+3DFXV2.DRV=1
+3DFX16V2.DLL=1
+3DFX32V2.DLL=1
+MSVCRT.DLL=1
+GLIDE2X.DLL=1
+FXOEM2X.DLL=1
+GLIDE2X.OVL=1
+RICHED20.DLL=1
+3DFXV2PS.DLL=1
+3DFXV2PS.HLP=1
+CSH.DLL=1
+VOODOO2.BMP=1
+
+; Manufacturers
+;----------------------------------------
+[Manufacturer]
+%Mfg%=Mfg
+
+; Driver sections
+;----------------------------------------
+[Mfg]
+%PCI\VEN_121A&DEV_0002.DeviceDesc%=Voodoo, PCI\VEN_121A&DEV_0002
+
+[ControlFlags]
+
+; Install sections
+;----------------------------------------
+[Voodoo]
+DelFiles=Voodoo2.DelFiles,Voodoo2.DelWinFiles,WinHelp.DelFiles,Voodoo2Ini.DelFiles
+CopyFiles=Voodoo2.Copy,Voodoo2.CopyWin,Voodoo2.CopyRedist,WinHelp.Copy
+DelReg=Prev.DelReg,Voodoo2.DelReg
+AddReg=Voodoo2.AddReg,Voodoo2.AddControl
+Reboot
+
+[WinHelp.Copy]
+3DFXV2PS.HLP,,,2
+
+[WinHelp.DelFiles]
+3DFXV2PS.HLP,,,2
+
+[Voodoo2Ini.DelFiles]
+Voodoo2.Ini,,,2
+
+[Voodoo2.Copy]
+FXMEMMAP.VXD,,,2
+3DFXV2.DRV,,,2
+3DFX16V2.DLL,,,2
+3DFX32V2.DLL,,,2
+GLIDE2X.DLL,,,2
+FXOEM2X.DLL,,,2
+3DFXV2PS.DLL,,,2
+
+[Voodoo2.CopyRedist]
+MSVCRT.DLL,,,2
+RICHED20.DLL,,,2
+CSH.DLL,,,2
+
+[Voodoo2.CopyWin]
+GLIDE2X.OVL,,,2
+VOODOO2.BMP,,,2
+
+[Voodoo2.DelFiles]
+FXMEMMAP.VXD,,,2
+3DFXV2.DRV,,,2
+3DFX16V2.DLL,,,2
+3DFX32V2.DLL,,,2
+GLIDE2X.DLL,,,2
+FXOEM2X.DLL,,,2
+SST1INIT.DLL,,,2
+MM3DFX.DRV,,,2
+MM3DFX16.DLL,,,2
+MM3DFX32.DLL,,,2
+MM3DFX.VXD,,,2
+3DFXPS.DLL,,,2
+3DFXV2PS.DLL,,,2
+
+[Voodoo2.DelWinFiles]
+GLIDE2X.OVL,,,2
+VOODOO2.BMP,,,2
+
+[Prev.DelReg]
+HKLM,hardware\DirectDrawDrivers\3A0CFD01-9320-11cf-AC-A1-00-A0-24-13-C2-E2
+HKLM,hardware\DirectDrawDrivers\ABA52F41-F744-11cf-B4-52-00-00-1D-1B-41-26
+HKLM,hardware\DirectDrawDrivers\472BEA00-40DF-11D1-A9-DF-00-60-97-C2-ED-B2
+HKLM,SOFTWARE\Classes\CLSID\{E06BCB21-48BB-11d1-B221-0040052CE062}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{E06BCB21-48BB-11d1-B221-0040052CE062}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\"Voodoo2"
+HKLM,SOFTWARE\Classes\CLSID\{C3A545C1-1162-11d0-AAB8-00A024151DDC}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{C3A545C1-1162-11d0-AAB8-00A024151DDC}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\"Monster 3D Properties Sheet"
+HKLM,SOFTWARE\Classes\CLSID\{CDB5B301-2103-11d0-AAB8-00A024151DDC}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{CDB5B301-2103-11d0-AAB8-00A024151DDC}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\"Monster 3D Settings Properties Sheet"
+HKLM,SOFTWARE\Classes\CLSID\{640E3A20-C07E-11cf-8E8B-000079830F05}\InProcServer32
+HKLM,SOFTWARE\Classes\CLSID\{640E3A20-C07E-11cf-8E8B-000079830F05}
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\"Controls Folder"\Display\shellex\PropertySheetHandlers\Righteous3D
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322},"",,"3Dfx Display Property Sheet"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,"",,"3dfxps.dll"
+HKCR,\CLSID\{DAA36500-E65E-11D0-98F5-0020AFD51322}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"\SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\3Dfx","",,"{DAA36500-E65E-11D0-98F5-0020AFD51322}"
+;--Remove any refrence to the old Voodoo2.dll
+HKCR,\CLSID\{E06BCB21-48BB-11d1-B221-0040052CE062},"",,"3Dfx Voodoo Graphics 2 Display Property Sheet"
+HKCR,\CLSID\{E06BCB21-48BB-11d1-B221-0040052CE062}\InProcServer32,"",,"voodoo2.dll"
+HKCR,\CLSID\{E06BCB21-48BB-11d1-B221-0040052CE062}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\3Dfx Voodoo2"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\Voodoo2"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\3Dfx Voodoo Graphics 2 Display Property Shee"
+
+[Voodoo2.AddReg]
+HKLM,hardware\DirectDrawDrivers\472BEA00-40DF-11D1-A9-DF-00-60-97-C2-ED-B2,"Description",,"Voodoo2 DirectX 5 Driver"
+HKLM,hardware\DirectDrawDrivers\472BEA00-40DF-11D1-A9-DF-00-60-97-C2-ED-B2,"DriverName",,"3DFXV2"
+HKLM,SOFTWARE\"3Dfx Interactive"\Voodoo2
+HKLM,SOFTWARE\"3Dfx Interactive"\Voodoo2\D3D
+HKLM,SOFTWARE\"3Dfx Interactive"\Voodoo2\Glide
+
+[Voodoo2.DelReg]
+HKLM,"SOFTWARE\3dfx Interactive\Voodoo2"
+
+[Voodoo2.AddControl]
+HKCR,\CLSID\{00BD7141-4A41-11d1-89EA-0020AFC43773},"",,"3Dfx Voodoo2 Property Sheet"
+HKCR,\CLSID\{00BD7141-4A41-11d1-89EA-0020AFC43773}\InProcServer32,"",,"3DfxV2ps.dll"
+HKCR,\CLSID\{00BD7141-4A41-11d1-89EA-0020AFC43773}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\Voodoo2",,,"{00BD7141-4A41-11d1-89EA-0020AFC43773}"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved","{00BD7141-4A41-11d1-89EA-0020AFC43773}",,"3Dfx Voodoo2 Property Sheet"
+
+; User visible strings
+;----------------------------------------
+[Strings]
+Mfg="3Dfx Interactive, Inc."
+PCI\VEN_121A&DEV_0002.DeviceDesc="Voodoo2 3D Accelerator"

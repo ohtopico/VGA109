@@ -1,0 +1,44 @@
+;ProMotion 3210 OEM INF File
+
+; Names of the disks Setup can prompt for.
+
+[disks]
+    a =., "ProMotion Driver Disk", diska
+
+[display]
+;profile  = driver,Description of driver, resolution, 286 grabber,    logo code,     VDD,   386grabber, ega.sys,   logo data,optional work section
+A=a:promtn8.drv,"ProMotion Card","100,96,96",a:vgacolor.2gr,a:vgalogo.lgo,a:promtvdd.386,a:promtngr.3gr,,a:vgalogo.rle,64
+
+[promtngr.3gr]
+a:CGA40WOA.FON,a:CGA40850.FON
+a:CGA80WOA.FON,a:CGA80850.FON
+a:EGA40WOA.FON,a:EGA40850.FON
+a:EGA80WOA.FON,a:EGA80850.FON
+
+[64]
+,,system.ini,ProMotion,"Resolution=","Resolution=640x480"
+,,system.ini,ProMotion,"DisplayCPL=","DisplayCPL=1"
+
+[sysfonts]
+a:vgasys.fon,"VGA (640x480) resolution System Font", "100,96,96"
+
+[fixedfonts]
+a:vgafix.fon,"VGA (640x480) resolution Fixed System Font", "100,96,96"
+
+[oemfonts]
+a:vgaoem.fon,"VGA (640x480) resolution Terminal Font (USA/Europe)", "100,96,96",1
+
+[fonts]
+   a:SSERIFE.FON, "MS Sans Serif 8,10,12,14,18,24 (VGA res)", "100,96,96"
+
+   a:COURE.FON, "Courier 10,12,15 (VGA res)", "100,96,96"
+
+   a:SERIFE.FON, "MS Serif 8,10,12,14,18,24 (VGA res)", "100,96,96"
+
+   a:SYMBOLE.FON, "Symbol 8,10,12,14,18,24 (VGA res)", "100,96,96"
+
+   a:SMALLE.FON, "Small Fonts (VGA res)", "100,96,96"
+
+   a:ROMAN.FON, "Roman (Plotter)",   "CONTINUOUSSCALING"
+   a:SCRIPT.FON, "Script (Plotter)", "CONTINUOUSSCALING"
+   a:MODERN.FON, "Modern (Plotter)", "CONTINUOUSSCALING"

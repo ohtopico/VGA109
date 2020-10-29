@@ -1,0 +1,246 @@
+            ==========================================
+                        Software Dynamics
+                 Entertainment Center versie 1.0
+                           Leesmij bestand
+                           DU-10344-001
+                            Juli 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+Dit bestand bevat de meest recente productinformatie 
+over Entertainment Center versie 1.0.
+
+Wij raden u aan om uw programma Entertainment Center 
+te 
+registreren. Vul het registratieformulier in en stuur 
+het ons toe (per post of fax) zodat wij weten wie onze 
+klanten zijn. Met uw hulp zullen wij u nog betere 
+producten en diensten kunnen leveren. Bovendien staat 
+het registratieformulier ons toe om u op de hoogte te 
+houden van nieuwe informatie. Voor recente informatie 
+over Entertainment Center en andere programma's van 
+Software Dynamics kunt u terecht op onze website
+(http://www.softdyn.com).
+
+---------------------------
+Hoe u dit document gebruikt
+---------------------------
+
+De volgende conventie wordt gebruikt in dit document 
+om te beschrijven hoe u items in menu’s kunt selecteren:
+   menunaam> menu-item. 
+De > geeft een submenu aan.
+Voorbeeld:  
+   De instructie voor u om het menu Bestand te kiezen
+   en vervolgens het item Openen te selecteren is
+   'Kies menu Bestand> Openen.'
+
+U kunt dit bestand op het scherm bekijken door het te
+openen in Microsoft Word, WordPad of Notepad. U kunt
+dit bestand ook afdrukken door het te openen in een
+tekstverwerker waarna u in het menu Bestand op
+Afdrukken klikt.
+
+---------------
+Hoe registreren
+---------------
+
+Om uw programma Entertainment Center te registreren,
+opent u het tekstbestand 'register.rtf' met Microsoft
+Word, WordPad of Notepad. Om het registratiebestand af
+te drukken, opent u het in een tekstverwerker en klikt
+u in het menu Bestand op Afdrukken.
+
+Vul het registratieformulier in en stuur het ons toe
+per post of per fax op een van de volgende
+adressen/nummers:
+
+Internationaal:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Duitsland
+
+Fax: (49) (421) 20266-99
+E-mail: ecenter@softdyn.com
+
+VS:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Fax: (630) 794-9033
+E-mail: tdmaestro@aol.com
+
+------------
+INHOUDSOPGAVE
+------------
+
+- INLEIDING
+- OPSTARTEN
+- PROBLEEMOPLOSSING
+- BIJKOMENDE INFORMATIE
+- COPYRIGHT
+
+---------
+INLEIDING
+---------
+
+Welkom bij het Software Dynamics Entertainment Center!
+Entertainment Center is een programma waarmee u uw
+digitale Entertainment Center volledig kunt sturen.
+Kortom, dankzij dit programma kunt u uw computer
+voortaan gebruiken om video's, video-CD's en DVD's te
+bekijken of om audio-CD's te beluisteren.
+
+---------
+OPSTARTEN
+---------
+
+De bedieningselementen van het programma Entertainment
+Center lijken erg op die van een klassieke audiovisuele
+installatie, zodat u ze waarschijnlijk onmiddellijk
+herkent. Indien u informatie wenst over een bepaald
+onderwerp of een bepaalde functie kunt u deze  
+informatie opzoeken in het helpmenu. Hiervoor klikt u 
+op het pictogram ? (vraagteken) bovenaan rechts in het 
+venster Entertainment Center.
+
+>>>Om het programma te starten, klikt u op de knop
+Start in de taakbalk van Windows en selecteert u
+achtereenvolgens Programma's, Chromatic Research 
+Mpact, Software Dynamics Entertainment Center.
+
+-----------------
+PROBLEEMOPLOSSING
+-----------------
+
+DVD-regio's
+
+In het kader van de bescherming van het auteursrecht
+hebben bedrijven die DVD's uitbrengen het recht om hun
+DVD's te beperken tot bepaalde delen van de wereld. 
+Dit betekent dat een DVD die wordt uitgebracht voor een
+bepaalde regio (bijvoorbeeld regio 1: Verenigde 
+Staten, Canada en delen van het Caribisch gebied) meestal niet
+kan worden afgespeeld op een DVD-speler die werd
+ontworpen voor een andere regio (bijvoorbeeld regio 2:
+Japan en bepaalde delen van Europa, het Midden-Oosten
+en Afrika), of regio 3: (Korea, Maleisië, Birma,
+Indonesië, Filippijnen, en Zuid-Oost-Azië). 
+In totaal zijn er zes regio's.
+
+>>>Om te controleren voor welke regio uw DVD-speler
+werd ontworpen, dubbelklikt u op het pictogram Mpact 
+in het Configuratiescherm. Op de pagina Algemeen van het
+dialoogvenster Eigenschappen van Mpact Mediaware
+verschijnt uw DVD-regio. Controleer of de regiocode 
+van uw DVD overeenkomt met die van uw DVD-speler.
+
+Software Dynamics Entertainment Center opnieuw
+installeren.
+
+De bijgevoegde CD bevat de huidige versie van Software
+Dynamics Entertainment Center. Het Entertainment 
+Center wordt automatisch geïnstalleerd wanneer u Mediaware
+installeert. Hieronder volgen nog eens de
+instructies voor het geval u de software dient te
+vervangen.
+
+>>>OM ENTERTAINMENT CENTER TE INSTALLEREN, GAAT U ALS
+   VOLGT TE WERK:
+
+1. Start het installatieprogramma (setup.exe) van 
+   Mpact op de CD-ROM Mpact Mediaware.
+
+   >>>Om het installatieprogramma te starten, gaat u
+      als volgt te werk:
+   1. Klik op de knop Start in de taakbalk van Windows
+      95 en selecteer Uitvoeren.
+   2. Typ 'd:\setup', waarbij d: staat voor de letter
+      van uw CD-ROM-station. Klik op OK.
+
+2.  Wanneer het dialoogvenster Gebruiksrecht
+    verschijnt, klikt u op Akkoord.
+
+3.  Wanneer het dialoogvenster Selecteer installatie-
+    opties verschijnt, selecteert u Entertainment
+    Center en klikt u op Installeren.
+
+4.  Het programma Entertainment Center wordt op uw
+    vaste schijf gekopieerd. Wanneer het dialoogvenster
+    Installatie voltooid verschijnt, klikt u op 
+    Gereed.
+
+5.  Wanneer het dialoogvenster Installeren verschijnt,
+    klikt u op OK om uw computer opnieuw op te 
+    starten.
+
+>>>OM DE INSTALLATIE VAN ENTERTAINMENT CENTER ONGEDAAN
+   TE MAKEN, GAAT U ALS VOLGT TE WERK:
+
+1.  Klik op de knop Start in de taakbalk van Windows.
+
+2.  Selecteer Instellingen en klik vervolgens op
+    Configuratiescherm.
+
+3.  Dubbelklik op het pictogram Software in het
+    Configuratiescherm.
+
+4.  Klik op Installeren en verwijderen en selecteer
+    Entertainment Center.
+
+5.  Klik op Toevoegen/Verwijderen en klik vervolgens 
+op
+    Automatisch.
+
+6.  Wanneer het dialoogvenster Software verschijnt,
+    klikt u op OK.
+
+7.  Klik op de knop Start in de taakbalk van Windows 
+    95 om de computer opnieuw op te starten. Selecteer
+    Afsluiten en De computer opnieuw opstarten? en 
+    klik op JA.
+
+---------------------
+BIJKOMENDE INFORMATIE
+---------------------
+
+Voor meer informatie over Entertainment Center of
+andere multimediaprogramma's van Software Dynamics 
+kunt u terecht op onze website (http://www.softdyn.com).
+
+---------
+COPYRIGHT
+---------
+
+Copyright (c) 1997 Software Dynamics GmbH. Software
+Dynamics, Entertainment Center en het logo van
+Entertainment Center zijn handelsmerken van Software
+Dynamics GmbH. Alle andere merknamen, productnamen en
+handelsnamen zijn handelsmerken of gedeponeerde
+handelsmerken van hun respectieve eigenaars.
+
+Deze uitgave wordt auteursrechtelijk beschermd. Alle
+rechten voorbehouden. Niets uit deze uitgave mag op
+geen enkele manier en in geen enkele vorm worden
+verveelvoudigd of openbaar gemaakt zonder voorafgaande
+schriftelijke toestemming van Software Dynamics GmbH.
+
+De informatie in dit bestand werd zorgvuldig
+gecontroleerd en wordt geacht nauwkeurig te zijn.
+Software Dynamics GmbH aanvaardt echter geen enkele
+verantwoordelijkheid voor eventuele onjuiste 
+informatie in dit bestand. Software Dynamics GmbH is onder geen
+enkele voorwaarde aansprakelijk voor directe of
+indirecte, specifieke of algemene schade als gevolg 
+van verkeerde of ontbrekende informatie in dit bestand,
+zelfs niet indien Software Dynamics GmbH werd
+geïnformeerd over de mogelijkheid van dergelijke
+schade. De inhoud van dit bestand is enkel bedoeld ter
+informatie.
+
+1 juli 1997
+

@@ -1,0 +1,361 @@
+======================================================
+     Mpact Mediaware voor 3DVD: bestand Leesmij.txt
+                   Oktober 1997
+                   DU-10479-001
+======================================================
+     (c) Copyright Chromatic Research, Inc., 1997
+
+Naast informatie die bij het drukken van de documentatie 
+nog niet beschikbaar was, bevat dit document ook bijkomende 
+toelichtingen met betrekking tot het gebruik van Chromatic 
+Research Mpact Mediaware voor 3DVD.
+
+Mogen wij u vragen uw Mpact Mediaware voor 3DVD te registreren. 
+Gebruik het elektronische registratieformulier dat beschikbaar 
+is via de Mpact Multimedia Pilot op uw bureaublad, of stuur ons 
+uw ingevulde registratiekaart op zodat wij meer informatie krijgen 
+over onze klanten. Op die manier kunnen wij onze producten en 
+diensten nog verder verbeteren en u op de hoogte houden van 
+nieuwe ontwikkelingen. Voor de recentste informatie over Mpact 
+kunt u steeds terecht op onze weblocatie: http://www.mpact.com.
+
+---------------------------
+Hoe u dit document gebruikt 
+---------------------------
+
+Om het bestand Leesmij.txt op het scherm te bekijken, 
+opent u dit bestand met Microsoft(R) Word, WordPad of Notepad. 
+Om dit bestand af te drukken, opent u het in een tekstverwerker 
+en selecteert u in het menu Bestand de opdracht Afdrukken.
+
+------
+INHOUD
+------
+SYSTEEMVEREISTEN 
+SOFTWAREVEREISTEN
+INSTALLATIESOFTWARE
+  - Installatie van Mpact Mediaware voor 3DVD
+TOEPASSINGEN VAN ANDERE FABRIKANTEN 
+  - Entertainment Center van Software Dynamics
+INLEIDING
+RECENTE INFORMATIE
+  - DVD-regio's 
+PROBLEEMOPLOSSING
+  - Schermweergave instellen op VGA
+  - Installatie van Mpact Mediaware ongedaan maken
+  - Uw Mpact-kaart gebruiken in een andere computer
+  - Technische ondersteuning 
+COPYRIGHT
+
+----------------
+SYSTEEMVEREISTEN 
+----------------
+- Mpact 2 3DVD-P-kaart
+- PC met een Pentium-processor (kloksnelheid: 166 MHz)
+- Microsoft Windows 95(TM) OEM Service Release 2
+  (Houd uw cd-rom van Windows 95 bij de hand ingeval u 
+  ontbrekende onderdelen van Windows dient te installeren.)
+- Beeldscherm met het logo Ontworpen voor Microsoft Windows 95 
+- 16 MB RAM
+- 67 MB vaste-schijfruimte, plus 7 MB vaste-schijfruimte 
+  voor bestanden die tijdens de installatie tijdelijk 
+  worden opgeslagen
+- DVD-ROM-station met geactiveerde DMA 
+
+-----------------
+SOFTWAREVEREISTEN 
+-----------------
+De onderstaande software is vereist en bevindt zich op 
+de cd-rom van Mpact Mediaware. U kunt deze software installeren 
+zoals hieronder beschreven.
+- Mpact Mediaware voor 3DVD
+- Microsoft DirectX(TM) 5.0. Deze Windows-software verbetert 
+  de multimediaprestaties en is vereist voor Mpact Mediaware 
+  voor 3DVD.
+
+-------------------
+INSTALLATIESOFTWARE
+-------------------
+Vóór u mediaware vervangt, dient u de installatie van alle 
+oudere versies ongedaan te maken en dient u uw beeldscherm 
+in te stellen op standaard VGA. Hoe u de installatie van 
+mediaware ongedaan maakt, leest u verder in dit document 
+onder PROBLEEMOPLOSSING.
+
+>>>INSTALLATIE VAN MPACT MEDIAWARE VOOR 3DVD
+
+1  Voer het installatieprogramma uit dat zich bevindt 
+   op de cd-rom van Mpact Mediaware. 
+   >>>Installatieprogramma uitvoeren 
+   1 Klik op de knop Start op de taakbalk van Windows 95 
+     en selecteer Uitvoeren... 
+   2 Typ d:\setup, waar d: staat voor de letter van uw 
+     cd-rom-station. Klik op OK.
+2  Wanneer het dialoogvenster Welkom verschijnt, klikt 
+   u op Volgende om door te gaan. Klik op Annuleren om 
+   het installatieprogramma af te sluiten zonder 
+   Mpact Mediaware te installeren.
+3  Wanneer het dialoogvenster Gebruiksrechtovereenkomst 
+   verschijnt, leest u deze overeenkomst, waarna u op 
+   Ja klikt. (Indien u deze overeenkomst niet accepteert, 
+   klikt u op Nee. U kunt Mediaware enkel installeren wanneer 
+   u de gebruiksrechtovereenkomst aanvaardt.)
+4  Volg de instructies op het scherm om de installatie te 
+   voltooien. Tijdens de installatie verschijnt het 
+   dialoogvenster Onderdelen selecteren. Hier kunt u alle 
+   of bepaalde onderdelen van het programma installeren. 
+   Normaal zijn alle selectievakjes geselecteerd. Het getal 
+   rechts van elk onderdeel geeft aan hoeveel 
+   vaste-schijfruimte voor dit onderdeel vereist is. 
+   Indien u een bepaald onderdeel niet wilt installeren, 
+   klikt u op het bijbehorende selectievakje om het vinkje 
+   te verwijderen. 
+
+     De onderdelen in deze versie zijn: 
+    'Mpact Mediaware voor 3DVD': dit is de speciale mediaware 
+      die verscheidene multimediafuncties uitvoert op de 
+      Mpact Media-processor en de host-computer.
+    'Entertainment Center van Software Dynamics': deze 
+      toepassing maakt van uw computer een centraal 
+      'entertainment station' waarmee u niet alleen cd's kunt 
+      beluisteren, maar ook video's, video-cd's en DVD's kunt 
+      bekijken. 
+    'Microsoft DirectX 5.0': deze software van Microsoft 
+      verbetert multimediaprestaties. In vele gevallen zal uw 
+      computer reeds een oudere versie van deze software 
+      bevatten. Versie 5.0 is vereist, dus vergeet niet deze 
+      versie te installeren wanneer uw computer een oudere 
+      versie bevat. 
+    'Mpact Multimedia Pilot': dit is een beknopt programma dat 
+     de multimediafuncties van Mpact introduceert en demonstreert.
+
+       OPMERKING: u dient Mpact Mediaware voor 3DVD te installeren 
+       vóór u Mpact 3DVD kunt gebruiken. Indien dit de eerste 
+       installatie van mediaware is, mag u zeker niet vergeten het 
+       vakje Mpact Mediaware te selecteren.
+
+5  Klik op Volgende zodra u klaar bent om de software te 
+   installeren. Het installatieprogramma kopieert de geselecteerde 
+   programmaonderdelen naar de vaste schijf van uw computer, wat 
+   telkens wordt aangegeven met het bericht Bezig met kopiëren 
+   van bestanden.
+
+6  Zodra alle geselecteerde onderdelen werden geïnstalleerd, 
+   verschijnt het dialoogvenster Installatie is voltooid. Klik 
+   op Voltooien om uw computer opnieuw op te starten. Nadat u 
+   de computer opnieuw hebt opgestart, verschijnt een reeks 
+   dialoogvensters Nieuwe hardware gevonden. Klik op Ja om uw 
+   computer nogmaals op te starten. Daarna dient u de computer 
+   eventueel nog twee keer opnieuw op te starten omdat 
+   Windows 95 telkens nieuwe hardware vindt. Uw Mpact 3DVD is 
+   nu geïnstalleerd.
+
+----------------------------------
+TOEPASSINGEN VAN ANDERE FABRIKANTEN
+----------------------------------
+Entertainment Center van Software Dynamics maakt van uw computer 
+een entertainment center waarmee u niet alleen cd's kunt 
+beluisteren, maar ook video's, video-cd's en DVD's kunt bekijken. 
+
+Indien u informatie wenst over het gebruik van het Entertainment 
+Center, klikt u op het pictogram '?' (vraagteken) in de 
+rechterbovenhoek van het venster Entertainment Center om het 
+Help-bestand te openen. Indien Entertainment Center niet open is, 
+klikt u op de taakbalk op Start en selecteert u achtereenvolgens 
+Programma's, Chromatic Research Mpact, Software Dynamics 
+Entertainment Center en Entertainment Center Help.
+
+-----------
+INLEIDING 
+-----------
+Om informatie over de Mpact Media-processor op te zoeken of om 
+bepaalde opties in te stellen, opent u het dialoogvenster 
+Eigenschappen van Mpact Mediaware. Hiervoor klikt u op de knop 
+Start op de taakbalk en selecteert u achtereenvolgens Instellingen 
+en Configuratiescherm. Dubbelklik op het pictogram Mpact. Voor 
+meer informatie over elke pagina van het dialoogvenster 
+Eigenschappen van Mpact Mediaware klikt u op Help of op het 
+pictogram '?' (vraagteken) in de rechterbovenhoek van het 
+venster en selecteert u het item waarover u meer informatie wenst.
+
+------------------
+RECENTE INFORMATIE
+------------------
+De DVD-industrie laat toe dat DVD-producenten hun DVD's beperken 
+tot bepaalde delen van de wereld met het oog op de bescherming 
+van auteursrechten. Een DVD-speler die werd ontworpen voor 
+Regio 1 (Verenigde Staten, Canada en een deel van het Caribische 
+gebied), kan geen DVD afspelen die werd ontworpen voor Regio 2 
+(Japan, delen van Europa en het Midden-Oosten en bepaalde delen 
+van Afrika) of Regio 3 (Korea, Maleisië, Birma, Indonesië, 
+Filippijnen en Zuidoost-Azië). Zo zijn er over de hele wereld 
+zes regio's.
+
+>>>Om na te gaan voor welke regio uw DVD werd ontworpen, gaat 
+u als volgt te werk.
+1  Klik op de knop Start op de taakbalk van Windows 95 en 
+   selecteer achtereenvolgens Instellingen en Configuratiescherm, 
+   waarna het venster Configuratiescherm wordt geopend.
+2  Dubbelklik op Mpact-bedieningspaneel en selecteer het tabblad 
+   Algemeen.
+
+Wanneer u een DVD van een andere regio probeert af te spelen, 
+verschijnt een foutbericht in de aard van:
+
+   >>>Fout: de DVD die u probeert te gebruiken, werd zodanig 
+   gecodeerd dat hij enkel kan worden afgespeeld op DVD-spelers 
+   die worden verkocht in bepaalde regio's van de wereld. 
+   De regionale code van deze DVD komt niet overeen met die 
+   van uw DVD-speler, zodat u deze DVD niet kunt afspelen.<<<
+
+-----------------
+PROBLEEMOPLOSSING
+-----------------
+
+Chromatic Research heeft de Mpact 2 3DVD-P-kaart grondig getest 
+om optimale prestaties te verzekeren. Ga na of u alles correct 
+hebt geïnstalleerd wanneer zich een probleem voordoet met de 
+Mpact 2 3DVD-P-kaart. Indien zich een probleem voordoet, 
+dient u de volgende zaken te controleren.
+
+  - Controleer of de kaart goed vastzit in de PCI-sleuf.
+  - Controleer of de mediaware correct werd geïnstalleerd.
+    Indien u vermoedt dat het probleem te maken heeft met 
+    de installatie van de mediaware, gaat u als volgt te werk.
+    1  Stel de schermweergave in op VGA. Zie 'Schermweergave 
+       instellen op standaard VGA'.
+    2  Maak de installatie van de mediaware ongedaan. Zie 
+       'Installatie van Mpact Mediaware ongedaan maken'. 
+       Volg nauwkeurig de instructies in 'Mpact Mediaware 
+       installeren'.
+
+>>>Om de schermweergave in te stellen op standaard VGA, 
+   gaat u als volgt te werk.
+1  Klik op de knop Start op de taakbalk van Windows 95 en 
+   selecteer achtereenvolgens Instellingen en Configuratiescherm.
+2  Dubbelklik op het pictogram Beeldscherm in het configuratiescherm.
+3  Klik op het tabblad Instellingen.
+4  Klik op de knop Geavanceerde instellingen.
+5  Klik op de knop Wijzigen...
+6  Selecteer het keuzerondje Alle apparaten weergeven.
+7  Blader naar het begin van de lijst met fabrikanten en selecteer 
+   Standaard-beeldschermadapter (VGA).
+8  Klik op OK.
+U wordt mogelijk gevraagd om uw computer opnieuw op te starten, 
+zodat de wijzigingen van kracht worden. Start uw computer opnieuw 
+op indien dit gevraagd wordt.
+
+Uw Mpact-DVD wordt geleverd met Mpact Mediaware, die de 
+Mpact 3DVD-kaart aanstuurt. De meegeleverde cd-rom bevat 
+de huidige versie van mediaware. De mediaware zou reeds 
+geïnstalleerd moeten zijn, maar wij geven u toch de nodige 
+instructies ingeval u de mediaware ooit moet vervangen.
+
+>>>DE INSTALLATIE VAN MPACT MEDIAWARE ONGEDAAN MAKEN
+
+1  Klik op de knop Start op de taakbalk van Windows 95 en selecteer 
+   achtereenvolgens Instellingen en Configuratiescherm.
+2  Dubbelklik op het pictogram Software.
+3  Klik op het tabblad Installeren en verwijderen en selecteer 
+   Chromatic Research Mpact.
+4  Klik op de knop Toevoegen/Verwijderen... en klik vervolgens op 
+   Automatisch.
+5  Wanneer het dialoogvenster Programma's toevoegen/verwijderen 
+   verschijnt, klikt u op OK.
+6  Klik op de knop Start op de taakbalk van Windows 95, selecteer 
+   Afsluiten en selecteer het keuzerondje De computer opnieuw 
+   opstarten en klik op Ja om de computer opnieuw op te starten.
+
+>>> Om uw Mpact-kaart te gebruiken in een andere computer, 
+gaat u als volgt te werk.  Indien u uw Mpact-multimediakaart 
+in een andere computer wilt gebruiken, verwijdert u gewoon 
+de kaart en plaatst u ze in de nieuwe computer. U zult het 
+PCN niet opnieuw moeten ingeven. Installeer de mediaware vanaf 
+uw originele cd-rom van Mpact Mediaware. Alle software waarover 
+u beschikte op de oorspronkelijke computer, kunt u ook gebruiken 
+op de nieuwe computer.
+
+>>> Technische ondersteuning
+Indien u een bepaald probleem niet kunt oplossen, kunt u contact 
+opnemen met de verkoper van uw Mpact.
+
+De volgende informatie helpt de medewerkers van de afdeling 
+Technische ondersteuning uw probleem op te lossen.
+Vermeld deze informatie wanneer u het probleem beschrijft.
+
+  - Vermeld uw naam samen met uw telefoonnummer, 
+    faxnummer en e-mailadres.
+  - Vermeld welk Mpact-product u heeft gekocht (Mpact 2 3DVD-P).
+  - Beschrijf uw systeem inclusief moederbord, intern geheugen, 
+    kloksnelheid en type beeldscherm.
+  - Indien er iets ongewoons is aan uw systeem, dient u dit te 
+    vermelden, zodat de technicus over voldoende informatie 
+    beschikt om u te helpen het probleem op te lossen.
+  - Beschrijf het probleem en vermeld ook welke stappen 
+    u uitvoert vlak vóór het probleem zich voordoet.
+  - Vermeld de resolutie en de kleurendiepte die was ingesteld 
+    op het moment dat het probleem zich voordeed.
+  - Vermeld alle weergegeven foutberichten.
+  - Vermeld welke stappen vereist zijn om het probleem te 
+    veroorzaken.
+De medewerkers van onze afdeling Technische Ondersteuning zullen 
+uw probleem bestuderen en u zo snel mogelijk antwoord geven.
+
+---------
+COPYRIGHT
+---------
+Chromatic Research, het logo van Chromatic Research, Mpact, en het 
+logo van Mpact zijn handelsmerken van Chromatic Research, Inc.
+Dolby, Pro Logic en het dubbele D-symbool zijn handelsmerken 
+van Dolby Laboratories.  SRS, SOUND RETRIEVAL SYSTEM en het 
+SRS-symbool zijn handelsmerken van SRS Labs.  Macrovision is een 
+gedeponeerd handelsmerk van Macrovision Corporation. 
+Alle andere merknamen, productnamen en handelsnamen zijn 
+handelsmerken of geregistreerde handelsmerken van hun respectieve 
+eigenaars.
+
+Deze publicatie is auteursrechtelijk beschermd. Alle rechten 
+voorbehouden. Niets uit deze uitgave mag worden verveelvoudigd, 
+opgeslagen in een geautomatiseerd gegevensbestand, of openbaar 
+gemaakt, in enige vorm of op enige wijze, hetzij elektronisch, 
+mechanisch, door fotokopieën, opnamen of enige andere manier, 
+zonder voorafgaande schriftelijke toestemming van 
+Chromatic Research. De informatie in dit document werd 
+zorgvuldig gecontroleerd en wordt geacht nauwkeurig te zijn. 
+Chromatic Research aanvaardt echter geen verantwoordelijkheid 
+voor eventuele onnauwkeurigheden in deze handleiding. 
+Chromatic Research is in geen geval aansprakelijk voor directe 
+of indirecte schade, bijzondere of morele schade, of schade die 
+al dan niet voortvloeit uit verkeerde of ontbrekende informatie 
+in deze handleiding, zelfs niet wanneer gewaarschuwd werd voor 
+de mogelijkheid van dergelijke schade. De inhoud van de 
+handleiding is uitsluitend bedoeld ter informatie.
+
+Dit product bevat een technologie ter bescherming van het 
+copyright, die op haar beurt wordt beschermd door 'method 
+claims' van bepaalde Amerikaanse patenten en andere 
+intellectuele eigendomsrechten die toebehoren aan 
+Macrovision Corporation en andere eigenaars. Het gebruik 
+van deze technologie is onderworpen aan de goedkeuring 
+van Macrovision Corporation en is bestemd voor beperkte 
+doeleinden (bv. privé-gebruik). Voor alle andere 
+gebruiksdoeleinden is de toestemming van Macrovision 
+Corporation vereist. Dit product mag niet worden 
+gedecodeerd of ontsleuteld.
+
+Geproduceerd onder licentie van Dolby Laboratories, Inc.  
+'Dolby', 'Pro Logic' en het dubbele D-symbool zijn 
+handelsmerken van Dolby Laboratories. 
+(c) 1992-1997 Dolby Laboratories, Inc. Alle rechten voorbehouden.
+
+Dit product bevat technologieën onder licentie van SRS Labs. 
+SRS 3D Sound wordt beschermd door verscheidene Amerikaanse en 
+niet-Amerikaanse patenten, zoals patentnummer 
+4.748.669, 4.841.572 en 4.866.774. De aanduiding 'SRS', 
+'SOUND RETRIEVAL SYSTEM' en het logo zijn geregistreerde 
+handelsmerken van SRS Labs. De SRS-technologie in dit product 
+werd ontwikkeld en wordt verdeeld onder licentie van SRS Labs. 
+SRS Labs heeft het exclusieve recht om opnames te verkopen die 
+werden gemaakt met de SRS-technologie. Dit product geeft de 
+gebruiker niet het recht om dergelijke opnames te verkopen.
+

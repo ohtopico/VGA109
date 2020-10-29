@@ -1,0 +1,52 @@
+BINARY CODE SOFTWARE LICENSE AGREEMENT
+NOTICE - PLEASE READ THIS BEFORE USING THIS SOFTWARE
+
+By accepting this PROMOTION DRIVER (the "Software Product") you agree to license 
+the Software Product from Alliance Semiconductor Corporation (Alliance) under the 
+terms and conditions of this Binary Code Software License Agreement ("Agreement").
+
+
+1.  Ownership.  Alliance owns, or is a rightful licensee, of all copyright, trade secret,
+    patent and other proprietary rights in the Software Product.
+
+2.  License
+    a.	Grant.  Alliance grants you a nonexclusive license to use the Software Product 
+	on a single computer with a ProMotion or other Alliance Semiconductor Corporation
+	graphics accelerator product.  You are entitled to make one copy of the product
+	for Back-up purposes only.  You may transfer the Software Product to another
+	person only if the transferee agrees to the conditions of this Agreement.
+    b.	Restrictions.  You may not, without the express written consent of Alliance, 
+	(1) copy (except at set forth above), distribute, rent, lease or sublicense all
+	or any portion of the Software Product; (2) modify or prepare derivative works of
+	the Software Product; or (3) decompile, disassemble, or otherwise reverse 
+        engineer the Software Product.
+
+3.  Disclaimer of Warranty.  This software is provided "AS IS" and without warranty.  
+    ALLIANCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF
+    MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  IN NO EVENT WILL ALLIANCE'S 
+    LIABILITY OF ANY KIND INCLUDE ANY SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, 
+    INCLUDING LOST PROFITS, EVEN IF ALLIANCE HAS  KNOWLEDGE OF THE POTENTIAL LOSS OR 
+    DAMAGE.
+
+4.  Term.  This Agreement shall remain in effect until terminated by either party.  You 
+    may terminate this Agreement at any time by destroying the Software Product, 
+    including any copies residing on computer equipment.  Alliance may terminate this
+    Agreement if you do not comply with any of the Agreement terms.  Upon termination, 
+    you agree to destroy the Software Product and all copies in your possession.
+
+5.  U.S. Government Restricted Rights.  If the Software Product IS to be used in the 
+    performance of a government contract or subcontract, the Software Product is provided 
+    on a "restricted rights" basis only.  You agree to place a legend in the form
+    provided under the appropriate governmental regulations indicating so.
+
+6.  Governing Law.  This Agreement shall be governed by the laws of the State of 
+    California without regard to the body of law pertaining to choice of laws.
+
+7.  Severability and Entire Agreement.  If any provision of this Agreement is held by a 
+    court to be illegal, invalid or unenforceable, it will be enforced to the maximum 
+    extent permissible and the remaining provisions shall remain in full force and 
+    effect. This Agreement and its exhibits contain the entire understanding and 
+    agreement between the parties respecting the subject matter hereof, and all prior
+    quotations, invoices, negotiations, understandings, representations and agreements
+    of the parties, whether oral or written, are superseded in their entirety.
+

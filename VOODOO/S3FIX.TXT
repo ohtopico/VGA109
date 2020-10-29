@@ -1,0 +1,14 @@
+NOTES:
+
+Users that have a S3 968/868 based 2D video card may 
+experience system lock ups or erratic behavior once 
+DirectX is installed on their system. 
+
+The S3 968 and 868 have a chipset flaw which prior to 
+DirectX shipping wasn't noticeable. DirectX uses a 
+mapped memory driver for S3 based cards, whereas the 
+Windows 95 default drivers for S3 cards do not use 
+Mapped Memory.
+
+To fix this problem, please see the Readme file under
+\Voodoo2\S3fix directory on this CD.

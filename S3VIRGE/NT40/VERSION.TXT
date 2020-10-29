@@ -1,0 +1,2 @@
+Microsoft Windows NT 4.00 driver version 2.00-17 for the
+S3 ViRGE, ViRGE/VX, ViRGE/DX, and the ViRGE/GX.

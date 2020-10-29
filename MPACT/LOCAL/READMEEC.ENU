@@ -1,0 +1,209 @@
+            ==========================================
+                        Software Dynamics
+                 Entertainment Center Version 1.0 
+                           Read Me File
+                           DU-10344-001
+                            July 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+This Read Me file contains last-minute product 
+information concerning Entertainment Center Version 1.0.
+
+We encourage you to register your Entertainment Center 
+software. Fill out and mail/fax your registration form 
+to let us know who you are.  With your assistance, we 
+will be able to provide you with better products, 
+better service, and the most up-to-date information. 
+For the latest news and information about Entertainment 
+Center and other Software Dynamics software products,  
+see our web page:  http://www.softdyn.com
+
+------------------------
+How to Use This Document
+------------------------
+In this document, the following convention is used 
+to describe selecting items from menus: 
+   menu name> menu item. 
+The > indicates a submenu.
+For example:  
+   To instruct you to choose the File menu, and 
+   then select the Open item, the instruction is 
+   'Choose File menu> Open.'
+
+To view the Readme file on-screen open it with 
+Microsoft Word, WordPad or Notepad. To print the Readme 
+file, open it in a word processor, and then choose File 
+menu> Print. 
+
+---------------
+How to Register
+---------------
+To register your Entertainment Center software open the 
+text file entitled ‘register.rtf’ with Microsoft Word, 
+WordPad or Notepad. To print the Register file, open it 
+in a word processor, and then choose File menu > Print. 
+
+Fill out the registration form and fax or mail it to us 
+at either of the following addresses:
+
+International:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Germany
+
+Fax: (49) (421) 20266-99
+E-mail: ecenter@softdyn.com
+
+US:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Fax: (630) 794-9033
+E-mail: tdmaestro@aol.com
+
+
+---------
+CONTENTS
+---------
+- INTRODUCTION
+- GETTING STARTED
+- TROUBLESHOOTING 
+- MORE INFORMATION
+- COPYRIGHT
+
+-------------
+INTRODUCTION
+------------- 
+Welcome to the Software Dynamics Entertainment Center! 
+The Entertainment Center is an application that handles 
+all the controls for your computerized entertainment 
+center. Now you can use your computer to watch videos, 
+Video CDs and DVDs and to listen to audio CDs. 
+
+----------------
+GETTING STARTED
+----------------
+Designed to look much like a traditional entertainment 
+center, the controls for the Entertainment Center may 
+already be familiar to you. If you need assistance with 
+any feature refer to Help by clicking the ? (Question 
+mark) icon in the upper right of the Entertainment 
+Center window. 
+
+>>>To launch Entertainment Center, from the Windows taskbar
+choose Start> Programs> Chromatic Research Mpact> Software 
+Dynamics Entertainment Center.
+
+---------------
+TROUBLESHOOTING
+---------------
+DVD Regions
+
+The DVD industry allows DVD publishers to restrict 
+media to certain parts of the world in order to protect 
+copyrights. A DVD disk from one region, such as Region 
+1 (United States, Canada, and part of the Caribbean) 
+may not play on a DVD drive designed for Region 2 
+(Japan, parts of Europe and the Middle East, and some 
+of Africa) or Region 3 (Korea, Malaysia, Burma, 
+Indonesia, Philippines, and Southeast Asia). There are 
+six regions.
+
+>>>To check the region of your DVD player, double-click 
+the Mpact icon in the Control Panel. The Mpact 
+Mediaware Properties dialog General page identifies 
+your DVD Region. Check the DVD disk to see that it has 
+a region code that matches your DVD player.
+
+Reinstalling Software Dynamics Entertainment Center
+
+The enclosed CD includes the current version of the 
+Software Dynamics Entertainment Center. The 
+Entertainment Center is automatically installed when 
+mediaware is installed. However, the instructions below 
+are included in case you need to replace the software.
+
+>>>TO INSTALL ENTERTAINMENT CENTER:
+
+1. Run the Mpact setup program on the Mpact mediaware 
+   CD-ROM.  
+
+   >>>To run the setup program
+   1. On the Windows 95 toolbar, click Start, and then
+      select Run. 
+   2. Type 'd:\setup', where d: is your CDROM drive. 
+      Click OK.
+
+2.  When the License dialog box appears, click I Agree.
+
+3.  When the Select Installation Options dialog box appears, 
+    select Entertainment Center and click Install. 
+
+4.  The Entertainment Center software will be copied to 
+    your hard drive. When the Install Complete dialog 
+    box appears,  click Done.
+
+5.  When the Install dialog box appears, click OK to 
+    restart the computer. 
+
+
+>>>TO UNINSTALL ENTERTAINMENT CENTER
+
+1.  On the Windows taskbar, click Start.
+
+2.  Select Settings, then click Control Panel.
+
+3.  In the Control Panel, double-click the Add/Remove 
+    Programs button.
+
+4.  Click Install/Uninstall, then select Entertainment 
+    Center.
+
+5.  Click Add/Remove, then click Automatic.
+
+6.  When the Add/Remove Programs Properties dialog box 
+    appears, click OK.
+
+7.  On the Windows taskbar, click Start to restart the 
+    computer. Select Shut Down, then select Restart the 
+    computer?  and click Yes.  
+
+-----------------
+MORE INFORMATION
+-----------------
+For more information about the Entertainment Center or 
+other Software Dynamics multimedia software products, 
+visit our website at http://www.softdyn.com.
+
+----------
+COPYRIGHT
+----------
+Copyright © 1997 Software Dynamics GmbH.  Software 
+Dynamics, Entertainment Center and the Entertainment 
+Center logo are trademarks of Software Dynamics GmbH. 
+All other brand names, product names, and trade names 
+are trademarks or registered trademarks of their 
+respective holders.
+
+This publication is protected by copyright and all 
+rights are reserved. No part of it may be reproduced or 
+transmitted by any means or in any form, without prior 
+consent in writing from Software Dynamics GmbH.
+
+The information in this document has been carefully 
+checked and is believed to be accurate. However, 
+Software Dynamics GmbH assumes no responsibility for 
+any inaccuracies that may appear in this manual.  In no 
+event will Software Dynamics GmbH be liable for direct, 
+indirect, special, exemplary, incidental or 
+consequential damages resulting from any defect or 
+omission in this manual, even if advised of the 
+possibility of such damages.  The material contained 
+herein is for informational purposes only.
+
+7/1/97

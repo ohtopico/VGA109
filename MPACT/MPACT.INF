@@ -1,0 +1,244 @@
+;----------------------------------------------------------------------------
+;
+; INF file for Chromatic Research Mpact Resource Manager
+;
+; $Revision: 1.21.2.2.2.1 $
+;
+; $Date: 1998/02/03 06:43:25 $
+;
+; Copyright 1995 Chromatic Research Inc.
+; All Rights Reserved.
+;
+;----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Version]
+Signature="$CHICAGO$"
+Provider=%ProviderName%
+Class= MediaProcessor 
+
+[DestinationDirs]
+DefaultDestDir=11
+INFs=17
+
+[ClassInstall]
+CopyFiles=@M1inst.dll, @M1inst32.dll
+DelReg=M1ClearReg
+AddReg=M1ClassReg
+
+[M1ClearReg]
+HKR,,Installer
+HKR,,Icon
+
+[M1ClassReg]
+HKR,,,,%ClassName%
+HKR,,Installer,,"M1inst.dll"
+HKR,,Icon,,0
+
+[Manufacturer]
+%MfgName%=Mpact2
+
+[Mpact2]
+%ProductName%=Mpact2.mf, PCI\VEN_110B&DEV_0004
+
+[Mpact2.mf]
+CopyFiles=RM.CopyFiles, INFs
+AddReg=Mpact2.Reg
+
+[Mpact2.Reg]
+HKR,,DevLoader,,*CONFIGMG
+HKR,,DeviceDriver,,m2rmvsp.vxd
+HKR,,Enumerator,,m2rmvsp.vxd
+HKR,,CMDrivFlags,01,03,00,00,00
+; Children we would like to enumerate
+HKR,Child0000,HardwareID,,VIRTUAL\MpactGraphics_Dev0
+HKR,Child0001,HardwareID,,VIRTUAL\MpactAudio_Dev1
+HKR,Child0003,HardwareID,,VIRTUAL\MpactVideo_Dev3
+; control panel
+HKCR,CLSID\{2A7B8245-F41D-11CF-A42C-00A0245B0561}\InProcServer32,,,m1.cpl
+HKCR,CLSID\{2A7B8245-F41D-11CF-A42C-00A0245B0561}\InProcServer32,ThreadingModel,,"Apartment"
+HKLM,"Software\Microsoft\Windows\CurrentVersion\Controls Folder\Display\shellex\PropertySheetHandlers\Mpact Display Pages",,,"{2A7B8245-F41D-11CF-A42C-00A0245B0561}"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Run,mmpti,,"%11%\m1mmpti.exe"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\RunServices,rmmon,,"%11%\mprmmon.exe"
+HKLM,"SOFTWARE\Chromatic Research\Mpact 2 3DVD\Services",audmon,,"%11%\m2audmon.exe"
+
+[INFs]
+m2gfx.inf
+mpact.inf
+m2video.inf
+
+[RM.CopyFiles]
+m2rm.dll
+m2rm16.dll
+m2rmvsp.vxd
+mprmmon.exe
+mphw_mrk.dll
+; some more misc items
+msvcrt40.dll
+mfc40.dll
+m1ac3.dll
+m2xapm.dll
+m2vxapmd.vxd
+m2audmon.exe
+; control panel 
+m1.cpl
+m1mmpti.exe
+m1cplenu.hlp
+m1erep.dll
+m1erep16.dll
+m1enu.dll
+m1enu16.dll
+; localized lang dlls
+
+m1cpldeu.hlp
+m1deu.dll
+m1deu16.dll
+
+
+m1cplfra.hlp
+m1fra.dll
+m1fra16.dll
+
+
+m1cplita.hlp
+m1ita.dll
+m1ita16.dll
+
+
+m1cpljpn.hlp
+m1jpn.dll
+m1jpn16.dll
+
+
+m1cplchs.hlp
+m1chs.dll
+m1chs16.dll
+
+
+m1cplkor.hlp
+m1kor.dll
+m1kor16.dll
+
+
+m1cplesp.hlp
+m1esp.dll
+m1esp16.dll
+
+
+m1cplnld.hlp
+m1nld.dll
+m1nld16.dll
+
+
+m1cplsve.hlp
+m1sve.dll
+m1sve16.dll
+
+
+[SourceDisksNames]
+1=%MPACTDiskName%,,1
+
+[SourceDisksFiles]
+mpact.inf=1
+m2video.inf=1
+m2gfx.inf=1
+m2rm.dll=1
+m2rm16.dll=1
+m2rmvsp.vxd=1
+mprmmon.exe=1
+m1erep.dll=1
+m1erep16.dll=1
+mphw_mrk.dll=1
+m1.cpl=1
+m1mmpti.exe=1
+m1cplenu.hlp=1
+msvcrt40.dll=1
+mfc40.dll=1
+m1enu.dll=1
+m1enu16.dll=1
+m1ac3.dll=1
+m2xapm.dll=1
+m2vxapmd.vxd=1
+m2audmon.exe=1
+
+
+; non english files
+m1cpldeu.hlp=1
+m1cplfra.hlp=1
+m1cplita.hlp=1
+m1cpljpn.hlp=1
+m1cplchs.hlp=1
+m1cplkor.hlp=1
+m1cplesp.hlp=1
+m1cplnld.hlp=1
+m1cplsve.hlp=1
+m1jpn.dll=1
+m1jpn16.dll=1
+m1ita.dll=1
+m1ita16.dll=1
+m1deu.dll=1
+m1deu16.dll=1
+m1fra.dll=1
+m1fra16.dll=1
+m1kor.dll=1
+m1kor16.dll=1
+m1chs.dll=1
+m1chs16.dll=1
+m1esp.dll=1
+m1esp16.dll=1
+m1nld.dll=1
+m1nld16.dll=1
+m1sve.dll=1
+m1sve16.dll=1
+
+
+;
+; Translatable strings
+;
+[Strings]
+ProviderName= "Chromatic Research, Inc." 
+MfgName= "Chromatic Research, Inc." 
+ProductName= "Mpact Media Processor" 
+MPACTDiskName= "Mpact Win95 Driver Disk" 
+; User visible class name 
+ClassName= "Multimedia Devices" 

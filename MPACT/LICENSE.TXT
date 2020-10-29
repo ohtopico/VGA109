@@ -1,0 +1,137 @@
+Chromatic Research is a registered trademark of Chromatic Research, Inc. The
+Chromatic Research logo, Mpact, and the Mpact logo are trademarks or
+registered trademarks of Chromatic Research, Inc. All other brand names,
+product names, and trade names are trademarks or registered trademarks of
+their respective holders.
+
+Copyright 1997-1998, Chromatic Research, Inc. All rights reserved.
+
+Copyright 1993, SystemSoft Corporation, modified by Chromatic Research, Inc.
+
+Licensed under one or more U. S. Patent Nos. 5,048,056; 5,265,151;
+5,291,520; and 5,465,273 assigned to General DataComm, Inc.
+
+Licensed under U. S. Patent No. 4,558,302 and foreign counterparts.
+
+This product incorporates technology licensed from Dolby Laboratories, Inc.
+Copyright 1992-1997 by Dolby Laboratories, Inc. All rights reserved.
+Manufactured under license from Dolby Laboratories. "Dolby", "AC-3" and the
+double-D symbol are trademarks of Dolby Laboratories.
+
+This product incorporates copyright protection technology that is protected
+by method claims of certain U.S. patents and other intellectual property
+rights owned by Macrovision Corporation and other rights owners. Use of this
+copyright protection technology must be authorized by Macrovision
+Corporation and is intended for home and other limited uses only, unless
+otherwise authorized by Macrovision Corporation.  Reverse engineering and
+disassembly is prohibited.
+
+This product incorporates technology licensed from SRS Labs. SRS 3D Sound is
+protected by several U. S. and foreign patents including Patent Nos.
+4,748,669, 4,841,572, and 4,866,774. The marks "SRS", "SOUND RETRIEVAL
+SYSTEM", and the symbol are registered trademarks of SRS Labs. The SRS
+technology found in this product is manufactured and distributed under
+license from SRS Labs. SRS Labs has reserved the right to sell recordings
+made with the SRS technology and no such license is granted herein.
+______________________________________________________________________
+
+End-User License Agreement for Chromatic Research Mpact(TM) Software
+	
+IMPORTANT - READ CAREFULLY: THE SOFTWARE, DOCUMENTATION AND OTHER MATERIALS IN THIS PACKAGE AND THE Mpact SOFTWARE INSTALLED ON YOUR COMPUTER ARE PROTECTED BY THE LAWS OF COPYRIGHT.  YOU MAY ONLY USE THEM PURSUANT TO A LICENSE FROM CHROMATIC RESEARCH, INC.  THE PROVISIONS OF THE LICENSE AGREEMENT ARE SET OUT IN THE LICENSE AGREEMENT CONTAINED IN THIS PACKAGE.  IF, AFTER READING THE LICENSE AGREEMENT, YOU DO NOT WISH TO ABIDE BY ITS TERMS AND CONDITIONS, YOU MUST RETURN THE  SOFTWARE, DOCUMENTATION, AND MATERIALS AND ERASE THE SOFTWARE FROM YOUR HARD DISK.  IN SUCH CASE, PLEASE CONTACT THE HARDWARE MANUFACTURER FOR INSTRUCTIONS ON OBTAINING A REFUND FOR THE SOFTWARE.
+	
+
+This End-User License Agreement ("Agreement") is a legal agreement between you (either an individual or a single entity) and the manufacturer ("Manufacturer") of a computer system or computer add-in board ("Hardware") with which you acquired the Chromatic Mpact software contained herein ("Software").  This is a license agreement and not an agreement for sale.  Under copyright laws you are not permitted to install or run the Software without Chromatic’s permission.  Such permission is subject to the following terms and conditions:
+
+LICENSE
+
+1.  Grant Of License.  Chromatic Research, Inc. ("Chromatic") grants you a nontransferable, non-exclusive license, without the right to sublicense, to install and use one copy of the Software, in object code form only, on one Hardware device.  You may make an archival copy of the Software for back-up purposes, and may use such archival copy only if an installed copy is lost or destroyed, or if the Hardware on which the Software is installed become inoperable.  
+
+2.  Conditions of the License.  You agree not to reverse engineer, decompile, or disassemble the Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding this limitation. You agree to maintain on the originals, and on any archival copy of the Software made, the copyright notices, trademarks, confidentiality legends, and restricted rights legends printed thereupon.  Any such notices, trademarks, and legends reproduced by you shall be printed in the same form and position found on the originals.   The Software is licensed as a single product.  Its component parts may not be separated for use on more than one computer. You may not rent or lease the Software.  If the Software is an upgrade, you may only install it on one unit of Hardware on which a prior licensed version of the Software is installed.  Without prejudice to any other rights, Chromatic may terminate this License if you fail 
+to comply with the terms and conditions of this License.  In such event, you must destroy all copies of the Software and related documentation.  The Software is license only for use with the Hardware, and if the Software is not accompanied by Hardware, you may not use or copy the Software. 
+
+3.  Transfer of Software.  You may permanently transfer all of your rights under this Agreement only as part of a sale or transfer of the Hardware, provided you retain no copies, you transfer all of the Software (including prior versions, all media and printed materials, and this Agreement), and the recipient agrees the terms of this Agreement. 
+
+4.  Ownership. All rights, title and interest in the Software, and accompanying documentation, and all copies thereof are, and shall remain with Chromatic. You may not, except as expressly provided herein, acquire any right, title, or interest in the Software or documentation (including without limitation patents, trademarks, copyrights, and trade secrets rights). 
+
+5.  Product Support.  Product support for the Software is NOT provided by Chromatic.  For product support please contact Hardware Manufacturer.
+
+6.  Government Restricted Rights. The Software and accompanying documentation are deemed to be "commercial computer software" and "commercial computer software documentation", respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212, as applicable.  Any use, modification, reproduction, release, performing, displaying or disclosing of the software and accompanying documentation by the U.S. Government shall be governed solely by the terms of this Agreement and shall be prohibited except to the extent expressly permitted by the terms of this Agreement. Manufacturer is Chromatic Research, Inc., 615 Tasman Drive, Sunnyvale, CA 94089.
+
+7.  This product incorporates copyright protection technology that is protected by method claims of certain U.S. patents and other intellectual property rights owned by Macrovision Corporation and other rights owners.  Use of this copyright protection technology must be authorized by Macrovision Corporation, and is intended for home and other limited uses only unless otherwise authorized by Macrovision Corporation.  Reverse engineering and disassembly is prohibited.
+
+COUNTRY SPECIFIC PROVISIONS ARE ATTACHED.  PLEASE REFER TO THE APPROPRIATE COUNTRY FOR THE PROVISIONS THAT APPLY TO YOUR LICENSE.
+
+Mpact is a trademark of Chromatic Research, Inc.
+
+
+Warranty and Special Provisions for Australia, New Zealand or Papua New Guinea Express Limited Warranty
+
+STATUTORY RIGHTS.  Pursuant to the Trade Practices Act and similar state and territory laws in Australia or the Consumer Guarantees Act in New Zealand, you may have the benefit of certain rights or remedies in respect of which certain liability may not be excluded.
+
+LIMITED EXPRESS WARRANTY.  Chromatic warrants that the Software will perform substantially as described in the documentation for a period of 90 days from the date of receipt.  To the maximum extent permitted under applicable law, Chromatic’s and Manufacturer's entire liability and your exclusive remedy under the express warranty is, at their option, either (a) refund of the purchase price; or (b) repair or replacement of the Software, if the Software does not meet the warranty and is returned to Manufacturer with a copy of your receipt.
+
+LIMITATION OF LIABILITY.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY CONDITIONS OR WARRANTIES IMPOSED OR IMPLIED BY LAW ARE HEREBY EXCLUDED.  You may nevertheless have the benefit of certain rights or remedies under to the Trade Practices Act and similar state and territory laws in Australia or the Consumer Guarantees Act in New Zealand, which may not allow exclusion of such liability.  TO THE EXTENT SUCH LIABILITY MAY NOT BE EXCLUDED, THEN TO THE MAXIMUM EXTENT PERMITTED BY LAW, SUCH LIABILITY IS LIMITED, AT THE EXCLUSIVE OPTION OF MANUFACTURER OR CHROMATIC, TO EITHER (A) REPLACEMENT OF THE SOFTWARE; OR (B) CORRECTION OF DEFECTS OR ERRORS IN THE SOFTWARE.
+
+EXCLUSION OF LIABILITY/DAMAGES.  The following is without prejudice to any rights you may have at law which cannot legally be excluded or restricted.  You acknowledge that no promise, representation, warranty or undertaking has been made or given by Manufacturer and/or Chromatic (or related company of either) to you with respect to the profitability of, or benefits of, the use of the Software and documentation.  You have relied upon your own skill and judgment in deciding to acquire the Software and documentation.  EXCEPT AS AND TO THE EXTENT PROVIDED IN THIS AGREEMENT, NEITHER MANUFACTURER NOR CHROMATIC (OR RELATED COMPANY OF EITHER) WILL IN ANY CIRCUMSTANCES BE LIABLE FOR ANY DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION OR OTHER INDIRECT OR CONSEQUENTIAL LOSS) ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE AND DOCUMENTATION, MANUFACTURER'S AND/OR CHROMATIC’S TOTAL LIABILITY 
+UNDER ANY PROVISION OF THIS AGREEMENT IS IN ANY CASE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE.
+
+This agreement is governed by the laws of New South Wales, Australia or, where supplies are made in New Zealand, by the laws of New Zealand.
+
+
+Warranty and Special Provisions for Canada Limited Warranty
+
+LIMITED WARRANTY.  Manufacturer warrants that the Software will perform substantially as described in the documentation for a period of ninety (90) days from the date of purchase.  This ninety (90) day limitation shall apply to any implied warranties or conditions on the Software.  Some states/jurisdictions do not allow limitations on duration of an implied warranty, so the above limitation may not apply to you.  MANUFACTURER'S AND CHROMATIC’S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY UNDER SUCH WARRANTY SHALL BE, AT MANUFACTURER'S OPTION, EITHER (A) RETURN OF THE PRICE PAID, OR (B) REPAIR OR REPLACEMENT OF THE SOFTWARE IF RETURNED TO MANUFACTURER WITH A COPY OF YOUR RECEIPT.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MANUFACTURER AND CHROMATIC DISCLAIM ALL OTHER EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF NONINFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH REGARD TO THE SOFTWARE AND DOCUMENTATION.
+This limited warranty gives you specific legal rights.  You may have others which vary from state/jurisdiction to state/jurisdiction.
+
+LIMITATION ON LIABILITY FOR CONSEQUENTIAL DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MANUFACTURER OR CHROMATIC BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION, DIRECT OR INDIRECT DAMAGES FOR PERSONAL INJURY, LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF MANUFACTURER OR CHROMATIC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  MANUFACTURER'S AND CHROMATIC’S' ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE.  Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.
+
+This Software License Agreement is governed by the laws of the Province of Ontario, Canada. 
+
+
+Warranty and Special Provisions for England, and, Wales and Ireland
+
+Limited Warranty
+
+LIMITED WARRANTY.  Manufacturer and Chromatic warrant that (a) the Software will perform substantially as described in the documentation for a period of ninety (90) days from the date of purchase.  This ninety (90) day limitation shall apply to any implied warranties on the Software except where local law does not allow limitation on duration of an implied warranty.  MANUFACTURER'S AND CHROMATIC’S ENTIRE LIABILITY AND YOUR EXCLUSIVE REMEDY SHALL BE, AT MANUFACTURER'S OR CHROMATIC’S OPTION, EITHER (A) RETURN OF THE PRICE PAID, OR (B) REPLACEMENT OF THE SOFTWARE, IF THE SOFTWARE IS RETURNED TO MANUFACTURER WITH A COPY OF YOUR RECEIPT.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MANUFACTURER AND CHROMATIC DISCLAIM ALL OTHER REPRESENTATIONS, WARRANTIES, OR CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES AND/OR CONDITIONS OF NONINFRINGEMENT, SUITABILITY, MERCHANTABILITY 
+AND FITNESS FOR A PARTICULAR PURPOSE. This warranty gives you specific legal rights.  You may have others which vary from jurisdiction to state/jurisdiction.
+
+FOR CONSEQUENTIAL DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MANUFACTURER OR CHROMATIC BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION, DIRECT OR INDIRECT DAMAGES FOR PERSONAL INJURY, LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, OR LOSS OF BUSINESS INFORMATION) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE EVEN IF MANUFACTURER OR CHROMATIC HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES . IF ANY EXCLUSION OR OTHER PROVISION OF THIS LICENSE AGREEMENT SHALL BE HELD UNENFORCEABLE AND CHROMATIC BECOMES LIABLE FOR LOSS OR DAMAGE THAT COULD OTHERWISE HAVE BEEN LIMITED, CHROMATIC’S TOTAL LIABILITY (WHETHER IN CONTRACT, NEGLIGENCE, OR OTHER OTHERWISE) ARISING OUT OF THIS LICENSE AGREEMENT AND YOUR USE OF THE SOFTWARE AND DOCUMENTATION PURSUANT TO THIS LICENSE WILL BE LIMITED TO THE AMOUNT YOU PAID FOR THE SOFTWARE.  Because 
+some states/jurisdictions do not allow the exclusion or limitation of or consequential or incidental damages, the above limitation may not apply to you.
+
+	SPECIAL PROVISIONS
+
+Deriving Source Code: You may not disassemble, decompile, or reverse engineer of the Software; expect that you may decompile the Software for the purpose of interoperability only to the extent permitted and subject to local law where decompilation is necessary to obtain the information necessary to achieve the interoperability of an independently created program with the Software or with another program and such information is not readily available from Chromatic.
+
+Copies.  You may make a copy of the Software diskette for backup purposes only.  Any other copies of the whole or any part of the Software are unlawful.  This Agreement shall be governed by the laws of England and subject to the non-exclusive jurisdiction of the English courts.
+
+
+Warranty and Special Provisions for the United States of America and Any Other Country
+
+Limited Warranty
+
+LIMITED WARRANTY.  Chromatic warrants that the Software will perform substantially as described in the documentation for a period of ninety (90) days from the date of purchase.  Such ninety (90) day limitation shall apply to any implied warranties on the Software unless such limitation on duration of an implied warranty is not allowed by local law, in which case the above limitation would not apply to you.  Manufacturer's and Chromatic’s entire liability and your exclusive remedy shall be, at Manufacturer's option, either (a) return of the price paid, or (b) repair or replacement of the Software if returned to Manufacturer with a copy of your receipt.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, MANUFACTURER AND CHROMATIC DISCLAIM ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF NONINFRINGEMENT, SUITABILITY, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE WITH RESPECT 
+TO THE SOFTWARE AND ACCOMPANYING DOCUMENTATION.  This limited warranty gives you specific legal rights.  You may have others which vary from state/jurisdiction to state/jurisdiction.
+
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES.  TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL MANUFACTURER OR CHROMATIC BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING WITHOUT LIMITATION, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR INDIRECT DAMAGES FOR PERSONAL INJURY, LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OF OR INABILITY TO USE THIS PRODUCT, EVEN IF MANUFACTURER OR CHROMATIC HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  IN ANY CASE, MANUFACTURER'S AND CHROMATIC’S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE.  Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to you.
+
+This Agreement is governed by the laws of the State of California, U.S.A.  If you acquired the Software outside the United States of America, local law may apply.
+
+
+GERMANY
+
+Limited Warranty
+
+To the extent required by local law, the following provisions shall apply to you.  If not so required, the provisions set forth for Any Other Country above shall apply:
+
+Limited Warranty.  Chromatic and Manufacturer warrant for six (6) months from the date of delivery to you that the enclosed diskette medium upon which the Software is recorded shall be free from defects in materials and workmanship under normal use and condition, and that the Software shall perform substantially as described in the documentation.  If it should become apparent that the Software is defective, you agree to notify Chromatic or Manufacturer within two weeks and in no event later than the end of the six month period.  Upon receipt of the notification, Manufacturer or Chromatic will supply you with a replacement copy of the Software.  If that should not cure the defect, you may resort to your statutory rights and either request repayment of the license fee against return of the Software, or request a reasonable reduction of the license fee.
+
+Limitation on Liability.  Chromatic, Manufacturer, their employees, and subcontractors shall be liable for damages, whether based on this or any other agreement, tort, or any other legal theory, only if such damage has been caused (i) either by gross negligence or intent, or the lack of a certain property of the Software which had been expressly guaranteed by Manufacturer or Chromatic; or (ii) Chromatic’s or Manufacturer’s failure to comply with an essential obligation under this Agreement with at least some degree of negligence, or (iii) by a violation of third party rights protected statute or applicable product liability laws.  Such liability shall not cover any damage which Chromatic or Manufacturer were unable to foresee when concluding this Agreement, except if the liability is based on at least gross negligence of an officer of Chromatic or Manufacturer or on intent.  Chromatic’s 
+or Manufacturer’s liability shall in no event cover damages caused by the loss of data, especially if such loss could have been avoided by regular back-up, or any damages caused by using the Software which could have been prevented by examination of the work products of the Software at regular intervals.
+
+To the extent that the respective statutory limitation period does not expire earlier and expect for claims based on tort, any claims for damages shall be barred after two years from the delivery of the Software.  Chromatic’s and Manufacturer’s liability under or in connection with this Agreement, including in particular its liability for any defects in the Software, shall be strictly limited to the foregoing provisions.
+
+Applicability.  The provisions of this Agreement shall apply whether or not the Software is protected under German copyright law.
+
+This Agreement shall be governed by the laws of Germany.
+
+**** END OF CHROMATIC RESEARCH MPACT MEDIAWARE SOFTWARE LICENSE AGREEMENT ****

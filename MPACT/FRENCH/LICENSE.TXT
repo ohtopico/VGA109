@@ -1,0 +1,149 @@
+Chromatic Research est une marque commerciale déposée de Chromatic Research, Inc. 
+Le logo Chromatic Research, Mpact et le logo Mpact sont des marque commerciales 
+(déposées ou pas) de Chromatic Research, Inc. Les autres noms de produit ou de marque 
+cités sont des marques commerciales (déposées ou pas) appartenant à leur détenteur 
+respectif.
+
+Copyright 1997-1998, Chromatic Research, Inc. Tous droits réservés.
+
+Le programme est protégé par un copyright de 1993 appartenant à SystemSoft 
+Corporation, mais il a été modifié par Chromatic Research, Inc.
+
+Protégé par un ou plusieurs des brevets américains (Etats-Unis) suivants :
+5.048.056, 5.265.151, 5.291.520 et 5.465.273 (tels qu'ils ont été 
+déposés par General DataComm, Inc).
+
+Breveté aux Etats-Unis (brevet n° 4.558.302), ainsi que dans d'autres pays.
+
+Ce produit inclut une technologie exploitée sous licence Dolby Laboratories, Inc.
+Copyright 1992-1997 par Dolby Laboratories, Inc. Tous droits réservés.
+Fabriqué sous licence Dolby Laboratories. "Dolby", "AC-3" et le
+symbole double-D sont des marques commerciales de Dolby Laboratories.
+
+Ce produit comprend des techniques de protection, 
+des droits d'auteur reconnus par certains brevets américains et autres 
+droits de propriété intellectuelle détenus par Macrovision Corporation 
+et ses ayants droit. L'utilisation de ces technologies 
+de protection des droits d'auteur est autorisée par Macrovision 
+Corporation uniquement dans le cadre d'un usage domestique et limité, 
+à moins d'obtenir une dispense spéciale. Le désossage et le désassemblage 
+des codes sont interdits.
+
+Ce produit incorpore une technologie couverte par une licence de SRS Labs. 
+SRS 3D Sound est protégé aux Etats-Unis et dans d'autres pays par plusieurs brevets 
+dont les brevets américains n° 4.748.669, 4.841.572 et 4.866.774. 
+Les marques "SRS", "SOUND RETRIEVAL SYSTEM" et leur symbole 
+sont des marques commerciales déposées de SRS Labs. 
+La technologie SRS trouvée dans ce produit est fabriquée et distribuée 
+sous licence SRS Labs. SRS Labs se réserve le droit exclusif de vendre des 
+enregistrements effectués à l'aide de la technologie SRS.
+_____________________________________________________________________________
+
+Contrat de licence d'utilisateur final pour le logiciel Mpact (tm) de Chromatic Research
+
+IMPORTANT - À LIRE ATTENTIVEMENT : LE LOGICIEL, LA DOCUMENTATION ET LES AUTRES ÉLÉMENTS CONTENUS DANS CE COFFRET, AINSI QUE LE LOGICIEL MPACT INSTALLÉ SUR VOTRE ORDINATEUR, SONT PROTÉGÉS PAR COPYRIGHT. VOUS NE POUVEZ EN FAIRE USAGE QUE SI VOUS DÉTENEZ UNE LICENCE ACCORDÉE PAR CHROMATIC RESEARCH, INC. LES CLAUSES DU CONTRAT DE LICENCE SONT DÉFINIS DANS LE CONTRAT DE LICENCE CONTENU DANS CE  COFFRET. SI APRÈS AVOIR LU LE CONTRAT DE LICENCE, VOUS NE SOUHAITEZ PAS VOUS CONFORMER À SES TERMES ET CONDITIONS, VOUS DEVEZ RENVOYER LE LOGICIEL, LA DOCUMENTATION, AINSI QUE LE MATÉRIEL ET EFFACER LE LOGICIEL DE VOTRE DISQUE DUR. DANS CE CAS, VEUILLEZ CONTACTER LE FABRICANT DU MATÉRIEL POUR OBTENIR DES INSTRUCTIONS SUR L'OBTENTION DU REMBOURSEMENT DU PRIX D'ACHAT DU LOGICIEL.
+
+Ce contrat de licence pour utilisateur final (" Contrat ") constitue un contrat passé entre vous (une personne ou une entité unique) et le fabricant (" Fabricant ") de systèmes informatiques ou de cartes complémentaires pour ordinateurs (" Matériel "), auprès duquel vous vous êtes procuré le logiciel Chromatic Mpact ci-inclus (" Logiciel "). Il s'agit d'un accord de licence et non d'un contrat de vente. Conformément aux lois en matière de copyright, vous n'êtes pas autorisé à installer ou à utiliser le Logiciel sans l'autorisation de Chromatic. Une telle autorisation est sujette aux termes et conditions suivants :
+
+LICENCE
+
+1. Octroi de licence. Chromatic Research, Inc. (" Chromatic ") vous octroie une licence non transférable, non exclusive et sans droit de sous-licence, vous permettant d'installer et d'utiliser une copie du Logiciel sur un Matériel uniquement sous la forme de code objet. Vous est autorisé à en faire une copie de sauvegarde que vous ne pourrez utiliser que si la copie installée est perdue ou détruite, ou si le Matériel sur lequel le Logiciel a été installé est devenu inutilisable.
+
+
+2. Conditions de licence. Vous vous engagez à ne pas procéder à une quelconque réingénierie, décompiler ou désassembler le Logiciel, sauf et uniquement si cela est expressément autorisé par les lois en vigueur, en dépit de cette limitation. Vous vous engagez à conserver les copies d'origine du Logiciel, ainsi que toute copie de sauvegarde effectuée à partir du Logiciel, les avis de copyright, les marques de commerce, les légendes de confidentialité et de droits limités qui y sont imprimés. Tout avis de copyright, marque de commerce et légende devra être reproduit avec des forme et position identiques à celles de la copie d'origine. Le Logiciel est sous licence comme produit unique. Les éléments qui le composent ne doivent pas être séparés afin d'être utilisés sur plusieurs ordinateurs. Vous n'êtes pas autorisé à louer le Logiciel ni à accorder de crédit-bail. Vous ne pouvez installer la mise à niveau du Logiciel que sur un Matériel sur lequel a déjà été installé une version antérieure du Logiciel pour laquelle vous avez obtenu une licence. Sous réserve de tout autre droit, Chromatic peut résilier cette Licence si vous ne vous conformez pas aux termes et conditions du contrat de licence. Dans ce cas, vous devez détruire toutes les copies du Logiciel et de sa documentation. Le Logiciel sous licence ne peut être utilisé qu'avec le Matériel qui l'accompagne ; si le Logiciel n'est pas accompagné du Matériel, vous ne pouvez ni l'utiliser, ni le copier.
+
+3. Transfert du Logiciel. Ce contrat ne vous autorise à transférer de façon permanente la totalité de vos droits que dans le cadre d'une vente ou d'un transfert du Matériel, à la condition que vous ne conserviez aucune copie du Logiciel et que vous le transfériez en entier (y compris les versions antérieures, tous les supports et documents imprimés, ainsi que ce contrat) et ce, uniquement si le destinataire s'engage à respecter les termes de ce contrat.
+
+4. Droits de propriété. Tous les droits, titre et intérêt relatifs au Logiciel et à sa documentation, ainsi que toutes les copies qui en ont été faites, sont et demeurent la propriété de Chromatic. Vous ne pouvez acquérir aucun droit, titre ou intérêt relatifs au Logiciel ou à sa documentation (y compris et sans s'y limiter, brevets, marques de commerce, droits d'auteur ou droits de secret de fabrication), autres que ceux expressément indiqués dans ce contrat.
+
+5. Support de produit. Chromatic ne fournit AUCUN support pour le Logiciel. Pour toute assistance, veuillez contacter le fabricant du Matériel.
+
+6. Droits limités vis à vis du gouvernement. Le Logiciel et la documentation qui l'accompagne sont considérés comme étant un " logiciel à usage commercial " et une " documentation de logiciel à usage commercial ", conformes respectivement aux dispositions des législations en vigueur DFAR, section 227.7202 et FAR, section 12.212. Toute utilisation, modification, reproduction, publication, exécution, démonstration ou divulgation du Logiciel et de sa documentation par le gouvernement des États-Unis d'Amérique sont strictement régies par les termes de ce contrat et devront être interdites, sauf dans la mesure où cela serait autorisé par les termes de ce contrat.
+Le Fabricant est Chromatic Research, Inc., 615 Tasman Drive, Sunnyvale, CA 94089, États-Unis d'Amérique.
+
+7. Ce produit comprend la technologie de protection des droits d'auteurs, une méthode basée sur certains brevets américains et autres droits de propriété intellectuelle possédés par Macrovision Corporation et d'autres propriétaires de droits. Toute utilisation de cette technologie de protection des droits d'auteur doit être soumise à l'autorisation de Macrovision Corporation et n'est destinée qu'à un usage privé et à d'autres usages limités, sauf autorisation contraire de Macrovision Corporation. Toutes les opérations de réingéniérie et de désassemblage sont interdites.
+
+DES CLAUSES PROPRES AUX DIFFÉRENTS PAYS SONT INCLUSES. POUR PRENDRE CONNAISSANCE DES CLAUSES APPLICABLES À VOTRE LICENCE, REPORTEZ-VOUS AU PAYS CONCERNÉ.
+
+
+Mpact est une marque déposée de Chromatic Research, Inc.
+
+Garantie et clauses particulières pour l'Australie, la Nouvelle-Zélande ou la Papouasie Nouvelle-Guinée. Garantie limitée expresse
+
+DROITS STATUTAIRES. Conformément à la législation australienne sur le commerce (" Trade Practices Act ") et à d'autres lois d'état et territoriales similaires, ou conformément à la législation en vigueur en Nouvelle-Zélande en matière de protection du consommateur (" Consumer Guarantees Act "), vous pouvez bénéficier de certains droits ou être autorisé à obtenir des dédommagements à l'égard desquels certaines responsabilités ne peuvent être exclues.
+
+GARANTIE LIMITÉE EXPRESSE. Chromatic garantit que le Logiciel fonctionnera essentiellement comme décrit dans la documentation pendant une période de 90 jours à compter de la date indiquée sur le reçu. Dans la mesure où la loi en vigueur l'autorise, l'entière responsabilité de Chromatic et du Fabricant, et les dédommagements exclusifs auxquels vous avez droit en vertu de la garantie expresse sont, au choix de Chromatic ou du Fabricant, (a) le remboursement du prix d'achat ou (b) la réparation ou le remplacement du Logiciel, si celui-ci n'est pas conforme à la garantie et est retourné au Fabricant accompagné d'une copie de votre reçu.
+
+LIMITATION DE LA RESPONSABILITÉ. DANS LA MESURE OÙ LA LOI EN VIGUEUR L'AUTORISE, LES CONDITIONS OU GARANTIES IMPLICITES OU IMPOSÉES PAR LA LOI SONT EXCLUES DU PRÉSENT CONTRAT. Toutefois, conformément à la législation australienne sur le commerce (" Trade Practices Act ") et à d'autres lois d'état et territoriales similaires, ou à la législation en vigueur en Nouvelle-Zélande en matière de protection du consommateur (" Consumer Guarantees Act "), vous pouvez bénéficier de certains droits ou être autorisé à obtenir des dédommagements, qui peuvent ne pas exclure une telle responsabilité. DANS LA MESURE OÙ UNE TELLE RESPONSABILITÉ NE PEUT PAS ÊTRE EXCLUE ET OÙ LA LOI L'AUTORISE, UNE TELLE RESPONSABILITÉ EST, AU CHOIX EXCLUSIF DU FABRICANT OU DE CHROMATIC, LIMITÉE  (A) AU REMPLACEMENT DU LOGICIEL OU (B) À LA CORRECTION DES DÉFAUTS OU ERREURS DU LOGICIEL.
+
+EXCLUSION DE RESPONSABILITÉ/DOMMAGES ET INTÉRÊTS. Ce qui suit est sans préjudice des droits qui vous sont garantis par la loi et qui ne peuvent être légalement exclu ou limités. Vous reconnaissez qu'aucune promesse, déclaration, garantie ou engagement ne vous a été fait par le Fabricant et/ou par Chromatic (ou une société affiliée du Fabricant ou de Chromatic) concernant la rentabilité ou les bénéfices résultant de l'utilisation du Logiciel et de sa documentation. Votre décision d'acquérir le Logiciel et sa documentation est basée sur votre expérience et jugement personnels. À L'EXCEPTION DES CONDITIONS ÉNONCÉES DANS CE CONTRAT, NI LE FABRICANT NI CHROMATIC (OU UNE SOCIÉTÉS AFFILIÉE DU FABRICANT OU DE CHROMATIC) NE PEUVENT EN AUCUN CAS ÊTRE TENUS RESPONSABLES DES DOMMAGES (Y COMPRIS ET SANS S'Y LIMITER, MANQUE À GAGNER, INTERRUPTION D'ACTIVITÉ, PERTES D'INFORMATIONS COMMERCIALES OU AUTRES PERTES INDIRECTES OU CONSÉCUTIVES), RÉSULTANT DE L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL ET SA DOCUMENTATION ; L'ENTIÈRE  RESPONSABILITÉ DU FABRICANT ET/OU DE CHROMATIC RÉSULTANT DES CLAUSES DE CE CONTRAT EST DANS TOUS LES CAS LIMITÉE AU PRIX D'ACHAT DU LOGICIEL.
+
+Ce contrat est régi par les lois en vigueur en Nouvelle-Galles du Sud, Australie ou, partout où ce produit est livré en Nouvelle-Zélande, par les lois en vigueur en Nouvelle-Zélande.
+
+
+Garantie et clauses particulières pour le Canada - Garantie limitée
+
+GARANTIE LIMITÉE. Le Fabricant garantit que le Logiciel fonctionnera essentiellement comme décrit dans la documentation pendant une période de quatre-vingt-dix (90) jours à compter de la date indiquée sur le reçu. Cette limite de quatre-vingt-dix (90) jours s'applique à toutes les garanties ou conditions implicites relatives au Logiciel. Certains États/juridictions n'autorisent pas la limitation de la durée de garantie implicite ; par conséquent, la limitation indiquée ci-dessus peut ne pas vous être applicable.
+L'ENTIÈRE RESPONSABILITÉ DU FABRICANT ET DE CHROMATIC, ET LES DÉDOMMAGEMENTS EXCLUSIFS AUXQUELS VOUS AVEZ DROIT EN VERTU DE CETTE GARANTIE SONT, AU CHOIX DU FABRICANT, (A) LE REMBOURSEMENT DU PRIX D'ACHAT DU LOGICIEL OU (B) LA RÉPARATION OU LE REMPLACEMENT DU LOGICIEL SI VOUS LE RETOURNEZ AU FABRICANT ACCOMPAGNÉ  D'UNE COPIE DE VOTRE REÇU. DANS LA MESURE OÙ LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT ET CHROMATIC DÉCLINENT TOUTE AUTRE GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS ET SANS S'Y LIMITER, LES GARANTIES IMPLICITES DE NON RUPTURE DE CONTRAT, DE QUALITÉ MARCHANDE ET D'ADÉQUATION À UNE APPLICATION PARTICULIÈRE, RELATIVE AU LOGICIEL ET À SA DOCUMENTATION.
+Cette garantie limitée vous accorde des droits spécifiques. Vous pouvez bénéficier d'autres droits selon votre État/juridiction.
+
+LIMITES DE LA RESPONSABILITÉ EN CAS DE DOMMAGES CONSÉCUTIFS. DANS LA MESURE OU LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT OU CHROMATIC NE PEUVENT EN AUCUN CAS ÊTRE TENUS RESPONSABLES DE DOMMAGES QUELS QU'ILS SOIENT (Y COMPRIS ET SANS S'Y LIMITER, DE DOMMAGES DIRECTS OU INDIRECTS RÉSULTANT DE BLESSURES, MANQUE À GAGNER, INTERRUPTION D'ACTIVITÉ, PERTES D'INFORMATIONS COMMERCIALES OU TOUTE AUTRE PERTE FINANCIÈRE) RÉSULTANT DE L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL, MÊME SI LE FABRICANT OU CHROMATIC ONT ÉTÉ AVISÉS DU RISQUE DE TELS DOMMAGES. L'ENTIÈRE  RESPONSABILITÉ DU FABRICANT ET DE  CHROMATIC RÉSULTANT DES CLAUSES DE CE CONTRAT EST LIMITÉE AU PRIX D'ACHAT DU LOGICIEL. 
+Étant donné que certains États/juridictions n'autorisent pas l'exclusion ou la limitation de la responsabilité en cas de dommages indirects ou fortuits, la limitation ci-dessus peut ne pas vous être applicable.
+
+Le contrat de licence du Logiciel est régi par les lois de la province d'Ontario, Canada.
+
+
+Garantie et clauses particulières pour l'Angleterre, le Pays de Galles et l'Irlande.
+
+Garantie Limitée
+
+GARANTIE LIMITÉE. Le Fabricant et Chromatic garantissent (a) que le Logiciel fonctionnera essentiellement comme décrit dans la documentation pendant une période de quatre-vingt-dix (90) jours à compter de la date indiquée sur le reçu. Cette limitation de quatre-vingt-dix (90) jours s'applique à toute garantie implicite du Logiciel, sauf si les lois locales n'autorisent pas la limitation de la durée d'une garantie implicite.
+L'ENTIÈRE RESPONSABILITÉ DU FABRICANT ET DE CHROMATIC, ET LES DÉDOMMAGEMENTS EXCLUSIFS AUXQUELS VOUS AVEZ DROIT EN VERTU DE CETTE GARANTIE SONT, AU CHOIX DU FABRICANT OU DE CHROMATIC, (A) LE REMBOURSEMENT DU PRIX D'ACHAT DU LOGICIEL OU (B) LE REMPLACEMENT DU LOGICIEL SI VOUS LE RETOURNEZ AU FABRICANT ACCOMPAGNÉ  D'UNE COPIE DE VOTRE REÇU. DANS LA MESURE OU LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT ET CHROMATIC DÉCLINENT TOUTE AUTRE DÉCLARATION, GARANTIE OU CONDITION EXPRESSE OU IMPLICITE, Y COMPRIS ET SANS S'Y LIMITER, LES GARANTIES IMPLICITES ET/OU CONDITIONS DE RUPTURE DE CONTRAT, DE CONVENANCE, DE QUALITÉ MARCHANDE ET D'ADÉQUATION À UNE APPLICATION PARTICULIÈRE.
+Cette garantie limitée vous accorde des droits spécifiques. Vous pouvez bénéficier d'autres droits selon votre État/juridiction.
+
+DOMMAGES INDIRECTS. DANS LA MESURE OÙ LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT ET CHROMATIC NE PEUVENT EN AUCUN CAS ÊTRE TENUS RESPONSABLES DE DOMMAGES QUELS QU'ILS SOIENT (Y COMPRIS ET SANS S'Y LIMITER, TOUT DOMMAGE DIRECT OU INDIRECT RÉSULTANT DE BLESSURES, MANQUE À GAGNER, INTERRUPTION D'ACTIVITÉ, PERTES D'INFORMATIONS COMMERCIALES), RÉSULTANT DE  L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL ET SA DOCUMENTATION, MÊME SI LE FABRICANT OU CHROMATIC ONT ÉTÉ AVISÉS DU RISQUE DE TELS DOMMAGES. AU CAS OÙ UNE EXCLUSION OU UNE AUTRE CLAUSE  DE CE CONTRAT N'EST PAS APPLICABLE ET SI CHROMATIC DEVIENT RESPONSABLE DES PERTES OU DOMMAGES QUI, AUTREMENT, AURAIENT ÉTÉ LIMITÉS, L'ENTIÈRE RESPONSABILITÉ DE CHROMATIC (CONTRACTUELLE, PAR NÉGLIGENCE OU AUTRE), RÉSULTANT DE CE CONTRAT DE LICENCE ET DE L'UTILISATION DU LOGICIEL ET DE SA DOCUMENTATION, CONFORMÉMENT À CETTE LICENCE, SERA LIMITÉE AU PRIX D'ACHAT DU LOGICIEL.
+Étant donné que certains États/juridictions n'autorisent pas l'exclusion ou la limitation de la responsabilité résultant de dommages indirects ou fortuits, la limitation ci-dessus peut ne pas vous être applicable.
+
+CLAUSES SPÉCIALES
+
+Code source dérivé. il vous est interdit de désassembler le Logiciel, de le décompiler ou de procéder à une quelconque réingénierie. Dans la mesure où la loi locale l'autorise, vous pouvez décompiler le Logiciel uniquement si cette opération est nécessaire pour obtenir des informations indispensables d'interopérabilité avec un programme créé indépendamment au moyen du Logiciel ou d'un autre programme, et seulement si ces informations ne sont pas directement disponibles auprès de Chromatic.
+
+
+Copies. Vous ne pouvez copier la disquette contenant le Logiciel qu'à des fins de sauvegarde. La réalisation d'autres copies de l'ensemble ou d'une partie quelconque du Logiciel est illicite. Ce contrat est régi par les lois anglaises et soumis à la juridiction non exclusive des tribunaux anglais.
+
+
+Garantie et clauses particulières pour les États Unis d'Amérique et autres pays
+
+Garantie Limitée
+
+GARANTIE LIMITÉE. Chromatic garantit que le Logiciel fonctionnera essentiellement comme décrit dans la documentation pendant une période de quatre-vingt-dix (90) jours à compter de la date indiquée sur le reçu. Cette limitation de quatre-vingt-dix (90) jours s'applique à toutes les garanties impliquée relative au Logiciel, sauf si une telle limitation de la durée de garantie implicite n'est pas autorisée par la loi locale ; dans ce cas, la limitation indiquée ci-dessus peut ne pas vous être applicable.
+L'entière responsabilité du Fabricant et de Chromatic, et les dédommagements exclusifs auxquels vous avez droit en vertu de cette garantie sont, au choix du Fabricant, (a) le remboursement du prix d'achat du logiciel ou (b) la réparation ou le remplacement du Logiciel si vous le retournez au Fabricant accompagné d'une copie de votre reçu. DANS LA MESURE OÙ LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT ET CHROMATIC DÉCLINENT TOUTE AUTRE GARANTIE EXPRESSE OU IMPLICITE, Y COMPRIS ET SANS S'Y LIMITER, LES GARANTIES IMPLICITES DE RUPTURE DE CONTRAT, DE CONVENANCE, DE QUALITÉ MARCHANDE ET D'ADÉQUATION À UNE APPLICATION PARTICULIÈRE RELATIVES AU LOGICIEL ET À SA DOCUMENTATION.
+Cette garantie limitée vous accorde des droits spécifiques. Vous avez peut-être droit à d'autres garanties dans votre État/juridiction.
+
+
+ABSENCE DE RESPONSABILITÉ EN CAS DE DOMMAGES INDIRECTS. DANS LA MESURE OÙ LA LOI EN VIGUEUR L'AUTORISE, LE FABRICANT OU CHROMATIC NE PEUVENT EN AUCUN CAS ÊTRE TENUS RESPONSABLES DE DOMMAGES QUELS QU'ILS SOIENT (Y COMPRIS ET SANS S'Y LIMITER, DOMMAGES SPÉCIAUX, FORTUITS, OU INDIRECTS RÉSULTANT DE BLESSURES, MANQUE A GAGNER, INTERRUPTION D'ACTIVITÉ, PERTES D'INFORMATIONS COMMERCIALES OU TOUTE AUTRE PERTE FINANCIÈRE), RÉSULTANT DE L'UTILISATION OU DE L'IMPOSSIBILITÉ D'UTILISER LE LOGICIEL ET SA DOCUMENTATION, MÊME SI LE FABRICANT OU CHROMATIC ONT ÉTÉ AVISÉS DU RISQUE DE TELS DOMMAGES. DANS L'ENTIÈRE  RESPONSABILITÉ DU FABRICANT ET/OU DE CHROMATIC RÉSULTANT DES CLAUSES DE CE CONTRAT EST DANS TOUS LES CAS LIMITÉE AU PRIX D'ACHAT DU LOGICIEL.
+Étant donné que certains États/juridictions n'autorisent pas l'exclusion ou la limitation de la responsabilité en cas de dommages indirects ou fortuits, la limitation ci-dessus peut ne pas vous être applicable.
+
+Ce contrat de licence est régi par les lois de l'État de Californie, États Unis. Si le Logiciel a été acheté en dehors des États-Unis d'Amérique, les lois locales peuvent être appliquées.
+
+ALLEMAGNE
+
+Garantie Limitée
+
+Les clauses suivantes vous sont applicables dans la mesure où elles sont requises par les lois locales. Dans le cas contraire, les clauses applicables aux autres pays indiqués ci-dessus sont applicables :
+
+
+Garantie limitée. Chromatic et le Fabricant garantissent que la disquette incluse, sur laquelle est enregistré le Logiciel, restera sans défaut matériel ni vice de fabrication pendant six (6) mois à compter de la date de livraison, dans des conditions normales d'utilisation, et que le Logiciel fonctionnera essentiellement comme décrit dans la documentation. S'il s'avérait que le Logiciel soit défectueux, vous vous engagez à en informer Chromatic ou le Fabricant dans un délai de deux semaines et en aucun cas au-delà de la période de garantie de six mois. À la réception de votre déclaration, le Fabricant ou Chromatic vous fournira une copie de remplacement du Logiciel. Si le défaut devait persister, vous pourrez recourir aux droits qui vous sont accordés par la loi et demander le remboursement de vos frais de licence contre le renvoi du Logiciel, ou bien une réduction raisonnable de vos frais de licence.
+
+Limitation de la responsabilité. Que ce soit sur la base de ce contrat ou de tout autre, du principe de délits ou quasi-délits ou de toute autre théorie légale, Chromatic, le Fabricant, leurs employés et leurs sous-traitants ne sont responsables de dommages que si de tels dommages résultent (i) d'une négligence grave ou intentionnelle, ou de l'absence d'une propriété certaine du Logiciel expressément garantie par le Fabricant ou par Chromatic, ou (ii) du refus de la part de Chromatic ou du Fabricant de se conformer à une obligation essentielle découlant du présent contrat, due à un certain degré de négligence, ou (iii) d'une violation des droits protégés des tiers ou des lois de garantie applicables au produit. Une telle responsabilité ne couvre pas les dommages que Chromatic ou le Fabricant n'étaient pas en mesure de prévoir lors de la conclusion du contrat, sauf si la responsabilité résulte pour le moins d'une négligence grave ou intentionnelle commise par l'un des responsables de Chromatic ou du Fabricant. La responsabilité de Chromatic ou du Fabricant ne couvre en aucun cas les dommages résultant d'une perte de données, en particulier si celle-ci aurait pu être évitée par un examen fréquent des résultats obtenus avec le Logiciel.
+
+Dans la mesure où la période de limitation respective prévue par la loi n'expire pas plus tôt et à l'exclusion de tout recours basé sur le principe de délits ou quasi-délits, toute action en dommages et intérêts entreprise plus de deux ans après la date de livraison du Logiciel ne sera pas prise en considération. Aux termes de ce contrat ou résultant de celui-ci, la responsabilité de Chromatic ou du Fabricant, notamment pour défaut du Logiciel, est strictement limitée par les clauses énoncées ci-dessus.
+
+Validité. Les clauses de ce contrat sont valables en Allemagne, que le Logiciel y soit ou non protégé par les lois de copyright.
+
+Ce contrat est régi par les lois allemandes.
+
+
+
+
+

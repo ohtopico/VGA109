@@ -1,0 +1,206 @@
+            ==========================================
+                        Software Dynamics
+                 Entertainment Center Versione 1.0 
+                           File Leggimi
+                           DU-10344-001
+                            Luglio 1997
+            ==========================================
+            (c) Copyright Software Dynamics GmbH, 1997
+
+
+Questo file Leggimi contiene le ultimissime informazioni sul 
+prodotto Entertainment Center Versione 1.0.
+
+Si invitano gli utenti a registrare il software Entertainment 
+Center compilando il modulo di registrazione e inviandolo per 
+posta o via fax con i propri dati personali. In questo modo sarà
+possibile offrire prodotti migliori, un servizio di assistenza
+migliore e informazioni sempre aggiornate. 
+Per le notizie e le informazioni più recenti su Entertainment 
+Center ed altri prodotti software della Software Dynamics,  
+consultare la pagina web:  http://www.softdyn.com
+
+------------------------
+Come usare questo documento
+------------------------
+In questo documento si usa la convenzione seguente per descrivere 
+la selezione delle voci dai menu:
+   nome menu> voce menu. 
+Il segno > indica un sottomenu.
+Per esempio:  
+   Per far scegliere il menu File e quindi selezionare 
+   la voce Apri, l'istruzione è 
+   "Scegliere menu File> Apri."
+
+Per visualizzare su schermo il file Leggimi, aprirlo con Microsoft 
+Word, WordPad o Blocco note. Per stampare il file Leggimi, aprilo 
+con un elaboratore di testi e quindi scegliere menu File> Stampa. 
+
+---------------
+Come registrarsi
+---------------
+Per registrare il software Entertainment Center, aprire il file 
+di testo intitolato "register.rtf" con Microsoft Word, WordPad o 
+Blocco note. Per stampare il file Register, aprirlo in un elaboratore 
+di testi e quindi scegliere menu File> Stampa.
+
+Compilare il modulo di registrazione e spedirlo per posta o via fax 
+a uno degli indirizzi seguenti:
+
+Internazionale:
+Software Dynamics GmbH
+Am Fallturm 5
+28359 Bremen
+Germania
+
+Fax: (49) (421) 20266-99
+E-mail: ecenter@softdyn.com
+
+USA:
+SoftDyne Systems, Inc.
+106 Calendar Ct.
+Suite 260
+LaGrange, IL 60525
+
+Fax: (630) 794-9033
+E-mail: tdmaestro@aol.com
+
+
+---------
+INDICE
+---------
+- INTRODUZIONE
+- AVVIO
+- RISOLUZIONE DEI PROBLEMI
+- ULTERIORI INFORMAZIONI
+- COPYRIGHT
+
+-------------
+INTRODUZIONE
+------------- 
+Benvenuti in Software Dynamics Entertainment Center! 
+Entertainment Center è una applicazione che gestisce tutti i 
+controlli di un centro di intrattenimento computerizzato.
+Adesso è possibile utilizzare il computer per guardare video,
+CD video e DVD e per ascoltare CD audio. 
+
+----------------
+AVVIO
+----------------
+I controlli di Entertainment Center potrebbero essere già
+familiari agli utenti in quanto assomigliamo molto a quelli di
+un centro di intrattenimento tradizionale. Per informazioni su
+qualsiasi funzione, consultare la Guida facendo clic sull'icona ? 
+(punto di domanda) in alto a destra nella finestra di Entertainment 
+Center. 
+
+>>>Per lanciare Entertainment Center, dalla barra delle applicazioni
+di Windows scegliere Avvio> Programmi> Chromatic Research Mpact> 
+Software Dynamics Entertainment Center.
+
+---------------
+RISOLUZIONE DEI PROBLEMI
+---------------
+Regioni DVD
+
+Il settore dei DVD consente agli editori DVD di limitare l'utilizzo 
+dei dischi in alcune parti del mondo per proteggere i copyright. 
+Un disco DVD di una regione, come ad esempio la Regione 1 (Stati 
+Uniti, Canada e parte dei Caraibi) potrebbe non funzionare su una 
+unità DVD specifica per la Regione 2  (Giappone, parte dell'Europa 
+e Medio Oriente e parte dell'Africa) o per la Regione 3 (Corea, 
+Malesia, Birmania, Indonesia, Filippine e Sud-Est asiatico). 
+Esistono sei regioni.
+
+>>>Per controllare la regione di un lettore DVD, fare doppio clic 
+sull'icona Mpact nel Pannello di controllo. La pagina Generale della 
+finestra di dialogo Proprietà Mediaware Mpact identifica la Regione 
+DVD. Controllare che il disco DVD abbia un codice regione che 
+corrisponde al lettore DVD.
+
+Reinstallazione di Software Dynamics Entertainment Center
+
+Il CD fornito contiene la versione corrente di Software Dynamics
+Entertainment Center. Il software Entertainment Center viene
+installato automaticamente durante l'installazione del software
+mediaware. Tuttavia, qui di seguito vengono riportate le istruzioni
+nel caso in cui sia necessario sostituire il software.
+
+>>>PER INSTALLARE ENTERTAINMENT CENTER:
+
+1. Eseguire il programma di installazione di Mpact presente sul CD 
+   del software mediaware Mpact.  
+
+   >>>Per eseguire il programma di installazione
+   1. Fare clic su Avvio nella barra delle applicazioni di Windows 95
+      e quindi selezionare Esegui. 
+   2. Digitare "d:\setup", dove d: è l'unità CD-ROM. 
+      Fare clic su OK.
+
+2.  Quando appare la finestra di dialogo License, fare clic su I Agree.
+
+3.  Quando appare la finestra di dialogo Select Installation Options, 
+    selezionare Entertainment Center e fare clic su Install. 
+
+4.  Il software Entertainment Center verrà copiato sul disco 
+    rigido. Quando appare la finestra di dialogo Install Complete, 
+    fare clic su Done.
+
+5.  Quando appare la finestra di dialogo, fare clic su OK per
+    riavviare il computer. 
+
+
+>>>PER DISINSTALLARE ENTERTAINMENT CENTER
+
+1.  Fare clic su Avvio nella barra delle applicazioni di Windows.
+
+2.  Selezionare Impostazioni e quindi fare clic su Pannello di controllo.
+
+3.  Nel Pannello di controllo fare doppio clic sul pulsante 
+    Installazione delle applicazioni.
+
+4.  Fare clic su Aggiungi/Rimuovi e quindi selezionare Entertainment 
+    Center.
+
+5.  Fare clic su Installa/Rimuovi e quindi su Automatico.
+
+6.  Quando appare la finestra di dialogo Proprietà installazione delle 
+    applicazioni, fare clic su OK.
+
+7.  Fare clic su Avvio nella barra delle applicazioni di Windows per 
+    riavviare il computer. Selezionare Chiudi sessione e quindi 
+    selezionare Riavviare il computer?  e fare clic su Sì.
+
+-----------------
+ULTERIORI INFORMAZIONI
+-----------------
+Per ulteriori informazioni sul software Entertainment Center o su
+altri prodotti software multimediali della Software Dynamics, 
+visitare il sito web all'indirizzo http://www.softdyn.com.
+
+----------
+COPYRIGHT
+----------
+Copyright (c) 1997 Software Dynamics GmbH.  Software Dynamics, 
+Entertainment Center e il logo Entertainment Center sono marchi 
+della Software Dynamics GmbH. Tutti gli altri nomi di prodotti, 
+nomi commerciali e marche sono marchi di fabbrica o marchi 
+registrati dei rispettivi proprietari.
+
+Questa pubblicazione è soggetta a copyright, con tutti i diritti 
+riservati, e non può essere riprodotta o trasmessa in parte con 
+qualsiasi mezzo o in qualsiasi forma senza l'autorizzazione 
+scritta della Software Dynamics GmbH.
+
+Le informazioni contenute in questo documento sono state 
+attentamente controllate e si ritengono accurate. Tuttavia la 
+Software Dynamics GmbH non si assume nessuna responsabilità per 
+qualsiasi imprecisione presente in questo manuale. In nessuna 
+circostanza la Software Dynamics GmbH sarà responsabile per qualsiasi 
+danno diretto, indiretto, speciale, esemplare, incidentale o 
+consequenziale derivante da qualsiasi difetto od omissione di questo 
+manuale, anche se informata della possibilità di tali danni. 
+Il materiale contenuto nel presente manuale è soltanto per scopo 
+informativo.
+
+1/7/97

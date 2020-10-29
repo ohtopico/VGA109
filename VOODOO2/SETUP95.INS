@@ -1,0 +1,70 @@
+;SETUP.INF for VI_GRM Desktop Manager
+
+[Rights]
+Trantor Tech. Co. Taiwan;Copyright 1997;All Rights Reserved.
+
+[StartExe]
+\directx\dx5core /Q
+
+[Title]
+HELIOS 3D Voodoo2
+
+[Chipset]
+3Dfx Voodoo Graphics 2;     
+
+[Languages]
+EN,CT
+
+[Help languages]
+EN,CT
+
+[App] 
+;Application global information 
+AppName=HELIOS Media Pro Setup
+DefDir=C:\HELIOS
+SpaceNeeded=1000
+DefPMGroup=,HELIOS Media Pro
+ShowSubDirCreateStats=Y
+ 
+[Disks] 
+;List of diskettes needed to install the product and the name 
+;of each diskette.
+1=Disk1: Desktop Manager 
+
+
+[SrcDirs] 
+;lists of directories from root of source drive/directory where 
+;source files can be found
+ 1=grm
+
+
+[DstDirs] 
+;lists of directories from root of destination drive/directory
+;where destination files will be placed
+ 1=.
+ 2=*windows
+ 3=*system
+
+[Files] 
+;Description,              Src(Dsk-Dir:Name), Dst(Dir:Name),  Shared
+;------------------------- -----------------  --------------- ------
+;   
+trayicon.exe,           1-1:trayicon.EX_,     1:trayicon.EXE,          N
+setmode.EXE,           1-1:setmode.EX_,     1:setmode.EXE,            N
+logo.bmp,           1-1:logo.bmp,     1:logo.bmp,                   N
+DispCtrl.HLP,           1-1:Disp_?.HL_,       1:DispCtrl.HLP,         N
+DispCtrl.EXE,           1-1:DispCtrl.EX_,     1:DispCtrl.EXE,                   N
+ctl3d.DLL,                      1-1:ctl3d.DL_,          1:ctl3d.DLL,            Y 
+VI_GRM.exe,                 1-1:VI_GRM.ex_,     1:VI_GRM.exe,           N
+UnInstll.exe,                   1-1:Uninstll.ex_,   1:Uninstll.exe,     N
+Hooksdll.dll,               1-1:Hooksdll.dl_,   1:Hooksdll.dll,         N
+VI_GRM.INI,            1-1:VI_GRM.INI,     2:VI_GRM.INI,               N
+S3_95.DLL,           1-1:S3_95.DLL,      1:S3_95.DLL,                N     
+[PM Info] 
+;DstFileName  AppDesc             (Icon #)
+;-----------  --------------      --------
+DispCtrl.exe,  Display Control Panel
+UnInstll.exe, Uninstaller
+vi_grm.exe, S3 Video Manager
+
+[End]

@@ -1,0 +1,709 @@
+/*
+ INSTALL.DAT
+
+ Project: TurboDLDClassic
+ Version: 2.2
+
+*/
+
+// To place a @pause in the center of the display page,
+// space in 38 spaces and then type @pause.  To make sure
+// that the @pause is at the bottom of the display, the
+// @pause should be at line 21 or better of the display.
+
+// Standard header here...
+
+@DefineProject
+	@Name = "TurboDLDClassic"
+        @Version = "2.2"
+	@Subdir = "\\ACAD\\DRV"
+	@OutDrive = C
+	@Group = "A"
+	@InDiskBell = 1
+@EndProject
+
+// Define all the vars you need here
+// Init all strings with "" or a hard coded string
+// Init all Integers with 0 or 1
+
+// If OEM release, set @IsOem = 1 else 0
+
+@DefineVars
+	@Integer @DDrive = 99
+	@Integer @StrLens = 0
+	@Integer @bannercol = 0
+	@Integer @OurCol = 0
+	@Integer @XX = 0
+	@Integer @IsOem = 1
+	@Dir @AcadDir  = "\\ACAD\\DRV"
+	@Drive @AcadDrive  = C
+	@qstring @redprogram = "TURBODLD.RED"
+	@qstring @thisprogram = "RCTURBOC.EXP"
+	@qstring @namethisprogram = "TurboDLD-Classic"
+	@qstring @helpcontact = "Panacea Inc"
+	@qstring @registration = ""
+	@qstring @registrationname = ""
+	@qstring @companyname = ""
+	@qstring @regreturn = ""
+	@qstring @ourhomeexp = ""
+	@qstring @ourhomered = ""
+	@qstring @tempstring = ""
+	@qstring @bannername = " T u r b o D L D   I n s t a l l "
+@EndVars
+
+// setup some of the local var defs
+
+// Used to display the banner on all screens
+
+@xx = @strlen("@bannername")
+@bannercol = (38 - @xx/2)
+
+// used to check for Write Protect on floppy
+
+@If (@IsOem == 1)
+   @goto OEM1
+@Endif
+
+@If (@InDrive == A)
+   @xx = @homedrive(0)
+@ElseIf (@InDrive == B)
+   @xx = @homedrive(1)
+@EndIf
+
+@If (@xx == 1)          // if error found ...
+
+@tempstring = " Install must have write access to your @namethisprogram "
+@xx = @strlen(@tempstring)
+@ourcol = (38 - @xx/2)
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@MoveCStr(2, @bannercol, 48, @bannername)
+
+  @movecstr(7,13,79,"ษอออออออออออออออออออออออออออออออออออออออออออออออออป")
+  @movecstr(7,31,207," W A R N I N G ")
+  @movecstr(8,13,79,"บ                                                 บ")
+  @movecstr(9,13,79,"บ                                                 บ")
+  @movecstr(9,15,79," The diskette in Drive @InDrive is ")
+  @movecstr(9,43,78," -WRITE PROTECTED- ")
+  @movecstr(10,13,79,"บ                                                 บ")
+  @movecstr(11,13,79,"ศอออออออออออออออออออออออออออออออออออออออออออออออออผ")
+
+  @movecstr(15,@ourcol,31, @tempstring)
+  @movecstr(16,@ourcol,31," diskette in order to continue. ")
+
+  @movecstr(19,@ourcol,31," Press any key to exit to DOS, unprotect the ")
+  @movecstr(20,@ourcol,31," @namethisprogram diskette and then run INSTALL again. ")
+
+  @move(22,0)
+  @waitkey
+  @exit
+
+@Endif
+
+// get the correct string for the EXP and the RED files
+
+OEM1:
+
+@ourhomeexp = @wherearewe(@thisprogram)
+
+@ourhomered = @wherearewe(@redprogram)
+
+@tempstring = " utility for @namethisprogram ! "
+@xx = @strlen(@tempstring)
+@ourcol = (40 - @xx/2)
+
+
+@If (@IsOem == 1)
+   @goto OEM1A
+@Endif
+
+@movecstr(0,0,63,"ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(1,0,63,"บ                                                                            บ")
+@movecstr(2,0,63,"บ                                                                            บ")
+@movecstr(3,0,63,"บ                                                                            บ")
+@movecstr(3,25,48," Welcome to the installation ")
+@movecstr(4,0,63,"บ                                                                            บ")
+@movecstr(4,@ourcol,48,@tempstring)
+@movecstr(5,0,63,"บ                                                                            บ")
+@movecstr(6,0,63,"บ                                                                            บ")
+@movecstr(6,30,49,"Spacetec IMC Corp.")
+@movecstr(7,0,63,"บ                                                                            บ")
+@movecstr(7,28,49,"100 Foot of John Street")
+@movecstr(8,0,63,"บ                                                                            บ")
+@movecstr(8,26,49,"  Lowell, Massachussetts")
+@movecstr(9,0,63,"บ                                                                            บ")
+@movecstr(9,34,49,"01852 USA")
+@movecstr(10,0,63,"บ                                                                            บ")
+@movecstr(11,0,63,"บ                                                                            บ")
+@movecstr(11,30,63,"Phone: 508-937-1760")
+@movecstr(12,0,63,"บ                                                                            บ")
+@movecstr(12,31,63,"FAX: 508-970-0199")
+@movecstr(13,0,63,"บ                                                                            บ")
+@movecstr(13,31,63,"BBS: 508-970-0180")
+@movecstr(14,0,63,"บ                                                                            บ")
+@movecstr(15,0,63,"บ                                                                            บ")
+@movecstr(15,36,62,"E-Mail:")
+@movecstr(16,0,63,"บ                                                                            บ")
+@movecstr(16,28,62,"Tech_Support@@panacea.com")
+@movecstr(17,0,63,"บ                                                                            บ")
+@movecstr(18,0,63,"บ                                                                            บ")
+@movecstr(19,0,63,"บ                                                                            บ")
+@movecstr(20,0,63,"บ                                                                            บ")
+@movecstr(21,0,63,"บ                                                                            บ")
+@movecstr(22,0,63,"บ                                                                            บ")
+@movecstr(23,0,63,"บ                                                                            บ")
+@movecstr(24,0,63,"บ                                                                            บ")
+@movecstr(25,0,63,"ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+
+@goto OEM1ADONE
+
+OEM1A:
+
+@movecstr(0,0,63,"ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(1,0,63,"บ                                                                            บ")
+@movecstr(2,0,63,"บ                                                                            บ")
+@movecstr(3,0,63,"บ                                                                            บ")
+@movecstr(3,25,48," Welcome to the installation ")
+@movecstr(4,0,63,"บ                                                                            บ")
+@movecstr(4,@ourcol,48,@tempstring)
+@movecstr(5,0,63,"บ                                                                            บ")
+@movecstr(6,0,63,"บ                                                                            บ")
+@movecstr(7,0,63,"บ                                                                            บ")
+@movecstr(8,0,63,"บ                                                                            บ")
+@movecstr(8,32,63,"Developed by:")
+@movecstr(9,0,63,"บ                                                                            บ")
+@movecstr(10,0,63,"บ                                                                            บ")
+@movecstr(10,30,49,"Spacetec IMC Corp.")
+@movecstr(11,0,63,"บ                                                                            บ")
+@movecstr(11,28,49,"100 Foot of John Street")
+@movecstr(12,0,63,"บ                                                                            บ")
+@movecstr(12,26,49,"  Lowell, Massachussetts")
+@movecstr(13,0,63,"บ                                                                            บ")
+@movecstr(13,34,49,"01852 USA")
+@movecstr(14,0,63,"บ                                                                            บ")
+@movecstr(15,0,63,"บ                                                                            บ")
+@movecstr(16,0,63,"บ                                                                            บ")
+@movecstr(17,0,63,"บ                                                                            บ")
+@movecstr(18,0,63,"บ                                                                            บ")
+@movecstr(19,0,63,"บ                                                                            บ")
+@movecstr(20,0,63,"บ                                                                            บ")
+@movecstr(21,0,63,"บ                                                                            บ")
+@movecstr(22,0,63,"บ                                                                            บ")
+@movecstr(23,0,63,"บ                                                                            บ")
+@movecstr(24,0,63,"บ                                                                            บ")
+@movecstr(25,0,63,"ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+
+OEM1ADONE:
+
+@OurPause
+
+@Display
+   @cls
+@EndDisplay
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@MoveCStr(2, @bannercol, 48, @bannername)
+
+@movecstr(6,5,31,"Thank you for purchasing @namethisprogram from Panacea, Inc.")
+@movecstr(8,5,31,"This utility program registers your copy of @namethisprogram and")
+@movecstr(9,5,31,"installs the software into the correct directory or sub-directories.")
+@movecstr(11,5,31,"If you have any questions regarding this process, please refer to")
+@movecstr(12,5,31,"your @namethisprogram Installation Guide, in particular, Chapter 1,")
+@movecstr(13,5,31,"[Quick Start] and Chapter 3, [Installing and Configuring].")
+@movecstr(15,5,31,"If you are installing for 3D Studio only, install as though you")
+@movecstr(16,5,31,"are using AutoCAD Release 10 or 11 and the follow configuration")
+@movecstr(17,5,31,"instructions in the [Rendering With TurboDLD] chapter of your") 
+@movecstr(18,5,31,"@namethisprogram Installation Guide.")
+
+
+@Display
+@move(21,0)
+   @pause
+@enddisplay
+
+@If (@IsOem == 1)
+   @goto OEM2
+@Endif
+
+// First thing to do is to check the software and 
+// register it if need to..
+
+@regreturn = @ckregisterinfo(@ourhomeexp)
+
+@If (@strlen("@regreturn") == 0)
+    @GoTo Not_Registered
+@Endif
+
+@If (@strfind(@regreturn, "ERROR") == -1)
+    @GoTo Show_Registered
+@Endif
+
+// If here, there must have been an error 
+
+ShowError:
+
+@xx = @strlen(@regreturn)
+@ourcol = (40 - @xx/2)
+// adjust for junk on the end of the string
+@xx = (@xx - 1)
+
+@Display @Cls
+@move(4,0)
+	There was an error detected by the install software.
+
+	The error was:
+
+@movecstr(10,@ourcol,30,@strhead("@regreturn", @xx))
+
+@move(12,0)
+	Please insure that you have the correct files on your disk.
+
+	If you need help, please contact @helpcontact.
+@move(21,0)
+   @pause
+@Exit
+@enddisplay
+
+// If we are here then the software has been registered
+
+Show_Registered:
+
+@regreturn = @ckregisterinfo(@ourhomeexp)
+
+// Clear the options out
+@clearoption(1)
+@clearoption(2)
+
+@xx = @strlen(@regreturn)
+@ourcol = (38 - @xx/2)
+
+@GetOption
+@LocalWindow(18,40)
+
+@movecstr(1,22,79,"ษอออออออออออออออออออออออออออออป")
+@movecstr(2,22,79,"บ                             บ")
+@movecstr(2,24,78,"This Copy Is Registered To:")
+@movecstr(3,22,79,"ศอออออออออออออออออออออออออออออผ")
+
+@movecstr(7,@ourcol,30,@strhead("@regreturn", @xx))
+
+@move(9,0)
+	   The program has been installed and is protected by federal
+	   copyright laws.  If you need additional copies of this software 
+	   please contact @helpcontact.
+
+	 @Option 1 = "Continue"
+	 @Option 2 = "Exit Install"
+
+@EndOption
+
+@If(1 [= @Option)
+   @Goto Get_Acad
+@Else
+   @Exit
+@Endif
+
+Not_Registered:
+
+@getstring @registration
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@MoveCStr(2, @bannercol, 48, @bannername)
+
+@LocalWindow(13,40)
+
+@movecstr(7,3,31,"Please type in your Full Name as you wish it to appear for registration")
+@movecstr(8,3,31,"purposes. For Corporate installations, you may wish to enter the name of")
+@movecstr(9,3,31,"your CAD Manager.")
+
+@movecstr(18,8,31,"Note: The total combined length of [Your Name] and, from the")
+@movecstr(19,8,31,"      next screen, [Company Name] cannot exceed 64 characters.")
+@movecstr(20,8,31,"      If the total is longer, [Company Name] will be truncated.")
+
+@prompt = "    Please Enter Your Full Name    "
+
+@EndString
+
+// get the length of the string so-far
+
+@strlens = (64 - @strlen("@registration"))
+
+@getstring @companyname
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@MoveCStr(2, @bannercol, 48, @bannername)
+
+@LocalWindow(13,40)
+
+@movecstr(7,14,31,"Please type in your Company Name as you would like")
+@movecstr(8,14,31,"to have it appear for registration purposes.")
+
+@movecstr(18,9,31,"Note: You have @strlens characters available for [Company Name].")
+@movecstr(19,9,31,"      If you enter a Company Name longer than @strlens characters,")
+@movecstr(20,9,31,"      the additional information will be truncated.")
+
+
+@prompt = "    Please Enter Your Company Name    "
+
+@EndString
+
+@registrationname = "@registration, @companyname"
+
+// Clear the options out
+@clearoption(10)
+@clearoption(20)
+
+@xx = @strlen(@registrationname)
+@ourcol = (40 - @xx/2)
+
+@GetOption
+
+@LocalWindow(18,40)
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@Movecstr(2, @bannercol, 48, @bannername)
+
+@movecstr(8,18,31,"You have entered the following information:")
+
+@movecstr(12, @ourcol, 62, @registrationname)
+
+
+	 @Option 10 = "Information Correct"
+	 @Option 20 = "Information Not Correct"
+
+@EndOption
+
+@If(20 [= @Option)
+   @Goto Not_Registered
+@Endif
+
+// NULL out the string b4 using again
+
+@tempstring = ""
+
+// If we are here, do the registration ....
+
+@regreturn = @registerit(@registrationname @ourhomeexp)
+
+@If (@strfind(@regreturn, "ERROR") != -1)
+    @GoTo ShowError
+@Endif
+
+OEM2:
+
+Get_Acad:
+
+@GetOutDrive @AcadDrive
+
+
+	Install needs to know which drive you would like to copy 
+	@namethisprogram files to. Please select an available 
+	drive from the list below.
+
+    @LocalWindow(16,56)   
+  
+	Use the [Up Arrow], [Down Arrow], 
+	[Pg Up], & [Pg Dn] keys to highlight 
+	your selection and then press the 
+	[Enter] key to continue.
+  
+@EndOutDrive
+
+// clear the options first
+@clearoption(1000)
+@clearoption(2000)
+
+@GetOption @cls
+@LocalWindow(14,40)
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@Movecstr(2, @bannercol, 48, @bannername)
+
+@move(8,0)
+	      Please enter the Version of AutoCAD you are running:
+
+	@Option 1000 = " Release 12 or 13 "
+	@Option 2000 = " Release 10 or 11 "
+
+@EndOption
+
+@If(2000 [= @Option)
+   @AcadDir = "TURBODLD"
+@EndIf
+
+@GetSubDir @AcadDir
+@Cls
+@LocalWindow(14,40)
+
+@If(1000 [= @Option)
+
+@movecstr(3,5,31,"You have chosen to install @namethisprogram for AutoCAD Release 12/13.")
+@movecstr(4,5,31,"We recommend installing into the DRV sub-directory off of your main")
+@movecstr(5,5,31,"AutoCAD sub-directory. Please enter your ACAD\\DRV sub-directory name")
+@movecstr(6,5,31,"below.")
+@movecstr(8,5,31,"You may also install @namethisprogram into its own sub-directory, to")
+@movecstr(9,5,31,"do so, enter an alternate sub-directory name. If the sub-directory does")
+@movecstr(10,5,31,"not exist, @namethisprogram Install will create it for you.")
+@movecstr(19,5,31,"Please note that if you install @namethisprogram into an alternate")
+@movecstr(20,5,31,"sub-directory you will have to alter your ACADDRV environment variable")
+@movecstr(21,5,31,"to include the @namethisprogram sub-directory.")
+
+@Else
+
+@movecstr(6,5,31,"You have chosen to install @namethisprogram for AutoCAD Release 10")
+@movecstr(7,5,31,"or 11. Enter a sub-directory name on @AcadDrive: for @namethisprogram")
+@movecstr(8,5,31,"files. If the sub-directory does not exist, @namethisprogram Install")
+@movecstr(9,5,31,"will create it for you.")
+
+@EndIf
+
+@EndSubDir
+
+// Clear the options out
+@clearoption(10)
+@clearoption(20)
+
+@If (@DirExists("@AcadDrive:\\@AcadDir"))
+  @GoTo Report
+@Else
+  @GetOption
+  @LocalWindow(12,40)
+	@AcadDir path was not found on @AcadDrive.
+	
+	Would you like to create @AcadDir at this time?
+
+
+	 @Option 10 = "Yes, create the path"
+	 @Option 20 = "No; re-enter the information"
+
+  @EndOption
+@Endif
+
+@tempstring = " Creating @AcadDrive:@AcadDir, please stand-by ! "
+@xx = @strlen(@tempstring)
+@ourcol = (40 - @xx/2)
+
+@If(10 [= @Option)
+   @Display @Cls
+      @movecstr(12,@ourcol,48,@tempstring)
+   @MkDir("@AcadDrive:@AcadDir")
+   @EndDisplay
+   @Goto WeBuiltPath
+@Else
+   @Goto Get_Acad
+@Endif
+
+// Now we know where to install TURBODLD, tell the user whats going on
+
+Report:
+
+@clearoption(10)
+@clearoption(20)
+
+@tempstring = " @AcadDrive:@AcadDir exists, do you wish to use it? "
+@xx = @strlen(@tempstring)
+@ourcol = (38 - @xx/2)
+
+@Getoption
+@localwindow(14,40)
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@Movecstr(2, @bannercol, 48, @bannername)
+
+@movecstr(9,@ourcol,48,@tempstring)
+	 @Option 10 = "Yes, Continue"
+	 @Option 20 = "No; re-enter the information"
+@Endoption
+
+@If(20 [= @Option)
+   @Goto Get_Acad
+@Endif
+
+// we get here from building the dir\sub-dir and not asking if they want to use it.
+
+WeBuiltPath:
+
+// Test the amount of free room left on the dest drive
+
+@Display @Cls
+
+   @if (@diskfree(@AcadDrive) < 1200000)
+
+      @move(7,0)
+      The selected output disk drive only has @diskfree(@AcadDrive) bytes.
+
+      @namethisprogram requires a minumum of 1.2mb.
+
+      The Install program will now exit, please correct this problem
+
+      and re-run the Install program.
+      @move(21,0)
+	 @pause
+      @exit
+   @endif
+@enddisplay
+
+// Clear the options out
+@clearoption(10)
+@clearoption(20)
+
+@tempstring = " @AcadDrive:@AcadDir "
+@xx = @strlen(@tempstring)
+@ourcol = (40 - @xx/2)
+
+@movecstr(12,@ourcol,63,@tempstring)
+
+@tempstring = " @Name will be installed in: "
+@xx = @strlen(@tempstring)
+@ourcol = (40 - @xx/2)
+
+@GetOption
+
+@LocalWindow(17,40)
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@Movecstr(2, @bannercol, 48, @bannername)
+
+@movecstr(8,@ourcol,63,@tempstring)
+	 @Option 10 = "Yes, this is the correct path"
+	 @Option 20 = "No; re-enter the information"
+@endoption
+
+@If(10 [= @Option)
+   @Goto Start_Copy
+@Else
+   @Goto Get_Acad
+@Endif
+
+Start_Copy:
+
+@Display
+
+// First check if this is v10 or 11
+
+@If(2000 [= @Option)
+//        Creating FASTACAD.BAT and PANA3DS.BAT files, please stand-by
+
+   @Write("@AcadDrive:\\@AcadDir\\FASTACAD.BAT", "wt", "SET DLDCFG=@AcadDrive:\\@AcadDir\n")
+   @Write( , , "SET DSPADI=@AcadDrive:\\@AcadDir\\@thisprogram\n")
+   @Write( , , "SET RDPADI=@AcadDrive:\\@AcadDir\\@thisprogram\n")
+   @Write( , , "SET RCPADI=@AcadDrive:\\@AcadDir\\@thisprogram\n")
+@Else
+//                  Creating PANA3DS.BAT file, please stand-by
+@EndIf
+
+@Write("@AcadDrive:\\@AcadDir\\PANA3DS.BAT", "wt", "SET DLDCFG=@AcadDrive:\\@AcadDir\n")
+@Write( , , "SET RCPADI=@AcadDrive:\\@AcadDir\\@thisprogram\n")
+
+@enddisplay
+
+// This part is a DOS style copy ...
+
+@tempstring = "Processing @namethisprogram Install information -- Please Wait."
+@xx = @strlen(@tempstring)
+@ourcol = (40 - @xx/2)
+
+@Display
+
+@movecstr(1,8,62,"ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป")
+@movecstr(2,8,62,"บ                                                           บ")
+@movecstr(3,8,62,"ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ")
+@Movecstr(2, @bannercol, 48, @bannername)
+
+@move(6,0)
+			  R e g i s t e r   T o d a y !
+
+       Help us keep you up-to-date with the latest and greatest Panacea
+       products.  Be sure to fill out and return your @namethisprogram
+       registration card today.  As a registered Panacea software user,
+       you will receive advance notice of new products and upgrades
+       as well as preferred customer pricing.
+
+  @move(21,0)
+     @pause
+
+@movecstr(16,@ourcol,63,@tempstring)
+
+@copy("@ourhomeexp", "@AcadDrive:\\@AcadDir\\@thisprogram")
+
+@enddisplay
+
+@DefineDisk
+   @Label = "Disk #1"
+   @BeginLib @ourhomered
+       @File *.* @Out @AcadDrive:\\@AcadDir\\*.*
+   @EndLib
+@EndDisk
+
+@If(2000 [= @Option)
+  @Finish @cls
+   @move(2,0)
+     You have successfully installed @namethisprogram for use with 
+     AutoCADRelease 10 or 11. Before you can use @namethisprogram you 
+     must run the FASTACAD.BAT file copied to your @AcadDrive:@AcadDir 
+     sub-directory and then reconfigure AutoCAD to use @namethisprogram.
+     You may wish to add FASTACAD.BAT to your AutoCAD start-up file.
+
+     To reconfigure AutoCAD to use @namethisprogram start AutoCAD and
+     select the "P386 ...." display option and then follow the
+     on-screen directions.
+
+     Thank you again for using @namethisprogram. We appreciate your
+     support and welcome any comments you may have concerning our
+     products. To register this software and be eligible for discounts
+     on upgrades and other Panacea products, you may contact us by phone
+     at 508-937-1760, or by Fax at 508-970-0199. For Technical Support,
+     please refer to your Users Manual or READ.ME file.
+
+  @move(21,0)
+     @pause
+
+  @EndFinish
+
+@Else
+  @Finish @cls
+     You have successfully installed @namethisprogram for AutoCAD
+     Release 12/13.  Before you can use @namethisprogram you must
+     reconfigure AutoCAD. To reconfigure, start AutoCAD with "ACAD -r"
+     and change the current display device. Choose @namethisprogram
+     from the list of available display drivers and then follow the
+     on-screen instructions. Refer to your @namethisprogram
+     Installation Guide for detailed configuration instructions.
+
+     If you have chosen to install @namethisprogram into a sub-directory
+     other than ACAD\DRV, you must append the following path to your
+     "SET ACADDRV=...." environment variable.  
+	     
+				 @AcadDrive:@AcadDir
+
+     Thank you again for using @namethisprogram.  We appreciate your
+     support and welcome any comments you may have concerning our
+     products. To register this software and be eligible for discounts
+     on upgrades and other Panacea products, you may contact us by phone
+     at 508-937-1760, or by Fax at 508-970-0199. For Technical Support,
+     please refer to your Users Manual or READ.ME file.
+
+  @move(21,0)
+     @pause
+
+  @EndFinish
+@EndIf
+
+// end-of-file
+

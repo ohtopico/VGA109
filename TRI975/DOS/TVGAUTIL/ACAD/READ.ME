@@ -1,0 +1,481 @@
+********************   T U R B O  D L D(r)   **********************
+**********************    VERSION  2.2    *************************
+
+     Copyright (c) 1990-95  Panacea Inc. - All Rights Reserved
+
+
+This is the READ.ME file for TurboDLD v2.1 It contains
+information that has changed or is different from the Installation
+Guide, as well as some other useful tips.
+
+
+I. TIPS/ERRATA/FEATURES/REVISIONS
+============================================================
+
+Support for AutoCAD R12/Windows and R13/Windows
+-----------------------------------------------
+
+This version of TurboDLD is designed to specifically support DOS
+versions of AutoCAD 10/386, 11/386, 12, and 13. Panacea is currently
+developing a driver which will support AutoCAD for Windows.
+Registered users of TurboDLD will be notified when this driver is
+available.
+
+
+
+AutoCAD Release 10/386 & Release 11 Limitations
+-----------------------------------------------
+TurboDLD has the following limitations when installed for use with
+AutoCAD Release 10/386 & Release 11:
+     
+      1. Cannot use the "Text Window on Single" Pop-up Text Window.
+      
+      2. Due to the manner in which AutoCAD Release 10/386 works,
+	 the TurboDLD function DLDBPMODE, as well as the MACH-12 
+	 compatible ZI, ZO commands are not currently supported in 
+	 this TurboDLD release when using AutoCAD Release 10/386.
+
+
+Font Selection          
+---------------
+   TurboDLD includes an array of fonts for AutoCAD menus and dialogs.
+   In addition to the Panacea supplied fonts, TurboDLD also supports 
+   .BDF fonts. Primarily for foreign AutoCAD support. .BDF fonts are 
+   usually public domain and are easily available through Shareware.
+   AutoCAD Release 12/13 includes various .BDF fonts
+
+   Please note that .BDF fonts are not supported for XGA and 8514/A
+   graphics boards. Only Panacea supplied fonts are available those 
+   boards.
+
+
+   Enabling .BDF Fonts
+   -------------------
+   In order to enable .BDF font support in TurboDLD, you must either
+   start AutoCAD from your main AutoCAD sub-directory, or set the DLDFONT 
+   environment variable prior to starting AutoCAD. Syntax of DLDFONT is:
+
+		SET DLDFONT = {FONTDIR}
+
+   where {FONTDIR} is the full path name to the sub-directory which 
+   contains the .BDF fonts.
+
+   If DLDFONT is not set, TurboDLD will look for a \DRV directory
+   off of the default AutoCAD directory. If no .BDF fonts are found
+   in the DRV directory, then only Panacea supplied font options 
+   will be available.
+
+
+   Choosing .BDF Fonts 
+   -------------------
+   To use a .BDF font in TurboDLD, choose the Basic Configuration menu
+   "Select Font From List" option to display a list of available fonts.
+   The list will contain available fonts, limited by the settings of the
+   DLDFONT environment variable and the font filter chosen in the Basic 
+   Configuration menu Select Font Filter option.
+   
+   
+   Limiting Font Selections
+   ------------------------
+   If you have many .BDF fonts on your system and you wish to select only 
+   a certain style of font, TurboDLD offers a filtering mechanism to allow 
+   you to select only a certain types of fonts based on their internal
+   CHARSET_REGISTRY name or Code Page definition. 
+   
+   To select a specific .BDF font type, from the Basic Configuration menu, 
+   use the Select Font Filer option and then select an available .BDF font 
+   type. If you wish to see all installed fonts, choosse All Fonts. Your 
+   font filter will be in effect when you select the Select Font Filter 
+   menu option.
+
+   Font Size and AutoCAD
+   ---------------------
+   When using a font size in which the height is more than twice the width
+   (i.e., 7x15) you may experience text and other display problems within 
+   some dialogs. This is due to the way AutoCAD calculates display positions 
+   using font character values.
+
+
+
+Graphics Mode Text Window          
+--------------------------
+
+Please note that the Text window on graphics screen works with AutoCAD 
+Release 12/13 only.
+
+
+   Text Window Caveats
+   -------------------
+	
+	RCONFIG
+	-------
+	If TurboDLD is configured for "Text Window on Single" and
+	RCONFIG is used to configure AVE Render, you may have problems
+	selecting menu items. If this happens, type CTRL-C to exit
+	RCONFIG and return to the AutoCAD drawing editor. Then 
+	reconfigure TurboDLD for "Single" screen operation and 
+	then run RCONFIG again.
+
+    in R13, use of the "Text Window on Single" and doing an RCONFIG
+    may blank the selections in the side menus. They will reappear
+    after configuration is complete and you have hit the F1 key. 
+
+	Random Characters in Menu Areas
+	--------------------------------
+	On some graphics boards, when TurboDLD is configured for "Text 
+	Window on Single" random characters characters may appear in the 
+	AutoCAD menu areas. If this occurs, configure TurboDLD for "Single"
+	screen mode. Do not continue to use the text window, unpredictable 
+	results may occur.
+
+	Networked AutoCAD Installations
+	-------------------------------
+	On a networked AutoCAD Release 12 system, if the maximum number
+	of users is reached, an alert dialog box is displayed. When
+	using TurboDLD in the "Single" screen mode an abnormal AutoCAD
+	termination may occur instead of the alert dialog box. If you 
+	think this may be a problem, configure TurboDLD for the "Text 
+	Window on Single" option.
+
+
+	WCEdit
+	------
+	Elsa's WCEdit utility may appear to hang when TurboDLD is 
+	configured for the "Text Window on Single" mode. In fact, WCEdit
+	has not hung - instead it is waiting for user input. When the
+	TurboDLD text window is enabled, WCEdit still thinks TurboDLD
+	is in a text-mode screen and tries to write directly to it. This
+	will not work. Press Ctrl-X to return to AutoCAD from WCEdit.
+	If you wish to use WCEdit with TurboDLD, configure for "Single"
+	screen mode.
+
+
+AutoCAD Command Line Cursor          
+---------------------------
+	  
+A "-" cursor has been added to the AutoCAD Command line to identify the
+current AutoCAD cursor location.
+
+
+New TurboDLD Command
+--------------------
+
+In some instances, lines may overwrite AutoCAD menu areas. To restore
+the menu areas, you may either do a flip-screen to the text screen or
+issue the new TurboDLD command DLDRESTORE.
+
+
+Graphics Platform Specific Problems
+-----------------------------------
+
+    XGA
+    ---
+    If you are using an original XGA, it is perfectly normal to see the
+    following message come up under AutoCAD and 3D Studio:
+
+		    DMQS Not Found!
+
+    If you have an XGA-2 and this message comes up, it means that you
+    have either not properly installed the board, or not properly installed
+    the DMQS software that should have come with your board.
+
+    
+    XGA & IIT AGX
+    -------------
+    This version of TurboDLD does not support boards using either IBM XGA
+    chips or IIT's AGX chips in 16 color modes. Use the 256 color modes
+    instead.
+    
+
+    S3-based Graphics Boards
+    ------------------------
+    The 24-bit modes (16 million colors) for some S3 boards are not
+    supported in this TurboDLD release.
+
+    801/805-based S3 boards with only one megabyte of video memory will
+    not display colors properly at 32k or 64k colors (15 or 16 BPP modes).
+
+
+    TIGA-based Graphics Boards
+    --------------------------
+    If you are using AutoCAD 10/386, it will be necessary to run the 
+    AutoCAD 11 NEWDX.EXE utility to update the Phar Lap DOS extender to 
+    run properly with TurboDLD.
+
+     
+       NEC Multisync Graphics Engine
+       -----------------------------
+       NEC Multisync Graphics Engine based TIGA boards may leave errant 
+       crosshairs on the screen under dialog boxes, menus and with the 
+       spy glass. Also, selecting fonts other than the default for the MGE 
+       may cause unpredictable results.
+
+       When configuring for an NEC Multi Graphics Engine, add the following
+       line to the DLDSETUP.DAT file created by the TurboDLD setup program.
+
+	      TIGA REINIT
+
+       The above line may be placed anywhere in the file provided it is not 
+       preceded by a ;. This will reinitialize the graphics screen when 
+       returning from a flip screen.
+
+
+    Weitek P9000
+    ------------
+    With P9000-based graphics boards, erasing small objects or moving many
+    objects may result in stray pixels being left on the screen. Issue a 
+    REDRAW to remove them from the screen.
+
+       Configuration Problems
+       ----------------------
+
+       When configuring for any P9000, if you cannot locate your graphics
+       board or a generic Weitek P9000 option, or you are receiving a
+       "Hardware Initialization Problems ..." error message, be sure that 
+       you have properly initialized the P9000 prior to configuring 
+       TurboDLD. The P9000 initialization creates an initialization file 
+       which allows TurboDLD to identify and use the P9000 chip. If the
+       .INI file is not found, you will receive the error message.
+
+       For Diamond Viper VLB users, if you are properly running the 
+       VIPER.BAT initialization and creating the VIPER.INI file but are 
+       still receiving the "Hardware Initialization Problems ..." error 
+       message, verify that the following line exists in the [hardware] 
+       section of the VIPER.INI file:
+
+	     Bus Type=VESA LOCAL BUS
+
+       If the Bus Type line reads:
+	    
+	     Bus Type=VLB 
+
+       change it to "VESA LOCAL BUS" and the error should go away.
+
+    
+    ATI VGA Wonder
+    --------------
+    When using some ATI VGA Wonder boards in a dual screen system 
+    configured for single screen use, make sure that you start
+    AutoCAD from the VGA screen. Otherwise, flip screens will result
+    in a weird combination of monochrome and VGA screens. 
+
+
+3D Studio
+---------
+
+In 3D Studio v3, selection of a display font larger than 8x14 at 
+640x480 resolution will cause 3D Studio to display a blank screen
+which you cannot recover from. This is a limitation of 3D Studio.
+If a blank screen occurs, delete 3DADI.CFG and then reconfigure
+TurboDLD for an 8x14 or smaller font.
+
+
+The PANA3DS.BAT file copied to your TurboDLD sub-directory during 
+installation is used for 3D Studio configuration. This file should 
+be run prior to starting 3D Studio.
+
+
+
+DLDCFG and AutoCAD Release 12/13
+--------------------------------
+
+The DLDCFG environment variable is used by TurboDLD to locate its
+configuration files. DLDCFG must be set for AutoCAD Release 10/386,
+Release 11, AutoShade, and 3D Studio.
+
+When using Release 12/13, however, DLDCFG is not required. TurboDLD
+will look for its configuration files in the same directory as the
+RCTURBOD.EXP file. However, if DLDCFG is set, TurboDLD will use
+DLDCFG to locate its configuration files. This could be useful in
+a networked environment to allow individual users of a network-based
+version of TurboDLD to maintain their own local TurboDLD configuration.
+
+
+
+Upgrading from DLD386 or MACH-12
+--------------------------------
+
+If you are using Release 12/13, you do not need to run DLD386's
+FASTACAD.BAT first. FASTACAD.BAT sets four environment variables
+including DLDCFG, DSPADI, RDPADI, and RCPADI. None of these
+environment variables are needed with Release 12/13 and TurboDLD. If
+you set these variables in your AUTOEXEC.BAT or a batch file used
+to start Release 12/13, we strongly recommend that you remove them.
+
+
+General Information 
+-------------------
+If you have low amounts of CPU RAM and less than 20mb of available
+hard disk space you should use the -SWAPCHK ON switch to configure
+AutoCAD. This switch will give you the option of saving your
+drawing when AutoCAD runs out of swap space.   The way you
+configure this is to change into your AutoCAD program sub-directory
+and at the prompt type:
+
+		CFIG386 ACAD -SWAPCHK ON
+
+
+
+    AutoCAD Revisions
+    -----------------
+    Please be aware that there is a C2 revision to AutoCAD Release 12.
+    This revision corrects various digitizer and plotter problems.
+
+
+    Rendering Resolution Options 
+    ----------------------------
+    The Rendering screen configuration menu will be available only when
+    configuring the Rendering screens of AVE Render, AutoShade 2 with 
+    RenderMan or 3D Studio.
+    
+    Also note that TurboDLD is a combined Display/Rendering driver
+    therefore, you should select that option from AVE Render's
+    configuration menu.
+
+
+    Graphics Board Selection
+    ------------------------
+    If your graphics board is not listed in the Graphics Board Selection
+    menu and you know which chip or platform your board is based on, you
+    may choose the Generic selection for that chip type. If you are not
+    sure which platform your graphics board is based on, please refer to
+    your user's manual or contact the board manufacturer for more
+    information.
+
+
+    Dialog Commands
+    ---------------
+    If the AutoCAD Release 12/13 file and command dialog box usage is 
+    disabled (i.e. setting CMDIA = 0 and FILEDIA = 0 ) and a drawing
+    with an unresolved XREF is opened from the text screen, an error
+    or system hang will occur. This is a bug with AutoCAD and ADI 
+    drivers. To avoid this, use the Text Window on Single configuration
+    option.
+
+
+    Color Considerations
+    --------------------
+    In DLDCOLOR Object mode, when changing the background color, the 
+    new background color is swapped with the old in order to eliminate
+    the possibility of having a Drawing color the same as the background
+    color, causing a blank screen.
+
+    You may change the highlight color selection for the side bar menus
+    using DLDCOLOR in Object mode.
+
+
+Documentation Changes
+---------------------
+
+In "Chapter 4 - Changing Colors", p.4-2, the second paragraph should read: 
+
+    "...change by moving the highlight box around with the arrow cursor 
+    control keys and pressing ENTER..." You may use the up and down arrows
+    as well as the left and right.
+
+
+
+II. What if I Have Problems?
+============================
+
+The answers to the most often asked technical support questions can be
+found in the Tips, Tricks & Troubleshooting chapter of your "TurboDLD
+Installation Guide". Please check there first.
+
+If you are having a problem which you cannot resolve, and you need to
+contact Technical Support, please try to duplicate, and document the
+steps required to reproduce the problem.  As you document the problem,
+list your current system configuration, including video board, resolution,
+number of colors configured, etc. Also, if possible, try to duplicate the
+problem with an AutoCAD sample file so that it can be easily re-created
+by a technician, if necessary. To contact Technical Support, refer to
+Appendix A in your "TurboDLD Installation Guide".
+
+Please note that Technical Support for Panacea's OEM software products
+(defined as: Software bundled as a component part of a hardware product)
+is the responsibility of the hardware manufacturer, not Panacea. If you
+encounter a problem with TurboDLD, and cannot find a satisfactory answer
+from the reference manual or from the hardware manufacturer, Panacea
+will offer free technical support ONLY via one of the following (voice
+phone support is specifically excluded):
+
+	FAX:          508-970-0199  Attn: Technical Support
+	E-mail:       tech_support@panacea.com
+	CompuServe:   ACAD Forum
+
+Panacea reserves the right to change its OEM software product support
+policies at any time, including charging for support and/or limiting
+support.
+
+
+III. Other Panacea Products
+===========================
+
+Panacea Inc., the world's leading developer of Autodesk display 
+drivers offers drivers for virtually all Autodesk products.
+
+
+DLD Classic & Deluxe
+====================
+Our DLD Classic line of AutoCAD display list drivers were the
+industry standard for AutoCAD Release 10 (real mode).
+
+DLD real mode ADI 4.0 drivers are available for EGA, VGA, 8514/A, S3,
+TIGA, and XGA graphics platforms, and support AutoCAD Release 10,
+Release 11/286, AutoShade 1.x, and AutoSketch for DOS.
+
+
+PanaIcon
+========
+Pop-Up icon generator for any AutoCAD 12 version. Allows you to create
+your own pop-up graphical icon menus from any AutoCAD .DWG file and
+share them with other PanaIcon users. Ideal for sites with both DOS
+and Windows versions of Release 12.
+
+
+panaStation
+===========
+Protected-mode display driver for MicroStation v4.x and 5.x. Offers
+increased performance and support for virtually all graphics platforms.
+
+
+PanaMate
+========
+Don't settle for 320x200 resolution in Animator Pro. PanaMate is your 
+resolution solution. It supports the highest resolution available on your
+graphics board to let you get the most out of Animator Pro.
+
+
+Panacea products can be ordered through your local dealer. For
+more information on these products and the name of a dealer near
+you, call Panacea's Sales department at (508) 937-1760, or send
+internet e-mail to "sales@panacea.com".
+
+
+	      Comments, etc., can be addressed to:
+
+			 Panacea Inc.
+		      600 Suffolk Street
+		 Lowell, Massachussetts 01854
+		 
+																				 U.S.A.
+			
+	  Voice: (508) 937-1760   FAX: (508) 970-0199
+
+
+IV. Install License Information
+===============================
+
+The installation program used to install TurboDLD, "INSTALL", is 
+based on licensed software provided by Knowledge Dynamics Corp, PO Box 1558, 
+Canyon Lake, Texas 78130-1558 (USA). "INSTALL" is Copyright (c) 1987-1992 
+by Knowledge Dynamics Corp which reserves all copyright protection 
+worldwide. "INSTALL" is provided to you for the exclusive purpose of 
+installing TurboDLD. Panacea Inc. has modified the software as 
+provided by Knowledge Dynamics Corp, and thus the performance and behavior 
+of the "INSTALL" program shipped with TurboDLD may not represent the 
+performance and behavior of install as shipped by Knowledge Dynamics Corp.  
+Panacea is exclusively responsible for the support of TurboDLD, 
+including support during the installation phase. In no event will Knowledge 
+Dynamics Corp provide any technical support for TurboDLD.
+

@@ -1,0 +1,17 @@
+"files needed for dspinstl"
+""
+"OTHER"
+"0"
+"2"
+"PLINX64"
+"Prerequisite files"
+"S3 Diskette 1 [S3 DRV1]"
+"S3 DRV1"
+""
+"PLINX642"
+"Prerequisite files"
+"S3 Diskette 2 [S3 DRV2]"
+"S3 DRV2"
+""
+
+

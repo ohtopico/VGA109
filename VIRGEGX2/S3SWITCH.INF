@@ -1,0 +1,100 @@
+; Installs S3 Display Configuration Utility for GX2 (Win95)
+
+[version]
+signature="$CHICAGO$"
+SetupClass=NOTPnP
+Provider=%S3%
+
+[SourceDisksNames]
+1="", "", 0000-0000
+
+[SourceDisksFiles]
+S3SWITCH.dll=1
+S3SWITCH.vxd=1
+S3SWITCH.inf=1
+blocking.cfg=1
+S3uninst.exe=1
+;S3SWITCH.cfg=1
+;S3SWITCH.hlp=1
+
+[Optional Components]
+; This section contains the names of the sections that contain information
+; about each optional component.
+S3SWITCH
+
+; ---------- Start of S3SWITCH optional component description -------------
+
+[S3SWITCH]
+; The number of records that are used in this section is open-ended.
+OptionDesc      = %ShortDesc%
+Tip             = %LongDesc%
+
+[DefaultInstall]
+DelReg = S3SWITCH.AddReg
+CopyFiles= S3SWITCHcopy.prog, S3SWITCHcopy.hlp, S3SWITCHcopy.win, S3SWITCHcopy.sys, S3SWITCHcopy.inf
+AddReg=S3SWITCH.AddReg
+
+[DefaultUninstall]
+DelReg = S3SWITCH.AddReg
+DelFiles = S3SWITCHcopy.prog, S3SWITCHcopy.hlp, S3SWITCHcopy.win, S3SWITCHcopy.sys, S3SWITCHcopy.inf
+
+[S3SWITCHRemove]
+DelReg = S3SWITCH.AddReg
+DelFiles = S3SWITCHcopy.prog, S3SWITCHcopy.hlp, S3SWITCHcopy.win, S3SWITCHcopy.sys, S3SWITCHcopy.inf
+
+[S3SWITCH.AddReg]
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH,DisplayName,,"%ShortDesc%"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH,UninstallString,,"S3uninst.exe S3SWITCHRemove 5 S3SWITCH.inf"
+HKLM,Software\Microsoft\Windows\CurrentVersion\Uninstall\S3SWITCH
+;----------move 4 lines below to HKCR to add support on windows98-----------
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085},"",,"Property Sheet Extension for S3 Display Configuration Utility"
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,"",,"S3SWITCH.dll"
+;HKLM,SOFTWARE\Classes\CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,ThreadingModel,,"Apartment"
+;---------- 4 lines below have been moved to add support on windows98-----------
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085},"",,"Property Sheet Extension for S3 Display Configuration Utility"
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,"",,"S3SWITCH.dll"
+HKCR,CLSID\{d5ddefa2-d866-11d0-9a83-00aa00bbc085}\InProcServer32,ThreadingModel,,"Apartment"
+;----------------old line below is for win95--------------------
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\%1%\Display\shellex\PropertySheetHandlers\S3SWITCH,"",,"{d5ddefa2-d866-11d0-9a83-00aa00bbc085}"
+;-----------------------------------------------
+HKLM,SOFTWARE\S3\SWITCH,,,
+HKLM,SOFTWARE\S3\SWITCH,M3_M5,,"0"
+HKLM,SOFTWARE\S3\SWITCH,TimingOptionSupport,,"ON"
+HKLM,SOFTWARE\S3\SWITCH,MultiImageSupport,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,UnderscanSupport,,"ON"
+HKLM,SOFTWARE\S3\SWITCH,Evaluation,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,DuoViewIn8Bpp,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,AlwaysEnableTVDevice,,"OFF"
+HKLM,SOFTWARE\S3\SWITCH,FileName,,"s3switch.dll"
+HKLM,SOFTWARE\S3\SWITCH,UtilityName,,"S3 Switch"
+;----------------add new line below for win98--------------------
+HKCR,shellex\PropertySheetHandlers\S3SWITCH,"",,"{d5ddefa2-d866-11d0-9a83-00aa00bbc085}"
+[S3SWITCHcopy.prog]
+
+[S3SWITCHcopy.win]
+blocking.cfg
+
+[S3SWITCHcopy.sys]
+S3SWITCH.dll
+S3SWITCH.vxd
+;S3SWITCH.cfg
+S3uninst.exe
+
+[S3SWITCHcopy.hlp]
+;S3SWITCH.hlp
+
+[S3SWITCHcopy.inf]
+S3SWITCH.inf
+
+[Strings]
+1           = "Controls Folder"
+ShortDesc   = "S3 Display Configuration Utility"
+LongDesc    = "S3 Display Configuration Utility"
+S3          = "S3 Incorporated"
+
+[DestinationDirs]
+S3SWITCHcopy.sys=11
+S3SWITCHcopy.hlp=18
+S3SWITCHcopy.prog=24
+S3SWITCHcopy.win=25
+S3SWITCHcopy.inf=17
